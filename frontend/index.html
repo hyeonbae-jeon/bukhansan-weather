@@ -320,7 +320,7 @@ function loadScript(src) {
     const s = document.createElement("script");
     s.src = src;
     s.onload = resolve;
-    s.onerror = reject;
+    s.onerror = () => reject(new Error(`스크립트 로드 실패: ${src}`));
     document.head.appendChild(s);
   });
 }
@@ -629,12 +629,21 @@ document.getElementById("btn-3d").addEventListener("click", async () => {
    ========================================================= */
 (async function boot() {
   try {
+    document.getElementById("loading-msg").textContent = "지점 데이터를 불러오는 중...";
     await loadData();
+  } catch (e) {
+    console.error("[데이터 로딩 실패]", e);
+    document.getElementById("loading-msg").textContent =
+      "지점/지도 데이터(json) 불러오기 실패: " + (e && e.message ? e.message : String(e));
+    return;
+  }
+  try {
     document.getElementById("loading-msg").textContent = "카카오맵을 불러오는 중...";
     await initKakaoMap();
   } catch (e) {
-    console.error(e);
-    document.getElementById("loading-msg").textContent = "불러오기 실패: " + e.message;
+    console.error("[카카오맵 로딩 실패]", e);
+    document.getElementById("loading-msg").textContent =
+      "카카오맵 불러오기 실패: " + (e && e.message ? e.message : String(e));
     return;
   }
   document.getElementById("loading-overlay").style.display = "none";
