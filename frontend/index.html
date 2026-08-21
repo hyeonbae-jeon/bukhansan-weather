@@ -295,7 +295,6 @@
    ========================================================= */
 const CONFIG = {
   KAKAO_JS_KEY: "9ec077ea84b6a8e3b5842e18758b00e1",
-  VWORLD_API_KEY: "55A5E74D-1DB2-3073-A916-DE5E42B11EFA",
   CENTER: { lat: 37.6332, lon: 126.9767 }, // 북한산 센서 지점들의 중심 좌표
 };
 
@@ -508,7 +507,13 @@ function setKakaoLayerVisible(layer, visible) {
    ========================================================= */
 async function initVworldMap() {
   if (STATE.vworldReady) return;
-  await loadScript(`https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey=${CONFIG.VWORLD_API_KEY}`);
+
+  if (typeof vw === "undefined") {
+    throw new Error(
+      "브이월드 SDK(vw)가 로드되지 않았어요. <head> 상단의 window.VWORLD_API_KEY에 " +
+      "실제 키를 넣었는지, 브이월드 콘솔에 이 사이트 도메인이 등록되어 있는지 확인해주세요."
+    );
+  }
 
   const options = {
     mapId: "map3d-inner",
