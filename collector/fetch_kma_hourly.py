@@ -19,9 +19,18 @@ from datetime import datetime, timedelta
 
 import requests
 import pandas as pd
+from urllib.parse import unquote
 
 BASE_URL = "http://apis.data.go.kr/1360000/AsosHourlyInfoService/getWthrDataList"
 STATION_ID = "108"  # 서울(종로구 송월동)
+
+
+def normalize_service_key(raw_key: str) -> str:
+    """공공데이터포털은 'Encoding'(이미 %인코딩된 값)과 'Decoding'(원문) 두 종류의
+    키를 제공한다. requests의 params=는 값을 자동으로 다시 인코딩하므로, Encoding 키를
+    그대로 넣으면 이중 인코딩(%25가 겹치는 형태)이 되어 서버가 403을 반환한다.
+    안전하게 항상 '디코딩된 원문' 상태로 맞춰준다 (이미 원문이면 unquote해도 그대로임)."""
+    return unquote(raw_key)
 
 
 def fetch_page(service_key: str, start_dt: str, end_dt: str, page_no: int, num_of_rows: int = 999):
@@ -94,13 +103,17 @@ def main():
     if not service_key:
         print("환경변수 KMA_API_KEY가 설정되어 있지 않습니다.", file=sys.stderr)
         sys.exit(1)
+    service_key = normalize_service_key(service_key)
 
     df = fetch_range(service_key, args.start, args.end)
     if df.empty:
         print("받아온 데이터가 없습니다. 인증키/기간을 확인하세요.", file=sys.stderr)
         sys.exit(1)
 
-    # 필요한 컬럼만 정리 (tm=관측시각, ta=기온, hm=습도, rn=강수량, ws=풍속, wd=풍향, ca_tot=전운량)
+    # 필요한 컬럼만 정리 (tm=관측시각, ta=기온, hm=습도, rn=강수량, ws=풍속, wd=풍향, dc10Tca=전운량)
+    # 주의: 전운량 필드는 ASOS 응답에서 'dc10Tca'(10분위 전운량)로 온다. 무인 관측소이거나
+    # 결측인 시간대는 값이 없을 수 있어서, 이 컬럼이 아예 없어도 파이프라인이 죽지 않게
+    # 뒷단(merge_sensor_weather.py, train_model_b.py)에서 방어적으로 처리하도록 만들어뒀다.
     keep_cols = {
         "tm": "관측시각",
         "ta": "기온",
@@ -108,14 +121,23 @@ def main():
         "rn": "강수량",
         "ws": "풍속",
         "wd": "풍향",
-        "ca_tot": "전운량",
+        "dc10Tca": "전운량",
     }
     existing = [c for c in keep_cols if c in df.columns]
+    missing = [c for c in keep_cols if c not in df.columns]
+    if missing:
+        print(f"[안내] API 응답에 없는 필드(스킵됨): {missing}", file=sys.stderr)
     df = df[existing].rename(columns=keep_cols)
     df["관측시각"] = pd.to_datetime(df["관측시각"])
     for c in ["기온", "습도", "강수량", "풍속", "풍향", "전운량"]:
         if c in df.columns:
             df[c] = pd.to_numeric(df[c], errors="coerce")
+
+    # 기상청 관측자료 관례: 강수량이 공란(결측)이면 "비가 안 옴(0mm)"을 의미하지,
+    # 값을 못 쟀다는 뜻이 아니다. 이걸 그냥 NaN으로 두면 뒤에서 dropna할 때
+    # 맑은 시간대 데이터가 통째로 날아가버리므로 여기서 0으로 채운다.
+    if "강수량" in df.columns:
+        df["강수량"] = df["강수량"].fillna(0.0)
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     df.to_csv(args.out, index=False)

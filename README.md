@@ -43,20 +43,68 @@ python merge_sensor_weather.py \
 ```bash
 cd ../model
 python train_model_a.py --table ../data/weather/training_table.csv --out ../data/model_a_offsets.json
-python train_model_b.py --table ../data/weather/training_table.csv --out-dir ../data/model_b
+python train_model_b_v2.py --table ../data/weather/training_table.csv --out-dir ../data/model_b
 ```
-`train_model_b.py`를 실행하면 마지막에 **모델 A vs 모델 B 정확도 비교(MAE)**가
-`data/model_b/evaluation_report.json`에 저장됩니다. 이 결과를 보고 실제 사이트에서
-두 모델을 어떻게 보여줄지(둘 다 보여줄지, B가 확실히 낫다면 B만 쓸지) 다음 단계에서 정하면 돼요.
+`evaluation_report.json`으로 모델 A vs B 정확도(MAE)를 비교할 수 있어요. (현재까지 실측 결과: 온도 1.221°C, 습도 6.745%로 모델 B가 확실히 더 정확함을 확인함)
 
-## 코드 검증 상태
-`fetch_kma_hourly.py`는 실제 API 키가 있어야 호출되기 때문에 이 환경(외부 네트워크 제한)에서는
-직접 실행해보지 못했습니다. 대신 `merge_sensor_weather.py`, `train_model_a.py`, `train_model_b.py`는
-더미(가상) 기상 데이터로 전체 파이프라인이 에러 없이 끝까지 도는 것까지 확인했습니다.
-1단계(기상청 API 호출)만 직접 실행해서 정상적으로 CSV가 떨어지는지 확인해주세요 — 만약 API 응답
-구조나 컬럼명이 예상과 다르면(공공데이터포털 API는 가끔 스펙이 바뀌어요) 알려주시면 바로 고칠게요.
+### 4. 최종 배포용 모델 재학습 (100% 데이터)
+검증(3번 단계)은 데이터 15%를 떼어 정확도를 확인하기 위한 것이었고, 실제 서비스에는 가진 데이터를 전부 써서 다시 학습해요.
+```bash
+cd ../predictor
+python retrain_final_models.py --table ../data/weather/training_table.csv --out-dir ../data/model_final
+```
+
+### 5. 기상청 단기예보 수집
+```bash
+export KMA_API_KEY="발급받은 서비스키"
+python fetch_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/forecast.csv
+```
+
+### 6. 지점별 예측 생성
+```bash
+python generate_predictions.py \
+  --forecast ../data/weather/forecast.csv \
+  --model-dir ../data/model_final \
+  --sensor ../data/sensor/sensor_merged.csv \
+  --out ../frontend/points_predictions.json
+```
+`frontend/points_predictions.json`에 120개 지점 × 향후 예보 시각별 온도/습도 예측이 저장돼요.
+
+## 7. 프론트엔드 (카카오맵 2D / 브이월드 3D)
+`frontend/index.html` 하나로 된 사이트예요. 열기 전에:
+
+1. `index.html` 상단의 `CONFIG` 객체에 카카오 JS 키와 브이월드 API 키를 넣으세요.
+   ```js
+   const CONFIG = {
+     KAKAO_JS_KEY: "발급받은 카카오 JS 키",
+     VWORLD_API_KEY: "발급받은 브이월드 API 키",
+     ...
+   };
+   ```
+2. **`file://`로 직접 열면 안 돼요** — fetch()로 JSON/GeoJSON을 불러오는데 브라우저가 로컬 파일 접근을 막아요.
+   `frontend` 폴더에서 간단한 로컬 서버를 띄워서 열어주세요:
+   ```bash
+   cd frontend
+   python -m http.server 8000
+   ```
+   그리고 브라우저에서 `http://localhost:8000` 접속.
+3. 카카오 개발자센터에서 이 사이트가 열릴 도메인(로컬 테스트는 `http://localhost:8000`)을 **플랫폼 등록**에 추가해야 지도가 떠요.
+
+### 만든 것
+- 카카오맵(2D) ↔ 브이월드(3D) 버튼 전환
+- 예보 시각 슬라이더로 전체 120개 지점 마커 색이 온도에 따라 실시간으로 바뀜
+- 지점 클릭 시 우측 패널에 상세 예보(온도/습도 전체 시간대) 표시
+- 북한산 국립공원 경계, 탐방로(102개 구간) 오버레이 (카카오 2D 지도 기준, on/off 토글 가능)
+- 하단에 공공데이터 출처 표기 (공공누리 조건 충족용)
+
+### 검증 상태 / 한계
+- **카카오맵(2D) 로직**: 마커, 경계 폴리곤, 탐방로 폴리라인 좌표 변환 로직을 실제 GeoJSON 파일로 구조 검증했고 JS 문법 오류도 없음을 확인했어요. 다만 실제 카카오 SDK 호출은 이 환경 네트워크 제한으로 직접 테스트 못 했어요 — 키 넣고 열어보시고 이상 있으면 알려주세요.
+- **브이월드(3D)**: 공식 WebGL 3D API 3.0 샘플 구조를 그대로 따랐지만, VWorld는 API 문서가 자주 바뀌고 이 환경에서 실제 키로 테스트가 불가능해서 `vw.Feature.Point` 등 일부 메서드명이 최신 스펙과 다를 수 있어요. 3D 지도가 뜨는데 마커가 안 보이거나 에러가 나면, 브라우저 개발자도구(F12) 콘솔에 뜨는 에러 메시지를 보여주세요 — 바로 고칠게요. 3D 지도에는 아직 경계/탐방로 오버레이는 넣지 않았어요(VWorld 3D의 GeoJSON 레이어 API가 불확실해서 2D 먼저 확실하게 만들었어요).
+- 데이터 파일(`points_predictions.json`, `geo/boundary.geojson`, `geo/trails.geojson`)은 전부 이미 폴더에 들어있어요.
 
 ## 출처 표시 (필수)
 공공누리 4유형(출처표시+상업적 이용금지+변경금지) 조건이라, 사이트 하단에 아래 표기가 필요해요:
 - 자료출처: 서울특별시 (서울 열린데이터광장)
 - 자료출처: 기상청
+- 자료출처: 국토교통부 (브이월드)
+- 지도: 카카오맵

@@ -50,6 +50,12 @@ def main():
     df = build_features(df)
 
     feat_cols = [c for c in FEATURES if c != "풍향"] + ["풍향_sin", "풍향_cos"]
+    # API 응답에 없는 컬럼(예: 전운량이 결측/미제공)은 조용히 제외 — 있는 특성만으로 학습
+    available = [c for c in feat_cols if c in df.columns]
+    dropped = [c for c in feat_cols if c not in df.columns]
+    if dropped:
+        print(f"[안내] 데이터에 없는 특성이라 제외함: {dropped}")
+    feat_cols = available
     df = df.dropna(subset=feat_cols + ["온도", "지점습도"])
 
     split_idx = int(len(df) * (1 - args.holdout_frac))
