@@ -12,9 +12,10 @@ permissions:
 
 jobs:
   update:
-    # apis.data.go.kr가 GitHub 클라우드 서버(해외 IP)를 막고 있어서, 자기 PC를
-    # self-hosted runner로 등록해서 거기서 돌리는 방식으로 바꿈. README 참고.
-    runs-on: self-hosted
+    # apis.data.go.kr 연결이 가끔 타임아웃 나는 경우가 있어서 재시도 로직(http_retry.py)을
+    # 넣어뒀음. 완전히 막힌 건 아니라서(가끔은 성공함) 계속 GitHub 클라우드 러너로 진행.
+    # 그래도 실패하면 다음 시간(매시 정각)에 다시 자동으로 돌아가니 크게 문제는 없음.
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
