@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>북한산국립공원 기상 정보</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316302A'/%3E%3Ccircle cx='44' cy='20' r='7' fill='%23C97A3D'/%3E%3Cpath d='M6 48 L24 20 L34 34 L42 24 L58 48 Z' fill='%23F6F2E8'/%3E%3Cpath d='M24 20 L30 29 L20 31 Z' fill='%233E7C8C'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&family=Pretendard:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<script>
+  /* 브이월드(VWorld) SDK는 내부적으로 document.write()로 자체 하위 스크립트(Cesium 등)를
+     불러오는 구조라, 나중에 동적으로(JS로) <script> 태그를 끼워넣으면 브라우저가
+     document.write 호출을 차단해버린다 (콘솔에 "asynchronously-loaded external script" 에러).
+     그래서 카카오맵과 달리 브이월드는 반드시 페이지가 파싱되는 시점에 이렇게
+     "정적인" <script>로 불러와야 한다.
+     여기에 발급받은 브이월드 API 키를 넣어주세요 (아래 CONFIG.VWORLD_API_KEY와 같은 값). */
+  window.VWORLD_API_KEY = "YOUR_VWORLD_API_KEY";
+  document.write(
+    '<scr' + 'ipt src="https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey=' +
+    window.VWORLD_API_KEY + '"></scr' + 'ipt>'
+  );
+</script>
+<style>
+  :root{
+    --forest: #16302A;
+    --forest-2: #1F4438;
+    --stone: #6B7280;
+    --parchment: #F6F2E8;
+    --parchment-2: #EDE6D6;
+    --ink: #20231F;
+    --amber: #C97A3D;
+    --teal: #3E7C8C;
+    --line: rgba(32,35,31,0.12);
+    --radius: 14px;
+    --shadow: 0 8px 28px rgba(22,48,42,0.16);
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;margin:0;}
+  body{
+    font-family:'Pretendard', sans-serif;
+    color:var(--ink);
+    background:var(--parchment);
+    overflow:hidden;
+  }
+  #app{position:relative; width:100vw; height:100vh;}
+
+  /* ===== 지도 컨테이너 ===== */
+  #map2d, #map3d{
+    position:absolute; inset:0; width:100%; height:100%;
+  }
+  #map3d{display:none;}
+
+  /* ===== 등고선 패턴 (시그니처 요소) ===== */
+  .contour-bg{
+    position:absolute; inset:0; pointer-events:none; opacity:0.5;
+    background-image:
+      radial-gradient(circle at 30% 40%, transparent 0 40px, rgba(22,48,42,0.05) 41px, transparent 42px),
+      radial-gradient(circle at 30% 40%, transparent 0 70px, rgba(22,48,42,0.05) 71px, transparent 72px),
+      radial-gradient(circle at 30% 40%, transparent 0 100px, rgba(22,48,42,0.05) 101px, transparent 102px);
+  }
+
+  /* ===== 상단 바 ===== */
+  #topbar{
+    position:absolute; top:0; left:0; right:0; z-index:20;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 24px;
+    background:linear-gradient(to bottom, rgba(22,48,42,0.92), rgba(22,48,42,0));
+    pointer-events:none;
+  }
+  #topbar .brand{
+    font-family:'Noto Serif KR', serif;
+    font-weight:700;
+    font-size:20px;
+    color:#F6F2E8;
+    letter-spacing:-0.01em;
+    pointer-events:auto;
+  }
+  #topbar .brand small{
+    display:block;
+    font-family:'Pretendard';
+    font-weight:400;
+    font-size:12px;
+    color:rgba(246,242,232,0.7);
+    margin-top:2px;
+  }
+
+  /* ===== 지도 전환 토글 ===== */
+  #map-toggle{
+    pointer-events:auto;
+    display:flex;
+    background:rgba(255,255,255,0.14);
+    border:1px solid rgba(255,255,255,0.25);
+    border-radius:999px;
+    padding:4px;
+    backdrop-filter:blur(6px);
+  }
+  #map-toggle button{
+    border:none; background:transparent; cursor:pointer;
+    padding:8px 18px; border-radius:999px;
+    font-family:'Pretendard'; font-weight:600; font-size:13px;
+    color:rgba(246,242,232,0.75);
+    transition:all .2s ease;
+  }
+  #map-toggle button.active{
+    background:var(--amber);
+    color:#fff;
+  }
+
+  /* ===== 좌측 하단: 예측 모델 설정 ===== */
+  #control-panel{
+    position:absolute; left:20px; bottom:50px; z-index:20;
+    width:280px;
+    background:rgba(246,242,232,0.96);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:18px;
+    backdrop-filter:blur(6px);
+  }
+  #control-panel h2{
+    margin:0 0 12px;
+    font-family:'Noto Serif KR', serif;
+    font-size:15px;
+    font-weight:700;
+    color:var(--forest);
+  }
+  .field{margin-bottom:14px;}
+  .field:last-child{margin-bottom:0;}
+  .field label{
+    display:block; font-size:11px; font-weight:600; color:var(--stone);
+    text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;
+  }
+  #time-value{
+    font-family:'JetBrains Mono', monospace;
+    font-weight:700; font-size:14px; color:var(--forest-2);
+  }
+  input[type="range"]{
+    width:100%; accent-color:var(--amber);
+  }
+  .layer-toggle{
+    display:flex; align-items:center; gap:8px;
+    font-size:13px; color:var(--ink);
+    cursor:pointer;
+    padding:6px 0;
+  }
+  .layer-toggle input{accent-color:var(--forest-2);}
+
+  .legend{
+    display:flex; align-items:center; gap:6px; margin-top:6px;
+  }
+  .legend-bar{
+    flex:1; height:8px; border-radius:4px;
+    background:linear-gradient(to right, #3E7C8C, #F2E9D8, #C94C31);
+  }
+  .legend-label{font-size:10px; color:var(--stone); font-family:'JetBrains Mono';}
+
+  /* ===== 좌측 상단: 지금 날씨 (기상청, 상시 노출) ===== */
+  #now-weather-panel{
+    position:absolute; left:20px; top:88px; z-index:20;
+    width:260px;
+    background:rgba(22,48,42,0.92);
+    color:var(--parchment);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:16px 18px;
+    backdrop-filter:blur(6px);
+  }
+  #now-weather-panel .panel-kicker{
+    font-size:10px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase;
+    color:rgba(246,242,232,0.55); margin-bottom:8px;
+  }
+  #now-weather-panel .clock-row{
+    display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom:10px; padding-bottom:10px;
+    border-bottom:1px solid rgba(246,242,232,0.18);
+  }
+  #live-clock{
+    font-family:'JetBrains Mono', monospace; font-weight:700; font-size:20px;
+  }
+  #live-date{font-size:11px; color:rgba(246,242,232,0.65);}
+  .now-main-row{display:flex; align-items:center; gap:10px; margin-bottom:6px;}
+  #now-temp{font-family:'JetBrains Mono', monospace; font-weight:700; font-size:30px;}
+  #now-condition{font-size:13px; color:rgba(246,242,232,0.85);}
+  .now-sub-row{font-size:12px; color:rgba(246,242,232,0.7); margin-bottom:8px;}
+  #now-alert{
+    display:none;
+    margin-top:8px; padding:8px 10px; border-radius:8px;
+    background:rgba(201,76,49,0.25); border:1px solid rgba(201,76,49,0.5);
+    font-size:12px; font-weight:600; color:#F4C7B8;
+  }
+  .now-caption{font-size:10px; color:rgba(246,242,232,0.5); margin-top:8px;}
+
+  /* ===== 마커 위 상시 라벨 (카카오 2D): 온도(크게) + 지점명(작게) ===== */
+  .marker-wrap{display:flex; flex-direction:column; align-items:center; cursor:pointer;}
+  .marker-dot{
+    width:16px; height:16px; border-radius:50%;
+    border:2px solid rgba(255,255,255,0.9);
+    box-shadow:0 2px 6px rgba(0,0,0,0.35);
+  }
+  .marker-temp{
+    margin-top:2px; padding:1px 6px; border-radius:6px;
+    background:rgba(22,48,42,0.88); color:#F6F2E8;
+    font-family:'JetBrains Mono', monospace; font-size:11px; font-weight:700;
+    white-space:nowrap;
+  }
+  .marker-name{
+    margin-top:1px; padding:0 4px;
+    color:var(--forest-2); background:rgba(246,242,232,0.85);
+    border-radius:4px;
+    font-size:9px; font-weight:600;
+    white-space:nowrap;
+  }
+
+  /* ===== 상세 패널(지점 클릭) ===== */
+  #detail-panel{
+    position:absolute; right:20px; top:88px; z-index:20;
+    width:290px; max-height:calc(100vh - 130px);
+    background:rgba(246,242,232,0.97);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:20px;
+    overflow-y:auto;
+    display:none;
+  }
+  #detail-panel.open{display:block;}
+  #detail-panel .close-btn{
+    float:right; border:none; background:none; cursor:pointer;
+    font-size:18px; color:var(--stone); line-height:1;
+  }
+  #detail-panel h3{
+    margin:0 0 4px; font-family:'Noto Serif KR', serif; font-size:17px; color:var(--forest);
+  }
+  #detail-panel .subtitle{font-size:11px; color:var(--stone); margin-bottom:14px;}
+  .now-reading{
+    display:flex; gap:16px; padding:14px; background:var(--parchment-2);
+    border-radius:10px; margin-bottom:14px;
+  }
+  .now-reading .stat{flex:1; text-align:center;}
+  .now-reading .stat .num{
+    font-family:'JetBrains Mono', monospace; font-weight:700; font-size:22px; color:var(--forest-2);
+  }
+  .now-reading .stat .unit{font-size:12px; color:var(--stone);}
+  .now-reading .stat .label{font-size:11px; color:var(--stone); margin-top:2px;}
+  #forecast-list{list-style:none; margin:0; padding:0; font-size:12px;}
+  #forecast-list li.forecast-row{
+    display:flex; justify-content:space-between;
+    padding:6px 4px; border-bottom:1px solid var(--line);
+    font-family:'JetBrains Mono', monospace;
+  }
+  #forecast-list li.forecast-row.current{color:var(--amber); font-weight:700; background:rgba(201,122,61,0.08); border-radius:4px;}
+  #forecast-list li.date-header{
+    list-style:none;
+    margin:10px 0 4px; padding:4px 8px;
+    background:var(--forest); color:var(--parchment);
+    border-radius:6px;
+    font-family:'Pretendard'; font-size:11px; font-weight:700;
+  }
+  #forecast-list li.date-header:first-child{margin-top:0;}
+  #forecast-list li.forecast-row .time-cell{color:var(--stone);}
+  #forecast-list li.forecast-row.current .time-cell{color:var(--amber);}
+
+  /* ===== 하단 출처 표기 ===== */
+  #footer-credit{
+    position:absolute; left:0; right:0; bottom:0; z-index:20;
+    padding:8px 20px;
+    font-size:11px; color:rgba(246,242,232,0.75);
+    background:linear-gradient(to top, rgba(22,48,42,0.85), rgba(22,48,42,0));
+    display:flex; justify-content:space-between;
+    pointer-events:none;
+  }
+
+  #loading-overlay{
+    position:absolute; inset:0; z-index:50;
+    background:var(--forest);
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    color:var(--parchment);
+    font-family:'Noto Serif KR', serif;
+  }
+  #loading-overlay .msg{margin-top:14px; font-size:13px; font-family:'Pretendard'; opacity:0.7;}
+  .spinner{
+    width:34px; height:34px; border-radius:50%;
+    border:3px solid rgba(246,242,232,0.25);
+    border-top-color:var(--amber);
+    animation:spin 0.9s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  @media (max-width:720px){
+    #control-panel{width:calc(100% - 40px); left:20px; bottom:20px;}
+    #now-weather-panel{width:calc(100% - 40px); left:20px; right:20px; top:88px;}
+    #detail-panel{width:calc(100% - 40px); left:20px; right:20px; top:230px;}
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    <div style="font-size:18px; font-weight:700; margin-top:16px;">북한산국립공원 기상 정보</div>
+    <div class="msg" id="loading-msg">지점 데이터를 불러오는 중...</div>
+  </div>
+
+  <div id="map2d"></div>
+  <div id="map3d"><div class="contour-bg"></div></div>
+
+  <div id="topbar">
+    <div class="brand">
+      북한산국립공원 기상 정보
+      <small>탐방로 지점별 미세기후 예보</small>
+    </div>
+    <div id="map-toggle">
+      <button id="btn-2d" class="active">2D 지도</button>
+      <button id="btn-3d">3D 지도</button>
+    </div>
+  </div>
+
+  <div id="now-weather-panel">
+    <div class="panel-kicker" id="panel-kicker-text">기상청 예보 (참고용)</div>
+    <div class="clock-row">
+      <span id="live-clock">--:--:--</span>
+      <span id="live-date">—</span>
+    </div>
+    <div class="now-main-row">
+      <span id="now-temp">—°</span>
+      <span id="now-condition">—</span>
+    </div>
+    <div class="now-sub-row">
+      습도 <span id="now-humidity">—</span>% · 풍속 <span id="now-wind">—</span>m/s
+    </div>
+    <div id="now-alert"></div>
+    <div class="now-caption">가장 가까운 예보 시각 기준 · 실측 관측값 아님</div>
+  </div>
+
+  <div id="control-panel">
+    <h2>북한산 기상 예측 모델 설정</h2>
+    <div class="field">
+      <label>예보 시각</label>
+      <div id="time-value">—</div>
+      <input type="range" id="time-slider" min="0" max="0" value="0" step="1" />
+    </div>
+    <div class="field">
+      <label>지도 레이어</label>
+      <label class="layer-toggle"><input type="checkbox" id="toggle-boundary" checked> 국립공원 경계</label>
+      <label class="layer-toggle"><input type="checkbox" id="toggle-trails" checked> 탐방로</label>
+      <label class="layer-toggle"><input type="checkbox" id="toggle-landslide"> ⚠️ 산사태 위험지역</label>
+    </div>
+    <div class="field">
+      <label>온도 범례 (°C)</label>
+      <div class="legend">
+        <span class="legend-label" id="legend-min">-</span>
+        <div class="legend-bar"></div>
+        <span class="legend-label" id="legend-max">-</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="detail-panel">
+    <button class="close-btn" id="detail-close">&times;</button>
+    <h3 id="detail-name">—</h3>
+    <div class="subtitle" id="detail-sub">AI 예측 모델 분석 · —</div>
+    <div class="now-reading">
+      <div class="stat">
+        <div class="num" id="detail-temp">—</div>
+        <div class="unit">°C</div>
+        <div class="label">기온</div>
+      </div>
+      <div class="stat">
+        <div class="num" id="detail-hum">—</div>
+        <div class="unit">%</div>
+        <div class="label">습도</div>
+      </div>
+    </div>
+    <div style="font-size:11px; color:var(--stone); background:var(--parchment-2); border-radius:8px; padding:8px 10px; margin-bottom:8px; line-height:1.5;">
+      기상청 격자 예보를 이 지점의 과거 실측 패턴에 맞춰 보정한 <b>AI 모델 예측치</b>예요.
+      실제 관측값과 다를 수 있어요.
+    </div>
+    <div id="detail-breakdown" style="font-size:11px; color:var(--forest-2); background:rgba(62,124,140,0.08); border-radius:8px; padding:8px 10px; margin-bottom:14px; line-height:1.6; font-family:'JetBrains Mono', monospace;"></div>
+    <label style="display:block; font-size:11px; font-weight:600; color:var(--stone); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:8px;">시간대별 예보</label>
+    <ul id="forecast-list"></ul>
+  </div>
+
+  <div id="footer-credit">
+    <span>자료출처: 서울특별시(서울 열린데이터광장), 기상청, 국토교통부(브이월드) · 카카오맵</span>
+    <span id="grid-info"></span>
+  </div>
+
+</div>
+
+<script>
+/* =========================================================
+   설정 — 발급받은 키를 여기에 넣으세요
+   ========================================================= */
+const CONFIG = {
+  KAKAO_JS_KEY: "YOUR_KAKAO_JS_KEY",
+  // VWORLD_API_KEY는 더 이상 여기서 안 씀 — <head> 상단의 window.VWORLD_API_KEY에 넣으세요
+  // (브이월드는 document.write 제약 때문에 페이지 파싱 시점에 정적으로 불러와야 해서 위치가 달라요)
+  CENTER: { lat: 37.6332, lon: 126.9767 }, // 북한산 센서 지점들의 중심 좌표
+};
+
+/* =========================================================
+   전역 상태
+   ========================================================= */
+const STATE = {
+  points: [],           // points_predictions.json
+  boundaryGeo: null,
+  trailsGeo: null,
+  times: [],             // 전체 예보 시각 목록 (오름차순)
+  timeIndex: 0,
+  tempRange: [10, 30],
+  kakaoMap: null,
+  kakaoMarkers: {},      // id -> CustomOverlay
+  kakaoBoundaryPolygon: null,
+  kakaoTrailPolylines: [],
+  vworldMap: null,
+  vworldViewer: null,
+  vworldReady: false,
+  vworldMarkers: {},
+  vworldNameMarkers: {},
+  groundHeights: null,
+  heatmapVisible: false,
+  kakaoHeatmapRects: [],
+  vworldHeatmapEntities: [],
+  landslideGeo: null,
+  landslideVisible: false,
+  kakaoLandslideOverlays: [],
+  vworldLandslideEntities: [],
+  vworldBoundaryEntities: [],
+  vworldTrailsDS: null,
+  activeMap: "2d",
+};
+
+/* =========================================================
+   유틸
+   ========================================================= */
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = src;
+    s.onload = resolve;
+    s.onerror = () => reject(new Error(`스크립트 로드 실패: ${src}`));
+    document.head.appendChild(s);
+  });
+}
+
+function tempToColor(t, min, max) {
+  if (t === null || t === undefined || isNaN(t)) return "#9CA3AF";
+  const ratio = Math.max(0, Math.min(1, (t - min) / (max - min || 1)));
+  // 3구간 보간: 청록(#3E7C8C) -> 파치먼트(#F2E9D8) -> 적갈(#C94C31)
+  const stops = [
+    { p: 0.0, c: [62, 124, 140] },
+    { p: 0.5, c: [242, 233, 216] },
+    { p: 1.0, c: [201, 76, 49] },
+  ];
+  let a = stops[0], b = stops[1];
+  if (ratio > 0.5) { a = stops[1]; b = stops[2]; }
+  const localT = a.p === b.p ? 0 : (ratio - a.p) / (b.p - a.p);
+  const c = a.c.map((v, i) => Math.round(v + (b.c[i] - v) * localT));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
+
+/* =========================================================
+   온도 면적(히트맵) — 역거리가중(IDW) 보간
+   지점 마커의 실측 기반 예측치를 그대로 쓰되, 격자 셀 중심에서의 값은
+   주변 지점들로부터 거리 가중 평균으로 추정한다. 경계 밖 셀은 그리지 않는다.
+   ========================================================= */
+function haversineKm(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function idwTemp(lat, lon, timeIso, power = 2) {
+  let num = 0, den = 0;
+  for (const p of STATE.points) {
+    const f = forecastAt(p, timeIso);
+    if (!f || f.temp === null || f.temp === undefined) continue;
+    const d = haversineKm(lat, lon, p.lat, p.lon);
+    if (d < 0.01) return f.temp;
+    const w = 1 / Math.pow(d, power);
+    num += w * f.temp;
+    den += w;
+  }
+  return den > 0 ? num / den : null;
+}
+
+function pointInRing(lat, lon, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const xi = ring[i][0], yi = ring[i][1], xj = ring[j][0], yj = ring[j][1];
+    const intersect = ((yi > lat) !== (yj > lat)) &&
+      (lon < (xj - xi) * (lat - yi) / (yj - yi) + xi);
+    if (intersect) inside = !inside;
+  }
+  return inside;
+}
+
+function pointInBoundary(lat, lon) {
+  if (!STATE.boundaryGeo) return true;
+  const geom = STATE.boundaryGeo.features[0].geometry;
+  const polys = geom.type === "MultiPolygon" ? geom.coordinates : [geom.coordinates];
+  return polys.some(poly => pointInRing(lat, lon, poly[0]));
+}
+
+function getHeatmapGridBounds() {
+  if (STATE.boundaryGeo) {
+    const geom = STATE.boundaryGeo.features[0].geometry;
+    const polys = geom.type === "MultiPolygon" ? geom.coordinates : [geom.coordinates];
+    let south = 90, north = -90, west = 180, east = -180;
+    polys.forEach(poly => poly[0].forEach(([lon, lat]) => {
+      south = Math.min(south, lat); north = Math.max(north, lat);
+      west = Math.min(west, lon); east = Math.max(east, lon);
+    }));
+    return { south, north, west, east };
+  }
+  const lats = STATE.points.map(p => p.lat), lons = STATE.points.map(p => p.lon);
+  return { south: Math.min(...lats), north: Math.max(...lats), west: Math.min(...lons), east: Math.max(...lons) };
+}
+
+const HEATMAP_GRID_N = 24;
+
+function buildHeatmapCells(timeIso) {
+  const b = getHeatmapGridBounds();
+  const latStep = (b.north - b.south) / HEATMAP_GRID_N;
+  const lonStep = (b.east - b.west) / HEATMAP_GRID_N;
+  const cells = [];
+  for (let i = 0; i < HEATMAP_GRID_N; i++) {
+    for (let j = 0; j < HEATMAP_GRID_N; j++) {
+      const south = b.south + i * latStep, north = south + latStep;
+      const west = b.west + j * lonStep, east = west + lonStep;
+      const cLat = (south + north) / 2, cLon = (west + east) / 2;
+      if (!pointInBoundary(cLat, cLon)) continue;
+      const temp = idwTemp(cLat, cLon, timeIso);
+      cells.push({ south, north, west, east, temp });
+    }
+  }
+  return cells;
+}
+
+function clearKakaoHeatmap() {
+  STATE.kakaoHeatmapRects.forEach(r => r.setMap(null));
+  STATE.kakaoHeatmapRects = [];
+}
+
+function drawKakaoHeatmap() {
+  clearKakaoHeatmap();
+  if (!STATE.kakaoMap) return;
+  const timeIso = STATE.times[STATE.timeIndex];
+  const cells = buildHeatmapCells(timeIso);
+  cells.forEach(c => {
+    const rect = new kakao.maps.Rectangle({
+      bounds: new kakao.maps.LatLngBounds(
+        new kakao.maps.LatLng(c.south, c.west),
+        new kakao.maps.LatLng(c.north, c.east)
+      ),
+      strokeWeight: 0,
+      fillColor: tempToColor(c.temp, STATE.tempRange[0], STATE.tempRange[1]),
+      fillOpacity: 0.5,
+    });
+    rect.setMap(STATE.kakaoMap);
+    STATE.kakaoHeatmapRects.push(rect);
+  });
+}
+
+function clearVworldHeatmap() {
+  if (STATE.vworldViewer) {
+    STATE.vworldHeatmapEntities.forEach(e => STATE.vworldViewer.entities.remove(e));
+  }
+  STATE.vworldHeatmapEntities = [];
+}
+
+function drawVworldHeatmap() {
+  clearVworldHeatmap();
+  if (!STATE.vworldViewer) return;
+  const viewer = STATE.vworldViewer;
+  const timeIso = STATE.times[STATE.timeIndex];
+  const cells = buildHeatmapCells(timeIso);
+  cells.forEach(c => {
+    const entity = viewer.entities.add({
+      rectangle: {
+        coordinates: Cesium.Rectangle.fromDegrees(c.west, c.south, c.east, c.north),
+        material: Cesium.Color.fromCssColorString(
+          tempToColor(c.temp, STATE.tempRange[0], STATE.tempRange[1])
+        ).withAlpha(0.5),
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+      },
+    });
+    STATE.vworldHeatmapEntities.push(entity);
+  });
+}
+
+function refreshHeatmapIfVisible() {
+  if (!STATE.heatmapVisible) return;
+  if (STATE.activeMap === "2d") drawKakaoHeatmap();
+  else if (STATE.vworldReady) drawVworldHeatmap();
+}
+
+/* =========================================================
+   산사태 위험지역 (산림청 산사태정보시스템, 취약지역 관리대장)
+   ========================================================= */
+function landslidePoints() {
+  if (!STATE.landslideGeo) return [];
+  return STATE.landslideGeo.features.map(f => ({
+    lon: f.geometry.coordinates[0],
+    lat: f.geometry.coordinates[1],
+    address: f.properties?.address || "",
+    addressDetail: f.properties?.addressDetail || "",
+    riskType: f.properties?.riskType || "산사태 취약지역",
+  }));
+}
+
+function clearKakaoLandslide() {
+  STATE.kakaoLandslideOverlays.forEach(o => o.setMap(null));
+  STATE.kakaoLandslideOverlays = [];
+}
+
+function drawKakaoLandslide() {
+  clearKakaoLandslide();
+  if (!STATE.kakaoMap) return;
+  landslidePoints().forEach(pt => {
+    const el = document.createElement("div");
+    el.style.cssText = `
+      width:22px; height:22px; border-radius:50%;
+      background:#C94C31; border:2px solid #fff;
+      display:flex; align-items:center; justify-content:center;
+      font-size:12px; box-shadow:0 2px 6px rgba(0,0,0,0.4); cursor:pointer;
+    `;
+    el.textContent = "⚠️";
+    el.title = `${pt.riskType} · ${pt.address}`;
+    const overlay = new kakao.maps.CustomOverlay({
+      position: new kakao.maps.LatLng(pt.lat, pt.lon),
+      content: el,
+      yAnchor: 0.5,
+    });
+    overlay.setMap(STATE.kakaoMap);
+    STATE.kakaoLandslideOverlays.push(overlay);
+  });
+}
+
+function clearVworldLandslide() {
+  if (STATE.vworldViewer) {
+    STATE.vworldLandslideEntities.forEach(e => STATE.vworldViewer.entities.remove(e));
+  }
+  STATE.vworldLandslideEntities = [];
+}
+
+function drawVworldLandslide() {
+  clearVworldLandslide();
+  if (!STATE.vworldViewer) return;
+  const viewer = STATE.vworldViewer;
+  landslidePoints().forEach(pt => {
+    const entity = viewer.entities.add({
+      position: Cesium.Cartesian3.fromDegrees(pt.lon, pt.lat),
+      point: {
+        pixelSize: 12,
+        color: Cesium.Color.fromCssColorString("#C94C31"),
+        outlineColor: Cesium.Color.WHITE,
+        outlineWidth: 2,
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+      },
+      label: {
+        text: "⚠️",
+        font: "16px sans-serif",
+        verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+        pixelOffset: new Cesium.Cartesian2(0, -12),
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+      },
+      description: `${pt.riskType}<br>${pt.address} ${pt.addressDetail}`,
+    });
+    STATE.vworldLandslideEntities.push(entity);
+  });
+}
+
+function refreshLandslideIfVisible() {
+  if (!STATE.landslideVisible) return;
+  if (STATE.activeMap === "2d") drawKakaoLandslide();
+  else if (STATE.vworldReady) drawVworldLandslide();
+}
+
+function fmtTime(iso) {
+  const d = new Date(iso);
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  const hh = String(d.getHours()).padStart(2, "0");
+  return `${mm}/${dd} ${hh}:00`;
+}
+
+/* 기상청 강수형태(PTY) / 하늘상태(SKY) 코드 -> 사람이 읽을 수 있는 라벨.
+   산악지형에서 특히 주의가 필요한 값(비/눈/소나기/진눈깨비)은 isHazard로 표시.
+   ※ 낙뢰(천둥·번개)는 기상청 단기예보(getVilageFcst)에 항목 자체가 없어서 여기 포함 못 함 —
+   따로 낙뢰 관측 API를 연동해야 표시 가능. */
+const PTY_LABELS = {
+  0: { label: "강수 없음", icon: "☀️", isHazard: false },
+  1: { label: "비", icon: "🌧️", isHazard: true },
+  2: { label: "비/눈", icon: "🌨️", isHazard: true },
+  3: { label: "눈", icon: "❄️", isHazard: true },
+  4: { label: "소나기", icon: "🌦️", isHazard: true },
+  5: { label: "빗방울", icon: "🌦️", isHazard: true },
+  6: { label: "빗방울눈날림", icon: "🌨️", isHazard: true },
+  7: { label: "눈날림", icon: "🌨️", isHazard: true },
+};
+const SKY_LABELS = { 1: "맑음", 3: "구름많음", 4: "흐림" };
+
+function conditionLabel(pty, sky) {
+  const p = PTY_LABELS[pty] ?? PTY_LABELS[0];
+  if (pty && pty !== 0) return p;
+  const skyLabel = SKY_LABELS[sky] ?? "—";
+  return { label: skyLabel, icon: sky === 1 ? "☀️" : sky === 3 ? "⛅" : "☁️", isHazard: false };
+}
+
+function forecastAt(point, timeIso) {
+  return point.forecasts.find(f => f.time === timeIso) || null;
+}
+
+/* =========================================================
+   지금 날씨 (상시 노출 패널) + 실시간 시계
+   ========================================================= */
+function startClock() {
+  function tick() {
+    const now = new Date();
+    const hh = String(now.getHours()).padStart(2, "0");
+    const mm = String(now.getMinutes()).padStart(2, "0");
+    const ss = String(now.getSeconds()).padStart(2, "0");
+    document.getElementById("live-clock").textContent = `${hh}:${mm}:${ss}`;
+    const days = ["일", "월", "화", "수", "목", "금", "토"];
+    document.getElementById("live-date").textContent =
+      `${now.getMonth() + 1}/${now.getDate()} (${days[now.getDay()]})`;
+  }
+  tick();
+  setInterval(tick, 1000);
+}
+
+function updateNowWeather() {
+  if (!STATE.points.length) return;
+  const ref = STATE.points[0]; // 대표 지점 — 격자가 4개뿐이라 지역 전체 대표값으로도 충분함
+
+  // 실제 관측값(obs)이 있으면 그걸 우선 쓰고, 없으면 가장 가까운 예보 시각으로 대체
+  if (ref.obs) {
+    const obs = ref.obs;
+    document.getElementById("panel-kicker-text") && (document.getElementById("panel-kicker-text").textContent = "기상청 실황 (실측)");
+    document.getElementById("now-temp").textContent = obs.temp !== null && obs.temp !== undefined ? `${Number(obs.temp).toFixed(1)}°` : "—°";
+    document.getElementById("now-humidity").textContent = obs.humidity !== null && obs.humidity !== undefined ? Number(obs.humidity).toFixed(0) : "—";
+    document.getElementById("now-wind").textContent = obs.wind !== null && obs.wind !== undefined ? Number(obs.wind).toFixed(1) : "—";
+
+    const cond = conditionLabel(obs.pty, null);
+    const rainNote = obs.rain1h && obs.rain1h > 0 ? ` (최근 1시간 ${obs.rain1h}mm)` : "";
+    document.getElementById("now-condition").textContent = `${cond.icon} ${cond.label}${rainNote}`;
+
+    const alertEl = document.getElementById("now-alert");
+    if (cond.isHazard) {
+      alertEl.style.display = "block";
+      alertEl.textContent = `⚠️ 실제로 ${cond.label} 관측 중 — 등산로 노면 미끄럼·저체온증에 주의하세요`;
+    } else {
+      alertEl.style.display = "none";
+    }
+    document.querySelector("#now-weather-panel .now-caption").textContent =
+      `실측 관측값 (${obs.baseDateTime || "기상청 초단기실황"})`;
+    return;
+  }
+
+  // obs가 없으면(아직 fetch_current_obs.py를 안 돌렸으면) 가장 가까운 예보로 대체
+  const now = Date.now();
+  let nearest = STATE.times[0];
+  let minDiff = Infinity;
+  STATE.times.forEach(t => {
+    const diff = Math.abs(new Date(t).getTime() - now);
+    if (diff < minDiff) { minDiff = diff; nearest = t; }
+  });
+  const f = forecastAt(ref, nearest);
+  if (!f) return;
+
+  document.getElementById("now-temp").textContent = f.temp !== null ? `${f.temp.toFixed(1)}°` : "—°";
+  document.getElementById("now-humidity").textContent = f.humidity !== null ? f.humidity.toFixed(0) : "—";
+  document.getElementById("now-wind").textContent = f.wind !== null && f.wind !== undefined ? f.wind.toFixed(1) : "—";
+
+  const cond = conditionLabel(f.pty, f.sky);
+  document.getElementById("now-condition").textContent = `${cond.icon} ${cond.label}`;
+
+  const alertEl = document.getElementById("now-alert");
+  if (cond.isHazard) {
+    alertEl.style.display = "block";
+    alertEl.textContent = `⚠️ ${cond.label} 예보 — 등산로 노면 미끄럼·저체온증에 주의하세요`;
+  } else {
+    alertEl.style.display = "none";
+  }
+  document.querySelector("#now-weather-panel .now-caption").textContent =
+    "가장 가까운 예보 시각 기준 · 실측 관측값 아님 (실황 데이터 없음)";
+}
+
+/* =========================================================
+   데이터 로딩
+   ========================================================= */
+async function loadData() {
+  const [points, boundary, trails, landslide] = await Promise.all([
+    fetch("points_predictions.json").then(r => r.json()),
+    fetch("geo/boundary.geojson").then(r => r.json()).catch(() => null),
+    fetch("geo/trails.geojson").then(r => r.json()).catch(() => null),
+    fetch("geo/landslide.geojson").then(r => r.json()).catch(() => null),
+  ]);
+  STATE.points = points;
+  STATE.boundaryGeo = boundary;
+  STATE.trailsGeo = trails;
+  STATE.landslideGeo = landslide;
+
+  // 시각 목록: 지점마다 조금씩 다를 수 있어 합집합을 시간순 정렬
+  const timeSet = new Set();
+  points.forEach(p => p.forecasts.forEach(f => timeSet.add(f.time)));
+  STATE.times = Array.from(timeSet).sort();
+  STATE.timeIndex = 0;
+
+  // 온도 범위(현재 선택 시각 기준으로 나중에 다시 계산하되, 우선 전체 범위로 초기화)
+  const allTemps = points.flatMap(p => p.forecasts.map(f => f.temp)).filter(v => v !== null && v !== undefined);
+  STATE.tempRange = [Math.floor(Math.min(...allTemps)), Math.ceil(Math.max(...allTemps))];
+
+  document.getElementById("time-slider").max = STATE.times.length - 1;
+  document.getElementById("time-slider").value = 0;
+  document.getElementById("time-value").textContent = fmtTime(STATE.times[0]);
+  document.getElementById("legend-min").textContent = STATE.tempRange[0];
+  document.getElementById("legend-max").textContent = STATE.tempRange[1];
+  document.getElementById("grid-info").textContent = `지점 ${points.length}개`;
+}
+
+/* =========================================================
+   카카오맵 (2D)
+   ========================================================= */
+async function initKakaoMap() {
+  await loadScript(`//dapi.kakao.com/v2/maps/sdk.js?appkey=${CONFIG.KAKAO_JS_KEY}&autoload=false`);
+  await new Promise(resolve => kakao.maps.load(resolve));
+
+  const center = new kakao.maps.LatLng(CONFIG.CENTER.lat, CONFIG.CENTER.lon);
+  STATE.kakaoMap = new kakao.maps.Map(document.getElementById("map2d"), {
+    center, level: 7,
+  });
+
+  drawKakaoMarkers();
+  drawKakaoBoundary();
+  drawKakaoTrails();
+}
+
+function drawKakaoMarkers() {
+  const timeIso = STATE.times[STATE.timeIndex];
+  STATE.points.forEach(p => {
+    const f = forecastAt(p, timeIso);
+    const temp = f ? f.temp : null;
+    const color = tempToColor(temp, STATE.tempRange[0], STATE.tempRange[1]);
+    const cond = conditionLabel(f?.pty, f?.sky);
+    const tempText = `${cond.isHazard ? cond.icon + " " : ""}${temp !== null ? temp.toFixed(1) + "°" : "—"}`;
+
+    const wrap = document.createElement("div");
+    wrap.className = "marker-wrap";
+    wrap.innerHTML = `
+      <div class="marker-dot" style="background:${color};"></div>
+      <div class="marker-temp">${tempText}</div>
+      <div class="marker-name">${p.name}</div>
+    `;
+    wrap.title = p.name;
+    wrap.addEventListener("click", () => openDetail(p.id));
+
+    const overlay = new kakao.maps.CustomOverlay({
+      position: new kakao.maps.LatLng(p.lat, p.lon),
+      content: wrap,
+      yAnchor: 1.0,
+    });
+    overlay.setMap(STATE.kakaoMap);
+    STATE.kakaoMarkers[p.id] = {
+      overlay,
+      el: wrap.querySelector(".marker-dot"),
+      labelEl: wrap.querySelector(".marker-temp"),
+    };
+  });
+}
+
+function updateKakaoMarkerColors() {
+  const timeIso = STATE.times[STATE.timeIndex];
+  STATE.points.forEach(p => {
+    const f = forecastAt(p, timeIso);
+    const temp = f ? f.temp : null;
+    const marker = STATE.kakaoMarkers[p.id];
+    if (marker) {
+      marker.el.style.background = tempToColor(temp, STATE.tempRange[0], STATE.tempRange[1]);
+      const cond = conditionLabel(f?.pty, f?.sky);
+      const tempText = `${cond.isHazard ? cond.icon + " " : ""}${temp !== null ? temp.toFixed(1) + "°" : "—"}`;
+      marker.labelEl.textContent = tempText;
+    }
+  });
+}
+
+function geojsonRingToLatLngs(ring) {
+  // GeoJSON 좌표는 [lon, lat] 순서 -> kakao.maps.LatLng(lat, lon)으로 변환
+  return ring.map(([lon, lat]) => new kakao.maps.LatLng(lat, lon));
+}
+
+function drawKakaoBoundary() {
+  if (!STATE.boundaryGeo) return;
+  const paths = [];
+  STATE.boundaryGeo.features.forEach(feature => {
+    const geom = feature.geometry;
+    const polys = geom.type === "MultiPolygon" ? geom.coordinates : [geom.coordinates];
+    polys.forEach(poly => {
+      // poly[0] = 외곽 링 (내부 구멍은 생략)
+      paths.push(geojsonRingToLatLngs(poly[0]));
+    });
+  });
+  STATE.kakaoBoundaryPolygon = new kakao.maps.Polygon({
+    path: paths,
+    strokeWeight: 2,
+    strokeColor: "#16302A",
+    strokeOpacity: 0.8,
+    fillColor: "#16302A",
+    fillOpacity: 0.06,
+  });
+  STATE.kakaoBoundaryPolygon.setMap(STATE.kakaoMap);
+}
+
+function drawKakaoTrails() {
+  if (!STATE.trailsGeo) return;
+  STATE.trailsGeo.features.forEach(feature => {
+    const geom = feature.geometry;
+    const lines = geom.type === "MultiLineString" ? geom.coordinates : [geom.coordinates];
+    lines.forEach(line => {
+      const polyline = new kakao.maps.Polyline({
+        path: geojsonRingToLatLngs(line),
+        strokeWeight: 3,
+        strokeColor: "#C97A3D",
+        strokeOpacity: 0.85,
+        strokeStyle: "solid",
+      });
+      polyline.setMap(STATE.kakaoMap);
+      STATE.kakaoTrailPolylines.push(polyline);
+    });
+  });
+}
+
+function setKakaoLayerVisible(layer, visible) {
+  if (layer === "boundary" && STATE.kakaoBoundaryPolygon) {
+    STATE.kakaoBoundaryPolygon.setMap(visible ? STATE.kakaoMap : null);
+  }
+  if (layer === "trails") {
+    STATE.kakaoTrailPolylines.forEach(pl => pl.setMap(visible ? STATE.kakaoMap : null));
+  }
+}
+
+/* =========================================================
+   브이월드 (3D) — WebGL 3D API 3.0
+   공식 샘플(V-world/V-world_API_sample, "[WebGL3] GeoJson 지면 위로.html") 구조를 그대로 따름.
+   핵심: v3.0은 내부적으로 Cesium을 쓰고, 지도가 실제로 준비된 시점은
+   map.onLoadEvent가 아니라 vw.ws3dInitCallBack 콜백으로 알려준다.
+   그 안에서 전역 ws3d.viewer로 Cesium Viewer 인스턴스에 접근해서
+   entities(마커)와 GeoJsonDataSource(경계/탐방로)를 다룬다.
+   ========================================================= */
+async function initVworldMap() {
+  if (STATE.vworldReady) return;
+
+  if (typeof vw === "undefined") {
+    throw new Error(
+      "브이월드 SDK(vw)가 로드되지 않았어요. <head> 상단의 window.VWORLD_API_KEY에 " +
+      "실제 키를 넣었는지, 브이월드 콘솔에 이 사이트 도메인이 등록되어 있는지 확인해주세요."
+    );
+  }
+
+  const options = {
+    mapId: "map3d-inner",
+    initPosition: new vw.CameraPosition(
+      new vw.CoordZ(CONFIG.CENTER.lon, CONFIG.CENTER.lat, 4500),
+      new vw.Direction(0, -75, 0)
+    ),
+    logo: false,
+    navigation: true,
+  };
+
+  const map3dDiv = document.getElementById("map3d");
+  const inner = document.createElement("div");
+  inner.id = "map3d-inner";
+  inner.style.cssText = "position:absolute; inset:0;";
+  map3dDiv.appendChild(inner);
+
+  STATE.vworldMap = new vw.Map();
+  STATE.vworldMap.setOption(options);
+  STATE.vworldMap.start();
+
+  // ws3d(Cesium) 뷰어가 실제로 준비된 시점을 알려주는 공식 콜백
+  await new Promise((resolve) => {
+    vw.ws3dInitCallBack = function () {
+      STATE.vworldViewer = ws3d.viewer;
+      resolve();
+    };
+  });
+
+  // 지형 뒤에 가려진 마커/라벨이 실제로 안 보이게 하려면 지형 자체의 깊이 테스트를 켜야 함
+  STATE.vworldViewer.scene.globe.depthTestAgainstTerrain = true;
+
+  // 마커를 clampToGround(실시간 지면 추적)로 두면, 카메라가 아직 안 가본 먼 지역의 지형
+  // 타일이 로드되기 전이라 잘못된(낮은) 높이로 배치되어 마커가 지면 아래에 파묻힌 것처럼
+  // 보이는 문제가 있었다. 지형 높이를 미리 한 번 샘플링해서 절대좌표로 배치하면 이 문제가 없다.
+  await sampleGroundHeights(STATE.vworldViewer, STATE.points);
+
+  drawVworldMarkers();
+  drawVworldOverlays();
+  setupVworldClickHandler();
+
+  STATE.vworldReady = true;
+}
+
+async function sampleGroundHeights(viewer, points) {
+  try {
+    const cartographics = points.map(p => Cesium.Cartographic.fromDegrees(p.lon, p.lat));
+    const sampled = await Cesium.sampleTerrainMostDetailed(viewer.terrainProvider, cartographics);
+    STATE.groundHeights = {};
+    points.forEach((p, i) => {
+      STATE.groundHeights[p.id] = Number.isFinite(sampled[i].height) ? sampled[i].height : 0;
+    });
+  } catch (e) {
+    console.warn("지형 높이 샘플링 실패, clampToGround 방식으로 대체:", e);
+    STATE.groundHeights = null;
+  }
+}
+
+function markerPosition(p) {
+  // 지형 높이를 미리 샘플링해뒀으면 절대좌표로, 실패했으면 clampToGround로 대체.
+  // 오프셋을 2m -> 12m로 올림: 경사가 급한 산악지형은 실제 지형 메시(mesh)와 샘플링한
+  // 높이값 사이에 몇 미터 오차가 흔해서, 너무 낮게 띄우면 마커가 지면 밑에 파묻힌 것처럼
+  // 보이는 경우가 있었음.
+  if (STATE.groundHeights && STATE.groundHeights[p.id] !== undefined) {
+    return Cesium.Cartesian3.fromDegrees(p.lon, p.lat, STATE.groundHeights[p.id] + 12);
+  }
+  return Cesium.Cartesian3.fromDegrees(p.lon, p.lat);
+}
+
+// 완전히 안 가려지게(POSITIVE_INFINITY) 하면 지형 뒤에 있어도 항상 보여서 부자연스럽고,
+// 기본값(0)이면 조금만 가려도 바로 사라져서 부자연스러움. 카메라와 마커 사이 거리가
+// 이 값(미터) 이내일 때는 깊이 테스트를 꺼서(=가까이서 보면 살짝 가려도 보이게),
+// 이 값보다 멀 때는 정상적으로 지형에 가려지게 함 — "너무 뒤쪽은 가려지고 조금
+// 걸친 정도는 보이는" 절충안. Cesium이 지원하는 방식 중 이게 가장 가까움.
+const VWORLD_MARKER_DEPTH_TEST_DISTANCE = 2500;
+
+function drawVworldMarkers() {
+  const viewer = STATE.vworldViewer;
+  const timeIso = STATE.times[STATE.timeIndex];
+  const usingAbsoluteHeight = !!STATE.groundHeights;
+  STATE.points.forEach(p => {
+    const f = forecastAt(p, timeIso);
+    const temp = f ? f.temp : null;
+    const color = tempToColor(temp, STATE.tempRange[0], STATE.tempRange[1]);
+    const heightRef = usingAbsoluteHeight ? Cesium.HeightReference.NONE : Cesium.HeightReference.CLAMP_TO_GROUND;
+    const cond = conditionLabel(f?.pty, f?.sky);
+    const tempText = `${cond.isHazard ? cond.icon + " " : ""}${temp !== null ? temp.toFixed(1) + "°" : "—"}`;
+
+    const entity = viewer.entities.add({
+      id: `point-${p.id}`,
+      position: markerPosition(p),
+      point: {
+        pixelSize: 10,
+        color: Cesium.Color.fromCssColorString(color),
+        outlineColor: Cesium.Color.WHITE,
+        outlineWidth: 2,
+        heightReference: heightRef,
+        disableDepthTestDistance: VWORLD_MARKER_DEPTH_TEST_DISTANCE,
+      },
+      label: {
+        text: tempText,
+        font: "700 14px Pretendard, sans-serif",
+        fillColor: Cesium.Color.WHITE,
+        outlineColor: Cesium.Color.fromCssColorString("#16302A"),
+        outlineWidth: 3,
+        style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+        verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+        pixelOffset: new Cesium.Cartesian2(0, -14),
+        heightReference: heightRef,
+        disableDepthTestDistance: VWORLD_MARKER_DEPTH_TEST_DISTANCE,
+      },
+    });
+
+    // 지점 이름은 온도보다 작고 연하게, 온도 라벨 위쪽에 별도 엔티티로 배치
+    const nameEntity = viewer.entities.add({
+      id: `pointname-${p.id}`,
+      position: markerPosition(p),
+      label: {
+        text: p.name,
+        font: "500 10px Pretendard, sans-serif",
+        fillColor: Cesium.Color.fromCssColorString("#F6F2E8").withAlpha(0.85),
+        outlineColor: Cesium.Color.fromCssColorString("#16302A"),
+        outlineWidth: 2,
+        style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+        verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+        pixelOffset: new Cesium.Cartesian2(0, -30),
+        heightReference: heightRef,
+        disableDepthTestDistance: VWORLD_MARKER_DEPTH_TEST_DISTANCE,
+      },
+    });
+
+    STATE.vworldMarkers[p.id] = entity;
+    STATE.vworldNameMarkers[p.id] = nameEntity;
+  });
+}
+
+function updateVworldMarkerColors() {
+  if (!STATE.vworldViewer) return;
+  const timeIso = STATE.times[STATE.timeIndex];
+  STATE.points.forEach(p => {
+    const f = forecastAt(p, timeIso);
+    const temp = f ? f.temp : null;
+    const entity = STATE.vworldMarkers[p.id];
+    if (entity) {
+      entity.point.color = Cesium.Color.fromCssColorString(
+        tempToColor(temp, STATE.tempRange[0], STATE.tempRange[1])
+      );
+      const cond = conditionLabel(f?.pty, f?.sky);
+      const tempText = `${cond.isHazard ? cond.icon + " " : ""}${temp !== null ? temp.toFixed(1) + "°" : "—"}`;
+      entity.label.text = tempText;
+    }
+  });
+}
+
+function drawVworldOverlays() {
+  const viewer = STATE.vworldViewer;
+
+  // 경계(폴리곤)는 GeoJsonDataSource 대신 직접 entity로 그린다.
+  // 이유: 브이월드 경계 GeoJSON에 남아있던 고도(z=0) 좌표 때문에 clampToGround와 충돌해서
+  // 지면 아래로 깔려 안 보이는 문제가 있었음. 좌표를 직접 다루면 이 문제를 피할 수 있고,
+  // 폴리곤 outline이 clampToGround에서 불안정한 Cesium 특성도 별도 폴리라인으로 우회한다.
+  STATE.vworldBoundaryEntities = [];
+  if (STATE.boundaryGeo) {
+    STATE.boundaryGeo.features.forEach(feature => {
+      const geom = feature.geometry;
+      const polys = geom.type === "MultiPolygon" ? geom.coordinates : [geom.coordinates];
+      polys.forEach(poly => {
+        const ring = poly[0]; // 외곽 링만 사용 (구멍 무시)
+        const flatPositions = ring.flatMap(([lon, lat]) => [lon, lat]);
+        const closedRing = ring[0][0] === ring[ring.length - 1][0] && ring[0][1] === ring[ring.length - 1][1]
+          ? ring : [...ring, ring[0]];
+        const flatClosed = closedRing.flatMap(([lon, lat]) => [lon, lat]);
+
+        const fillEntity = viewer.entities.add({
+          polygon: {
+            hierarchy: Cesium.Cartesian3.fromDegreesArray(flatPositions),
+            material: Cesium.Color.fromCssColorString("#16302A").withAlpha(0.18),
+            heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+          },
+        });
+        const strokeEntity = viewer.entities.add({
+          polyline: {
+            positions: Cesium.Cartesian3.fromDegreesArray(flatClosed),
+            width: 3,
+            material: Cesium.Color.fromCssColorString("#16302A"),
+            clampToGround: true,
+          },
+        });
+        STATE.vworldBoundaryEntities.push(fillEntity, strokeEntity);
+      });
+    });
+  }
+
+  Cesium.GeoJsonDataSource.load("geo/trails.geojson", {
+    stroke: Cesium.Color.fromCssColorString("#C97A3D"),
+    strokeWidth: 3,
+    clampToGround: true,
+  }).then(ds => {
+    STATE.vworldTrailsDS = ds;
+    viewer.dataSources.add(ds);
+  }).catch(e => console.warn("탐방로 GeoJSON 로드 실패(3D):", e));
+}
+
+function setupVworldClickHandler() {
+  const viewer = STATE.vworldViewer;
+  const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+  handler.setInputAction((movement) => {
+    const picked = viewer.scene.pick(movement.position);
+    if (picked && picked.id && typeof picked.id.id === "string" && picked.id.id.startsWith("point-")) {
+      openDetail(picked.id.id.replace("point-", ""));
+    }
+  }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+}
+
+function setVworldLayerVisible(layer, visible) {
+  if (layer === "boundary") {
+    STATE.vworldBoundaryEntities.forEach(e => { e.show = visible; });
+  }
+  if (layer === "trails" && STATE.vworldTrailsDS) STATE.vworldTrailsDS.show = visible;
+}
+
+/* =========================================================
+   상세 패널
+   ========================================================= */
+function openDetail(pointId) {
+  const p = STATE.points.find(pt => pt.id === pointId);
+  if (!p) return;
+  const timeIso = STATE.times[STATE.timeIndex];
+  const f = forecastAt(p, timeIso);
+
+  document.getElementById("detail-name").textContent = p.name;
+  document.getElementById("detail-sub").textContent = `AI 예측 모델 분석 · ${fmtTime(timeIso)} 기준`;
+  document.getElementById("detail-temp").textContent = f && f.temp !== null ? f.temp.toFixed(1) : "—";
+  document.getElementById("detail-hum").textContent = f && f.humidity !== null ? f.humidity.toFixed(0) : "—";
+
+  const breakdownEl = document.getElementById("detail-breakdown");
+  if (f && f.refTemp !== undefined) {
+    breakdownEl.innerHTML =
+      `기상청 원본 ${f.refTemp}°C<br>` +
+      `+ 지점 평균편차 ${f.modelOffsetTemp >= 0 ? "+" : ""}${f.modelOffsetTemp}°C<br>` +
+      `+ 조건부 보정 ${f.modelResidualTemp >= 0 ? "+" : ""}${f.modelResidualTemp}°C<br>` +
+      `= 최종 예측 ${f.temp}°C`;
+  } else {
+    breakdownEl.innerHTML = "";
+  }
+
+  const list = document.getElementById("forecast-list");
+  list.innerHTML = "";
+
+  const days = ["일", "월", "화", "수", "목", "금", "토"];
+  let lastDateKey = null;
+
+  p.forecasts.forEach(item => {
+    const d = new Date(item.time);
+    const dateKey = `${d.getMonth() + 1}/${d.getDate()}`;
+    if (dateKey !== lastDateKey) {
+      const header = document.createElement("li");
+      header.className = "date-header";
+      header.textContent = `${dateKey} (${days[d.getDay()]})`;
+      list.appendChild(header);
+      lastDateKey = dateKey;
+    }
+
+    const li = document.createElement("li");
+    li.className = "forecast-row";
+    if (item.time === timeIso) li.classList.add("current");
+    const cond = conditionLabel(item.pty, item.sky);
+    const hazardMark = cond.isHazard ? `${cond.icon} ` : "";
+    const hh = String(d.getHours()).padStart(2, "0");
+    li.innerHTML = `<span class="time-cell">${hh}:00</span><span>${hazardMark}${item.temp ?? "—"}°C / ${item.humidity ?? "—"}%</span>`;
+    list.appendChild(li);
+  });
+
+  document.getElementById("detail-panel").classList.add("open");
+}
+
+document.getElementById("detail-close").addEventListener("click", () => {
+  document.getElementById("detail-panel").classList.remove("open");
+});
+
+/* =========================================================
+   컨트롤 이벤트
+   ========================================================= */
+document.getElementById("time-slider").addEventListener("input", (e) => {
+  STATE.timeIndex = parseInt(e.target.value, 10);
+  document.getElementById("time-value").textContent = fmtTime(STATE.times[STATE.timeIndex]);
+  if (STATE.activeMap === "2d") updateKakaoMarkerColors();
+  else if (STATE.vworldReady) updateVworldMarkerColors();
+});
+
+document.getElementById("toggle-boundary").addEventListener("change", (e) => {
+  setKakaoLayerVisible("boundary", e.target.checked);
+  setVworldLayerVisible("boundary", e.target.checked);
+});
+document.getElementById("toggle-trails").addEventListener("change", (e) => {
+  setKakaoLayerVisible("trails", e.target.checked);
+  setVworldLayerVisible("trails", e.target.checked);
+});
+document.getElementById("toggle-landslide").addEventListener("change", (e) => {
+  STATE.landslideVisible = e.target.checked;
+  if (!STATE.landslideGeo) {
+    alert("산사태 위험지역 데이터가 아직 없어요. predictor/fetch_landslide.py를 먼저 실행해서 geo/landslide.geojson을 만들어주세요.");
+    e.target.checked = false;
+    STATE.landslideVisible = false;
+    return;
+  }
+  if (STATE.landslideVisible) {
+    refreshLandslideIfVisible();
+  } else {
+    clearKakaoLandslide();
+    clearVworldLandslide();
+  }
+});
+
+document.getElementById("btn-2d").addEventListener("click", async () => {
+  STATE.activeMap = "2d";
+  document.getElementById("btn-2d").classList.add("active");
+  document.getElementById("btn-3d").classList.remove("active");
+  document.getElementById("map2d").style.display = "block";
+  document.getElementById("map3d").style.display = "none";
+  if (STATE.landslideVisible) { clearVworldLandslide(); drawKakaoLandslide(); }
+});
+
+document.getElementById("btn-3d").addEventListener("click", async () => {
+  STATE.activeMap = "3d";
+  document.getElementById("btn-3d").classList.add("active");
+  document.getElementById("btn-2d").classList.remove("active");
+  document.getElementById("map2d").style.display = "none";
+  document.getElementById("map3d").style.display = "block";
+  if (!STATE.vworldReady) {
+    document.getElementById("loading-msg").textContent = "브이월드 3D 지도를 불러오는 중...";
+    document.getElementById("loading-overlay").style.display = "flex";
+    try {
+      await initVworldMap();
+    } catch (e) {
+      console.error("VWorld 초기화 실패:", e);
+      alert("브이월드 3D 지도를 불러오지 못했어요. API 키를 확인해주세요.");
+    }
+    document.getElementById("loading-overlay").style.display = "none";
+  }
+  if (STATE.landslideVisible) { clearKakaoLandslide(); drawVworldLandslide(); }
+});
+
+/* =========================================================
+   부트스트랩
+   ========================================================= */
+(async function boot() {
+  try {
+    document.getElementById("loading-msg").textContent = "지점 데이터를 불러오는 중...";
+    await loadData();
+  } catch (e) {
+    console.error("[데이터 로딩 실패]", e);
+    document.getElementById("loading-msg").textContent =
+      "지점/지도 데이터(json) 불러오기 실패: " + (e && e.message ? e.message : String(e));
+    return;
+  }
+  try {
+    document.getElementById("loading-msg").textContent = "카카오맵을 불러오는 중...";
+    await initKakaoMap();
+  } catch (e) {
+    console.error("[카카오맵 로딩 실패]", e);
+    document.getElementById("loading-msg").textContent =
+      "카카오맵 불러오기 실패: " + (e && e.message ? e.message : String(e));
+    return;
+  }
+  document.getElementById("loading-overlay").style.display = "none";
+
+  startClock();
+  updateNowWeather();
+  setInterval(updateNowWeather, 60 * 1000);
+})();
+</script>
+
+</body>
+</html>
