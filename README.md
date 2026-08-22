@@ -66,9 +66,13 @@ python generate_predictions.py \
   --forecast ../data/weather/forecast.csv \
   --model-dir ../data/model_final \
   --sensor ../data/sensor/sensor_merged.csv \
+  --extra-points ../data/extra_points.csv \
   --out ../frontend/points_predictions.json
 ```
-`frontend/points_predictions.json`에 120개 지점 × 향후 예보 시각별 온도/습도 예측이 저장돼요.
+`frontend/points_predictions.json`에 실측 모델 지점(120개) + 온습도 센서가 없는 추가 지점
+(`data/extra_points.csv`, 75개 — 북한산 전체 187개 지점 중 실측 데이터가 없는 곳들을
+주변 실측 지점으로 IDW 보간)까지 합쳐 저장돼요. `--extra-points`는 선택 옵션이라 안 넣으면
+기존처럼 실측 모델 지점만 생성돼요.
 
 ## 7. 프론트엔드 (카카오맵 2D / 브이월드 3D)
 `frontend/index.html` 하나로 된 사이트예요. 열기 전에:
@@ -108,3 +112,51 @@ python generate_predictions.py \
 - 자료출처: 기상청
 - 자료출처: 국토교통부 (브이월드)
 - 지도: 카카오맵
+
+## GitHub로 옮기기 (호스팅 + 예보 자동 갱신)
+
+### 준비: `data/model_final` 폴더를 꼭 채워넣으세요
+로컬에서 `predictor/retrain_final_models.py`를 돌려서 나온 결과물
+(`model_final_temp.txt`, `model_final_humidity.txt`, `offsets.json`, `station_meta.json`)이
+`data/model_final/` 안에 있어야 자동 갱신 워크플로가 돌아가요. 이 zip에는 안 들어있으니 로컬에서
+직접 넣고 커밋해주세요.
+
+### 1) 저장소 만들고 푸시
+```bash
+cd bukhansan-weather
+git init
+git add .
+git commit -m "북한산 날씨 예보 사이트 초기 커밋"
+gh repo create bukhansan-weather --public --source=. --push
+# gh(GitHub CLI)가 없으면: github.com에서 새 저장소 만들고
+# git remote add origin <저장소 URL> && git push -u origin main
+```
+
+### 2) 기상청 API 키를 GitHub Secret으로 등록
+저장소 > Settings > Secrets and variables > Actions > New repository secret
+- 이름: `KMA_API_KEY` / 값: 단기예보·초단기실황 서비스키
+- 이름: `KMA_WARN_API_KEY` / 값: 기상특보 조회서비스 서비스키 (공공데이터포털은 계정당 인증키 하나라 KMA_API_KEY와 같은 값 넣으면 돼요)
+- 이름: `FOREST_FIRE_API_KEY` / 값: 산림청 산불위험예보정보 서비스키
+
+### 3) GitHub Pages 활성화
+저장소 > Settings > Pages > **Source: GitHub Actions** 선택 (브랜치 선택 아님, 반드시 "GitHub Actions"로)
+
+### 4) 카카오/브이월드 키를 실제 배포 도메인에 등록
+Pages가 배포되면 `https://<계정명>.github.io/bukhansan-weather/` 같은 주소가 생겨요.
+- 카카오 개발자센터: 내 애플리케이션 > 플랫폼 > Web에 이 주소 등록
+- 브이월드: 오픈API > 인증키 관리에서 도메인 등록
+
+### 5) `index.html`의 CONFIG에 키 입력하고 커밋
+`frontend/index.html` 상단 `CONFIG`에 카카오/브이월드 키를 넣고 커밋·푸시하면
+`.github/workflows/deploy-pages.yml`이 자동으로 사이트를 배포해요.
+
+### 이후 자동으로 도는 것
+- **`.github/workflows/update-predictions.yml`**: 3시간마다 기상청 예보를 새로 받아서
+  `points_predictions.json`을 갱신하고 커밋 → 자동으로 사이트도 재배포됨
+- **`.github/workflows/deploy-pages.yml`**: `frontend/` 폴더가 바뀔 때마다 자동 배포
+
+### 자동화 안 되는 것 (수동으로 해야 함)
+- 북한산 센서 CSV(서울 열린데이터광장)는 다운로드 버튼이 자바스크립트라 자동 수집이 안 돼요.
+  새 달치가 나오면 직접 받아서 `data/sensor/`에 추가하고, `merge_sensor_weather.py` →
+  `retrain_final_models.py`를 다시 돌려서 모델을 갱신해야 해요. (매달 할 필요는 없고,
+  몇 달에 한 번 정도면 충분해요.)
