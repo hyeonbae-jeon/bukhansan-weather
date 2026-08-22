@@ -14,11 +14,13 @@ from datetime import datetime, timedelta
 from urllib.parse import unquote
 
 import requests
+
+from http_retry import get_with_retry
 import pandas as pd
 
 from kma_grid import latlon_to_grid
 
-BASE_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst"
+BASE_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst"
 BASE_TIMES = ["0200", "0500", "0800", "1100", "1400", "1700", "2000", "2300"]
 
 
@@ -47,8 +49,7 @@ def fetch_grid_forecast(service_key: str, base_date: str, base_time: str, nx: in
         "nx": nx,
         "ny": ny,
     }
-    resp = requests.get(BASE_URL, params=params, timeout=30)
-    resp.raise_for_status()
+    resp = get_with_retry(BASE_URL, params, timeout=30)
     body = resp.json()["response"]["body"]
     items = body.get("items", {})
     rows = items.get("item", []) if items else []

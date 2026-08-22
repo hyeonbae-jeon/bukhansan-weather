@@ -19,11 +19,13 @@ from datetime import datetime, timedelta
 from urllib.parse import unquote
 
 import requests
+
+from http_retry import get_with_retry
 import pandas as pd
 
 from kma_grid import latlon_to_grid
 
-BASE_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst"
+BASE_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst"
 
 
 def latest_base_datetime(now: datetime):
@@ -48,8 +50,7 @@ def fetch_grid_obs(service_key: str, base_date: str, base_time: str, nx: int, ny
         "nx": nx,
         "ny": ny,
     }
-    resp = requests.get(BASE_URL, params=params, timeout=30)
-    resp.raise_for_status()
+    resp = get_with_retry(BASE_URL, params, timeout=30)
     body = resp.json()["response"]["body"]
     items = body.get("items", {})
     rows = items.get("item", []) if items else []

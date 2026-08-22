@@ -24,10 +24,15 @@ from urllib.parse import unquote
 
 import requests
 
-BASE_URL = "http://apis.data.go.kr/1360000/WthrWrnInfoService/getWthrWrnMsg"
+from http_retry import get_with_retry
+
+BASE_URL = "https://apis.data.go.kr/1360000/WthrWrnInfoService/getWthrWrnMsg"
 
 # 북한산이 걸쳐있는 행정구역 — 이 이름이 특보 통보문 텍스트에 등장하면 우리 지역 특보로 판단
-BUKHANSAN_DISTRICTS = ["종로", "강북", "은평", "성북", "고양", "도봉"]
+# 북한산이 걸쳐있는 특보 대상 광역구역 — 사용자 확인, 이 3개만 매칭 대상으로 봄
+# "서울" 접두어를 붙이면 통보문 표기 방식(예: "서울특별시(서북권, 동북권)")에 따라
+# 매칭이 안 될 수 있어서 핵심 키워드만 씀
+BUKHANSAN_DISTRICTS = ["서북권", "동북권", "고양"]
 
 
 def parse_warning_text(t6: str):
@@ -66,8 +71,7 @@ def fetch(service_key: str, debug: bool = False):
         "tmfc1": (now - timedelta(days=2)).strftime("%Y%m%d%H%M"),
         "tmfc2": now.strftime("%Y%m%d%H%M"),
     }
-    resp = requests.get(BASE_URL, params=params, timeout=30)
-    resp.raise_for_status()
+    resp = get_with_retry(BASE_URL, params, timeout=30)
     data = resp.json()
     if debug:
         print("[디버그] 원본 응답(앞부분):", json.dumps(data, ensure_ascii=False)[:1500], file=sys.stderr)

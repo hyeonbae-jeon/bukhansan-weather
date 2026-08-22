@@ -24,6 +24,8 @@ import time
 
 import requests
 
+from http_retry import get_with_retry
+
 BASE = "http://sansatai.forest.go.kr/lsapi/openapi/weakRegisterList.json"
 
 
@@ -47,8 +49,7 @@ def fetch_all(api_key: str, max_pages: int = 300, page_size: int = 500, debug: b
     page = 1
     while page <= max_pages:
         params = {"apikey": api_key, "pageno": page, "result": page_size}
-        resp = requests.get(BASE, params=params, timeout=30)
-        resp.raise_for_status()
+        resp = get_with_retry(BASE, params, timeout=30)
         data = resp.json()
         if debug and page == 1:
             print("[디버그] 1페이지 원본 응답(앞부분):", json.dumps(data, ensure_ascii=False)[:1000], file=sys.stderr)

@@ -22,14 +22,17 @@ from urllib.parse import unquote
 
 import requests
 
+from http_retry import get_with_retry
+
 BASE_URL = "https://apis.data.go.kr/1400377/forestPointv2/forestPointListSigunguSearchV2"
 
-# 북한산이 걸쳐있는 시군구 (행정표준코드, 5자리)
+# 북한산이 걸쳐있는 시군구 (행정표준코드, 5자리) — 서대문구 추가, 실제와 다를 수 있음
 BUKHANSAN_SIGUNGU = {
     "11110": "종로구",
     "11305": "강북구",
     "11380": "은평구",
     "11290": "성북구",
+    "11410": "서대문구",
     "41281": "고양시 덕양구",
 }
 
@@ -42,8 +45,7 @@ def fetch_one(service_key: str, sigungu_code: str, debug: bool = False):
         "dataType": "JSON",
         "sigunguCode": sigungu_code,
     }
-    resp = requests.get(BASE_URL, params=params, timeout=30)
-    resp.raise_for_status()
+    resp = get_with_retry(BASE_URL, params, timeout=30)
     try:
         data = resp.json()
     except ValueError:
