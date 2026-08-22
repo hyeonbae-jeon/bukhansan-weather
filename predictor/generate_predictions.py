@@ -23,6 +23,20 @@ from kma_grid import latlon_to_grid
 # 학습에 쓴 ASOS 전운량(0~10 정수) 스케일에 대략 맞춰 변환. 정밀 매핑이 아니라 근사치.
 SKY_TO_CLOUD = {1: 1, 3: 6, 4: 9}
 
+# 센서 지점명 중 "북한00-00" 코드 형식이 아닌 예외들. 원래는 "족두리봉"에 가장 가까운
+# 코드(북한65-02/북한65-03)를 붙이려 했는데, 둘 다 이미 다른 실측 센서가 쓰고 있는
+# 코드라 중복이 생겨서(더 혼란스러움) 억지로 매핑하지 않기로 함 — 그냥 원래 이름 유지.
+CODE_ALIASES = {}
+
+
+def load_point_names(path):
+    """전체 187개 지점의 '코드 -> 세부 지명' 매핑. 마커엔 코드만, 상세정보엔
+    코드+세부지명을 같이 보여주기 위해 씀."""
+    if not path or not os.path.exists(path):
+        return {}
+    df = pd.read_csv(path)
+    return dict(zip(df["id"], df["name"]))
+
 
 def apply_offset_single(point_id: str, hour: int, offset_map: dict, label: str) -> float:
     tod = "오전" if hour < 12 else "오후"
@@ -92,7 +106,9 @@ def build_interpolated_points(extra_points_csv, real_results):
 
         results.append({
             "id": ep["id"],
+            "code": ep["id"],
             "name": ep["name"],
+            "detailName": ep["name"],
             "lat": ep["lat"],
             "lon": ep["lon"],
             "elevation_m": ep.get("elevation_m"),
@@ -114,7 +130,13 @@ def main():
                      help="온습도 센서가 없는 추가 지점 목록 CSV (id,name,lat,lon,elevation_m) - 선택")
     ap.add_argument("--current-obs", required=False, default=None,
                      help="fetch_current_obs.py가 만든 current_obs.json 경로 (선택)")
+    ap.add_argument("--point-names", required=False, default=None,
+                     help="지점 코드->세부지명 매핑 CSV (id,name) - 선택, data/point_names.csv")
     args = ap.parse_args()
+
+    point_names_map = load_point_names(args.point_names)
+    if point_names_map:
+        print(f"지점 세부지명 {len(point_names_map)}개 로드됨")
 
     current_obs = {}
     if args.current_obs and os.path.exists(args.current_obs):
@@ -219,9 +241,16 @@ def main():
                 "wind": obs_entry.get("WSD"),
             }
 
+        # 코드가 "북한00-00" 형식이 아닌 예외(예: 족두리봉)는 수동 매핑으로 코드를 보정
+        raw_name = st["다목적위치표지판번호"]
+        code = CODE_ALIASES.get(raw_name, raw_name)
+        detail_name = point_names_map.get(code)
+
         results.append({
             "id": st["국가지점번호"],
-            "name": st["다목적위치표지판번호"],
+            "code": code,
+            "name": code,
+            "detailName": detail_name,
             "lat": st["GNSS-위도"],
             "lon": st["GNSS-경도"],
             "obs": obs_out,
@@ -234,6 +263,19 @@ def main():
     if extra_results:
         print(f"보간 추정 지점 {len(extra_results)}개 추가됨 (실측 없음, 주변 지점 IDW 보간)")
     all_results = results + extra_results
+
+    # 원본 데이터 자체에 같은 코드(예: "둘레길105-02")가 서로 다른 실제 좌표의
+    # 센서 2개에 중복 부여된 경우가 있어서, 화면에서 헷갈리지 않게 순번을 붙여 구분
+    from collections import Counter
+    code_counts = Counter(p["code"] for p in all_results)
+    seen = Counter()
+    for p in all_results:
+        if code_counts[p["code"]] > 1:
+            seen[p["code"]] += 1
+            original = p["code"]
+            p["code"] = f"{original}-{seen[original]}"
+            p["name"] = p["code"]
+            print(f"[안내] 코드 중복 발견, 구분자 추가: {original} -> {p['code']} (좌표 {p['lat']},{p['lon']})")
 
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(all_results, f, ensure_ascii=False, indent=2)
