@@ -12,7 +12,9 @@ permissions:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    # apis.data.go.kr가 GitHub 클라우드 서버(해외 IP)를 막고 있어서, 자기 PC를
+    # self-hosted runner로 등록해서 거기서 돌리는 방식으로 바꿈. README 참고.
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
 
@@ -55,17 +57,10 @@ jobs:
           cd predictor
           python fetch_weather_warning.py --out ../frontend/warnings.json
 
-      - name: 산불위험지수 수집
-        env:
-          FOREST_FIRE_API_KEY: ${{ secrets.FOREST_FIRE_API_KEY }}
-        run: |
-          cd predictor
-          python fetch_fire_risk.py --out ../frontend/fire_risk.json
-
       - name: 변경사항 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add frontend/points_predictions.json data/weather/forecast.csv data/weather/current_obs.json frontend/warnings.json frontend/fire_risk.json
+          git add frontend/points_predictions.json data/weather/forecast.csv data/weather/current_obs.json frontend/warnings.json
           git diff --cached --quiet || git commit -m "예보 자동 갱신 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
