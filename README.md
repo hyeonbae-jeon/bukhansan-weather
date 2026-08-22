@@ -67,6 +67,7 @@ python generate_predictions.py \
   --model-dir ../data/model_final \
   --sensor ../data/sensor/sensor_merged.csv \
   --extra-points ../data/extra_points.csv \
+  --point-names ../data/point_names.csv \
   --out ../frontend/points_predictions.json
 ```
 `frontend/points_predictions.json`에 실측 모델 지점(120개) + 온습도 센서가 없는 추가 지점
