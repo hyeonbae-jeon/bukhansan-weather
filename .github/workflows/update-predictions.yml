@@ -49,6 +49,7 @@ jobs:
             --sensor ../data/sensor/sensor_merged.csv \
             --current-obs ../data/weather/current_obs.json \
             --extra-points ../data/extra_points.csv \
+            --point-names ../data/point_names.csv \
             --out ../frontend/points_predictions.json
 
       - name: 기상특보 수집
