@@ -30,12 +30,88 @@ def apply_offset_single(point_id: str, hour: int, offset_map: dict, label: str) 
     return offset_map.get(label, {}).get(key, 0.0)
 
 
+def haversine_km(lat1, lon1, lat2, lon2):
+    import math
+    R = 6371.0
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = math.sin(dlat / 2) ** 2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2) ** 2
+    return R * 2 * math.asin(min(1, math.sqrt(a)))
+
+
+def build_interpolated_points(extra_points_csv, real_results):
+    """온습도 센서가 없는 지점들을, 실측 기반 모델 예측이 있는 주변 지점들로부터
+    역거리가중(IDW)으로 보간해서 만든다. 모델 예측이 아니라 '추정치'임을
+    interpolated:true로 명시해서 프론트에서 구분 표시할 수 있게 한다."""
+    if not extra_points_csv or not os.path.exists(extra_points_csv):
+        return []
+
+    extra_df = pd.read_csv(extra_points_csv)
+    if extra_df.empty:
+        return []
+
+    # 모든 지점이 공유하는 예보 시각 목록 (첫 실측 지점 기준)
+    times = [f["time"] for f in real_results[0]["forecasts"]] if real_results else []
+
+    results = []
+    for _, ep in extra_df.iterrows():
+        forecasts = []
+        for t in times:
+            num_t, den_t, num_h, den_h = 0.0, 0.0, 0.0, 0.0
+            ref_row = None
+            for rp in real_results:
+                f = next((x for x in rp["forecasts"] if x["time"] == t), None)
+                if not f or f["temp"] is None:
+                    continue
+                d = haversine_km(ep["lat"], ep["lon"], rp["lat"], rp["lon"])
+                if d < 0.01:
+                    num_t, den_t = f["temp"], 1
+                    num_h, den_h = (f["humidity"] or 0), 1
+                    ref_row = f
+                    break
+                w = 1 / (d ** 2)
+                num_t += w * f["temp"]
+                den_t += w
+                if f["humidity"] is not None:
+                    num_h += w * f["humidity"]
+                    den_h += w
+                if ref_row is None:
+                    ref_row = f  # 강수형태 등은 가장 처음 만난 지점 값으로 근사
+
+            temp = round(num_t / den_t, 1) if den_t > 0 else None
+            hum = round(num_h / den_h, 1) if den_h > 0 else None
+            forecasts.append({
+                "time": t,
+                "temp": temp,
+                "humidity": hum,
+                "pty": ref_row["pty"] if ref_row else 0,
+                "sky": ref_row["sky"] if ref_row else None,
+                "pop": ref_row["pop"] if ref_row else None,
+                "wind": ref_row["wind"] if ref_row else None,
+            })
+
+        results.append({
+            "id": ep["id"],
+            "name": ep["name"],
+            "lat": ep["lat"],
+            "lon": ep["lon"],
+            "elevation_m": ep.get("elevation_m"),
+            "obs": None,
+            "interpolated": True,  # AI 모델 예측이 아니라 주변 지점 보간 추정치임을 표시
+            "forecasts": forecasts,
+        })
+
+    return results
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--forecast", required=True)
     ap.add_argument("--model-dir", required=True)
     ap.add_argument("--sensor", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--extra-points", required=False, default=None,
+                     help="온습도 센서가 없는 추가 지점 목록 CSV (id,name,lat,lon,elevation_m) - 선택")
     ap.add_argument("--current-obs", required=False, default=None,
                      help="fetch_current_obs.py가 만든 current_obs.json 경로 (선택)")
     args = ap.parse_args()
@@ -153,10 +229,16 @@ def main():
         })
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"저장 완료: {args.out} ({len(results)}개 지점)")
+    extra_results = build_interpolated_points(args.extra_points, results)
+    if extra_results:
+        print(f"보간 추정 지점 {len(extra_results)}개 추가됨 (실측 없음, 주변 지점 IDW 보간)")
+    all_results = results + extra_results
+
+    with open(args.out, "w", encoding="utf-8") as f:
+        json.dump(all_results, f, ensure_ascii=False, indent=2)
+
+    print(f"저장 완료: {args.out} (모델 예측 {len(results)}개 + 보간 추정 {len(extra_results)}개 = 총 {len(all_results)}개 지점)")
 
 
 if __name__ == "__main__":
