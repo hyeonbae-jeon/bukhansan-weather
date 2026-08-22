@@ -9,7 +9,7 @@ import time
 import requests
 
 
-def get_with_retry(url, params, timeout=30, max_retries=3, backoff_seconds=5):
+def get_with_retry(url, params, timeout=30, max_retries=5, backoff_seconds=5):
     last_exc = None
     for attempt in range(1, max_retries + 1):
         try:
