@@ -14,7 +14,11 @@ def get_with_retry(url, params, timeout=30, max_retries=3, backoff_seconds=5):
     for attempt in range(1, max_retries + 1):
         try:
             resp = requests.get(url, params=params, timeout=timeout)
-            resp.raise_for_status()
+            if not resp.ok:
+                # 4xx/5xx는 재시도해도 안 바뀔 가능성이 높아서 재시도는 안 하되,
+                # 서버가 실제로 뭐라고 답했는지(원인 파악용) 반드시 출력하고 던진다.
+                print(f"[오류] HTTP {resp.status_code} 응답 본문: {resp.text[:1000]}")
+                resp.raise_for_status()
             return resp
         except (requests.exceptions.ConnectTimeout,
                 requests.exceptions.ConnectionError,
