@@ -36,7 +36,17 @@ def main():
     ap.add_argument("--model-dir", required=True)
     ap.add_argument("--sensor", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--current-obs", required=False, default=None,
+                     help="fetch_current_obs.py가 만든 current_obs.json 경로 (선택)")
     args = ap.parse_args()
+
+    current_obs = {}
+    if args.current_obs and os.path.exists(args.current_obs):
+        with open(args.current_obs, encoding="utf-8") as f:
+            current_obs = json.load(f)
+        print(f"실황 데이터 로드됨: {len(current_obs)}개 격자")
+    else:
+        print("실황 데이터 없음 (--current-obs 미지정 또는 파일 없음) — obs 필드는 null로 채워짐")
 
     forecast = pd.read_csv(args.forecast)
     forecast["fcstDateTime"] = pd.to_datetime(forecast["fcstDateTime"])
@@ -103,13 +113,42 @@ def main():
                 "time": f["fcstDateTime"].strftime("%Y-%m-%dT%H:%M"),
                 "temp": pred_temp,
                 "humidity": pred_hum,
+                # 아래는 모델 보정 없이 기상청 예보 원본값 그대로 (강수형태/하늘상태/강수확률/풍속)
+                # 산악지형 위험요소(비/눈/소나기 등) 표시에 사용
+                "pty": int(pty) if pd.notna(pty) else 0,
+                "sky": int(sky) if pd.notna(sky) else None,
+                "pop": float(f.get("POP")) if pd.notna(f.get("POP")) else None,
+                "wind": float(f.get("WSD")) if pd.notna(f.get("WSD")) else None,
+                # 진단용: 이 값이 어떻게 계산됐는지 투명하게 보여주기 위한 분해값
+                # 최종예측 = 기상청예보원본값 + modelOffset(지점×시간대 평균편차) + modelResidual(그날 기상조건별 추가보정)
+                "refTemp": round(float(f.get("TMP")), 1) if pd.notna(f.get("TMP")) else None,
+                "refHumidity": round(float(f.get("REH")), 1) if pd.notna(f.get("REH")) else None,
+                "modelOffsetTemp": round(float(offset_t), 2),
+                "modelOffsetHumidity": round(float(offset_h), 2),
+                "modelResidualTemp": round(float(resid_t), 2),
+                "modelResidualHumidity": round(float(resid_h), 2),
             })
+
+        # 지금 실제 관측값(있으면) — 예보가 아니라 진짜 지금 관측된 값
+        obs_entry = current_obs.get(st["grid"]) if current_obs else None
+        obs_out = None
+        if obs_entry:
+            obs_pty = obs_entry.get("PTY")
+            obs_out = {
+                "baseDateTime": obs_entry.get("baseDateTime"),
+                "temp": obs_entry.get("T1H"),
+                "humidity": obs_entry.get("REH"),
+                "rain1h": obs_entry.get("RN1"),
+                "pty": int(obs_pty) if obs_pty is not None else 0,
+                "wind": obs_entry.get("WSD"),
+            }
 
         results.append({
             "id": st["국가지점번호"],
             "name": st["다목적위치표지판번호"],
             "lat": st["GNSS-위도"],
             "lon": st["GNSS-경도"],
+            "obs": obs_out,
             "forecasts": rows,
         })
 
