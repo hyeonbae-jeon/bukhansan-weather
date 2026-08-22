@@ -55,10 +55,17 @@ jobs:
           cd predictor
           python fetch_weather_warning.py --out ../frontend/warnings.json
 
+      - name: 산불위험지수 수집
+        env:
+          FOREST_FIRE_API_KEY: ${{ secrets.FOREST_FIRE_API_KEY }}
+        run: |
+          cd predictor
+          python fetch_fire_risk.py --out ../frontend/fire_risk.json
+
       - name: 변경사항 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add frontend/points_predictions.json data/weather/forecast.csv data/weather/current_obs.json frontend/warnings.json
+          git add frontend/points_predictions.json data/weather/forecast.csv data/weather/current_obs.json frontend/warnings.json frontend/fire_risk.json
           git diff --cached --quiet || git commit -m "예보 자동 갱신 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
