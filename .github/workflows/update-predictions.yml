@@ -1,0 +1,56 @@
+name: 예보 자동 갱신
+
+on:
+  schedule:
+    # 매시 정각 10분에 (초단기실황이 매시 정각 관측을 40분 뒤에 주기 때문에, 그보다
+    # 넉넉히 여유를 두고 fetch_current_obs.py가 알아서 직전 시각 데이터를 가져와요)
+    - cron: "10 * * * *"
+  workflow_dispatch: {}  # 수동 실행 버튼도 쓸 수 있게
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: 기상청 단기예보 수집
+        env:
+          KMA_API_KEY: ${{ secrets.KMA_API_KEY }}
+        run: |
+          cd predictor
+          python fetch_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/forecast.csv
+
+      - name: 기상청 초단기실황(현재 관측값) 수집
+        env:
+          KMA_API_KEY: ${{ secrets.KMA_API_KEY }}
+        run: |
+          cd predictor
+          python fetch_current_obs.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/current_obs.json
+
+      - name: 지점별 예측 생성
+        run: |
+          cd predictor
+          python generate_predictions.py \
+            --forecast ../data/weather/forecast.csv \
+            --model-dir ../data/model_final \
+            --sensor ../data/sensor/sensor_merged.csv \
+            --current-obs ../data/weather/current_obs.json \
+            --out ../frontend/points_predictions.json
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/points_predictions.json data/weather/forecast.csv data/weather/current_obs.json
+          git diff --cached --quiet || git commit -m "예보 자동 갱신 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
