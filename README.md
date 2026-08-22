@@ -151,9 +151,16 @@ Pages가 배포되면 `https://<계정명>.github.io/bukhansan-weather/` 같은 
 `.github/workflows/deploy-pages.yml`이 자동으로 사이트를 배포해요.
 
 ### 이후 자동으로 도는 것
-- **`.github/workflows/update-predictions.yml`**: 3시간마다 기상청 예보를 새로 받아서
+- **`.github/workflows/update-predictions.yml`**: 매시 정각 기상청 예보를 새로 받아서
   `points_predictions.json`을 갱신하고 커밋 → 자동으로 사이트도 재배포됨
 - **`.github/workflows/deploy-pages.yml`**: `frontend/` 폴더가 바뀔 때마다 자동 배포
+
+### 참고: apis.data.go.kr 연결이 가끔 실패할 수 있음
+GitHub 클라우드 서버에서 공공데이터포털로 연결이 가끔 타임아웃 나는 경우가 있어요(완전히
+막힌 건 아니고 간헐적). `http_retry.py`에서 최대 5번까지 자동 재시도하도록 되어있고,
+그래도 실패하면 그 시간 갱신만 건너뛰고 다음 정각에 다시 자동으로 시도해요 — 매시간
+도는 구조라 한 번 실패해도 크게 문제는 없어요. Actions 탭에서 자꾸 실패한다면 실패한
+단계의 로그를 확인해보세요.
 
 ### 자동화 안 되는 것 (수동으로 해야 함)
 - 북한산 센서 CSV(서울 열린데이터광장)는 다운로드 버튼이 자바스크립트라 자동 수집이 안 돼요.
