@@ -14,7 +14,7 @@
      그래서 카카오맵과 달리 브이월드는 반드시 페이지가 파싱되는 시점에 이렇게
      "정적인" <script>로 불러와야 한다.
      여기에 발급받은 브이월드 API 키를 넣어주세요 (아래 CONFIG.VWORLD_API_KEY와 같은 값). */
-  window.VWORLD_API_KEY = "YOUR_VWORLD_API_KEY";
+  window.VWORLD_API_KEY = "55A5E74D-1DB2-3073-A916-DE5E42B11EFA";
   document.write(
     '<scr' + 'ipt src="https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey=' +
     window.VWORLD_API_KEY + '"></scr' + 'ipt>'
@@ -647,7 +647,7 @@
    설정 — 발급받은 키를 여기에 넣으세요
    ========================================================= */
 const CONFIG = {
-  KAKAO_JS_KEY: "YOUR_KAKAO_JS_KEY",
+  KAKAO_JS_KEY: "9ec077ea84b6a8e3b5842e18758b00e1",
   // VWORLD_API_KEY는 더 이상 여기서 안 씀 — <head> 상단의 window.VWORLD_API_KEY에 넣으세요
   // (브이월드는 document.write 제약 때문에 페이지 파싱 시점에 정적으로 불러와야 해서 위치가 달라요)
   CENTER: { lat: 37.6332, lon: 126.9767 }, // 북한산 센서 지점들의 중심 좌표
