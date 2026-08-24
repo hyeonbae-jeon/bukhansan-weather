@@ -36,6 +36,13 @@ jobs:
           cd predictor
           python fetch_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/forecast.csv
 
+      - name: 기상청 초단기예보(6시간 이내 근접 예보) 수집
+        env:
+          KMA_API_KEY: ${{ secrets.KMA_API_KEY }}
+        run: |
+          cd predictor
+          python fetch_ultra_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/ultra_forecast.csv
+
       - name: 기상청 초단기실황(현재 관측값) 수집
         env:
           KMA_API_KEY: ${{ secrets.KMA_API_KEY }}
@@ -48,6 +55,7 @@ jobs:
           cd predictor
           python generate_predictions.py \
             --forecast ../data/weather/forecast.csv \
+            --ultra-forecast ../data/weather/ultra_forecast.csv \
             --model-dir ../data/model_final \
             --sensor ../data/sensor/sensor_merged.csv \
             --current-obs ../data/weather/current_obs.json \
@@ -67,6 +75,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add frontend/points_predictions.json frontend/reference_areas.json data/weather/forecast.csv data/weather/current_obs.json frontend/warnings.json
+          git add frontend/points_predictions.json frontend/reference_areas.json data/weather/forecast.csv data/weather/ultra_forecast.csv data/weather/current_obs.json frontend/warnings.json
           git diff --cached --quiet || git commit -m "예보 자동 갱신 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
