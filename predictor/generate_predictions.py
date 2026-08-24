@@ -215,6 +215,9 @@ def main():
                      help="지점 코드->세부지명 매핑 CSV (id,name) - 선택, data/point_names.csv")
     ap.add_argument("--reference-areas-out", required=False, default=None,
                      help="'기상청 관측값' 지역 선택용 별도 JSON 저장 경로 (선택, 예: ../frontend/reference_areas.json)")
+    ap.add_argument("--ultra-forecast", required=False, default=None,
+                     help="fetch_ultra_forecast.py가 만든 6시간 이내 초단기예보 CSV 경로 (선택) - "
+                          "있으면 겹치는 시각의 기온/습도/강수형태/하늘상태/바람을 이걸로 우선 대체")
     args = ap.parse_args()
 
     point_names_map = load_point_names(args.point_names)
@@ -235,6 +238,20 @@ def main():
         if c in forecast.columns:
             forecast[c] = pd.to_numeric(forecast[c], errors="coerce")
 
+    ultra_forecast = None
+    if args.ultra_forecast and os.path.exists(args.ultra_forecast):
+        ultra_forecast = pd.read_csv(args.ultra_forecast)
+        if not ultra_forecast.empty:
+            ultra_forecast["fcstDateTime"] = pd.to_datetime(ultra_forecast["fcstDateTime"])
+            for c in ["T1H", "REH", "WSD", "VEC", "SKY", "PTY"]:
+                if c in ultra_forecast.columns:
+                    ultra_forecast[c] = pd.to_numeric(ultra_forecast[c], errors="coerce")
+            print(f"초단기예보 로드됨: {len(ultra_forecast)}행 (6시간 이내 시각은 이 값을 우선 사용)")
+        else:
+            ultra_forecast = None
+    else:
+        print("초단기예보 없음 (--ultra-forecast 미지정 또는 파일 없음) — 단기예보만 사용")
+
     with open(os.path.join(args.model_dir, "offsets.json"), encoding="utf-8") as f:
         offsets = json.load(f)
     with open(os.path.join(args.model_dir, "station_meta.json"), encoding="utf-8") as f:
@@ -254,23 +271,51 @@ def main():
         fc = forecast[forecast["grid"] == st["grid"]].sort_values("fcstDateTime")
         if fc.empty:
             continue
+        # 초단기예보(있으면)는 지금부터 6시간 이내만 커버하지만 매시 갱신되고
+        # 소나기처럼 3시간 단위 단기예보가 놓치기 쉬운 급변 기상을 더 잘 잡는다 —
+        # 시각이 겹치면 이쪽 값을 우선 씀. 격자별로 시각→행 조회가 빠르게 되도록 인덱싱.
+        ultra_fc = None
+        if ultra_forecast is not None:
+            g = ultra_forecast[ultra_forecast["grid"] == st["grid"]]
+            if not g.empty:
+                ultra_fc = g.set_index("fcstDateTime")
 
         rows = []
         for _, f in fc.iterrows():
             hour = f["fcstDateTime"].hour
             month = f["fcstDateTime"].month
             dow = f["fcstDateTime"].dayofweek
-            sky = f.get("SKY", np.nan)
+
+            # 이 시각에 초단기예보 값이 있으면(=6시간 이내) 기온/습도/하늘상태/강수형태/
+            # 바람을 그걸로 대체. 강수확률(POP)은 초단기예보에 없는 항목이라 항상
+            # 단기예보(f) 값을 그대로 씀.
+            u = None
+            if ultra_fc is not None and f["fcstDateTime"] in ultra_fc.index:
+                u = ultra_fc.loc[f["fcstDateTime"]]
+                if isinstance(u, pd.DataFrame):  # 혹시 같은 시각이 중복으로 있으면 첫 행만
+                    u = u.iloc[0]
+
+            def pick(ultra_col, regular_col, regular_default=np.nan):
+                if u is not None and pd.notna(u.get(ultra_col, np.nan)):
+                    return u[ultra_col]
+                return f.get(regular_col, regular_default)
+
+            tmp_val = pick("T1H", "TMP")
+            reh_val = pick("REH", "REH")
+            sky = pick("SKY", "SKY")
+            pty = pick("PTY", "PTY", 0)
+            wsd_val = pick("WSD", "WSD")
+            vec_val = pick("VEC", "VEC", 0)
+
             cloud = SKY_TO_CLOUD.get(int(sky), 5) if pd.notna(sky) else 5
-            pty = f.get("PTY", 0)
             rain_proxy = 0.0 if pd.isna(pty) or pty == 0 else max(float(f.get("POP", 30)) / 100.0 * 3.0, 0.5)
-            wind_rad = np.deg2rad(f.get("VEC", 0) if pd.notna(f.get("VEC", 0)) else 0)
+            wind_rad = np.deg2rad(vec_val if pd.notna(vec_val) else 0)
 
             feat = pd.DataFrame([{
-                "기온": f.get("TMP", np.nan),
-                "기준습도": f.get("REH", np.nan),
+                "기온": tmp_val,
+                "기준습도": reh_val,
                 "강수량": rain_proxy,
-                "풍속": f.get("WSD", np.nan),
+                "풍속": wsd_val,
                 "전운량": cloud,
                 "시간대": hour,
                 "월": month,
@@ -289,15 +334,20 @@ def main():
             resid_t = model_temp.predict(feat)[0]
             resid_h = model_hum.predict(feat)[0]
 
-            pred_temp = round(float(f.get("TMP", np.nan)) + offset_t + resid_t, 1) if pd.notna(f.get("TMP")) else None
-            pred_hum = round(float(f.get("REH", np.nan)) + offset_h + resid_h, 1) if pd.notna(f.get("REH")) else None
+            pred_temp = round(float(tmp_val) + offset_t + resid_t, 1) if pd.notna(tmp_val) else None
+            pred_hum = round(float(reh_val) + offset_h + resid_h, 1) if pd.notna(reh_val) else None
 
             # 강수량(비)/적설량(눈)은 지점별로 보정할 근거가 없다(센서가 온습도만 재고
             # 강수는 안 재서 학습 데이터가 없음) — 기상청 격자 예보값을 그대로 씀.
             # PTY로 비/눈 중 어느 쪽 수치를 봐야 하는지 정해서 그 필드만 파싱.
             pty_int = int(pty) if pd.notna(pty) else 0
             is_snow_type = pty_int in (3, 7)  # 3=눈, 7=눈날림
-            precip_raw = f.get("SNO") if is_snow_type else f.get("PCP")
+            # 초단기예보엔 적설량(SNO) 항목이 없어서, 눈 예보일 땐 그대로 단기예보의
+            # SNO를 쓰고, 비 계열일 때만(RN1 있으면) 초단기예보 값을 우선한다.
+            if not is_snow_type and u is not None and pd.notna(u.get("RN1", np.nan)):
+                precip_raw = u.get("RN1")
+            else:
+                precip_raw = f.get("SNO") if is_snow_type else f.get("PCP")
             precip_mm, precip_label = parse_precip_amount(precip_raw, "cm" if is_snow_type else "mm")
 
             rows.append({
@@ -312,11 +362,11 @@ def main():
                 "precipMm": precip_mm,        # 눈이면 cm 단위(적설량), 비면 mm(강수량) — precipUnit 참고
                 "precipUnit": "cm" if is_snow_type else "mm",
                 "precipLabel": precip_label,  # "1mm 미만"처럼 정확한 수치가 아닐 때 원문 그대로
-                "wind": float(f.get("WSD")) if pd.notna(f.get("WSD")) else None,
+                "wind": float(wsd_val) if pd.notna(wsd_val) else None,
                 # 진단용: 이 값이 어떻게 계산됐는지 투명하게 보여주기 위한 분해값
                 # 최종예측 = 기상청예보원본값 + modelOffset(지점×시간대 평균편차) + modelResidual(그날 기상조건별 추가보정)
-                "refTemp": round(float(f.get("TMP")), 1) if pd.notna(f.get("TMP")) else None,
-                "refHumidity": round(float(f.get("REH")), 1) if pd.notna(f.get("REH")) else None,
+                "refTemp": round(float(tmp_val), 1) if pd.notna(tmp_val) else None,
+                "refHumidity": round(float(reh_val), 1) if pd.notna(reh_val) else None,
                 "modelOffsetTemp": round(float(offset_t), 2),
                 "modelOffsetHumidity": round(float(offset_h), 2),
                 "modelResidualTemp": round(float(resid_t), 2),
