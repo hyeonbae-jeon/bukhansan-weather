@@ -10,7 +10,7 @@ import argparse
 import os
 import sys
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote
 
 import requests
@@ -22,6 +22,10 @@ from kma_grid import latlon_to_grid
 
 BASE_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst"
 BASE_TIMES = ["0200", "0500", "0800", "1100", "1400", "1700", "2000", "2300"]
+# GitHub Actions 실행기(ubuntu-latest)는 시스템 시간대가 UTC라, timezone 정보 없이
+# datetime.now()를 쓰면 한국시간(KST, UTC+9)보다 9시간 뒤처진 "지금"이 나온다 — 반드시
+# 명시적으로 한국시간 기준으로 계산해야 함 (fetch_current_obs.py 상단 설명 참고).
+KST = timezone(timedelta(hours=9))
 
 
 def latest_base_datetime(now: datetime):
@@ -30,7 +34,9 @@ def latest_base_datetime(now: datetime):
     candidates = []
     for d in [now.date(), now.date() - timedelta(days=1)]:
         for t in BASE_TIMES:
-            dt = datetime.combine(d, datetime.strptime(t, "%H%M").time())
+            # now가 KST 등 timezone-aware라 candidate도 같은 tzinfo를 붙여야
+            # 아래 "c + timedelta(...) <= now" 비교에서 naive/aware 섞여 에러 안 남
+            dt = datetime.combine(d, datetime.strptime(t, "%H%M").time(), tzinfo=now.tzinfo)
             candidates.append(dt)
     candidates = sorted(candidates)
     usable = [c for c in candidates if c + timedelta(minutes=10) <= now]
@@ -82,7 +88,7 @@ def main():
     unique_grids = points["grid"].unique()
     print(f"고유 격자 셀 {len(unique_grids)}개: {list(unique_grids)}")
 
-    now = datetime.now()
+    now = datetime.now(KST)
     base_date, base_time = latest_base_datetime(now)
     print(f"기준 발표시각: {base_date} {base_time}")
 

@@ -15,7 +15,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote
 
 import requests
@@ -26,6 +26,12 @@ import pandas as pd
 from kma_grid import latlon_to_grid
 
 BASE_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst"
+# GitHub Actions 실행기(ubuntu-latest)는 시스템 시간대가 UTC라, timezone 정보 없이
+# datetime.now()를 쓰면 한국시간(KST, UTC+9)보다 9시간 뒤처진 값이 나온다. 그 어긋난
+# "지금"으로 기준시각을 계산해도 KMA API 요청 자체는 (그 과거 시각의 자료가 실제로
+# 있으니) 에러 없이 성공해버려서, 파이프라인은 매번 정상 종료되는데 관측값은 계속
+# 9~10시간 전 것만 갱신되는 상황이 생겼었다. 반드시 한국시간 기준으로 계산해야 함.
+KST = timezone(timedelta(hours=9))
 
 
 def latest_base_datetime(now: datetime):
@@ -89,7 +95,7 @@ def main():
     unique_grids = points["grid"].unique()
     print(f"고유 격자 셀 {len(unique_grids)}개: {list(unique_grids)}")
 
-    now = datetime.now()
+    now = datetime.now(KST)
     base_date, base_time = latest_base_datetime(now)
     print(f"기준 관측시각: {base_date} {base_time}")
 

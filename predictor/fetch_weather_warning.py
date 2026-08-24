@@ -19,7 +19,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote
 
 import requests
@@ -27,6 +27,10 @@ import requests
 from http_retry import get_with_retry
 
 BASE_URL = "https://apis.data.go.kr/1360000/WthrWrnInfoService/getWthrWrnMsg"
+# GitHub Actions 실행기(ubuntu-latest)는 시스템 시간대가 UTC라, timezone 정보 없이
+# datetime.now()를 쓰면 한국시간(KST, UTC+9)보다 9시간 뒤처진 "지금"이 나온다 — 반드시
+# 명시적으로 한국시간 기준으로 계산해야 함 (fetch_current_obs.py 상단 설명 참고).
+KST = timezone(timedelta(hours=9))
 
 # 북한산이 걸쳐있는 행정구역 — 이 이름이 특보 통보문 텍스트에 등장하면 우리 지역 특보로 판단.
 # 호우·강풍 등은 기상청이 "서북권/동북권" 같은 예보구역 단위로 특보를 내지만, 폭염 등은
@@ -64,7 +68,7 @@ def parse_warning_text(t6: str):
 
 
 def fetch(service_key: str, debug: bool = False):
-    now = datetime.now()
+    now = datetime.now(KST)
     params = {
         "serviceKey": service_key,
         "pageNo": 1,
@@ -102,12 +106,12 @@ def main():
     rows = fetch(service_key, debug=args.debug)
     if not rows:
         print("받아온 통보문이 없습니다 (특보가 없을 수도, 요청 파라미터가 안 맞을 수도 있어요).")
-        result = {"updatedAt": datetime.now().isoformat(), "warnings": []}
+        result = {"updatedAt": datetime.now(KST).isoformat(), "warnings": []}
     else:
         latest = rows[0]  # 가장 최근 통보문 하나만 사용
         matched = parse_warning_text(latest.get("t6", ""))
         result = {
-            "updatedAt": datetime.now().isoformat(),
+            "updatedAt": datetime.now(KST).isoformat(),
             "tmFc": latest.get("tmFc"),
             "tmEf": latest.get("tmEf"),
             "warnings": matched,
