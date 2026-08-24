@@ -50,7 +50,8 @@ jobs:
             --current-obs ../data/weather/current_obs.json \
             --extra-points ../data/extra_points.csv \
             --point-names ../data/point_names.csv \
-            --out ../frontend/points_predictions.json
+            --out ../frontend/points_predictions.json \
+            --reference-areas-out ../frontend/reference_areas.json
 
       - name: 기상특보 수집
         env:
@@ -63,6 +64,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add frontend/points_predictions.json data/weather/forecast.csv data/weather/current_obs.json frontend/warnings.json
+          git add frontend/points_predictions.json frontend/reference_areas.json data/weather/forecast.csv data/weather/current_obs.json frontend/warnings.json
           git diff --cached --quiet || git commit -m "예보 자동 갱신 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
