@@ -6,11 +6,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 0500",
-      "temp": 25.3,
+      "temp": 25.4,
       "humidity": 100.0,
-      "rain1h": 3.5,
+      "rain1h": 5.0,
       "pty": 1,
-      "wind": 1.4
+      "wind": 1.2
     }
   },
   {
@@ -20,11 +20,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 0500",
-      "temp": 25.3,
+      "temp": 25.4,
       "humidity": 100.0,
-      "rain1h": 3.5,
+      "rain1h": 5.0,
       "pty": 1,
-      "wind": 1.4
+      "wind": 1.2
     }
   },
   {
@@ -38,7 +38,7 @@
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.9
+      "wind": 1.2
     }
   },
   {
@@ -48,11 +48,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 0500",
-      "temp": 25.3,
+      "temp": 25.4,
       "humidity": 100.0,
-      "rain1h": 3.5,
+      "rain1h": 5.0,
       "pty": 1,
-      "wind": 1.4
+      "wind": 1.2
     }
   },
   {
@@ -62,11 +62,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 0500",
-      "temp": 25.3,
+      "temp": 25.4,
       "humidity": 100.0,
-      "rain1h": 3.5,
+      "rain1h": 5.0,
       "pty": 1,
-      "wind": 1.4
+      "wind": 1.2
     }
   },
   {
@@ -78,9 +78,9 @@
       "baseDateTime": "20260825 0500",
       "temp": 25.3,
       "humidity": 90.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 0.4
+      "rain1h": 5.0,
+      "pty": 1,
+      "wind": 1.0
     }
   },
   {
@@ -92,9 +92,9 @@
       "baseDateTime": "20260825 0500",
       "temp": 25.3,
       "humidity": 90.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 0.4
+      "rain1h": 5.0,
+      "pty": 1,
+      "wind": 1.0
     }
   },
   {
@@ -108,7 +108,7 @@
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.9
+      "wind": 1.2
     }
   },
   {
@@ -120,9 +120,9 @@
       "baseDateTime": "20260825 0500",
       "temp": 25.3,
       "humidity": 90.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 0.4
+      "rain1h": 5.0,
+      "pty": 1,
+      "wind": 1.0
     }
   }
 ]
