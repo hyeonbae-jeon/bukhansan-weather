@@ -113,9 +113,33 @@ def main():
         index=["grid", "fcstDateTime"], columns="category", values="fcstValue", aggfunc="first"
     ).reset_index()
 
+    # 기상청 단기예보 API는 "지금부터 미래"만 돌려주고 지나간 시각은 다시 안 줘서,
+    # 매번 덮어쓰기만 하면 "몇 시간 전" 데이터가 사라져 지도의 과거 슬라이더가
+    # 반쪽만 채워졌었다. 그래서 기존 파일을 이어붙여(누적) 과거 구간을 보존하고,
+    # 최신 값(이번에 새로 받은 값)으로 겹치는 시각은 덮어쓴 뒤, 파일이 무한정
+    # 커지지 않도록 [지금-30시간, 지금+80시간] 밖은 잘라낸다.
+    if os.path.exists(args.out):
+        try:
+            old = pd.read_csv(args.out, parse_dates=["fcstDateTime"])
+            combined = pd.concat([old, pivot], ignore_index=True)
+            # keep="last": pivot(새로 받은 값)이 old보다 뒤에 있으니, 겹치는
+            # (grid, fcstDateTime)은 새 값이 이긴다
+            combined = combined.drop_duplicates(subset=["grid", "fcstDateTime"], keep="last")
+        except Exception as e:
+            print(f"  경고: 기존 파일을 못 읽어서 새로 받은 값만 씀 - {e}", file=sys.stderr)
+            combined = pivot
+    else:
+        combined = pivot
+
+    now_naive = now.replace(tzinfo=None)  # fcstDateTime은 타임존 정보 없는 한국시간 기준
+    window_start = now_naive - timedelta(hours=30)
+    window_end = now_naive + timedelta(hours=80)
+    combined = combined[(combined["fcstDateTime"] >= window_start) & (combined["fcstDateTime"] <= window_end)]
+    combined = combined.sort_values(["grid", "fcstDateTime"]).reset_index(drop=True)
+
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
-    pivot.to_csv(args.out, index=False)
-    print(f"저장 완료: {args.out} ({len(pivot)}행, {pivot['grid'].nunique()}개 격자)")
+    combined.to_csv(args.out, index=False)
+    print(f"저장 완료: {args.out} ({len(combined)}행, {combined['grid'].nunique()}개 격자, 누적 기간 {window_start}~{window_end})")
 
 
 if __name__ == "__main__":
