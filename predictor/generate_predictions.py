@@ -12,6 +12,7 @@
 import argparse
 import json
 import os
+import re
 
 import numpy as np
 import pandas as pd
@@ -22,6 +23,28 @@ from kma_grid import latlon_to_grid
 # 기상청 단기예보의 하늘상태(SKY) 코드(1=맑음,3=구름많음,4=흐림)를
 # 학습에 쓴 ASOS 전운량(0~10 정수) 스케일에 대략 맞춰 변환. 정밀 매핑이 아니라 근사치.
 SKY_TO_CLOUD = {1: 1, 3: 6, 4: 9}
+
+
+def parse_precip_amount(raw, unit):
+    """기상청 PCP(강수량)/SNO(적설량) 원본값은 숫자가 아니라 "3.0mm", "1mm 미만",
+    "강수없음"/"적설없음" 같은 문자열(가끔 범위 표기 "30.0~50.0mm"도 있음)이라
+    그대로는 못 쓴다. 최대한 숫자(mm 또는 cm)로 바꾸고, 원본 문자열도 같이 돌려줘서
+    프론트에서 "1mm 미만"처럼 애매한 경우엔 원문 그대로 보여줄 수 있게 한다.
+    반환: (근사값 또는 None, 원본 문자열 또는 None)"""
+    if raw is None or (isinstance(raw, float) and pd.isna(raw)):
+        return None, None
+    s = str(raw).strip()
+    if s in ("강수없음", "적설없음", "0", "0.0", ""):
+        return 0.0, s
+    if "미만" in s:
+        m = re.search(r"([\d.]+)", s)
+        return (round(float(m.group(1)) / 2, 1) if m else 0.5), s
+    nums = re.findall(r"[\d.]+", s)
+    if not nums:
+        return None, s
+    vals = [float(n) for n in nums]
+    return round(sum(vals) / len(vals), 1), s
+
 
 # 센서 지점명 중 "북한00-00" 코드 형식이 아닌 예외들. 원래는 "족두리봉"에 가장 가까운
 # 코드(북한65-02/북한65-03)를 붙이려 했는데, 둘 다 이미 다른 실측 센서가 쓰고 있는
@@ -269,15 +292,26 @@ def main():
             pred_temp = round(float(f.get("TMP", np.nan)) + offset_t + resid_t, 1) if pd.notna(f.get("TMP")) else None
             pred_hum = round(float(f.get("REH", np.nan)) + offset_h + resid_h, 1) if pd.notna(f.get("REH")) else None
 
+            # 강수량(비)/적설량(눈)은 지점별로 보정할 근거가 없다(센서가 온습도만 재고
+            # 강수는 안 재서 학습 데이터가 없음) — 기상청 격자 예보값을 그대로 씀.
+            # PTY로 비/눈 중 어느 쪽 수치를 봐야 하는지 정해서 그 필드만 파싱.
+            pty_int = int(pty) if pd.notna(pty) else 0
+            is_snow_type = pty_int in (3, 7)  # 3=눈, 7=눈날림
+            precip_raw = f.get("SNO") if is_snow_type else f.get("PCP")
+            precip_mm, precip_label = parse_precip_amount(precip_raw, "cm" if is_snow_type else "mm")
+
             rows.append({
                 "time": f["fcstDateTime"].strftime("%Y-%m-%dT%H:%M"),
                 "temp": pred_temp,
                 "humidity": pred_hum,
                 # 아래는 모델 보정 없이 기상청 예보 원본값 그대로 (강수형태/하늘상태/강수확률/풍속)
                 # 산악지형 위험요소(비/눈/소나기 등) 표시에 사용
-                "pty": int(pty) if pd.notna(pty) else 0,
+                "pty": pty_int,
                 "sky": int(sky) if pd.notna(sky) else None,
                 "pop": float(f.get("POP")) if pd.notna(f.get("POP")) else None,
+                "precipMm": precip_mm,        # 눈이면 cm 단위(적설량), 비면 mm(강수량) — precipUnit 참고
+                "precipUnit": "cm" if is_snow_type else "mm",
+                "precipLabel": precip_label,  # "1mm 미만"처럼 정확한 수치가 아닐 때 원문 그대로
                 "wind": float(f.get("WSD")) if pd.notna(f.get("WSD")) else None,
                 # 진단용: 이 값이 어떻게 계산됐는지 투명하게 보여주기 위한 분해값
                 # 최종예측 = 기상청예보원본값 + modelOffset(지점×시간대 평균편차) + modelResidual(그날 기상조건별 추가보정)
