@@ -130,6 +130,54 @@ def build_interpolated_points(extra_points_csv, real_results):
     return results
 
 
+# "기상청 관측값" 패널에서 고를 수 있는 주변 행정동 — 프론트엔드(index.html)의
+# REFERENCE_AREAS와 반드시 이름/좌표가 같아야 함(둘 다 수정할 것). 대부분 센서
+# 지점의 nx,ny 격자(9개 중 4개뿐)에 이미 다 들어와서, 격자를 새로 더 부르지
+# 않고도 이 지역들 각각의 진짜 자기 격자로 정확하게 매칭할 수 있다.
+REFERENCE_AREAS = [
+    {"name": "성북구 정릉동", "lat": 37.6068, "lon": 127.0089},
+    {"name": "강북구 수유동", "lat": 37.6392, "lon": 127.0165},
+    {"name": "강북구 우이동", "lat": 37.6633, "lon": 127.0122},
+    {"name": "종로구 구기동", "lat": 37.6058, "lon": 126.9611},
+    {"name": "종로구 평창동", "lat": 37.6114, "lon": 126.9706},
+    {"name": "은평구 진관동", "lat": 37.6386, "lon": 126.9317},
+    {"name": "은평구 불광동", "lat": 37.6106, "lon": 126.9296},
+    {"name": "고양시 덕양구 효자동", "lat": 37.6584, "lon": 126.9615},
+    {"name": "고양시 덕양구 북한동", "lat": 37.6693, "lon": 126.9515},
+]
+
+
+def build_reference_areas(current_obs: dict) -> list:
+    """각 지역의 실제 좌표로 계산한 자기 격자(nx,ny)에서 직접 관측값을 가져온다.
+    이전엔 "가장 가까운 센서 지점"을 거쳐서 관측값을 가져왔는데, 그 센서가 하필
+    다른 격자에 속해 있으면 엉뚱한(하지만 인접한) 격자의 값을 보여주는 셈이라
+    부정확할 수 있었음 — 이제 지역 좌표 → 격자를 직접 계산해서 그 문제를 없앤다."""
+    out = []
+    for area in REFERENCE_AREAS:
+        nx, ny = latlon_to_grid(area["lat"], area["lon"])
+        grid_key = f"{nx}_{ny}"
+        obs_entry = current_obs.get(grid_key) if current_obs else None
+        obs_out = None
+        if obs_entry:
+            obs_pty = obs_entry.get("PTY")
+            obs_out = {
+                "baseDateTime": obs_entry.get("baseDateTime"),
+                "temp": obs_entry.get("T1H"),
+                "humidity": obs_entry.get("REH"),
+                "rain1h": obs_entry.get("RN1"),
+                "pty": int(obs_pty) if obs_pty is not None else 0,
+                "wind": obs_entry.get("WSD"),
+            }
+        out.append({
+            "name": area["name"],
+            "lat": area["lat"],
+            "lon": area["lon"],
+            "grid": grid_key,
+            "obs": obs_out,
+        })
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--forecast", required=True)
@@ -142,6 +190,8 @@ def main():
                      help="fetch_current_obs.py가 만든 current_obs.json 경로 (선택)")
     ap.add_argument("--point-names", required=False, default=None,
                      help="지점 코드->세부지명 매핑 CSV (id,name) - 선택, data/point_names.csv")
+    ap.add_argument("--reference-areas-out", required=False, default=None,
+                     help="'기상청 관측값' 지역 선택용 별도 JSON 저장 경로 (선택, 예: ../frontend/reference_areas.json)")
     args = ap.parse_args()
 
     point_names_map = load_point_names(args.point_names)
@@ -293,6 +343,13 @@ def main():
         json.dump(all_results, f, ensure_ascii=False, indent=2)
 
     print(f"저장 완료: {args.out} (모델 예측 {len(results)}개 + 보간 추정 {len(extra_results)}개 = 총 {len(all_results)}개 지점)")
+
+    if args.reference_areas_out:
+        areas = build_reference_areas(current_obs)
+        os.makedirs(os.path.dirname(args.reference_areas_out) or ".", exist_ok=True)
+        with open(args.reference_areas_out, "w", encoding="utf-8") as f:
+            json.dump(areas, f, ensure_ascii=False, indent=2)
+        print(f"저장 완료: {args.reference_areas_out} (기준지역 {len(areas)}개)")
 
 
 if __name__ == "__main__":
