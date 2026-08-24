@@ -5,6 +5,14 @@ on:
     branches: [main]
     paths:
       - "frontend/**"
+  # "예보 자동 갱신" 워크플로우는 기본 GITHUB_TOKEN으로 커밋을 푸시하는데,
+  # GitHub은 보안상 GITHUB_TOKEN이 만든 푸시가 다른 워크플로우의 push 트리거를
+  # 작동시키지 않도록 막아둔다(무한 루프 방지). 그래서 데이터는 매시 정상
+  # 갱신·커밋되는데도 이 배포 워크플로우가 자동으로 안 돌아서 사이트가 계속
+  # 예전 데이터를 서빙하는 문제가 있었다 — workflow_run으로 우회해서 해결.
+  workflow_run:
+    workflows: ["예보 자동 갱신"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -18,12 +26,23 @@ concurrency:
 
 jobs:
   deploy:
+    # workflow_run으로 트리거된 경우엔 "예보 자동 갱신"이 실패했을 때는 배포를
+    # 건너뛴다(오래돼도 최소한 마지막 성공한 데이터를 계속 보여주는 게 나음).
+    # push나 workflow_dispatch로 트리거된 경우는 이 조건과 무관하게 항상 실행.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # ⚠️ workflow_run.head_sha를 쓰면 안 됨 — 그건 "예보 자동 갱신"이 시작될
+          # *때*의 main 커밋이라, 그 워크플로우 마지막 단계에서 새로 푸시한 데이터
+          # 커밋이 반영되기 *전* 시점이라 결국 옛날 데이터를 다시 배포하게 됨.
+          # workflow_run 이벤트 자체가 "예보 자동 갱신"이 완전히 끝난(=푸시까지 끝난)
+          # 뒤에야 발생하므로, 그냥 main의 최신 커밋을 그대로 받아오면 된다.
+          ref: main
 
       - uses: actions/configure-pages@v5
 
