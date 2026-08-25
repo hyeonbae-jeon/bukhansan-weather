@@ -50,6 +50,13 @@ jobs:
           cd predictor
           python fetch_current_obs.py --sensor ../data/sensor/sensor_merged.csv --boundary ../frontend/geo/boundary.geojson --out ../data/weather/current_obs.json
 
+      - name: AWS 실측 관측소(북한산 등 5개 지점) 수집
+        env:
+          KMA_HUB_AUTH_KEY: ${{ secrets.KMA_HUB_AUTH_KEY }}
+        run: |
+          cd predictor
+          python fetch_aws_obs.py --out ../data/weather/aws_obs.json
+
       - name: 지점별 예측 생성
         run: |
           cd predictor
@@ -62,7 +69,8 @@ jobs:
             --extra-points ../data/extra_points.csv \
             --point-names ../data/point_names.csv \
             --out ../frontend/points_predictions.json \
-            --reference-areas-out ../frontend/reference_areas.json
+            --reference-areas-out ../frontend/reference_areas.json \
+            --aws-obs ../data/weather/aws_obs.json
 
       - name: 기상특보 수집
         env:
@@ -75,6 +83,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add frontend/points_predictions.json frontend/reference_areas.json data/weather/forecast.csv data/weather/ultra_forecast.csv data/weather/current_obs.json frontend/warnings.json
+          git add frontend/points_predictions.json frontend/reference_areas.json data/weather/forecast.csv data/weather/ultra_forecast.csv data/weather/current_obs.json data/weather/aws_obs.json frontend/warnings.json
           git diff --cached --quiet || git commit -m "예보 자동 갱신 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
