@@ -6,11 +6,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 27.0,
-      "humidity": 77.0,
+      "temp": 27.1,
+      "humidity": 76.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -20,11 +20,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 27.0,
-      "humidity": 77.0,
+      "temp": 27.1,
+      "humidity": 76.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -34,11 +34,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 26.1,
-      "humidity": 75.0,
+      "temp": 25.9,
+      "humidity": 76.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.3
+      "wind": 1.7
     }
   },
   {
@@ -48,11 +48,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 27.0,
-      "humidity": 77.0,
+      "temp": 27.1,
+      "humidity": 76.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -62,11 +62,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 27.0,
-      "humidity": 77.0,
+      "temp": 27.1,
+      "humidity": 76.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -76,7 +76,7 @@
     "grid": "59_128",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 24.7,
+      "temp": 24.4,
       "humidity": 87.0,
       "rain1h": 0.0,
       "pty": 0,
@@ -90,7 +90,7 @@
     "grid": "59_128",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 24.7,
+      "temp": 24.4,
       "humidity": 87.0,
       "rain1h": 0.0,
       "pty": 0,
@@ -104,11 +104,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 26.1,
-      "humidity": 75.0,
+      "temp": 25.9,
+      "humidity": 76.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.3
+      "wind": 1.7
     }
   },
   {
@@ -118,46 +118,11 @@
     "grid": "59_129",
     "obs": {
       "baseDateTime": "20260825 2100",
-      "temp": 24.7,
+      "temp": 24.4,
       "humidity": 87.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
     }
-  },
-  {
-    "name": "북한산 (AWS 실측)",
-    "lat": 37.6332,
-    "lon": 126.9767,
-    "grid": null,
-    "obs": null
-  },
-  {
-    "name": "강북 (AWS 실측)",
-    "lat": 37.6633,
-    "lon": 127.0122,
-    "grid": null,
-    "obs": null
-  },
-  {
-    "name": "은평 (AWS 실측)",
-    "lat": 37.6106,
-    "lon": 126.9296,
-    "grid": null,
-    "obs": null
-  },
-  {
-    "name": "성북 (AWS 실측)",
-    "lat": 37.6068,
-    "lon": 127.0089,
-    "grid": null,
-    "obs": null
-  },
-  {
-    "name": "고양 (AWS 실측)",
-    "lat": 37.6584,
-    "lon": 126.9615,
-    "grid": null,
-    "obs": null
   }
 ]
