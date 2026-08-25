@@ -141,7 +141,16 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
     지점" 값을 그냥 갖다 썼는데, 그게 거리와 무관하게 리스트 순서상 우연히 먼저
     나온 지점이라 엉뚱한(먼) 지점의 값을 쓰는 경우가 있었다) 이제 이 지점 자신의
     좌표로 계산한 진짜 자기 격자에서 직접 가져온다 — 기온/습도만 IDW로 보간하고
-    강수 관련 값은 실측 지점과 무관하게 그 위치의 실제 격자 예보를 그대로 씀."""
+    강수 관련 값은 실측 지점과 무관하게 그 위치의 실제 격자 예보를 그대로 씀.
+
+    기온 보간에는 표준 기온감률(고도 100m당 약 0.65도) 보정을 더한다. 원래는
+    수평 거리 기반 IDW만 써서, 가까이 있어도 고도가 많이 다른 지점끼리(예:
+    능선 위 vs 계곡) 기온이 부자연스럽게 똑같이 나오는 문제가 있었음.
+    ⚠️ 정확히 하려면 "주변 실측 지점 하나하나의" 고도가 있어야 하는데, 지금
+    120개 실측 센서는 좌표만 있고 고도 데이터가 없다(75개 보간 지점만 있음) —
+    그래서 이 75개 지점 전체의 평균 고도를 기준선 삼아 "그 평균보다 높으면
+    더 춥게, 낮으면 더 따뜻하게"로 보정한다. 실측 센서 120개의 고도까지 확보
+    되면 지점별로 훨씬 정밀하게 보정할 수 있음."""
     if not extra_points_csv or not os.path.exists(extra_points_csv):
         return []
 
@@ -149,12 +158,16 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
     if extra_df.empty:
         return []
 
+    LAPSE_RATE_C_PER_100M = 0.65  # 대류권 평균 기온감률(표준대기)
+    mean_elevation = extra_df["elevation_m"].mean() if "elevation_m" in extra_df.columns else None
+
     # 모든 지점이 공유하는 예보 시각 목록 (첫 실측 지점 기준)
     times = [f["time"] for f in real_results[0]["forecasts"]] if real_results else []
 
     results = []
     for _, ep in extra_df.iterrows():
         ep_grid = "{}_{}".format(*latlon_to_grid(ep["lat"], ep["lon"]))
+        ep_elevation = ep.get("elevation_m")
 
         forecasts = []
         for t in times:
@@ -176,6 +189,9 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
                     den_h += w
 
             temp = round(num_t / den_t, 1) if den_t > 0 else None
+            if temp is not None and mean_elevation is not None and pd.notna(ep_elevation):
+                elev_diff = ep_elevation - mean_elevation
+                temp = round(temp - LAPSE_RATE_C_PER_100M * elev_diff / 100, 1)
             hum = round(num_h / den_h, 1) if den_h > 0 else None
 
             weather = lookup_grid_weather(ep_grid, pd.Timestamp(t), forecast, ultra_forecast)
@@ -219,12 +235,26 @@ REFERENCE_AREAS = [
     {"name": "고양시 덕양구 북한동", "lat": 37.6693, "lon": 126.9515},
 ]
 
+# 방재기상관측(AWS) 실측 지점 — 격자 대표값이 아니라 실제 관측소 원본값이라 더
+# 정확함(fetch_aws_obs.py 참고). 좌표는 정확한 설치 위치를 몰라서 각 구역 대략적인
+# 중심 근사치(표시/지도 중심 이동용일 뿐, 관측값 자체는 grid 계산 없이 그 관측소
+# 원본 그대로 씀).
+AWS_REFERENCE_AREAS = [
+    {"stn": "420", "name": "북한산 (AWS 실측)", "lat": 37.6332, "lon": 126.9767},
+    {"stn": "424", "name": "강북 (AWS 실측)", "lat": 37.6633, "lon": 127.0122},
+    {"stn": "416", "name": "은평 (AWS 실측)", "lat": 37.6106, "lon": 126.9296},
+    {"stn": "414", "name": "성북 (AWS 실측)", "lat": 37.6068, "lon": 127.0089},
+    {"stn": "540", "name": "고양 (AWS 실측)", "lat": 37.6584, "lon": 126.9615},
+]
 
-def build_reference_areas(current_obs: dict) -> list:
+
+def build_reference_areas(current_obs: dict, aws_obs: dict | None = None) -> list:
     """각 지역의 실제 좌표로 계산한 자기 격자(nx,ny)에서 직접 관측값을 가져온다.
     이전엔 "가장 가까운 센서 지점"을 거쳐서 관측값을 가져왔는데, 그 센서가 하필
     다른 격자에 속해 있으면 엉뚱한(하지만 인접한) 격자의 값을 보여주는 셈이라
-    부정확할 수 있었음 — 이제 지역 좌표 → 격자를 직접 계산해서 그 문제를 없앤다."""
+    부정확할 수 있었음 — 이제 지역 좌표 → 격자를 직접 계산해서 그 문제를 없앤다.
+    aws_obs가 있으면(fetch_aws_obs.py 결과) 격자 근사치 대신 실제 관측소 원본값을
+    쓰는 5개 지역을 추가로 덧붙인다(더 정확함)."""
     out = []
     for area in REFERENCE_AREAS:
         nx, ny = latlon_to_grid(area["lat"], area["lon"])
@@ -248,6 +278,42 @@ def build_reference_areas(current_obs: dict) -> list:
             "grid": grid_key,
             "obs": obs_out,
         })
+
+    for area in AWS_REFERENCE_AREAS:
+        entry = aws_obs.get(area["stn"]) if aws_obs else None
+        obs_out = None
+        if entry:
+            rain1h = entry.get("rain1h")
+            temp = entry.get("temp")
+            # AWS 매분자료엔 PTY(강수형태) 항목이 없어서(강수유무만 있음), 강수가
+            # 있으면 기온으로 비/눈을 대략 구분한다(0도 이하면 눈으로 간주 — 정밀한
+            # 판별은 아니고 참고용 근사치).
+            is_raining = bool(rain1h and rain1h > 0)
+            pty = (3 if (temp is not None and temp <= 0) else 1) if is_raining else 0
+            # obsTime은 "YYMMDDHHMI"(2자리 연도, 10자리)가 표준 표기인데, 혹시
+            # 4자리 연도로 올 수도 있어서 길이로 안전하게 구분해 처리
+            raw_t = entry.get("obsTime") or ""
+            if len(raw_t) >= 12:
+                base_dt = f"{raw_t[:8]} {raw_t[8:12]}"
+            elif len(raw_t) >= 10:
+                base_dt = f"20{raw_t[:6]} {raw_t[6:10]}"
+            else:
+                base_dt = None
+            obs_out = {
+                "baseDateTime": base_dt,
+                "temp": temp,
+                "humidity": entry.get("humidity"),
+                "rain1h": rain1h,
+                "pty": pty,
+                "wind": None,
+            }
+        out.append({
+            "name": area["name"],
+            "lat": area["lat"],
+            "lon": area["lon"],
+            "grid": None,
+            "obs": obs_out,
+        })
     return out
 
 
@@ -268,6 +334,9 @@ def main():
     ap.add_argument("--ultra-forecast", required=False, default=None,
                      help="fetch_ultra_forecast.py가 만든 6시간 이내 초단기예보 CSV 경로 (선택) - "
                           "있으면 겹치는 시각의 기온/습도/강수형태/하늘상태/바람을 이걸로 우선 대체")
+    ap.add_argument("--aws-obs", required=False, default=None,
+                     help="fetch_aws_obs.py가 만든 AWS 실측 관측소 JSON 경로 (선택) - "
+                          "있으면 '기상청 관측값' 지역 목록에 5개 실측 지역을 추가로 덧붙임")
     args = ap.parse_args()
 
     point_names_map = load_point_names(args.point_names)
@@ -479,7 +548,12 @@ def main():
     print(f"저장 완료: {args.out} (모델 예측 {len(results)}개 + 보간 추정 {len(extra_results)}개 = 총 {len(all_results)}개 지점)")
 
     if args.reference_areas_out:
-        areas = build_reference_areas(current_obs)
+        aws_obs = None
+        if args.aws_obs and os.path.exists(args.aws_obs):
+            with open(args.aws_obs, encoding="utf-8") as f:
+                aws_obs = json.load(f)
+            print(f"AWS 실측 관측소 로드됨: {len(aws_obs)}개")
+        areas = build_reference_areas(current_obs, aws_obs)
         os.makedirs(os.path.dirname(args.reference_areas_out) or ".", exist_ok=True)
         with open(args.reference_areas_out, "w", encoding="utf-8") as f:
             json.dump(areas, f, ensure_ascii=False, indent=2)
