@@ -68,6 +68,7 @@ jobs:
             --current-obs ../data/weather/current_obs.json \
             --extra-points ../data/extra_points.csv \
             --point-names ../data/point_names.csv \
+            --elevations ../data/point_elevations.csv \
             --out ../frontend/points_predictions.json \
             --reference-areas-out ../frontend/reference_areas.json \
             --aws-obs ../data/weather/aws_obs.json
