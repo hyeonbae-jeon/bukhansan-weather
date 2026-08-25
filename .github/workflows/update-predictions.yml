@@ -34,21 +34,21 @@ jobs:
           KMA_API_KEY: ${{ secrets.KMA_API_KEY }}
         run: |
           cd predictor
-          python fetch_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/forecast.csv
+          python fetch_forecast.py --sensor ../data/sensor/sensor_merged.csv --boundary ../frontend/geo/boundary.geojson --out ../data/weather/forecast.csv
 
       - name: 기상청 초단기예보(6시간 이내 근접 예보) 수집
         env:
           KMA_API_KEY: ${{ secrets.KMA_API_KEY }}
         run: |
           cd predictor
-          python fetch_ultra_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/ultra_forecast.csv
+          python fetch_ultra_forecast.py --sensor ../data/sensor/sensor_merged.csv --boundary ../frontend/geo/boundary.geojson --out ../data/weather/ultra_forecast.csv
 
       - name: 기상청 초단기실황(현재 관측값) 수집
         env:
           KMA_API_KEY: ${{ secrets.KMA_API_KEY }}
         run: |
           cd predictor
-          python fetch_current_obs.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/current_obs.json
+          python fetch_current_obs.py --sensor ../data/sensor/sensor_merged.csv --boundary ../frontend/geo/boundary.geojson --out ../data/weather/current_obs.json
 
       - name: 지점별 예측 생성
         run: |
