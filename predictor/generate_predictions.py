@@ -13,12 +13,18 @@ import argparse
 import json
 import os
 import re
+from datetime import datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
 import lightgbm as lgb
 
 from kma_grid import latlon_to_grid
+
+# GitHub Actions 실행기(ubuntu-latest)는 시스템 시간대가 UTC라, timezone 정보 없이
+# datetime.now()를 쓰면 한국시간(KST, UTC+9)보다 9시간 뒤처진 값이 나온다 (다른
+# fetch_*.py 스크립트에서 이미 겪은 문제와 동일한 이유로 명시적으로 KST를 씀).
+KST = timezone(timedelta(hours=9))
 
 # 기상청 단기예보의 하늘상태(SKY) 코드(1=맑음,3=구름많음,4=흐림)를
 # 학습에 쓴 ASOS 전운량(0~10 정수) 스케일에 대략 맞춰 변환. 정밀 매핑이 아니라 근사치.
@@ -145,12 +151,10 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
 
     기온 보간에는 표준 기온감률(고도 100m당 약 0.65도) 보정을 더한다. 원래는
     수평 거리 기반 IDW만 써서, 가까이 있어도 고도가 많이 다른 지점끼리(예:
-    능선 위 vs 계곡) 기온이 부자연스럽게 똑같이 나오는 문제가 있었음.
-    ⚠️ 정확히 하려면 "주변 실측 지점 하나하나의" 고도가 있어야 하는데, 지금
-    120개 실측 센서는 좌표만 있고 고도 데이터가 없다(75개 보간 지점만 있음) —
-    그래서 이 75개 지점 전체의 평균 고도를 기준선 삼아 "그 평균보다 높으면
-    더 춥게, 낮으면 더 따뜻하게"로 보정한다. 실측 센서 120개의 고도까지 확보
-    되면 지점별로 훨씬 정밀하게 보정할 수 있음."""
+    능선 위 vs 계곡) 기온이 부자연스럽게 똑같이 나오는 문제가 있었음. 이제
+    실측 센서 하나하나의 진짜 고도(point_elevations.csv로 매칭됨)를 알고 있어서,
+    "이웃마다" 그 이웃과 보간지점 사이의 고도차만큼 먼저 보정한 값으로 IDW를
+    한다(예: 이웃이 나보다 200m 높으면 그 이웃 기온에 +1.3도 해서 평균에 반영)."""
     if not extra_points_csv or not os.path.exists(extra_points_csv):
         return []
 
@@ -159,6 +163,8 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
         return []
 
     LAPSE_RATE_C_PER_100M = 0.65  # 대류권 평균 기온감률(표준대기)
+    # 이웃 실측지점 고도를 못 구한 경우(예: point_elevations.csv 자체가 없을 때)의
+    # 최후 대안으로만 쓰는 전체 평균 — 정상적으로는 아래 개별 고도 보정이 우선 적용됨
     mean_elevation = extra_df["elevation_m"].mean() if "elevation_m" in extra_df.columns else None
 
     # 모든 지점이 공유하는 예보 시각 목록 (첫 실측 지점 기준)
@@ -177,19 +183,30 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
                 if not f or f["temp"] is None:
                     continue
                 d = haversine_km(ep["lat"], ep["lon"], rp["lat"], rp["lon"])
+
+                # 이 이웃의 기온을, "이 이웃이 보간지점과 같은 고도에 있었다면
+                # 얼마였을지"로 먼저 보정한 뒤에 거리 가중 평균에 넣는다
+                rp_elevation = rp.get("elevationM")
+                temp_val = f["temp"]
+                if pd.notna(ep_elevation) and rp_elevation is not None and pd.notna(rp_elevation):
+                    temp_val = temp_val + LAPSE_RATE_C_PER_100M * (rp_elevation - ep_elevation) / 100
+
                 if d < 0.01:
-                    num_t, den_t = f["temp"], 1
+                    num_t, den_t = temp_val, 1
                     num_h, den_h = (f["humidity"] or 0), 1
                     break
                 w = 1 / (d ** 2)
-                num_t += w * f["temp"]
+                num_t += w * temp_val
                 den_t += w
                 if f["humidity"] is not None:
                     num_h += w * f["humidity"]
                     den_h += w
 
             temp = round(num_t / den_t, 1) if den_t > 0 else None
-            if temp is not None and mean_elevation is not None and pd.notna(ep_elevation):
+            # 이웃들 중 고도 정보가 하나도 없었던 경우(전부 위 보정을 못 받음)에만
+            # "전체 평균 대비" 근사 보정을 최후 수단으로 적용
+            if (temp is not None and mean_elevation is not None and pd.notna(ep_elevation)
+                    and not any(rp.get("elevationM") is not None for rp in real_results)):
                 elev_diff = ep_elevation - mean_elevation
                 temp = round(temp - LAPSE_RATE_C_PER_100M * elev_diff / 100, 1)
             hum = round(num_h / den_h, 1) if den_h > 0 else None
@@ -236,25 +253,24 @@ REFERENCE_AREAS = [
 ]
 
 # 방재기상관측(AWS) 실측 지점 — 격자 대표값이 아니라 실제 관측소 원본값이라 더
-# 정확함(fetch_aws_obs.py 참고). 좌표는 정확한 설치 위치를 몰라서 각 구역 대략적인
-# 중심 근사치(표시/지도 중심 이동용일 뿐, 관측값 자체는 grid 계산 없이 그 관측소
-# 원본 그대로 씀).
-AWS_REFERENCE_AREAS = [
-    {"stn": "420", "name": "북한산 (AWS 실측)", "lat": 37.6332, "lon": 126.9767},
-    {"stn": "424", "name": "강북 (AWS 실측)", "lat": 37.6633, "lon": 127.0122},
-    {"stn": "416", "name": "은평 (AWS 실측)", "lat": 37.6106, "lon": 126.9296},
-    {"stn": "414", "name": "성북 (AWS 실측)", "lat": 37.6068, "lon": 127.0089},
-    {"stn": "540", "name": "고양 (AWS 실측)", "lat": 37.6584, "lon": 126.9615},
+# 정확함(fetch_aws_obs.py 참고). "기상청 관측값" 지역 목록에 넣는 대신(사용자 요청
+# 으로 뺌), 각 관측소 반경 안의 지점들의 "지금" 강수 여부를 실측대로 보정하는 데
+# 쓴다 — 원래 AWS를 넣은 목적이 격자보다 촘촘한 강수 구역 파악이었으므로.
+AWS_STATIONS = [
+    {"stn": "420", "name": "북한산", "lat": 37.6332, "lon": 126.9767},
+    {"stn": "424", "name": "강북", "lat": 37.6633, "lon": 127.0122},
+    {"stn": "416", "name": "은평", "lat": 37.6106, "lon": 126.9296},
+    {"stn": "414", "name": "성북", "lat": 37.6068, "lon": 127.0089},
+    {"stn": "540", "name": "고양", "lat": 37.6584, "lon": 126.9615},
 ]
+AWS_CORRECTION_RADIUS_KM = 2.5  # 이 반경 안의 지점만 AWS 실측으로 "지금" 강수를 보정
 
 
-def build_reference_areas(current_obs: dict, aws_obs: dict | None = None) -> list:
+def build_reference_areas(current_obs: dict) -> list:
     """각 지역의 실제 좌표로 계산한 자기 격자(nx,ny)에서 직접 관측값을 가져온다.
     이전엔 "가장 가까운 센서 지점"을 거쳐서 관측값을 가져왔는데, 그 센서가 하필
     다른 격자에 속해 있으면 엉뚱한(하지만 인접한) 격자의 값을 보여주는 셈이라
-    부정확할 수 있었음 — 이제 지역 좌표 → 격자를 직접 계산해서 그 문제를 없앤다.
-    aws_obs가 있으면(fetch_aws_obs.py 결과) 격자 근사치 대신 실제 관측소 원본값을
-    쓰는 5개 지역을 추가로 덧붙인다(더 정확함)."""
+    부정확할 수 있었음 — 이제 지역 좌표 → 격자를 직접 계산해서 그 문제를 없앤다."""
     out = []
     for area in REFERENCE_AREAS:
         nx, ny = latlon_to_grid(area["lat"], area["lon"])
@@ -278,43 +294,54 @@ def build_reference_areas(current_obs: dict, aws_obs: dict | None = None) -> lis
             "grid": grid_key,
             "obs": obs_out,
         })
-
-    for area in AWS_REFERENCE_AREAS:
-        entry = aws_obs.get(area["stn"]) if aws_obs else None
-        obs_out = None
-        if entry:
-            rain1h = entry.get("rain1h")
-            temp = entry.get("temp")
-            # AWS 매분자료엔 PTY(강수형태) 항목이 없어서(강수유무만 있음), 강수가
-            # 있으면 기온으로 비/눈을 대략 구분한다(0도 이하면 눈으로 간주 — 정밀한
-            # 판별은 아니고 참고용 근사치).
-            is_raining = bool(rain1h and rain1h > 0)
-            pty = (3 if (temp is not None and temp <= 0) else 1) if is_raining else 0
-            # obsTime은 "YYMMDDHHMI"(2자리 연도, 10자리)가 표준 표기인데, 혹시
-            # 4자리 연도로 올 수도 있어서 길이로 안전하게 구분해 처리
-            raw_t = entry.get("obsTime") or ""
-            if len(raw_t) >= 12:
-                base_dt = f"{raw_t[:8]} {raw_t[8:12]}"
-            elif len(raw_t) >= 10:
-                base_dt = f"20{raw_t[:6]} {raw_t[6:10]}"
-            else:
-                base_dt = None
-            obs_out = {
-                "baseDateTime": base_dt,
-                "temp": temp,
-                "humidity": entry.get("humidity"),
-                "rain1h": rain1h,
-                "pty": pty,
-                "wind": None,
-            }
-        out.append({
-            "name": area["name"],
-            "lat": area["lat"],
-            "lon": area["lon"],
-            "grid": None,
-            "obs": obs_out,
-        })
     return out
+
+
+def apply_aws_rain_correction(all_results: list, aws_obs: dict | None) -> int:
+    """AWS 관측소에서 반경 AWS_CORRECTION_RADIUS_KM 이내에 있는 지점들의, "지금"에
+    가장 가까운 예보 시각 하나만 골라 강수 여부를 실측대로 보정한다.
+
+    비대칭적으로 적용함: AWS가 "비 온다"고 하면 그 근처 지점들의 강수 없음(pty=0)
+    예보를 실측대로 덮어써서 놓친 소나기를 잡아내고, 반대로 AWS가 "비 없다"고
+    해도 예보가 이미 강수를 예상했으면 그대로 둔다(이동 중인 비구름이 아직
+    관측소엔 안 닿았을 수도 있어서, 예보의 강수 경고를 섣불리 지우지 않음 —
+    안전 쪽으로 치우치는 게 낫다는 판단)."""
+    if not aws_obs or not all_results:
+        return 0
+
+    stations = []
+    for area in AWS_STATIONS:
+        entry = aws_obs.get(area["stn"])
+        if not entry:
+            continue
+        rain1h = entry.get("rain1h")
+        temp = entry.get("temp")
+        if not (rain1h and rain1h > 0):
+            continue
+        pty = 3 if (temp is not None and temp <= 0) else 1  # 0도 이하면 눈으로 대략 구분
+        stations.append({**area, "pty": pty, "rain1h": rain1h})
+    if not stations:
+        return 0
+
+    now = datetime.now(KST).replace(tzinfo=None)
+    times = [f["time"] for f in all_results[0]["forecasts"]]
+    now_time = min(times, key=lambda t: abs(pd.Timestamp(t) - now))
+
+    corrected = 0
+    for p in all_results:
+        f_now = next((x for x in p["forecasts"] if x["time"] == now_time), None)
+        if not f_now or f_now.get("pty"):
+            continue  # 이미 강수 예보가 있으면 안 건드림(비대칭 보정)
+        for st in stations:
+            if haversine_km(p["lat"], p["lon"], st["lat"], st["lon"]) <= AWS_CORRECTION_RADIUS_KM:
+                f_now["pty"] = st["pty"]
+                if not f_now.get("precipMm"):
+                    f_now["precipMm"] = st["rain1h"]
+                    f_now["precipUnit"] = "mm"
+                    f_now["precipLabel"] = f"AWS({st['name']}) 실측 {st['rain1h']}mm"
+                corrected += 1
+                break
+    return corrected
 
 
 def main():
@@ -336,7 +363,10 @@ def main():
                           "있으면 겹치는 시각의 기온/습도/강수형태/하늘상태/바람을 이걸로 우선 대체")
     ap.add_argument("--aws-obs", required=False, default=None,
                      help="fetch_aws_obs.py가 만든 AWS 실측 관측소 JSON 경로 (선택) - "
-                          "있으면 '기상청 관측값' 지역 목록에 5개 실측 지역을 추가로 덧붙임")
+                          "있으면 가까운 지점들의 '지금' 강수 여부를 이 실측값으로 보정함")
+    ap.add_argument("--elevations", required=False, default=None,
+                     help="point_elevations.csv 경로 (선택, 실측 센서 120개의 고도) - "
+                          "있으면 보간 지점 기온 보정에 이웃별 정확한 고도차를 씀")
     args = ap.parse_args()
 
     point_names_map = load_point_names(args.point_names)
@@ -382,6 +412,19 @@ def main():
     stations["grid"] = stations.apply(
         lambda r: "{}_{}".format(*latlon_to_grid(r["GNSS-위도"], r["GNSS-경도"])), axis=1
     )
+
+    # 실측 센서 120개의 고도 — 예전엔 station_meta.json에 고도가 아예 없어서 보간
+    # 지점(75개, 자체 고도 있음)의 기온 보정이 "동네 평균 고도" 근사치로만 가능했는데,
+    # 이제 지점 마스터 목록(point_elevations.csv, 187개 전체 고도 포함)에서 실측
+    # 센서 하나하나의 진짜 고도를 매칭해서 훨씬 정밀한 지점별 기온감률 보정이 가능함.
+    station_elevations = {}
+    if args.elevations and os.path.exists(args.elevations):
+        elev_df = pd.read_csv(args.elevations)
+        station_elevations = dict(zip(elev_df["national_id"], elev_df["elevation_m"]))
+        matched = stations["국가지점번호"].isin(station_elevations).sum()
+        print(f"실측 센서 고도 매칭됨: {matched}/{len(stations)}개 (point_elevations.csv 기준)")
+    else:
+        print("실측 센서 고도 파일 없음 (--elevations 미지정) — 보간 지점 기온 보정이 부정확할 수 있음")
 
     results = []
     for _, st in stations.iterrows():
@@ -518,6 +561,7 @@ def main():
             "detailName": detail_name,
             "lat": st["GNSS-위도"],
             "lon": st["GNSS-경도"],
+            "elevationM": station_elevations.get(st["국가지점번호"]),
             "obs": obs_out,
             "forecasts": rows,
         })
@@ -542,18 +586,22 @@ def main():
             p["name"] = p["code"]
             print(f"[안내] 코드 중복 발견, 구분자 추가: {original} -> {p['code']} (좌표 {p['lat']},{p['lon']})")
 
+    aws_obs = None
+    if args.aws_obs and os.path.exists(args.aws_obs):
+        with open(args.aws_obs, encoding="utf-8") as f:
+            aws_obs = json.load(f)
+        print(f"AWS 실측 관측소 로드됨: {len(aws_obs)}개")
+        corrected_n = apply_aws_rain_correction(all_results, aws_obs)
+        if corrected_n:
+            print(f"AWS 실측 기준으로 '지금' 강수를 보정한 지점 {corrected_n}개 (반경 {AWS_CORRECTION_RADIUS_KM}km 이내)")
+
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(all_results, f, ensure_ascii=False, indent=2)
 
     print(f"저장 완료: {args.out} (모델 예측 {len(results)}개 + 보간 추정 {len(extra_results)}개 = 총 {len(all_results)}개 지점)")
 
     if args.reference_areas_out:
-        aws_obs = None
-        if args.aws_obs and os.path.exists(args.aws_obs):
-            with open(args.aws_obs, encoding="utf-8") as f:
-                aws_obs = json.load(f)
-            print(f"AWS 실측 관측소 로드됨: {len(aws_obs)}개")
-        areas = build_reference_areas(current_obs, aws_obs)
+        areas = build_reference_areas(current_obs)
         os.makedirs(os.path.dirname(args.reference_areas_out) or ".", exist_ok=True)
         with open(args.reference_areas_out, "w", encoding="utf-8") as f:
             json.dump(areas, f, ensure_ascii=False, indent=2)
