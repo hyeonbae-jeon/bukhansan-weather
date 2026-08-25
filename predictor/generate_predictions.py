@@ -46,6 +46,52 @@ def parse_precip_amount(raw, unit):
     return round(sum(vals) / len(vals), 1), s
 
 
+def lookup_grid_weather(grid, t, forecast, ultra_forecast):
+    """주어진 (격자, 시각)의 강수형태/하늘상태/강수확률/강수량을 돌려준다. 메인 예측
+    루프와 같은 규칙(초단기예보 있으면 우선, 강수량은 PTY로 비/눈 구분)을 쓰는 걸
+    build_interpolated_points()에서도 그대로 쓸 수 있게 뽑아둔 공용 함수."""
+    frow = None
+    if forecast is not None:
+        sub = forecast[(forecast["grid"] == grid) & (forecast["fcstDateTime"] == t)]
+        if not sub.empty:
+            frow = sub.iloc[0]
+
+    u = None
+    if ultra_forecast is not None:
+        sub = ultra_forecast[(ultra_forecast["grid"] == grid) & (ultra_forecast["fcstDateTime"] == t)]
+        if not sub.empty:
+            u = sub.iloc[0]
+
+    def pick(ultra_col, regular_col, default=np.nan):
+        if u is not None and pd.notna(u.get(ultra_col, np.nan)):
+            return u[ultra_col]
+        if frow is not None:
+            return frow.get(regular_col, default)
+        return default
+
+    sky = pick("SKY", "SKY")
+    pty = pick("PTY", "PTY", 0)
+    pty_int = int(pty) if pd.notna(pty) else 0
+    is_snow_type = pty_int in (3, 7)
+
+    if not is_snow_type and u is not None and pd.notna(u.get("RN1", np.nan)):
+        precip_raw = u.get("RN1")
+    elif frow is not None:
+        precip_raw = frow.get("SNO") if is_snow_type else frow.get("PCP")
+    else:
+        precip_raw = None
+    precip_mm, precip_label = parse_precip_amount(precip_raw, "cm" if is_snow_type else "mm")
+
+    return {
+        "pty": pty_int,
+        "sky": int(sky) if pd.notna(sky) else None,
+        "pop": float(frow.get("POP")) if frow is not None and pd.notna(frow.get("POP")) else None,
+        "precipMm": precip_mm,
+        "precipUnit": "cm" if is_snow_type else "mm",
+        "precipLabel": precip_label,
+    }
+
+
 # 센서 지점명 중 "북한00-00" 코드 형식이 아닌 예외들. 원래는 "족두리봉"에 가장 가까운
 # 코드(북한65-02/북한65-03)를 붙이려 했는데, 둘 다 이미 다른 실측 센서가 쓰고 있는
 # 코드라 중복이 생겨서(더 혼란스러움) 억지로 매핑하지 않기로 함 — 그냥 원래 이름 유지.
@@ -86,10 +132,16 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return R * 2 * math.asin(min(1, math.sqrt(a)))
 
 
-def build_interpolated_points(extra_points_csv, real_results):
+def build_interpolated_points(extra_points_csv, real_results, forecast=None, ultra_forecast=None):
     """온습도 센서가 없는 지점들을, 실측 기반 모델 예측이 있는 주변 지점들로부터
     역거리가중(IDW)으로 보간해서 만든다. 모델 예측이 아니라 '추정치'임을
-    interpolated:true로 명시해서 프론트에서 구분 표시할 수 있게 한다."""
+    interpolated:true로 명시해서 프론트에서 구분 표시할 수 있게 한다.
+
+    강수형태/하늘상태/강수확률/강수량은 (예전엔 IDW 루프에서 "가장 먼저 만난 실측
+    지점" 값을 그냥 갖다 썼는데, 그게 거리와 무관하게 리스트 순서상 우연히 먼저
+    나온 지점이라 엉뚱한(먼) 지점의 값을 쓰는 경우가 있었다) 이제 이 지점 자신의
+    좌표로 계산한 진짜 자기 격자에서 직접 가져온다 — 기온/습도만 IDW로 보간하고
+    강수 관련 값은 실측 지점과 무관하게 그 위치의 실제 격자 예보를 그대로 씀."""
     if not extra_points_csv or not os.path.exists(extra_points_csv):
         return []
 
@@ -102,10 +154,11 @@ def build_interpolated_points(extra_points_csv, real_results):
 
     results = []
     for _, ep in extra_df.iterrows():
+        ep_grid = "{}_{}".format(*latlon_to_grid(ep["lat"], ep["lon"]))
+
         forecasts = []
         for t in times:
             num_t, den_t, num_h, den_h = 0.0, 0.0, 0.0, 0.0
-            ref_row = None
             for rp in real_results:
                 f = next((x for x in rp["forecasts"] if x["time"] == t), None)
                 if not f or f["temp"] is None:
@@ -114,7 +167,6 @@ def build_interpolated_points(extra_points_csv, real_results):
                 if d < 0.01:
                     num_t, den_t = f["temp"], 1
                     num_h, den_h = (f["humidity"] or 0), 1
-                    ref_row = f
                     break
                 w = 1 / (d ** 2)
                 num_t += w * f["temp"]
@@ -122,19 +174,17 @@ def build_interpolated_points(extra_points_csv, real_results):
                 if f["humidity"] is not None:
                     num_h += w * f["humidity"]
                     den_h += w
-                if ref_row is None:
-                    ref_row = f  # 강수형태 등은 가장 처음 만난 지점 값으로 근사
 
             temp = round(num_t / den_t, 1) if den_t > 0 else None
             hum = round(num_h / den_h, 1) if den_h > 0 else None
+
+            weather = lookup_grid_weather(ep_grid, pd.Timestamp(t), forecast, ultra_forecast)
             forecasts.append({
                 "time": t,
                 "temp": temp,
                 "humidity": hum,
-                "pty": ref_row["pty"] if ref_row else 0,
-                "sky": ref_row["sky"] if ref_row else None,
-                "pop": ref_row["pop"] if ref_row else None,
-                "wind": ref_row["wind"] if ref_row else None,
+                **weather,
+                "wind": None,
             })
 
         results.append({
@@ -405,7 +455,7 @@ def main():
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
 
-    extra_results = build_interpolated_points(args.extra_points, results)
+    extra_results = build_interpolated_points(args.extra_points, results, forecast, ultra_forecast)
     if extra_results:
         print(f"보간 추정 지점 {len(extra_results)}개 추가됨 (실측 없음, 주변 지점 IDW 보간)")
     all_results = results + extra_results

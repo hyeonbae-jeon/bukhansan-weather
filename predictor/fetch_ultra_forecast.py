@@ -22,7 +22,7 @@ from urllib.parse import unquote
 import pandas as pd
 
 from http_retry import get_with_retry
-from kma_grid import latlon_to_grid
+from kma_grid import latlon_to_grid, grids_covering_geojson
 
 BASE_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtFcst"
 # GitHub Actions 실행기(ubuntu-latest)는 시스템 시간대가 UTC라, timezone 정보 없이
@@ -68,6 +68,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sensor", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--boundary", required=False, default=None,
+                     help="국립공원 경계 GeoJSON 경로 (선택) - 공원 전체를 덮는 격자를 다 가져와서 "
+                          "국지성 호우 대비 해상도를 높임 (fetch_forecast.py와 동일한 이유)")
     args = ap.parse_args()
 
     service_key = os.environ.get("KMA_API_KEY")
@@ -81,8 +84,15 @@ def main():
     points["grid"] = points.apply(
         lambda r: latlon_to_grid(r["GNSS-위도"], r["GNSS-경도"]), axis=1
     )
-    unique_grids = points["grid"].unique()
-    print(f"고유 격자 셀 {len(unique_grids)}개: {list(unique_grids)}")
+    sensor_grids = set(points["grid"].unique())
+
+    boundary_grids = set()
+    if args.boundary and os.path.exists(args.boundary):
+        boundary_grids = set(grids_covering_geojson(args.boundary))
+        print(f"공원 경계가 덮는 격자 {len(boundary_grids)}개 추가 확인됨")
+
+    unique_grids = sorted(sensor_grids | boundary_grids)
+    print(f"조회할 격자 셀 {len(unique_grids)}개: {unique_grids}")
 
     now = datetime.now(KST)
     base_date, base_time = latest_base_datetime(now)

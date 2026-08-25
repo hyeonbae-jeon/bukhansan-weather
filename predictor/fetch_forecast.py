@@ -18,7 +18,7 @@ import requests
 from http_retry import get_with_retry
 import pandas as pd
 
-from kma_grid import latlon_to_grid
+from kma_grid import latlon_to_grid, grids_covering_geojson
 
 BASE_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst"
 BASE_TIMES = ["0200", "0500", "0800", "1100", "1400", "1700", "2000", "2300"]
@@ -72,6 +72,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sensor", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--boundary", required=False, default=None,
+                     help="국립공원 경계 GeoJSON 경로 (선택) - 주면 센서가 없는 구석까지 포함해서 "
+                          "공원 전체를 덮는 격자를 다 가져옴(국지성 호우 대비, 기존엔 센서 있는 4개 격자만 조회했음)")
     args = ap.parse_args()
 
     service_key = os.environ.get("KMA_API_KEY")
@@ -85,8 +88,15 @@ def main():
     points["grid"] = points.apply(
         lambda r: latlon_to_grid(r["GNSS-위도"], r["GNSS-경도"]), axis=1
     )
-    unique_grids = points["grid"].unique()
-    print(f"고유 격자 셀 {len(unique_grids)}개: {list(unique_grids)}")
+    sensor_grids = set(points["grid"].unique())
+
+    boundary_grids = set()
+    if args.boundary and os.path.exists(args.boundary):
+        boundary_grids = set(grids_covering_geojson(args.boundary))
+        print(f"공원 경계가 덮는 격자 {len(boundary_grids)}개 추가 확인됨")
+
+    unique_grids = sorted(sensor_grids | boundary_grids)
+    print(f"조회할 격자 셀 {len(unique_grids)}개: {unique_grids}")
 
     now = datetime.now(KST)
     base_date, base_time = latest_base_datetime(now)

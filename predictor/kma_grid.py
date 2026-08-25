@@ -42,3 +42,38 @@ def latlon_to_grid(lat: float, lon: float) -> tuple[int, int]:
     x = ra * math.sin(theta) + XO + 0.5
     y = ro - ra * math.cos(theta) + YO + 0.5
     return int(x), int(y)
+
+
+def grids_covering_geojson(geojson_path: str, step_deg: float = 0.005) -> list[tuple[int, int]]:
+    """GeoJSON(Polygon/MultiPolygon) 하나의 경계 상자(bbox) 안을 촘촘히 스캔해서,
+    그 영역이 걸치는 기상청 5km 격자(nx,ny)를 전부 찾아 정렬된 리스트로 돌려준다.
+    격자 자체가 5km 간격이라 step_deg(약 500m)면 격자 경계를 놓치지 않고 충분히 촘촘함.
+    """
+    import json
+
+    with open(geojson_path, encoding="utf-8") as f:
+        geo = json.load(f)
+
+    lons, lats = [], []
+    for feature in geo.get("features", [geo]):
+        geom = feature.get("geometry", feature)
+        gtype = geom["type"]
+        polys = geom["coordinates"] if gtype == "MultiPolygon" else [geom["coordinates"]]
+        for poly in polys:
+            for ring in poly:
+                for pt in ring:
+                    lons.append(pt[0])
+                    lats.append(pt[1])
+
+    if not lons:
+        return []
+
+    grids = set()
+    lon = min(lons)
+    while lon <= max(lons):
+        lat = min(lats)
+        while lat <= max(lats):
+            grids.add(latlon_to_grid(lat, lon))
+            lat += step_deg
+        lon += step_deg
+    return sorted(grids)
