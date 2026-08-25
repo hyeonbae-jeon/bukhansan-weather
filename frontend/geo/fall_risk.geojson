@@ -1,0 +1,841 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97737,
+     37.65361
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 1,
+    "location": "노적봉",
+    "grade": "A등급",
+    "sign": "출입제한 1",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96972,
+     37.65889
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 2,
+    "location": "염초릿지",
+    "grade": "A등급",
+    "sign": "출입제한 1",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98029,
+     37.65819
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 3,
+    "location": "백운산장-백운봉암문와이어",
+    "grade": "B등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97835,
+     37.65844
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 4,
+    "location": "백운대주탐방로",
+    "grade": "B등급",
+    "sign": "추락주의 1",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97918,
+     37.65739
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 5,
+    "location": "백운봉암문~용암문",
+    "grade": "B등급",
+    "sign": "낙석사고 3",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97287,
+     37.66584
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 6,
+    "location": "해골바위 하단",
+    "grade": "C등급",
+    "sign": "추락주의 깃발 1",
+    "admin": "고양시 효자동",
+    "lot": "산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97409,
+     37.66589
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 7,
+    "location": "숨은벽 마당바위",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 효자동",
+    "lot": "산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97498,
+     37.66555
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 8,
+    "location": "숨은벽 산불카메라 하단",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 효자동",
+    "lot": "산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97699,
+     37.66201
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 9,
+    "location": "숨은벽릿지 하단",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 효자동",
+    "lot": "산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97712,
+     37.66183
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 10,
+    "location": "숨은벽릿지 입구",
+    "grade": "C등급",
+    "sign": "추락주의 깃발 1",
+    "admin": "고양시 효자동",
+    "lot": "산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97724,
+     37.66101
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 11,
+    "location": "밤골계곡",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98241,
+     37.65853
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 12,
+    "location": "백운산장",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97978,
+     37.65793
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 13,
+    "location": "백운대 가는길",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97814,
+     37.65888
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 14,
+    "location": "백운대정상",
+    "grade": "C등급",
+    "sign": "추락주의 2",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97876,
+     37.6557
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 15,
+    "location": "백운봉암문~노적삼거리 중간 망바위",
+    "grade": "C등급",
+    "sign": "추락주의 1",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97887,
+     37.65468
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 16,
+    "location": "노적삼거리 상단 300m",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.94309,
+     37.61818
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 17,
+    "location": "족두리봉",
+    "grade": "A등급",
+    "sign": "추락주의 5",
+    "admin": "은평구 불광동",
+    "lot": "42-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95076,
+     37.6263
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 18,
+    "location": "향로봉",
+    "grade": "A등급",
+    "sign": "추락주의 5",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95282,
+     37.62562
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 19,
+    "location": "비봉",
+    "grade": "A등급",
+    "sign": "추락주의 2",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95916,
+     37.62805
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 20,
+    "location": "사모바위",
+    "grade": "A등급",
+    "sign": "추락위험안내간판(E형)",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96312,
+     37.6291
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 21,
+    "location": "승가사~문수봉",
+    "grade": "A등급",
+    "sign": "없음",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96525,
+     37.62952
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 22,
+    "location": "통천문 내리막길",
+    "grade": "A등급",
+    "sign": "없음",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96927,
+     37.63116
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 23,
+    "location": "문수봉 초입",
+    "grade": "A등급",
+    "sign": "추락주의 1",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97011,
+     37.63131
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 24,
+    "location": "문수봉 하단",
+    "grade": "A등급",
+    "sign": "없음",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97072,
+     37.63155
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 25,
+    "location": "문수봉 중하단",
+    "grade": "A등급",
+    "sign": "없음",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97128,
+     37.63194
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 26,
+    "location": "문수봉 중단",
+    "grade": "A등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97163,
+     37.63212
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 27,
+    "location": "문수봉 중상단",
+    "grade": "A등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97195,
+     37.6323
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 28,
+    "location": "문수봉 끝지점",
+    "grade": "A등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9512,
+     37.63912
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 29,
+    "location": "응봉입구",
+    "grade": "B등급",
+    "sign": "추락주의 1",
+    "admin": "은평구 진관동",
+    "lot": "34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9631,
+     37.62899
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 30,
+    "location": "승가사~사모바위",
+    "grade": "B등급",
+    "sign": "낙석주의 1",
+    "admin": "종로구 구기동",
+    "lot": "3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97227,
+     37.63224
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 31,
+    "location": "문수봉 상단",
+    "grade": "B등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96192,
+     37.64383
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 32,
+    "location": "용출봉",
+    "grade": "A등급",
+    "sign": "추락주의1 ",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95827,
+     37.65771
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 33,
+    "location": "원효릿지",
+    "grade": "B등급",
+    "sign": "출입제한 1",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95797,
+     37.63099
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 34,
+    "location": "응봉암릉",
+    "grade": "A등급",
+    "sign": "추락주의 1",
+    "admin": "은평구 진관동",
+    "lot": "34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95769,
+     37.64943
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 35,
+    "location": "의상봉300m 하단",
+    "grade": "B등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96019,
+     37.6484
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 36,
+    "location": "의상봉50m 하단",
+    "grade": "B등급",
+    "sign": "추락주의 1",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96445,
+     37.64305
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 37,
+    "location": "용혈봉 암릉",
+    "grade": "B등급",
+    "sign": "추락주의 1",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96888,
+     37.63855
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 38,
+    "location": "부왕동암문~나월봉",
+    "grade": "B등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97065,
+     37.6338
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 39,
+    "location": "나한봉~715봉",
+    "grade": "B등급",
+    "sign": "없음",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96312,
+     37.67073
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 40,
+    "location": "밤골계곡 철난간",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 효자동",
+    "lot": "19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98991,
+     37.66395
+    ]
+   },
+   "properties": {
+    "district": "우이",
+    "number": 41,
+    "location": "영봉에서 육모정 방향 200m",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "강북구 우이동",
+    "lot": "68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98804,
+     37.66303
+    ]
+   },
+   "properties": {
+    "district": "우이",
+    "number": 42,
+    "location": "영봉에서 하루재 방향 100m",
+    "grade": "C등급",
+    "sign": "추락사고 위험 3",
+    "admin": "강북구 우이동",
+    "lot": "68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98757,
+     37.66287
+    ]
+   },
+   "properties": {
+    "district": "우이",
+    "number": 43,
+    "location": "하루재 철난간",
+    "grade": "C등급",
+    "sign": "없음",
+    "admin": "고양시 효자동",
+    "lot": "산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98555,
+     37.63555
+    ]
+   },
+   "properties": {
+    "district": "정릉",
+    "number": 44,
+    "location": "칼바위 정상 데크구간",
+    "grade": "C등급",
+    "sign": "위험구간 안내표지판 2개소",
+    "admin": "성북구 정릉동",
+    "lot": "산 1-1"
+   }
+  }
+ ]
+}

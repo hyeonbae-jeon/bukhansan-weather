@@ -1,0 +1,784 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95575,
+     37.62586
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 1,
+    "manageNo": "북한 01-03-01",
+    "section": "비봉능선",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96313,
+     37.61925
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 2,
+    "manageNo": "북한 03-01-01",
+    "section": "구기분소 ~ 대남문",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97003,
+     37.62633
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 3,
+    "manageNo": "북한 03-03-01",
+    "section": "대남문 하단 500m(구기탐방 방향)",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97194,
+     37.62869
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 4,
+    "manageNo": "북한 03-04-01",
+    "section": "구기분소 ~ 대남문",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95444,
+     37.62886
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 5,
+    "manageNo": "북한 61-03-01",
+    "section": "진관사 ~ 비봉",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.94188,
+     37.63177
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 6,
+    "manageNo": "북한 62-03-01",
+    "section": "기자촌 ~ 향로봉",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.94202,
+     37.63119
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 7,
+    "manageNo": "북한 62-03-02",
+    "section": "기자촌 ~ 향로봉",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95152,
+     37.62471
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 8,
+    "manageNo": "북한 65-04-03",
+    "section": "향로봉",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95164,
+     37.62494
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 9,
+    "manageNo": "북한 65-04-04",
+    "section": "향로봉 정상 하단",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95088,
+     37.62286
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 10,
+    "manageNo": "북한 66-03-02",
+    "section": "향로봉 하단",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95397,
+     37.61951
+    ]
+   },
+   "properties": {
+    "district": "구기",
+    "number": 11,
+    "manageNo": "북한 99-00-01",
+    "section": "금선사 상단",
+    "grade": "C",
+    "admin": "종로구 구기동",
+    "lot": "산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97119,
+     37.63286
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 12,
+    "manageNo": "북한 01-07-01",
+    "section": "문수봉",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97222,
+     37.66416
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 13,
+    "manageNo": "북한 46-03-02",
+    "section": "밤골계곡구간",
+    "grade": "C",
+    "admin": "고양시 효자동",
+    "lot": "산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97386,
+     37.656
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 14,
+    "manageNo": "북한 50-02-02",
+    "section": "대동사 ~ 백운봉암문",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95213,
+     37.6528
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 15,
+    "manageNo": "북한 51-00-01",
+    "section": "북한산성탐방지원센터 ∼ 대서문",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 3-2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95258,
+     37.65297
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 16,
+    "manageNo": "북한 51-00-02",
+    "section": "북한산성탐방지원센터 ∼ 대서문",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 3-2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95794,
+     37.65383
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 17,
+    "manageNo": "북한 51-00-03",
+    "section": "북한산성탐방지원센터 ∼ 대서문",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96394,
+     37.65192
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 18,
+    "manageNo": "북한 51-00-04",
+    "section": "보리사 ∼ 법용사",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "398-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95152,
+     37.63848
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 19,
+    "manageNo": "북한 58-00-02",
+    "section": "미타교",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96252,
+     37.6343
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 20,
+    "manageNo": "북한 58-04-01",
+    "section": "삼천사계곡 ~ 문수봉",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96238,
+     37.63405
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 21,
+    "manageNo": "북한 58-04-02",
+    "section": "삼천사계곡 ~ 문수봉",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95991,
+     37.63244
+    ]
+   },
+   "properties": {
+    "district": "산성",
+    "number": 22,
+    "manageNo": "북한 60-02-01",
+    "section": "삼천사게곡 ~ 사모바위",
+    "grade": "C",
+    "admin": "은평구 진관동",
+    "lot": "산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99827,
+     37.63094
+    ]
+   },
+   "properties": {
+    "district": "수유",
+    "number": 23,
+    "manageNo": "북한 13-02-01",
+    "section": "화게공원지킴터 ~ 삼성암 ~ 칼바위능선",
+    "grade": "C",
+    "admin": "강북구 수유동",
+    "lot": "산 127-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9948,
+     37.63855
+    ]
+   },
+   "properties": {
+    "district": "수유",
+    "number": 24,
+    "manageNo": "북한 15-02-01",
+    "section": "아카데미탐방지원센터 ~ 대동문",
+    "grade": "C",
+    "admin": "강북구 수유동",
+    "lot": "산 127-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9875,
+     37.64191
+    ]
+   },
+   "properties": {
+    "district": "우이",
+    "number": 25,
+    "manageNo": "북한 19-03-01",
+    "section": "소귀천공원지킴터 ~ 대동문",
+    "grade": "C",
+    "admin": "강북구 우이동",
+    "lot": "산 68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98839,
+     37.65408
+    ]
+   },
+   "properties": {
+    "district": "우이",
+    "number": 26,
+    "manageNo": "북한 20-00-01",
+    "section": "도선사 상단",
+    "grade": "C",
+    "admin": "강북구 우이동",
+    "lot": "산 69"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9927,
+     37.65677
+    ]
+   },
+   "properties": {
+    "district": "우이",
+    "number": 27,
+    "manageNo": "북한 21-00-02",
+    "section": "우이분소 ∼ 도선사 ∼ 백운대",
+    "grade": "C",
+    "admin": "강북구 우이동",
+    "lot": "산 68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98997,
+     37.65958
+    ]
+   },
+   "properties": {
+    "district": "우이",
+    "number": 28,
+    "manageNo": "북한 21-01-01",
+    "section": "백운탐방지원센터 ~ 하루재",
+    "grade": "C",
+    "admin": "강북구 우이동",
+    "lot": "산 68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98222,
+     37.61952
+    ]
+   },
+   "properties": {
+    "district": "정릉",
+    "number": 29,
+    "manageNo": "북한 05-02-01",
+    "section": "형제봉공원지킴터 ~ 형제봉",
+    "grade": "C",
+    "admin": "종로구 평창동",
+    "lot": "산 6-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98208,
+     37.61905
+    ]
+   },
+   "properties": {
+    "district": "정릉",
+    "number": 30,
+    "manageNo": "북한 05-02-02",
+    "section": "형제봉공원지킴터 ~ 형제봉",
+    "grade": "C",
+    "admin": "종로구 평창동",
+    "lot": "산 6-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98205,
+     37.61869
+    ]
+   },
+   "properties": {
+    "district": "정릉",
+    "number": 31,
+    "manageNo": "북한 05-02-03",
+    "section": "형제봉공원지킴터 ~ 형제봉",
+    "grade": "C",
+    "admin": "종로구 평창동",
+    "lot": "산 6-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98222,
+     37.61825
+    ]
+   },
+   "properties": {
+    "district": "정릉",
+    "number": 32,
+    "manageNo": "북한 05-02-04",
+    "section": "형제봉공원지킴터 ~ 형제봉",
+    "grade": "C",
+    "admin": "종로구 평창동",
+    "lot": "산 6-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98494,
+     37.63633
+    ]
+   },
+   "properties": {
+    "district": "정릉",
+    "number": 33,
+    "manageNo": "북한 12-06-01",
+    "section": "칼바위능선",
+    "grade": "C",
+    "admin": "강북구 수유동",
+    "lot": "산 127-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98416,
+     37.65922
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 34,
+    "manageNo": "북한 21-03-01",
+    "section": "하루재 ~ 백운대",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98475,
+     37.65963
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 35,
+    "manageNo": "북한 21-03-02",
+    "section": "하루재 ~ 백운대",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97891,
+     37.65683
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 36,
+    "manageNo": "북한 22-01-01",
+    "section": "백운봉 암문 하단 150m(노적삼거리 방향)",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97902,
+     37.65733
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 37,
+    "manageNo": "북한 22-01-02",
+    "section": "백운봉 암문 하단 100m(노적삼거리 방향)",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97904,
+     37.65745
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 38,
+    "manageNo": "북한 22-01-03",
+    "section": "백운봉 암문 하단 50m",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97866,
+     37.65588
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 39,
+    "manageNo": "북한 22-01-04",
+    "section": "백운봉암문 ~ 용암문",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97733,
+     37.66083
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 40,
+    "manageNo": "북한 46-05-01",
+    "section": "밤골공원지킴터 ~ 백운대",
+    "grade": "B",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9759,
+     37.65675
+    ]
+   },
+   "properties": {
+    "district": "특구대",
+    "number": 41,
+    "manageNo": "북한 50-02-01",
+    "section": "구)약수암",
+    "grade": "C",
+    "admin": "고양시 북한동",
+    "lot": "산 1-1"
+   }
+  }
+ ]
+}

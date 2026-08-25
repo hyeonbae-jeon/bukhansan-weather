@@ -1,0 +1,625 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98479,
+     37.62551
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-1",
+    "district": "정릉",
+    "name": "영취천",
+    "elevation": "287m",
+    "size": "5m*7m",
+    "shelterType": "개방형",
+    "year": 2016,
+    "address": "서울시 성북구 정릉동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98959,
+     37.62629
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-2",
+    "district": "정릉",
+    "name": "보국천",
+    "elevation": "250m",
+    "size": "20m*10m",
+    "shelterType": "개방형",
+    "year": 2015,
+    "address": "서울시 성북구 정릉동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99194,
+     37.63194
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-3",
+    "district": "정릉",
+    "name": "문필봉",
+    "elevation": "480m",
+    "size": "4m*4m",
+    "shelterType": "개방형",
+    "year": 2015,
+    "address": "서울시 성북구 정릉동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96847,
+     37.65815
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-4",
+    "district": "산성",
+    "name": "북문",
+    "elevation": "200m",
+    "size": "3m*6m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "경기도 고양시 덕양구 북한동 502-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96795,
+     37.6549
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-5",
+    "district": "산성",
+    "name": "상운사",
+    "elevation": "300m",
+    "size": "3m*6m",
+    "shelterType": "개방형",
+    "year": 2016,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97511,
+     37.656
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-6",
+    "district": "산성",
+    "name": "구 약수암",
+    "elevation": "506m",
+    "size": "20m*16m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96897,
+     37.66886
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-7",
+    "district": "산성",
+    "name": "숨은벽",
+    "elevation": "262m",
+    "size": "3m*10m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "경기도 고양시 덕양구 효자동 산 1-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.945,
+     37.62416
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-8",
+    "district": "구기",
+    "name": "향림당",
+    "elevation": "368m",
+    "size": "40m*50m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 은평구 불광동 산 42-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95278,
+     37.62305
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-9",
+    "district": "구기",
+    "name": "포금정사지",
+    "elevation": "458m",
+    "size": "5m*10m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 종로구 구기동 산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96416,
+     37.62109
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-10",
+    "district": "구기",
+    "name": "구기계곡삼거리",
+    "elevation": "250m",
+    "size": "8m*8m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 종로구 구기동 산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97528,
+     37.61889
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-11",
+    "district": "구기",
+    "name": "평창공원지킴터",
+    "elevation": "260m",
+    "size": "4m*3m",
+    "shelterType": "개방형",
+    "year": 2016,
+    "address": "서울시 강북구 우이동 산 68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99733,
+     37.63869
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-12",
+    "district": "수유",
+    "name": "구천계곡하단",
+    "elevation": "235m",
+    "size": "17m*12m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 강북구 수유동 산 127-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99011,
+     37.63944
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-13",
+    "district": "수유",
+    "name": "구천계곡상단",
+    "elevation": "406m",
+    "size": "8m*9m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 강북구 수유동 산 127-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99583,
+     37.64458
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-14",
+    "district": "수유",
+    "name": "운가암상단",
+    "elevation": "295m",
+    "size": "16m*7m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 강북구 수유동 산 127-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99933,
+     37.64663
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-15",
+    "district": "수유",
+    "name": "백련사",
+    "elevation": "175m",
+    "size": "5m*3m",
+    "shelterType": "개방형",
+    "year": 2016,
+    "address": "서울시 강북구 수유동 산 127-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98697,
+     37.66218
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-16",
+    "district": "우이",
+    "name": "하루재",
+    "elevation": "430m",
+    "size": "6m*4m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "경기도 고양시 덕양구 효자동 산 19-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99649,
+     37.65328
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-17",
+    "district": "우이",
+    "name": "용담수하단",
+    "elevation": "320m",
+    "size": "10m*4m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 강북구 우이동 산 68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.994,
+     37.67085
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-18",
+    "district": "우이",
+    "name": "육모정고개",
+    "elevation": "350m",
+    "size": "6m*4m",
+    "shelterType": "개방형",
+    "year": 2013,
+    "address": "서울시 강북구 우이동 산 68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98833,
+     37.65388
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-19",
+    "district": "우이",
+    "name": "용암문하단",
+    "elevation": "372m",
+    "size": "4m*4m",
+    "shelterType": "개방형",
+    "year": 2016,
+    "address": "서울시 강북구 우이동 산 68-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.94501,
+     37.6287
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-20",
+    "district": "구기",
+    "name": "기자능선",
+    "elevation": "349m",
+    "size": "3m*3m",
+    "shelterType": "개방형",
+    "year": 2018,
+    "address": "서울시 은평구 진관동 산 34"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95423,
+     37.62734
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-21",
+    "district": "구기",
+    "name": "진관계곡",
+    "elevation": "444m",
+    "size": "3m*3m",
+    "shelterType": "개방형",
+    "year": 2018,
+    "address": "서울시 종로구 구긷동 산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9605,
+     37.64815
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-22",
+    "district": "산성",
+    "name": "의상봉",
+    "elevation": "458m",
+    "size": "3m*3m",
+    "shelterType": "개방형",
+    "year": 2018,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96737,
+     37.6402
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-23",
+    "district": "산성",
+    "name": "부왕동암문",
+    "elevation": "506m",
+    "size": "8m*1m",
+    "shelterType": "개방형",
+    "year": 2018,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97167,
+     37.63309
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-24",
+    "district": "산성",
+    "name": "청수동암문",
+    "elevation": "682m",
+    "size": "3m*3m",
+    "shelterType": "개방형",
+    "year": 2018,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97764,
+     37.63131
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-25",
+    "district": "정릉",
+    "name": "일선사쉼터",
+    "elevation": "540m",
+    "size": "25m*15m",
+    "shelterType": "개방형",
+    "year": 2019,
+    "address": "서울시 성북구 정릉동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9853,
+     37.6315
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-26",
+    "district": "정릉",
+    "name": "보국문쉼터",
+    "elevation": "355m",
+    "size": "4m*4m",
+    "shelterType": "개방형",
+    "year": 2019,
+    "address": "서울시 성북구 정릉동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95544,
+     37.62571
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-27",
+    "district": "구기",
+    "name": "비봉",
+    "elevation": "520m",
+    "size": "3m*2m",
+    "shelterType": "부스형",
+    "year": 2021,
+    "address": "서울시 종로구 구기동 산 3-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97963,
+     37.65765
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-28",
+    "district": "우이",
+    "name": "백운봉암문",
+    "elevation": "720m",
+    "size": "3m*2m",
+    "shelterType": "부스형",
+    "year": 2021,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.96718,
+     37.65782
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-29",
+    "district": "산성",
+    "name": "북문",
+    "elevation": "450m",
+    "size": "3m*2m",
+    "shelterType": "부스형",
+    "year": 2021,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98181,
+     37.63503
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-30",
+    "district": "정릉",
+    "name": "성덕봉",
+    "elevation": "614m",
+    "size": "8m*5m",
+    "shelterType": "개방형",
+    "year": 2025,
+    "address": "경기도 고양시 덕양구 북한동 산 1-1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98066,
+     37.62307
+    ]
+   },
+   "properties": {
+    "id": "안전쉼터-31",
+    "district": "정릉",
+    "name": "형제봉",
+    "elevation": "431m",
+    "size": "10m*5m",
+    "shelterType": "개방형",
+    "year": 2025,
+    "address": "서울시 종로구 평창동 산 6-1"
+   }
+  }
+ ]
+}
