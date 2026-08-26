@@ -57,12 +57,38 @@ def parse_warning_text(t6: str):
         warn_type, areas = entry.split(":", 1)
         warn_type = warn_type.strip()
         areas = areas.strip()
-        hit_districts = [d for d in BUKHANSAN_DISTRICTS if d in areas]
-        # "서울" 전체를 나누지 않고 그냥 "서울"로만 특보를 내는 경우도 있다(예: 한파,
-        # 폭염 등). 이미 "서울서북권"/"서울동북권"으로 잡힌 경우 "서울"까지 중복으로
-        # 넣지 않도록, 그 두 단어에 안 붙어있는 독립된 "서울"만 추가로 잡는다.
-        if re.search(r"서울(?!서북권|동북권)", areas):
+
+        # "서울(서북권 제외)"처럼 괄호 안에 "OO 제외"라고 일부 지역을 뺀다고
+        # 명시하는 경우가 있다. 이걸 그냥 문자열 포함 검사로 훑으면 "제외"라고
+        # 적힌 지역명이 오히려 "포함"으로 잘못 잡힌다(예: "서북권"이라는 글자가
+        # 괄호 안에 있다는 이유만으로 매칭됨). 괄호 안에서 "제외"로 언급된
+        # 지역명들을 먼저 뽑아서 매칭 대상에서 확실히 뺀다.
+        excluded = set()
+        for m in re.finditer(r"\(([^)]*?)제외\)", areas):
+            parts = re.split(r"[,\s·/및]+", m.group(1).strip())
+            excluded.update(p for p in parts if p)
+
+        hit_districts = [
+            d for d in BUKHANSAN_DISTRICTS
+            if d in areas and not any(d in exc for exc in excluded)
+        ]
+
+        if re.search(r"서울\s*\([^)]*제외\)", areas):
+            # "서울(서북권 제외)"처럼 서울 하위 권역 중 하나만 뺀다고 명시된
+            # 경우, 실제 특보 문구엔 남은 권역(예: "동북권")이라는 글자가
+            # 아예 나오지 않기 때문에 위 단순 포함 검사로는 못 잡는다. 우리가
+            # 추적하는 서울 하위 권역(서북권/동북권) 중 제외되지 않은 나머지를
+            # 유추해서 넣어준다.
+            for r in ("서북권", "동북권"):
+                if not any(r in exc for exc in excluded) and r not in hit_districts:
+                    hit_districts.append(r)
+        elif re.search(r"서울(?!서북권|동북권)", areas):
+            # 위 "제외" 패턴이 아니면서, 세분화 없이 그냥 "서울"로만 특보를
+            # 내는 경우도 있다(예: 한파, 폭염 등). 이미 "서울서북권"/
+            # "서울동북권"으로 잡힌 경우 "서울"까지 중복으로 넣지 않도록,
+            # 그 두 단어에 안 붙어있는 독립된 "서울"만 추가로 잡는다.
             hit_districts.append("서울")
+
         if hit_districts:
             matched.append({
                 "type": warn_type,
