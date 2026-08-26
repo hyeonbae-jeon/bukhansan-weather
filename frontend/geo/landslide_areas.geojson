@@ -1,0 +1,328 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.93610869980589,
+     37.62255471240013
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 은평구 불광동 산42-1, 23-7, 23-67",
+    "designatedDate": "2024-02-22",
+    "authority": "서울 은평구",
+    "areaSqm": "530"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.9456531603366,
+     37.639137797580496
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 은평구 진관동 산34, 산36",
+    "designatedDate": "2025-04-24",
+    "authority": "서울 은평구",
+    "areaSqm": "627"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.93909464158246,
+     37.62935424695061
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 은평구 진관동 산49, 산50",
+    "designatedDate": "2024-02-22",
+    "authority": "서울 은평구",
+    "areaSqm": "2148"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98027104095584,
+     37.61620213093967
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 종로구 평창동 산6-142",
+    "designatedDate": "2024-03-19",
+    "authority": "서울 종로구",
+    "areaSqm": "300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.97319589752375,
+     37.61684120180605
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 종로구 평창동 산6-358, 산6-405",
+    "designatedDate": "2024-03-19",
+    "authority": "서울 종로구",
+    "areaSqm": "11419"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.0098343556689,
+     37.625786830841136
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 수유동 산127-1, 산127-28, 486-1010, 486-912, 486-896, 486-853, 486-856",
+    "designatedDate": "2024-03-11",
+    "authority": "서울 강북구",
+    "areaSqm": "76"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99691750955235,
+     37.61775320068861
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 성북구 정릉동 산1-1, 산1-116",
+    "designatedDate": "2023-03-23",
+    "authority": "서울 성북구",
+    "areaSqm": "538.46"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99962090214356,
+     37.65742421285672
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 우이동 260-6, 260-8, 265-12",
+    "designatedDate": "2023-03-10",
+    "authority": "서울 강북구",
+    "areaSqm": "692"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95424998274424,
+     37.60555840526873
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 종로구 구기동 산10, 53-45, 53-55, 53-51",
+    "designatedDate": "2023-02-24",
+    "authority": "서울 강북구",
+    "areaSqm": "241.11"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95255245273412,
+     37.616932957598564
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 종로구 구기동 산7-3, 204-1, 204-2, 204-3, 199-2, 203-1",
+    "designatedDate": "2023-02-24",
+    "authority": "서울 종로구",
+    "areaSqm": "231.7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.95127368161155,
+     37.65531110739902
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 은평구 진관동 355-11, 356-3, 326-4, 산41, 산41-4",
+    "designatedDate": "2023-02-09",
+    "authority": "서울 은평구",
+    "areaSqm": "1096"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.00775278,
+     37.67156389
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 우이동 산81, 299-2(월벽타운)",
+    "designatedDate": "2016-11-25",
+    "authority": "서울 강북구",
+    "areaSqm": "228"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.00735194687206,
+     37.672344711986014
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 우이동 산81, 299-2(월벽장)",
+    "designatedDate": "2019-03-15",
+    "authority": "서울 강북구",
+    "areaSqm": "359"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99198611,
+     37.65706667
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 우이동 산68-1(도선사광장주차장 하단)",
+    "designatedDate": "2016-11-25",
+    "authority": "서울 강북구",
+    "areaSqm": "530"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.00932778,
+     37.62795833
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 수유동 산127-1(빨래골 입구 강북구 방재물품 보관소 뒤 / 토목창고 뒤)",
+    "designatedDate": "2016-11-25",
+    "authority": "서울 강북구",
+    "areaSqm": "480"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.99992778,
+     37.64306944
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 수유동 산127-1(광복군 합동 묘역 좌측 쉼터)",
+    "designatedDate": "2016-11-16",
+    "authority": "서울 강북구",
+    "areaSqm": "330"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.98167778,
+     37.6137
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 종로구 평창동 421-1 일원",
+    "designatedDate": "2022-04-15",
+    "authority": "서울 종로구",
+    "areaSqm": "1572.8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.00522222,
+     37.62735556
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 수유동 산127-1, 산169(백암배드민턴클럽 상단)",
+    "designatedDate": "2022-03-16",
+    "authority": "서울 강북구",
+    "areaSqm": "493"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.00705833,
+     37.64711944
+    ]
+   },
+   "properties": {
+    "name": "산사태취약지역",
+    "address": "서울특별시 강북구 수유동 산127-1(석우배드민턴장)",
+    "designatedDate": "2018-06-12",
+    "authority": "서울 강북구",
+    "areaSqm": "593"
+   }
+  }
+ ]
+}
