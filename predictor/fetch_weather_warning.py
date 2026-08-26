@@ -58,6 +58,11 @@ def parse_warning_text(t6: str):
         warn_type = warn_type.strip()
         areas = areas.strip()
         hit_districts = [d for d in BUKHANSAN_DISTRICTS if d in areas]
+        # "서울" 전체를 나누지 않고 그냥 "서울"로만 특보를 내는 경우도 있다(예: 한파,
+        # 폭염 등). 이미 "서울서북권"/"서울동북권"으로 잡힌 경우 "서울"까지 중복으로
+        # 넣지 않도록, 그 두 단어에 안 붙어있는 독립된 "서울"만 추가로 잡는다.
+        if re.search(r"서울(?!서북권|동북권)", areas):
+            hit_districts.append("서울")
         if hit_districts:
             matched.append({
                 "type": warn_type,
