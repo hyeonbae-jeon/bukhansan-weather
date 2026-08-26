@@ -15,12 +15,17 @@
     export KMA_HUB_AUTH_KEY="발급받은 인증키"
     python fetch_aws_obs.py --out ../data/weather/aws_obs.json
 
-응답 형식(AWS 매분자료, disp=1 콤마구분):
+응답 형식(AWS 매분자료, disp=1 콤마구분, help=0):
     #START7777
     #  YYMMDDHHMI,STN,WD1,WS1,WDS,WSS,WD10,WS10,TA,RE,RN-15m,RN-60m,RN-12H,RN-DAY,HM,PA,PS,TD
        202601011200,420,...,  -5.2,  0,   0.0,   0.0, ...,   65, 1013.2, 1015.0,  -10.5
     #7777END
 자료설명: TA=기온(℃), HM=습도(%), RN-60m=최근1시간 강수량(mm), RE=강수유무(0/1)
+
+※ help=1로 요청하면 각 변수 설명이 여러 줄에 걸쳐 나오는데("#  WD1    : ...",
+"#  WS1    : ..." 처럼 한 줄에 변수 하나씩), 그러면 "컬럼명이 한 줄에 다 모여있는
+헤더 줄"이 아예 없어서 파싱이 실패한다. help=0으로 바꿔서 이 설명 블록 없이 헤더
+줄 하나 + 데이터 줄만 오도록 함.
 """
 import argparse
 import json
@@ -32,10 +37,10 @@ from http_retry import get_with_retry
 BASE_URL = "https://apihub.kma.go.kr/api/typ01/cgi-bin/url/nph-aws2_min"
 
 # 북한산 주변 AWS 관측소 — 사용자가 기상청 API허브에서 직접 확인해 준 지점번호.
-# "북한산" 관측소가 실제로 있어서(420), 산 위 상황을 5km 격자 근사치가 아니라
-# 진짜 관측값으로 볼 수 있다.
+# ⚠️ 420(북한산)은 실제 조회 결과 "해당 AWS ID는 지점목록에 없습니다" 응답을 받음 —
+# 유효한 지점번호가 아닌 것으로 확인됨. 나머지 4개(424/416/414/540)는 정상 응답.
+# 북한산 지점의 올바른 번호를 다시 확인하기 전까지는 이 4개만 씀.
 BUKHANSAN_AWS_STATIONS = {
-    "420": "북한산",
     "424": "강북",
     "416": "은평",
     "414": "성북",
@@ -67,8 +72,11 @@ def parse_aws_response(text: str) -> dict | None:
 
 
 def fetch_station(auth_key: str, stn: str) -> dict | None:
-    params = {"tm2": "", "stn": stn, "disp": 1, "help": 1, "authKey": auth_key}
+    params = {"tm2": "", "stn": stn, "disp": 1, "help": 0, "authKey": auth_key}
     resp = get_with_retry(BASE_URL, params, timeout=30)
+    # 이 API는 EUC-KR로 응답을 주는데, requests가 기본으로 다른 인코딩으로 잘못
+    # 추측해서 한글 설명이 깨져 나오는 문제가 있었음 — 명시적으로 지정해서 해결.
+    resp.encoding = "euc-kr"
     row = parse_aws_response(resp.text)
     if row is None:
         print(f"  경고: 지점 {stn} 파싱 실패 — 원본 응답 앞부분: {resp.text[:300]!r}", file=sys.stderr)
