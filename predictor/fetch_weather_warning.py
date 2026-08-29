@@ -73,6 +73,14 @@ def parse_warning_text(t6: str):
             if d in areas and not any(d in exc for exc in excluded)
         ]
 
+        # "서울"에 특정 권역이 붙어있는지 확인. "서울서남권"처럼 바로 붙기도 하고
+        # "서울(서울동남권)"처럼 괄호 안에 들어있기도 해서 폭넓게 잡는다. 여기서는
+        # 어떤 권역인지는 안 가리고 "권역이 붙어있는지"만 본다 — 서북권/동북권은
+        # 위 BUKHANSAN_DISTRICTS 루프에서 이미 별도로 잡히고, 그 외(서남권/동남권
+        # 등 북한산과 무관한 권역)라면 아래 catch-all에서 "그냥 서울"로 잘못
+        # 넓게 잡히면 안 되기 때문이다.
+        has_seoul_qualifier = bool(re.search(r"서울\s*\(?\s*(?:서울)?\s*[가-힣]{2}권", areas))
+
         if re.search(r"서울\s*\([^)]*제외\)", areas):
             # "서울(서북권 제외)"처럼 서울 하위 권역 중 하나만 뺀다고 명시된
             # 경우, 실제 특보 문구엔 남은 권역(예: "동북권")이라는 글자가
@@ -82,11 +90,12 @@ def parse_warning_text(t6: str):
             for r in ("서북권", "동북권"):
                 if not any(r in exc for exc in excluded) and r not in hit_districts:
                     hit_districts.append(r)
-        elif re.search(r"서울(?!서북권|동북권)", areas):
-            # 위 "제외" 패턴이 아니면서, 세분화 없이 그냥 "서울"로만 특보를
-            # 내는 경우도 있다(예: 한파, 폭염 등). 이미 "서울서북권"/
-            # "서울동북권"으로 잡힌 경우 "서울"까지 중복으로 넣지 않도록,
-            # 그 두 단어에 안 붙어있는 독립된 "서울"만 추가로 잡는다.
+        elif not has_seoul_qualifier and "서울" in areas:
+            # 세분화 없이 그냥 "서울"로만 특보를 내는 경우도 있다(예: 한파,
+            # 폭염 등). "서울" 뒤에 어떤 권역이든 붙어있으면(서북권/동북권 포함)
+            # 여기서는 건드리지 않는다 — 관련 있는 권역은 이미 위 districts
+            # 루프가 잡았고, 관련 없는 권역(서남권/동남권 등)이면 애초에 북한산과
+            # 무관하므로 "그냥 서울"로 넓혀서 잡으면 안 된다.
             hit_districts.append("서울")
 
         if hit_districts:
