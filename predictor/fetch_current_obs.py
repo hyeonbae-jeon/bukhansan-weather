@@ -82,6 +82,12 @@ def main():
     ap.add_argument("--boundary", required=False, default=None,
                      help="국립공원 경계 GeoJSON 경로 (선택) - 공원 전체를 덮는 격자를 다 가져와서 "
                           "국지성 호우 대비 해상도를 높임 (fetch_forecast.py와 동일한 이유)")
+    ap.add_argument("--history-out", required=False, default=None,
+                     help="시간대별 실황을 계속 누적 저장할 파일 경로(선택). 지정하면 매 실행마다 "
+                          "이번에 받은 값을 지나간 시각 기록에 이어붙여서, 나중에 '과거' 구간도 "
+                          "실황으로 보정할 수 있게 해둔다. API를 더 부르는 게 아니라 어차피 매번 "
+                          "받아오는 값을 그냥 남겨두는 것뿐이라 실패해도(디스크 문제 등) 조용히 "
+                          "건너뛰고 본 기능(--out)에는 전혀 지장이 없다.")
     args = ap.parse_args()
 
     service_key = os.environ.get("KMA_API_KEY")
@@ -123,6 +129,34 @@ def main():
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"저장 완료: {args.out}")
+
+    # --history-out이 지정됐으면, 이번에 받은 값을 "그 관측 시각"에 기록해서 계속
+    # 쌓아둔다. API 호출을 새로 더 하는 게 아니라 이미 받은 결과를 남겨두는
+    # 것뿐이라 안전하고(추가 실패 지점 없음), 여기서 뭐가 잘못돼도(디스크 오류
+    # 등) --out 저장은 이미 끝났으니 파이프라인 전체에는 영향 없게 조용히 넘어간다.
+    if args.history_out:
+        try:
+            hour_key = f"{base_date[:4]}-{base_date[4:6]}-{base_date[6:8]}T{base_time[:2]}:00"
+            history = {}
+            if os.path.exists(args.history_out):
+                with open(args.history_out, encoding="utf-8") as f:
+                    history = json.load(f)
+            for grid_key, entry in result.items():
+                history.setdefault(grid_key, {})[hour_key] = {
+                    k: v for k, v in entry.items() if k != "baseDateTime"
+                }
+            # 파일이 무한정 커지지 않도록, 지금 화면에서 쓰는 과거 구간(최대 24시간)
+            # 보다 넉넉하게 26시간만 남기고 그보다 오래된 기록은 정리한다.
+            cutoff = (now - timedelta(hours=26)).strftime("%Y-%m-%dT%H:00")
+            for grid_key in list(history.keys()):
+                history[grid_key] = {h: v for h, v in history[grid_key].items() if h >= cutoff}
+                if not history[grid_key]:
+                    del history[grid_key]
+            with open(args.history_out, "w", encoding="utf-8") as f:
+                json.dump(history, f, ensure_ascii=False, indent=1)
+            print(f"실황 기록 누적 완료: {args.history_out} ({hour_key} 저장)")
+        except Exception as e:
+            print(f"[경고] 실황 기록 누적 실패(무시하고 계속 진행) - {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":

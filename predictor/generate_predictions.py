@@ -52,6 +52,32 @@ def parse_precip_amount(raw, unit):
     return round(sum(vals) / len(vals), 1), s
 
 
+def apply_obs_to_row(row, pty, rn1):
+    """실황 관측값(pty, rn1)으로 예측 행 하나(딕셔너리)를 덮어쓴다. 예보와 달리
+    실황은 "지금/그때 실제로 관측된 값"이라 방향을 가릴 이유가 없어서(뒤에 나오는
+    AWS 비대칭 보정과 다름) 강수 있음/없음 양방향 다 반영한다. pty가 None이면
+    (그 시각 관측값이 아예 없으면) 아무 것도 안 하고 False를 돌려준다."""
+    if pty is None:
+        return False
+    pty_int = int(pty)
+    row["pty"] = pty_int
+    if pty_int == 0:
+        row["precipMm"] = None
+        row["precipLabel"] = None
+    elif pty_int not in (3, 7):  # 비 계열일 때만 실황 강수량 반영(눈은 실황에 적설량 없음)
+        precip_mm, precip_label = parse_precip_amount(rn1, "mm")
+        if precip_mm is not None or precip_label:
+            row["precipMm"] = precip_mm
+            row["precipUnit"] = "mm"
+            row["precipLabel"] = precip_label
+    return True
+
+
+def hour_key_of(time_str):
+    """예측 행의 "YYYY-MM-DDTHH:MM" 시각을 obs_history의 정시 키("YYYY-MM-DDTHH:00")로 맞춘다."""
+    return time_str[:13] + ":00"
+
+
 def lookup_grid_weather(grid, t, forecast, ultra_forecast):
     """주어진 (격자, 시각)의 강수형태/하늘상태/강수확률/강수량을 돌려준다. 메인 예측
     루프와 같은 규칙(초단기예보 있으면 우선, 강수량은 PTY로 비/눈 구분)을 쓰는 걸
@@ -138,7 +164,7 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return R * 2 * math.asin(min(1, math.sqrt(a)))
 
 
-def build_interpolated_points(extra_points_csv, real_results, forecast=None, ultra_forecast=None, current_obs=None):
+def build_interpolated_points(extra_points_csv, real_results, forecast=None, ultra_forecast=None, current_obs=None, obs_history=None):
     """온습도 센서가 없는 지점들을, 실측 기반 모델 예측이 있는 주변 지점들로부터
     역거리가중(IDW)으로 보간해서 만든다. 모델 예측이 아니라 '추정치'임을
     interpolated:true로 명시해서 프론트에서 구분 표시할 수 있게 한다.
@@ -236,8 +262,8 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
     # "지금" 행을 실황(있으면)으로 덮어쓴다 — 실측 센서가 있는 지점과 똑같은 이유
     # (초단기예보는 매시 한 번만 갱신되는 "예보"라 비가 그쳐도/시작해도 다음 갱신
     # 전까진 옛날 값이 남아있음). 보간 지점도 자기 격자의 실황을 그대로 쓴다.
+    now_ts = pd.Timestamp(datetime.now(KST).replace(tzinfo=None))
     if current_obs:
-        now_ts = pd.Timestamp(datetime.now(KST).replace(tzinfo=None))
         for r in results:
             ep_grid = "{}_{}".format(*latlon_to_grid(r["lat"], r["lon"]))
             obs_entry = current_obs.get(ep_grid)
@@ -245,17 +271,24 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
             if obs_pty is None or not r["forecasts"]:
                 continue
             now_row = min(r["forecasts"], key=lambda f: abs(pd.Timestamp(f["time"]) - now_ts))
-            obs_pty_int = int(obs_pty)
-            now_row["pty"] = obs_pty_int
-            if obs_pty_int == 0:
-                now_row["precipMm"] = None
-                now_row["precipLabel"] = None
-            elif obs_pty_int not in (3, 7):
-                obs_precip_mm, obs_precip_label = parse_precip_amount(obs_entry.get("RN1"), "mm")
-                if obs_precip_mm is not None or obs_precip_label:
-                    now_row["precipMm"] = obs_precip_mm
-                    now_row["precipUnit"] = "mm"
-                    now_row["precipLabel"] = obs_precip_label
+            apply_obs_to_row(now_row, obs_pty, obs_entry.get("RN1"))
+
+    # 이미 지나간 시각들도 쌓아둔 실황 기록(obs_history)으로 보정 — 실측 센서가
+    # 있는 지점과 같은 이유(위 주석 참고), API 추가 호출 없이 기존 기록만 재사용.
+    if obs_history:
+        for r in results:
+            if not r["forecasts"]:
+                continue
+            ep_grid = "{}_{}".format(*latlon_to_grid(r["lat"], r["lon"]))
+            grid_hist = obs_history.get(ep_grid)
+            if not grid_hist:
+                continue
+            for row in r["forecasts"]:
+                if pd.Timestamp(row["time"]) >= now_ts:
+                    continue
+                hist_entry = grid_hist.get(hour_key_of(row["time"]))
+                if hist_entry:
+                    apply_obs_to_row(row, hist_entry.get("PTY"), hist_entry.get("RN1"))
 
     return results
 
@@ -378,6 +411,10 @@ def main():
                      help="온습도 센서가 없는 추가 지점 목록 CSV (id,name,lat,lon,elevation_m) - 선택")
     ap.add_argument("--current-obs", required=False, default=None,
                      help="fetch_current_obs.py가 만든 current_obs.json 경로 (선택)")
+    ap.add_argument("--obs-history", required=False, default=None,
+                     help="fetch_current_obs.py --history-out으로 계속 쌓아온 시간대별 실황 기록 "
+                          "경로 (선택). 있으면 '지금'뿐 아니라 이미 지나간 시각들도 그때의 실황으로 "
+                          "보정한다(과거 24시간 구간). 없으면 지금까지처럼 '지금' 한 칸만 보정됨.")
     ap.add_argument("--point-names", required=False, default=None,
                      help="지점 코드->세부지명 매핑 CSV (id,name) - 선택, data/point_names.csv")
     ap.add_argument("--reference-areas-out", required=False, default=None,
@@ -404,6 +441,17 @@ def main():
         print(f"실황 데이터 로드됨: {len(current_obs)}개 격자")
     else:
         print("실황 데이터 없음 (--current-obs 미지정 또는 파일 없음) — obs 필드는 null로 채워짐")
+
+    # 과거 구간 보정용 — 실패해도(파일 손상 등) 조용히 빈 상태로 넘어가고 나머지
+    # 파이프라인(현재 예측 생성, 커밋)에는 전혀 지장 없게 한다.
+    obs_history = {}
+    if args.obs_history and os.path.exists(args.obs_history):
+        try:
+            with open(args.obs_history, encoding="utf-8") as f:
+                obs_history = json.load(f)
+            print(f"실황 기록(과거 보정용) 로드됨: {len(obs_history)}개 격자")
+        except Exception as e:
+            print(f"[경고] 실황 기록 로드 실패(과거 보정 없이 진행) - {e}")
 
     forecast = pd.read_csv(args.forecast)
     forecast["fcstDateTime"] = pd.to_datetime(forecast["fcstDateTime"])
@@ -577,25 +625,25 @@ def main():
             # 기본 출처)는 매시 한 번만 갱신되는 "예보"라서, 그 사이에 비가
             # 그쳐도(또는 갑자기 시작해도) 다음 갱신 전까지 옛날 값을 계속
             # 보여주는 문제가 있었다 — 날씨누리는 실황을 바로 반영해서 더 빨리
-            # 사라지는데 우리 사이트엔 강수가 남아있던 원인이 이거였음. 실황은
-            # "지금 실제로 관측된 값"이라 예보보다 신뢰도가 높으므로, 아래
-            # AWS 보정(비대칭, 놓친 소나기만 추가)과 달리 여기는 강수 있음/없음
-            # 양방향 다 반영한다 — 실측이 "없다"고 하면 예보가 남겨둔 강수도
-            # 지운다.
+            # 사라지는데 우리 사이트엔 강수가 남아있던 원인이 이거였음.
             if rows and obs_pty is not None:
                 now_ts = pd.Timestamp(datetime.now(KST).replace(tzinfo=None))
                 now_row = min(rows, key=lambda r: abs(pd.Timestamp(r["time"]) - now_ts))
-                obs_pty_int = int(obs_pty)
-                now_row["pty"] = obs_pty_int
-                if obs_pty_int == 0:
-                    now_row["precipMm"] = None
-                    now_row["precipLabel"] = None
-                elif obs_pty_int not in (3, 7):  # 비 계열일 때만(눈은 실황에 적설량 없음)
-                    obs_precip_mm, obs_precip_label = parse_precip_amount(obs_entry.get("RN1"), "mm")
-                    if obs_precip_mm is not None or obs_precip_label:
-                        now_row["precipMm"] = obs_precip_mm
-                        now_row["precipUnit"] = "mm"
-                        now_row["precipLabel"] = obs_precip_label
+                apply_obs_to_row(now_row, obs_pty, obs_entry.get("RN1"))
+
+        # 이미 지나간 시각들도, 그때 쌓아둔 실황 기록(obs_history)이 있으면 실황으로
+        # 보정한다 — API를 새로 부르지 않고 fetch_current_obs.py가 매 실행마다
+        # 이미 쌓아둔 기록만 재사용하므로 추가 호출·추가 실패 지점이 없다.
+        if obs_history and rows:
+            grid_hist = obs_history.get(st["grid"])
+            if grid_hist:
+                now_ts = pd.Timestamp(datetime.now(KST).replace(tzinfo=None))
+                for row in rows:
+                    if pd.Timestamp(row["time"]) >= now_ts:
+                        continue  # 미래 시각은 실황으로 손대지 않음(관측값이 없으므로 당연)
+                    hist_entry = grid_hist.get(hour_key_of(row["time"]))
+                    if hist_entry:
+                        apply_obs_to_row(row, hist_entry.get("PTY"), hist_entry.get("RN1"))
 
         # 코드가 "북한00-00" 형식이 아닌 예외(예: 족두리봉)는 수동 매핑으로 코드를 보정
         raw_name = st["다목적위치표지판번호"]
@@ -616,7 +664,7 @@ def main():
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
 
-    extra_results = build_interpolated_points(args.extra_points, results, forecast, ultra_forecast, current_obs)
+    extra_results = build_interpolated_points(args.extra_points, results, forecast, ultra_forecast, current_obs, obs_history)
     if extra_results:
         print(f"보간 추정 지점 {len(extra_results)}개 추가됨 (실측 없음, 주변 지점 IDW 보간)")
     all_results = results + extra_results
