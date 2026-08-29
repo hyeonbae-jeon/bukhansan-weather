@@ -138,7 +138,7 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return R * 2 * math.asin(min(1, math.sqrt(a)))
 
 
-def build_interpolated_points(extra_points_csv, real_results, forecast=None, ultra_forecast=None):
+def build_interpolated_points(extra_points_csv, real_results, forecast=None, ultra_forecast=None, current_obs=None):
     """온습도 센서가 없는 지점들을, 실측 기반 모델 예측이 있는 주변 지점들로부터
     역거리가중(IDW)으로 보간해서 만든다. 모델 예측이 아니라 '추정치'임을
     interpolated:true로 명시해서 프론트에서 구분 표시할 수 있게 한다.
@@ -232,6 +232,30 @@ def build_interpolated_points(extra_points_csv, real_results, forecast=None, ult
             "interpolated": True,  # AI 모델 예측이 아니라 주변 지점 보간 추정치임을 표시
             "forecasts": forecasts,
         })
+
+    # "지금" 행을 실황(있으면)으로 덮어쓴다 — 실측 센서가 있는 지점과 똑같은 이유
+    # (초단기예보는 매시 한 번만 갱신되는 "예보"라 비가 그쳐도/시작해도 다음 갱신
+    # 전까진 옛날 값이 남아있음). 보간 지점도 자기 격자의 실황을 그대로 쓴다.
+    if current_obs:
+        now_ts = pd.Timestamp(datetime.now(KST).replace(tzinfo=None))
+        for r in results:
+            ep_grid = "{}_{}".format(*latlon_to_grid(r["lat"], r["lon"]))
+            obs_entry = current_obs.get(ep_grid)
+            obs_pty = obs_entry.get("PTY") if obs_entry else None
+            if obs_pty is None or not r["forecasts"]:
+                continue
+            now_row = min(r["forecasts"], key=lambda f: abs(pd.Timestamp(f["time"]) - now_ts))
+            obs_pty_int = int(obs_pty)
+            now_row["pty"] = obs_pty_int
+            if obs_pty_int == 0:
+                now_row["precipMm"] = None
+                now_row["precipLabel"] = None
+            elif obs_pty_int not in (3, 7):
+                obs_precip_mm, obs_precip_label = parse_precip_amount(obs_entry.get("RN1"), "mm")
+                if obs_precip_mm is not None or obs_precip_label:
+                    now_row["precipMm"] = obs_precip_mm
+                    now_row["precipUnit"] = "mm"
+                    now_row["precipLabel"] = obs_precip_label
 
     return results
 
@@ -549,6 +573,30 @@ def main():
                 "wind": obs_entry.get("WSD"),
             }
 
+            # "지금"에 가장 가까운 예보 행을 실황으로 덮어쓴다. 초단기예보(PTY의
+            # 기본 출처)는 매시 한 번만 갱신되는 "예보"라서, 그 사이에 비가
+            # 그쳐도(또는 갑자기 시작해도) 다음 갱신 전까지 옛날 값을 계속
+            # 보여주는 문제가 있었다 — 날씨누리는 실황을 바로 반영해서 더 빨리
+            # 사라지는데 우리 사이트엔 강수가 남아있던 원인이 이거였음. 실황은
+            # "지금 실제로 관측된 값"이라 예보보다 신뢰도가 높으므로, 아래
+            # AWS 보정(비대칭, 놓친 소나기만 추가)과 달리 여기는 강수 있음/없음
+            # 양방향 다 반영한다 — 실측이 "없다"고 하면 예보가 남겨둔 강수도
+            # 지운다.
+            if rows and obs_pty is not None:
+                now_ts = pd.Timestamp(datetime.now(KST).replace(tzinfo=None))
+                now_row = min(rows, key=lambda r: abs(pd.Timestamp(r["time"]) - now_ts))
+                obs_pty_int = int(obs_pty)
+                now_row["pty"] = obs_pty_int
+                if obs_pty_int == 0:
+                    now_row["precipMm"] = None
+                    now_row["precipLabel"] = None
+                elif obs_pty_int not in (3, 7):  # 비 계열일 때만(눈은 실황에 적설량 없음)
+                    obs_precip_mm, obs_precip_label = parse_precip_amount(obs_entry.get("RN1"), "mm")
+                    if obs_precip_mm is not None or obs_precip_label:
+                        now_row["precipMm"] = obs_precip_mm
+                        now_row["precipUnit"] = "mm"
+                        now_row["precipLabel"] = obs_precip_label
+
         # 코드가 "북한00-00" 형식이 아닌 예외(예: 족두리봉)는 수동 매핑으로 코드를 보정
         raw_name = st["다목적위치표지판번호"]
         code = CODE_ALIASES.get(raw_name, raw_name)
@@ -568,7 +616,7 @@ def main():
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
 
-    extra_results = build_interpolated_points(args.extra_points, results, forecast, ultra_forecast)
+    extra_results = build_interpolated_points(args.extra_points, results, forecast, ultra_forecast, current_obs)
     if extra_results:
         print(f"보간 추정 지점 {len(extra_results)}개 추가됨 (실측 없음, 주변 지점 IDW 보간)")
     all_results = results + extra_results
