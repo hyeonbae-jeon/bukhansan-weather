@@ -105,8 +105,6 @@ def lookup_grid_weather(grid, t, forecast, ultra_forecast):
     pty = pick("PTY", "PTY", 0)
     pty_int = int(pty) if pd.notna(pty) else 0
     is_snow_type = pty_int in (3, 7)
-    wsd = pick("WSD", "WSD")
-    vec = pick("VEC", "VEC")
 
     if not is_snow_type and u is not None and pd.notna(u.get("RN1", np.nan)):
         precip_raw = u.get("RN1")
@@ -123,8 +121,6 @@ def lookup_grid_weather(grid, t, forecast, ultra_forecast):
         "precipMm": precip_mm,
         "precipUnit": "cm" if is_snow_type else "mm",
         "precipLabel": precip_label,
-        "wind": float(wsd) if pd.notna(wsd) else None,
-        "windDir": float(vec) if pd.notna(vec) else None,
     }
 
 
@@ -600,7 +596,7 @@ def main():
                 "time": f["fcstDateTime"].strftime("%Y-%m-%dT%H:%M"),
                 "temp": pred_temp,
                 "humidity": pred_hum,
-                # 아래는 모델 보정 없이 기상청 예보 원본값 그대로 (강수형태/하늘상태/강수확률/풍속)
+                # 아래는 모델 보정 없이 기상청 예보 원본값 그대로 (강수형태/하늘상태/강수확률)
                 # 산악지형 위험요소(비/눈/소나기 등) 표시에 사용
                 "pty": pty_int,
                 "sky": int(sky) if pd.notna(sky) else None,
@@ -608,8 +604,6 @@ def main():
                 "precipMm": precip_mm,        # 눈이면 cm 단위(적설량), 비면 mm(강수량) — precipUnit 참고
                 "precipUnit": "cm" if is_snow_type else "mm",
                 "precipLabel": precip_label,  # "1mm 미만"처럼 정확한 수치가 아닐 때 원문 그대로
-                "wind": float(wsd_val) if pd.notna(wsd_val) else None,
-                "windDir": float(vec_val) if pd.notna(vec_val) else None,  # 풍향(도, 0~360 — 바람이 불어오는 방향)
                 # 진단용: 이 값이 어떻게 계산됐는지 투명하게 보여주기 위한 분해값
                 # 최종예측 = 기상청예보원본값 + modelOffset(지점×시간대 평균편차) + modelResidual(그날 기상조건별 추가보정)
                 "refTemp": round(float(tmp_val), 1) if pd.notna(tmp_val) else None,
