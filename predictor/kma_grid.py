@@ -45,35 +45,35 @@ def latlon_to_grid(lat: float, lon: float) -> tuple[int, int]:
 
 
 def grids_covering_geojson(geojson_path: str, step_deg: float = 0.005) -> list[tuple[int, int]]:
-    """GeoJSON(Polygon/MultiPolygon) 하나의 경계 상자(bbox) 안을 촘촘히 스캔해서,
-    그 영역이 걸치는 기상청 5km 격자(nx,ny)를 전부 찾아 정렬된 리스트로 돌려준다.
-    격자 자체가 5km 간격이라 step_deg(약 500m)면 격자 경계를 놓치지 않고 충분히 촘촘함.
+    """GeoJSON(Polygon/MultiPolygon) 폴리곤 "내부"를 촘촘히 스캔해서, 그 영역이 실제로
+    걸치는 기상청 5km 격자(nx,ny)만 골라 정렬된 리스트로 돌려준다. 격자 자체가 5km
+    간격이라 step_deg(약 500m)면 격자 경계를 놓치지 않고 충분히 촘촘함.
+
+    예전엔 폴리곤의 바운딩 박스(사각형) 전체를 스캔했는데, 북한산처럼 실제 모양이
+    반듯한 사각형이 아닌 공원은 바운딩 박스 구석에 걸릴 뿐 실제 경계 밖인 격자까지
+    딸려와서(12개 중 4개), 필요 없는 API 호출이 그만큼 늘어나는 문제가 있었다.
+    shapely로 "실제 폴리곤 안에 들어오는 점인지"까지 확인해서 걸러낸다.
     """
     import json
+    from shapely.geometry import shape, Point
+    from shapely.ops import unary_union
 
     with open(geojson_path, encoding="utf-8") as f:
         geo = json.load(f)
 
-    lons, lats = [], []
-    for feature in geo.get("features", [geo]):
-        geom = feature.get("geometry", feature)
-        gtype = geom["type"]
-        polys = geom["coordinates"] if gtype == "MultiPolygon" else [geom["coordinates"]]
-        for poly in polys:
-            for ring in poly:
-                for pt in ring:
-                    lons.append(pt[0])
-                    lats.append(pt[1])
-
-    if not lons:
+    geoms = [shape(feature.get("geometry", feature)) for feature in geo.get("features", [geo])]
+    if not geoms:
         return []
+    park = unary_union(geoms)
+    minx, miny, maxx, maxy = park.bounds
 
     grids = set()
-    lon = min(lons)
-    while lon <= max(lons):
-        lat = min(lats)
-        while lat <= max(lats):
-            grids.add(latlon_to_grid(lat, lon))
+    lon = minx
+    while lon <= maxx:
+        lat = miny
+        while lat <= maxy:
+            if park.contains(Point(lon, lat)):
+                grids.add(latlon_to_grid(lat, lon))
             lat += step_deg
         lon += step_deg
     return sorted(grids)
