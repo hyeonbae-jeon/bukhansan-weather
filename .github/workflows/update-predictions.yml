@@ -88,6 +88,13 @@ jobs:
             --aws-obs ../data/weather/aws_obs.json
 
       - name: 기상특보 수집
+        # 이 스텝이 실패해도(예: apis.data.go.kr 일시 타임아웃) 아래 커밋 스텝은
+        # 계속 진행되게 한다. fetch_weather_warning.py는 실패 시 warnings.json을
+        # 아예 새로 쓰지 않고 죽기 때문에 기존 파일이 그대로 남아있어 안전하다.
+        # 예전엔 이 스텝이 맨 마지막에 있어서, 여기 하나만 실패해도 앞에서 이미
+        # 성공한 예보/실황/AWS/지점별 예측 계산 결과까지 전부 커밋 못 하고 버려지는
+        # 문제가 있었다.
+        continue-on-error: true
         env:
           KMA_WARN_API_KEY: ${{ secrets.KMA_WARN_API_KEY }}
         run: |
