@@ -23,6 +23,7 @@
 자료설명: TA=기온(℃), HM=습도(%), RN-60m=최근1시간 강수량(mm), RE=강수유무(0/1)
 """
 import argparse
+import concurrent.futures
 import json
 import os
 import sys
@@ -106,16 +107,46 @@ def main():
               "별도 발급 — 공공데이터포털 KMA_API_KEY와는 다른 키).", file=sys.stderr)
         sys.exit(1)
 
-    result = {}
-    for stn, name in BUKHANSAN_AWS_STATIONS.items():
-        print(f"[fetch] {stn} ({name})")
+    # 실패했을 때 되돌아갈 "직전 값" — 기존 --out 파일이 있으면 읽어둔다
+    previous = {}
+    if os.path.exists(args.out):
         try:
-            obs = fetch_station(auth_key, stn)
-            if obs:
-                obs["name"] = name
-                result[stn] = obs
+            with open(args.out, encoding="utf-8") as f:
+                previous = json.load(f)
         except Exception as e:
-            print(f"  경고: {stn}({name}) 조회 실패 - {e}", file=sys.stderr)
+            print(f"  경고: 기존 파일을 못 읽어서 실패 시 직전 값 유지를 못 함 - {e}", file=sys.stderr)
+
+    # 관측소 5개를 병렬로 조회 (fetch_forecast.py 등과 동일한 이유 — 순차 호출 시
+    # 한 관측소의 재시도 실패가 그대로 전체 소요시간에 더해짐. 실제로 이 스크립트가
+    # 아직 순차 방식이던 때, apis 쪽 장애 상황에서 혼자 17분을 잡아먹은 적이 있었음)
+    def _fetch_one(item):
+        stn, name = item
+        try:
+            return stn, name, fetch_station(auth_key, stn), None
+        except Exception as e:
+            return stn, name, None, e
+
+    result = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        futures = [executor.submit(_fetch_one, item) for item in BUKHANSAN_AWS_STATIONS.items()]
+        for future in concurrent.futures.as_completed(futures):
+            stn, name, obs, err = future.result()
+            if err is not None:
+                if stn in previous:
+                    print(f"  경고: {stn}({name}) 조회 실패(직전 값 유지) - {err}", file=sys.stderr)
+                    result[stn] = previous[stn]
+                else:
+                    print(f"  경고: {stn}({name}) 조회 실패(직전 값도 없음) - {err}", file=sys.stderr)
+                continue
+            if obs is None:
+                # fetch_station이 파싱 실패 등으로 None을 반환한 경우도 마찬가지로
+                # 직전 값을 유지한다 (예외는 아니지만 실질적으로 이번 회차 실패임)
+                if stn in previous:
+                    result[stn] = previous[stn]
+                continue
+            print(f"[fetch] {stn} ({name}) 완료")
+            obs["name"] = name
+            result[stn] = obs
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
