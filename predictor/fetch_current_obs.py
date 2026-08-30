@@ -11,10 +11,10 @@
     python fetch_current_obs.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/current_obs.json
 """
 import argparse
+import concurrent.futures
 import json
 import os
 import sys
-import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote
 
@@ -115,15 +115,38 @@ def main():
     base_date, base_time = latest_base_datetime(now)
     print(f"기준 관측시각: {base_date} {base_time}")
 
-    result = {}
-    for nx, ny in unique_grids:
-        key = f"{nx}_{ny}"
-        print(f"[fetch] {key}")
+    # 실패했을 때 되돌아갈 "직전 값" — 기존 --out 파일이 있으면 읽어둔다
+    previous = {}
+    if os.path.exists(args.out):
         try:
-            result[key] = fetch_grid_obs(service_key, base_date, base_time, nx, ny)
+            with open(args.out, encoding="utf-8") as f:
+                previous = json.load(f)
         except Exception as e:
-            print(f"  경고: {key} 조회 실패 - {e}", file=sys.stderr)
-        time.sleep(0.3)
+            print(f"  경고: 기존 파일을 못 읽어서 실패 시 직전 값 유지를 못 함 - {e}", file=sys.stderr)
+
+    # 격자 셀 병렬 조회 (fetch_forecast.py와 동일한 이유)
+    def _fetch_one(grid):
+        nx, ny = grid
+        key = f"{nx}_{ny}"
+        try:
+            return key, fetch_grid_obs(service_key, base_date, base_time, nx, ny), None
+        except Exception as e:
+            return key, None, e
+
+    result = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [executor.submit(_fetch_one, g) for g in unique_grids]
+        for future in concurrent.futures.as_completed(futures):
+            key, obs, err = future.result()
+            if err is not None:
+                if key in previous:
+                    print(f"  경고: {key} 조회 실패(이 격자만 건너뜀, 직전 값 유지) - {err}", file=sys.stderr)
+                    result[key] = previous[key]
+                else:
+                    print(f"  경고: {key} 조회 실패(직전 값도 없음) - {err}", file=sys.stderr)
+                continue
+            print(f"[fetch] {key} 완료")
+            result[key] = obs
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:

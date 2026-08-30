@@ -13,9 +13,9 @@
     python fetch_ultra_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/ultra_forecast.csv
 """
 import argparse
+import concurrent.futures
 import os
 import sys
-import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote
 
@@ -98,32 +98,67 @@ def main():
     base_date, base_time = latest_base_datetime(now)
     print(f"기준 발표시각: {base_date} {base_time}")
 
-    all_rows = []
-    for nx, ny in unique_grids:
-        print(f"[fetch] nx={nx}, ny={ny}")
-        df = fetch_grid_ultra_forecast(service_key, base_date, base_time, nx, ny)
-        if df.empty:
-            print(f"  경고: 격자({nx},{ny}) 응답 없음")
-            continue
-        all_rows.append(df)
-        time.sleep(0.3)
+    # 격자 셀 병렬 조회 (fetch_forecast.py와 동일한 이유 — 순차 호출 시 한 셀의
+    # 재시도 실패가 그대로 전체 소요시간에 더해짐)
+    def _fetch_one(grid):
+        nx, ny = grid
+        try:
+            return grid, fetch_grid_ultra_forecast(service_key, base_date, base_time, nx, ny), None
+        except Exception as e:
+            return grid, None, e
 
-    if not all_rows:
-        print("받아온 초단기예보가 없습니다.", file=sys.stderr)
+    all_rows = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [executor.submit(_fetch_one, g) for g in unique_grids]
+        for future in concurrent.futures.as_completed(futures):
+            (nx, ny), df, err = future.result()
+            if err is not None:
+                print(f"  경고: 격자({nx},{ny}) 조회 실패(이 격자만 건너뜀, 기존 값 유지) - {err}",
+                      file=sys.stderr)
+                continue
+            if df is None or df.empty:
+                print(f"  경고: 격자({nx},{ny}) 응답 없음")
+                continue
+            print(f"[fetch] nx={nx}, ny={ny} 완료")
+            all_rows.append(df)
+
+    if not all_rows and not os.path.exists(args.out):
+        print("받아온 초단기예보가 없고 기존 파일도 없습니다.", file=sys.stderr)
         sys.exit(1)
 
-    raw = pd.concat(all_rows, ignore_index=True)
-    raw["fcstDateTime"] = pd.to_datetime(raw["fcstDate"] + raw["fcstTime"], format="%Y%m%d%H%M")
-    pivot = raw.pivot_table(
-        index=["grid", "fcstDateTime"], columns="category", values="fcstValue", aggfunc="first"
-    ).reset_index()
+    if all_rows:
+        raw = pd.concat(all_rows, ignore_index=True)
+        raw["fcstDateTime"] = pd.to_datetime(raw["fcstDate"] + raw["fcstTime"], format="%Y%m%d%H%M")
+        pivot = raw.pivot_table(
+            index=["grid", "fcstDateTime"], columns="category", values="fcstValue", aggfunc="first"
+        ).reset_index()
+    else:
+        print("  경고: 이번 회차엔 격자를 하나도 못 받아왔음 - 기존 파일 값을 그대로 유지함", file=sys.stderr)
+        pivot = pd.DataFrame(columns=["grid", "fcstDateTime"])
 
-    # 이 파일은 항상 "지금부터 6시간"짜리 최신 스냅샷만 있으면 되고(지나간 시각은
-    # generate_predictions.py가 어차피 안 씀), 단기예보처럼 과거를 누적 보존할 필요가
-    # 없어서 매번 그냥 덮어쓴다.
+    # 이 파일은 원래 "지금부터 6시간"짜리 최신 스냅샷만 덮어쓰는 방식이었는데, 그러면
+    # 이번 회차에 실패한 격자는 통째로 사라져버린다. 그래서 fetch_forecast.py처럼
+    # 기존 파일과 병합(새 값이 있으면 덮어쓰고, 없으면 직전 값 유지)한 뒤, 초단기예보
+    # 성격에 안 맞는 오래된 시각(2시간 넘게 지난 과거)만 정리한다.
+    if os.path.exists(args.out):
+        try:
+            old = pd.read_csv(args.out, parse_dates=["fcstDateTime"])
+            combined = pd.concat([old, pivot], ignore_index=True)
+            combined = combined.drop_duplicates(subset=["grid", "fcstDateTime"], keep="last")
+        except Exception as e:
+            print(f"  경고: 기존 파일을 못 읽어서 새로 받은 값만 씀 - {e}", file=sys.stderr)
+            combined = pivot
+    else:
+        combined = pivot
+
+    now_naive = now.replace(tzinfo=None)
+    window_start = now_naive - timedelta(hours=2)
+    combined = combined[combined["fcstDateTime"] >= window_start]
+    combined = combined.sort_values(["grid", "fcstDateTime"]).reset_index(drop=True)
+
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
-    pivot.to_csv(args.out, index=False)
-    print(f"저장 완료: {args.out} ({len(pivot)}행, {pivot['grid'].nunique()}개 격자)")
+    combined.to_csv(args.out, index=False)
+    print(f"저장 완료: {args.out} ({len(combined)}행, {combined['grid'].nunique()}개 격자)")
 
 
 if __name__ == "__main__":

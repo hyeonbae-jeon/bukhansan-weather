@@ -7,9 +7,9 @@
     python fetch_forecast.py --sensor ../data/sensor/sensor_merged.csv --out ../data/weather/forecast.csv
 """
 import argparse
+import concurrent.futures
 import os
 import sys
-import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote
 
@@ -102,26 +102,50 @@ def main():
     base_date, base_time = latest_base_datetime(now)
     print(f"기준 발표시각: {base_date} {base_time}")
 
-    all_rows = []
-    for nx, ny in unique_grids:
-        print(f"[fetch] nx={nx}, ny={ny}")
-        df = fetch_grid_forecast(service_key, base_date, base_time, nx, ny)
-        if df.empty:
-            print(f"  경고: 격자({nx},{ny}) 응답 없음")
-            continue
-        all_rows.append(df)
-        time.sleep(0.3)
+    # 격자 셀을 병렬로 조회 — 예전엔 순차 호출이라 한 셀이 재시도까지 다 실패하면
+    # (최악의 경우 셀당 최대 약 3~4분) 그 시간만큼 그대로 늘어졌는데, 병렬로 바꾸면
+    # 전체 소요시간이 "가장 오래 걸리는 셀 하나" 수준으로 줄어든다. 동시 요청 수는
+    # max_workers로 제한해서 공공데이터포털 서버에 순간적으로 너무 몰리지 않게 한다.
+    def _fetch_one(grid):
+        nx, ny = grid
+        try:
+            return grid, fetch_grid_forecast(service_key, base_date, base_time, nx, ny), None
+        except Exception as e:
+            return grid, None, e
 
-    if not all_rows:
-        print("받아온 예보가 없습니다.", file=sys.stderr)
+    all_rows = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [executor.submit(_fetch_one, g) for g in unique_grids]
+        for future in concurrent.futures.as_completed(futures):
+            (nx, ny), df, err = future.result()
+            if err is not None:
+                # 이 격자만 이번 회차에 건너뛴다 — 전체를 실패 처리하지 않고, 아래
+                # "기존 파일과 병합" 로직 덕분에 이 격자의 직전 값이 자동으로 유지된다.
+                print(f"  경고: 격자({nx},{ny}) 조회 실패(이 격자만 건너뜀, 기존 값 유지) - {err}",
+                      file=sys.stderr)
+                continue
+            if df is None or df.empty:
+                print(f"  경고: 격자({nx},{ny}) 응답 없음")
+                continue
+            print(f"[fetch] nx={nx}, ny={ny} 완료")
+            all_rows.append(df)
+
+    if not all_rows and not os.path.exists(args.out):
+        print("받아온 예보가 없고 기존 파일도 없습니다.", file=sys.stderr)
         sys.exit(1)
 
-    raw = pd.concat(all_rows, ignore_index=True)
-    # category별로 세로로 쌓여있는 걸 가로(피벗)로 정리
-    raw["fcstDateTime"] = pd.to_datetime(raw["fcstDate"] + raw["fcstTime"], format="%Y%m%d%H%M")
-    pivot = raw.pivot_table(
-        index=["grid", "fcstDateTime"], columns="category", values="fcstValue", aggfunc="first"
-    ).reset_index()
+    if all_rows:
+        raw = pd.concat(all_rows, ignore_index=True)
+        # category별로 세로로 쌓여있는 걸 가로(피벗)로 정리
+        raw["fcstDateTime"] = pd.to_datetime(raw["fcstDate"] + raw["fcstTime"], format="%Y%m%d%H%M")
+        pivot = raw.pivot_table(
+            index=["grid", "fcstDateTime"], columns="category", values="fcstValue", aggfunc="first"
+        ).reset_index()
+    else:
+        # 이번 회차에 격자가 전부 실패했어도, 기존 파일이 있으면 그걸 그대로 이어받아
+        # 최소한 "직전 값"은 유지한 채로 계속 진행한다 (완전 실패로 스텝을 죽이지 않음).
+        print("  경고: 이번 회차엔 격자를 하나도 못 받아왔음 - 기존 파일 값을 그대로 유지함", file=sys.stderr)
+        pivot = pd.DataFrame(columns=["grid", "fcstDateTime"])
 
     # 기상청 단기예보 API는 "지금부터 미래"만 돌려주고 지나간 시각은 다시 안 줘서,
     # 매번 덮어쓰기만 하면 "몇 시간 전" 데이터가 사라져 지도의 과거 슬라이더가
