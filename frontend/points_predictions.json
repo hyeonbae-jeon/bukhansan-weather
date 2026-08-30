@@ -9,11 +9,11 @@
     "elevationM": 142.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -529,7 +529,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.9,
-        "humidity": 75.0,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -541,12 +541,12 @@
         "modelOffsetTemp": -3.1,
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.9,
-        "humidity": 75.0,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -558,12 +558,12 @@
         "modelOffsetTemp": -3.1,
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.9,
-        "humidity": 79.8,
+        "humidity": 79.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -575,12 +575,12 @@
         "modelOffsetTemp": -3.1,
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.9,
-        "humidity": 79.8,
+        "humidity": 79.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -592,7 +592,7 @@
         "modelOffsetTemp": -3.1,
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -1643,11 +1643,11 @@
     "elevationM": 322.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -2163,7 +2163,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.4,
-        "humidity": 74.9,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -2175,12 +2175,12 @@
         "modelOffsetTemp": -4.54,
         "modelOffsetHumidity": 5.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.4,
-        "humidity": 74.9,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -2192,12 +2192,12 @@
         "modelOffsetTemp": -4.54,
         "modelOffsetHumidity": 5.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.4,
-        "humidity": 79.8,
+        "humidity": 79.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -2209,12 +2209,12 @@
         "modelOffsetTemp": -4.54,
         "modelOffsetHumidity": 5.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.4,
-        "humidity": 79.8,
+        "humidity": 79.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -2226,7 +2226,7 @@
         "modelOffsetTemp": -4.54,
         "modelOffsetHumidity": 5.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -3277,11 +3277,11 @@
     "elevationM": 382.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -3797,7 +3797,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.0,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -3809,12 +3809,12 @@
         "modelOffsetTemp": -4.99,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.0,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -3826,12 +3826,12 @@
         "modelOffsetTemp": -4.99,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.0,
-        "humidity": 79.3,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -3843,12 +3843,12 @@
         "modelOffsetTemp": -4.99,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.0,
-        "humidity": 79.3,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -3860,7 +3860,7 @@
         "modelOffsetTemp": -4.99,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -4911,11 +4911,11 @@
     "elevationM": 317.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -5431,7 +5431,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.6,
-        "humidity": 74.0,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -5443,12 +5443,12 @@
         "modelOffsetTemp": -4.38,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.6,
-        "humidity": 74.0,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -5460,12 +5460,12 @@
         "modelOffsetTemp": -4.38,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.6,
-        "humidity": 78.9,
+        "humidity": 78.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -5477,12 +5477,12 @@
         "modelOffsetTemp": -4.38,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.6,
-        "humidity": 78.9,
+        "humidity": 78.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -5494,7 +5494,7 @@
         "modelOffsetTemp": -4.38,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -6545,11 +6545,11 @@
     "elevationM": 98.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -7065,7 +7065,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.2,
-        "humidity": 73.3,
+        "humidity": 72.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -7077,12 +7077,12 @@
         "modelOffsetTemp": -2.81,
         "modelOffsetHumidity": 4.26,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 24.2,
-        "humidity": 73.3,
+        "humidity": 72.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -7094,12 +7094,12 @@
         "modelOffsetTemp": -2.81,
         "modelOffsetHumidity": 4.26,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 23.2,
-        "humidity": 78.1,
+        "humidity": 77.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -7111,12 +7111,12 @@
         "modelOffsetTemp": -2.81,
         "modelOffsetHumidity": 4.26,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 23.2,
-        "humidity": 78.1,
+        "humidity": 77.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -7128,7 +7128,7 @@
         "modelOffsetTemp": -2.81,
         "modelOffsetHumidity": 4.26,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -8179,11 +8179,11 @@
     "elevationM": 76.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -8716,7 +8716,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.8,
-        "humidity": 79.1,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -8724,7 +8724,7 @@
         "precipUnit": "mm",
         "precipLabel": "강수없음",
         "refTemp": 27.0,
-        "refHumidity": 75.0,
+        "refHumidity": 70.0,
         "modelOffsetTemp": -2.17,
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
@@ -8750,7 +8750,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 23.8,
-        "humidity": 84.3,
+        "humidity": 84.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -8762,7 +8762,7 @@
         "modelOffsetTemp": -2.17,
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -9813,11 +9813,11 @@
     "elevationM": 192.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -10333,7 +10333,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.6,
-        "humidity": 74.2,
+        "humidity": 73.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -10345,12 +10345,12 @@
         "modelOffsetTemp": -3.42,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.6,
-        "humidity": 74.2,
+        "humidity": 73.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -10362,12 +10362,12 @@
         "modelOffsetTemp": -3.42,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.6,
-        "humidity": 79.1,
+        "humidity": 78.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -10379,12 +10379,12 @@
         "modelOffsetTemp": -3.42,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.6,
-        "humidity": 79.1,
+        "humidity": 78.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -10396,7 +10396,7 @@
         "modelOffsetTemp": -3.42,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -11447,11 +11447,11 @@
     "elevationM": 246.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -11967,7 +11967,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.9,
-        "humidity": 72.6,
+        "humidity": 72.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -11979,12 +11979,12 @@
         "modelOffsetTemp": -4.07,
         "modelOffsetHumidity": 3.62,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.9,
-        "humidity": 72.6,
+        "humidity": 72.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -11996,12 +11996,12 @@
         "modelOffsetTemp": -4.07,
         "modelOffsetHumidity": 3.62,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.9,
-        "humidity": 77.5,
+        "humidity": 77.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -12013,12 +12013,12 @@
         "modelOffsetTemp": -4.07,
         "modelOffsetHumidity": 3.62,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 77.5,
+        "humidity": 77.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -12030,7 +12030,7 @@
         "modelOffsetTemp": -4.07,
         "modelOffsetHumidity": 3.62,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -13081,11 +13081,11 @@
     "elevationM": 161.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -13601,7 +13601,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.9,
-        "humidity": 74.8,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -13613,12 +13613,12 @@
         "modelOffsetTemp": -3.07,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.9,
-        "humidity": 74.8,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -13630,12 +13630,12 @@
         "modelOffsetTemp": -3.07,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.9,
-        "humidity": 79.7,
+        "humidity": 79.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -13647,12 +13647,12 @@
         "modelOffsetTemp": -3.07,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.9,
-        "humidity": 79.7,
+        "humidity": 79.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -13664,7 +13664,7 @@
         "modelOffsetTemp": -3.07,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -14715,11 +14715,11 @@
     "elevationM": 143.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -15235,7 +15235,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.5,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -15247,12 +15247,12 @@
         "modelOffsetTemp": -2.52,
         "modelOffsetHumidity": 5.0,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 24.5,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -15264,12 +15264,12 @@
         "modelOffsetTemp": -2.52,
         "modelOffsetHumidity": 5.0,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 23.5,
-        "humidity": 78.9,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -15281,12 +15281,12 @@
         "modelOffsetTemp": -2.52,
         "modelOffsetHumidity": 5.0,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 23.5,
-        "humidity": 78.9,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -15298,7 +15298,7 @@
         "modelOffsetTemp": -2.52,
         "modelOffsetHumidity": 5.0,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -16349,11 +16349,11 @@
     "elevationM": 333.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -16869,7 +16869,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.0,
-        "humidity": 71.3,
+        "humidity": 71.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -16881,12 +16881,12 @@
         "modelOffsetTemp": -4.96,
         "modelOffsetHumidity": 2.33,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.0,
-        "humidity": 71.3,
+        "humidity": 71.0,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -16898,12 +16898,12 @@
         "modelOffsetTemp": -4.96,
         "modelOffsetHumidity": 2.33,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.0,
-        "humidity": 76.2,
+        "humidity": 76.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -16915,12 +16915,12 @@
         "modelOffsetTemp": -4.96,
         "modelOffsetHumidity": 2.33,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.0,
-        "humidity": 76.2,
+        "humidity": 76.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -16932,7 +16932,7 @@
         "modelOffsetTemp": -4.96,
         "modelOffsetHumidity": 2.33,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -17983,11 +17983,11 @@
     "elevationM": 219.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -18503,7 +18503,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.5,
-        "humidity": 73.3,
+        "humidity": 72.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -18515,12 +18515,12 @@
         "modelOffsetTemp": -3.53,
         "modelOffsetHumidity": 4.27,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.5,
-        "humidity": 73.3,
+        "humidity": 72.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -18532,12 +18532,12 @@
         "modelOffsetTemp": -3.53,
         "modelOffsetHumidity": 4.27,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.5,
-        "humidity": 78.1,
+        "humidity": 77.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -18549,12 +18549,12 @@
         "modelOffsetTemp": -3.53,
         "modelOffsetHumidity": 4.27,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.5,
-        "humidity": 78.1,
+        "humidity": 77.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -18566,7 +18566,7 @@
         "modelOffsetTemp": -3.53,
         "modelOffsetHumidity": 4.27,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -19617,11 +19617,11 @@
     "elevationM": 116.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -20137,7 +20137,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.6,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -20149,12 +20149,12 @@
         "modelOffsetTemp": -3.35,
         "modelOffsetHumidity": 4.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.6,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -20166,12 +20166,12 @@
         "modelOffsetTemp": -3.35,
         "modelOffsetHumidity": 4.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.6,
-        "humidity": 78.8,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -20183,12 +20183,12 @@
         "modelOffsetTemp": -3.35,
         "modelOffsetHumidity": 4.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.6,
-        "humidity": 78.8,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -20200,7 +20200,7 @@
         "modelOffsetTemp": -3.35,
         "modelOffsetHumidity": 4.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -21251,11 +21251,11 @@
     "elevationM": 221.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -21771,7 +21771,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.4,
-        "humidity": 73.4,
+        "humidity": 73.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -21783,12 +21783,12 @@
         "modelOffsetTemp": -3.6,
         "modelOffsetHumidity": 4.44,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.4,
-        "humidity": 73.4,
+        "humidity": 73.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -21800,12 +21800,12 @@
         "modelOffsetTemp": -3.6,
         "modelOffsetHumidity": 4.44,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.4,
-        "humidity": 78.3,
+        "humidity": 78.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -21817,12 +21817,12 @@
         "modelOffsetTemp": -3.6,
         "modelOffsetHumidity": 4.44,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.4,
-        "humidity": 78.3,
+        "humidity": 78.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -21834,7 +21834,7 @@
         "modelOffsetTemp": -3.6,
         "modelOffsetHumidity": 4.44,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -22885,11 +22885,11 @@
     "elevationM": 153.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -23405,7 +23405,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.9,
-        "humidity": 73.7,
+        "humidity": 73.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -23417,12 +23417,12 @@
         "modelOffsetTemp": -3.12,
         "modelOffsetHumidity": 4.7,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.9,
-        "humidity": 73.7,
+        "humidity": 73.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -23434,12 +23434,12 @@
         "modelOffsetTemp": -3.12,
         "modelOffsetHumidity": 4.7,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.9,
-        "humidity": 78.6,
+        "humidity": 78.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -23451,12 +23451,12 @@
         "modelOffsetTemp": -3.12,
         "modelOffsetHumidity": 4.7,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.9,
-        "humidity": 78.6,
+        "humidity": 78.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -23468,7 +23468,7 @@
         "modelOffsetTemp": -3.12,
         "modelOffsetHumidity": 4.7,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -24519,11 +24519,11 @@
     "elevationM": 107.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -25039,7 +25039,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 25.1,
-        "humidity": 73.9,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -25051,12 +25051,12 @@
         "modelOffsetTemp": -1.89,
         "modelOffsetHumidity": 4.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 25.1,
-        "humidity": 73.9,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -25068,12 +25068,12 @@
         "modelOffsetTemp": -1.89,
         "modelOffsetHumidity": 4.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 24.1,
-        "humidity": 78.8,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -25085,12 +25085,12 @@
         "modelOffsetTemp": -1.89,
         "modelOffsetHumidity": 4.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 24.1,
-        "humidity": 78.8,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -25102,7 +25102,7 @@
         "modelOffsetTemp": -1.89,
         "modelOffsetHumidity": 4.92,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -26153,11 +26153,11 @@
     "elevationM": 296.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -26673,7 +26673,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.7,
-        "humidity": 73.1,
+        "humidity": 72.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -26685,12 +26685,12 @@
         "modelOffsetTemp": -4.27,
         "modelOffsetHumidity": 4.13,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.7,
-        "humidity": 73.1,
+        "humidity": 72.8,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -26702,12 +26702,12 @@
         "modelOffsetTemp": -4.27,
         "modelOffsetHumidity": 4.13,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.7,
-        "humidity": 78.0,
+        "humidity": 77.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -26719,12 +26719,12 @@
         "modelOffsetTemp": -4.27,
         "modelOffsetHumidity": 4.13,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.7,
-        "humidity": 78.0,
+        "humidity": 77.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -26736,7 +26736,7 @@
         "modelOffsetTemp": -4.27,
         "modelOffsetHumidity": 4.13,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -27787,11 +27787,11 @@
     "elevationM": 323.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -28307,7 +28307,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.5,
-        "humidity": 73.4,
+        "humidity": 73.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -28319,12 +28319,12 @@
         "modelOffsetTemp": -4.49,
         "modelOffsetHumidity": 4.38,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.5,
-        "humidity": 73.4,
+        "humidity": 73.0,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -28336,12 +28336,12 @@
         "modelOffsetTemp": -4.49,
         "modelOffsetHumidity": 4.38,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.5,
-        "humidity": 78.3,
+        "humidity": 78.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -28353,12 +28353,12 @@
         "modelOffsetTemp": -4.49,
         "modelOffsetHumidity": 4.38,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.5,
-        "humidity": 78.3,
+        "humidity": 78.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -28370,7 +28370,7 @@
         "modelOffsetTemp": -4.49,
         "modelOffsetHumidity": 4.38,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -29421,11 +29421,11 @@
     "elevationM": 274.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -29941,7 +29941,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.9,
-        "humidity": 74.7,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -29953,12 +29953,12 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.68,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.9,
-        "humidity": 74.7,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -29970,12 +29970,12 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.68,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.9,
-        "humidity": 79.6,
+        "humidity": 79.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -29987,12 +29987,12 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.68,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 79.6,
+        "humidity": 79.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -30004,7 +30004,7 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.68,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -31055,11 +31055,11 @@
     "elevationM": 542.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -31575,7 +31575,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.1,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -31587,12 +31587,12 @@
         "modelOffsetTemp": -5.89,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 21.1,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -31604,12 +31604,12 @@
         "modelOffsetTemp": -5.89,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 20.1,
-        "humidity": 79.1,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -31621,12 +31621,12 @@
         "modelOffsetTemp": -5.89,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 20.1,
-        "humidity": 79.1,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -31638,7 +31638,7 @@
         "modelOffsetTemp": -5.89,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -32689,11 +32689,11 @@
     "elevationM": 399.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -33209,7 +33209,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.8,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -33221,12 +33221,12 @@
         "modelOffsetTemp": -5.15,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 21.8,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -33238,12 +33238,12 @@
         "modelOffsetTemp": -5.15,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 20.8,
-        "humidity": 79.0,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -33255,12 +33255,12 @@
         "modelOffsetTemp": -5.15,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 20.8,
-        "humidity": 79.0,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -33272,7 +33272,7 @@
         "modelOffsetTemp": -5.15,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -34323,11 +34323,11 @@
     "elevationM": 283.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -34843,7 +34843,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.9,
-        "humidity": 74.8,
+        "humidity": 74.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -34855,12 +34855,12 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.9,
-        "humidity": 74.8,
+        "humidity": 74.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -34872,12 +34872,12 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.9,
-        "humidity": 79.6,
+        "humidity": 79.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -34889,12 +34889,12 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 79.6,
+        "humidity": 79.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -34906,7 +34906,7 @@
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -35957,11 +35957,11 @@
     "elevationM": 484.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -36477,7 +36477,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.1,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -36489,12 +36489,12 @@
         "modelOffsetTemp": -5.9,
         "modelOffsetHumidity": 5.17,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 21.1,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -36506,12 +36506,12 @@
         "modelOffsetTemp": -5.9,
         "modelOffsetHumidity": 5.17,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 20.1,
-        "humidity": 79.0,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -36523,12 +36523,12 @@
         "modelOffsetTemp": -5.9,
         "modelOffsetHumidity": 5.17,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 20.1,
-        "humidity": 79.0,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -36540,7 +36540,7 @@
         "modelOffsetTemp": -5.9,
         "modelOffsetHumidity": 5.17,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -37591,11 +37591,11 @@
     "elevationM": 232.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -38111,7 +38111,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.3,
-        "humidity": 73.7,
+        "humidity": 73.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -38123,12 +38123,12 @@
         "modelOffsetTemp": -3.71,
         "modelOffsetHumidity": 4.66,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.3,
-        "humidity": 73.7,
+        "humidity": 73.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -38140,12 +38140,12 @@
         "modelOffsetTemp": -3.71,
         "modelOffsetHumidity": 4.66,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.3,
-        "humidity": 78.5,
+        "humidity": 78.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -38157,12 +38157,12 @@
         "modelOffsetTemp": -3.71,
         "modelOffsetHumidity": 4.66,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.3,
-        "humidity": 78.5,
+        "humidity": 78.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -38174,7 +38174,7 @@
         "modelOffsetTemp": -3.71,
         "modelOffsetHumidity": 4.66,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -39225,11 +39225,11 @@
     "elevationM": 459.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -39745,7 +39745,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.4,
-        "humidity": 73.7,
+        "humidity": 73.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -39757,12 +39757,12 @@
         "modelOffsetTemp": -5.58,
         "modelOffsetHumidity": 4.72,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 21.4,
-        "humidity": 73.7,
+        "humidity": 73.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -39774,12 +39774,12 @@
         "modelOffsetTemp": -5.58,
         "modelOffsetHumidity": 4.72,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 20.4,
-        "humidity": 78.6,
+        "humidity": 78.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -39791,12 +39791,12 @@
         "modelOffsetTemp": -5.58,
         "modelOffsetHumidity": 4.72,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 20.4,
-        "humidity": 78.6,
+        "humidity": 78.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -39808,7 +39808,7 @@
         "modelOffsetTemp": -5.58,
         "modelOffsetHumidity": 4.72,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -40859,11 +40859,11 @@
     "elevationM": 521.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -41379,7 +41379,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.8,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -41391,12 +41391,12 @@
         "modelOffsetTemp": -6.21,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 20.8,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -41408,12 +41408,12 @@
         "modelOffsetTemp": -6.21,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 19.8,
-        "humidity": 79.4,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -41425,12 +41425,12 @@
         "modelOffsetTemp": -6.21,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 19.8,
-        "humidity": 79.4,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -41442,7 +41442,7 @@
         "modelOffsetTemp": -6.21,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -42493,11 +42493,11 @@
     "elevationM": 446.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -43013,7 +43013,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.2,
-        "humidity": 72.5,
+        "humidity": 72.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -43025,12 +43025,12 @@
         "modelOffsetTemp": -5.77,
         "modelOffsetHumidity": 3.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 21.2,
-        "humidity": 72.5,
+        "humidity": 72.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -43042,12 +43042,12 @@
         "modelOffsetTemp": -5.77,
         "modelOffsetHumidity": 3.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 20.2,
-        "humidity": 77.4,
+        "humidity": 77.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -43059,12 +43059,12 @@
         "modelOffsetTemp": -5.77,
         "modelOffsetHumidity": 3.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 20.2,
-        "humidity": 77.4,
+        "humidity": 77.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -43076,7 +43076,7 @@
         "modelOffsetTemp": -5.77,
         "modelOffsetHumidity": 3.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -44127,11 +44127,11 @@
     "elevationM": 268.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -44647,7 +44647,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.0,
-        "humidity": 74.3,
+        "humidity": 74.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -44659,12 +44659,12 @@
         "modelOffsetTemp": -3.99,
         "modelOffsetHumidity": 5.32,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.0,
-        "humidity": 74.3,
+        "humidity": 74.0,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -44676,12 +44676,12 @@
         "modelOffsetTemp": -3.99,
         "modelOffsetHumidity": 5.32,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.0,
-        "humidity": 79.2,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -44693,12 +44693,12 @@
         "modelOffsetTemp": -3.99,
         "modelOffsetHumidity": 5.32,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.0,
-        "humidity": 79.2,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -44710,7 +44710,7 @@
         "modelOffsetTemp": -3.99,
         "modelOffsetHumidity": 5.32,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -45761,11 +45761,11 @@
     "elevationM": 413.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -46281,7 +46281,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.8,
-        "humidity": 74.6,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -46293,12 +46293,12 @@
         "modelOffsetTemp": -5.23,
         "modelOffsetHumidity": 5.6,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 21.8,
-        "humidity": 74.6,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -46310,12 +46310,12 @@
         "modelOffsetTemp": -5.23,
         "modelOffsetHumidity": 5.6,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 20.8,
-        "humidity": 79.5,
+        "humidity": 79.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -46327,12 +46327,12 @@
         "modelOffsetTemp": -5.23,
         "modelOffsetHumidity": 5.6,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 20.8,
-        "humidity": 79.5,
+        "humidity": 79.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -46344,7 +46344,7 @@
         "modelOffsetTemp": -5.23,
         "modelOffsetHumidity": 5.6,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -47395,11 +47395,11 @@
     "elevationM": 213.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -47932,7 +47932,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.4,
-        "humidity": 79.6,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -47940,7 +47940,7 @@
         "precipUnit": "mm",
         "precipLabel": "강수없음",
         "refTemp": 27.0,
-        "refHumidity": 75.0,
+        "refHumidity": 70.0,
         "modelOffsetTemp": -3.63,
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
@@ -47966,7 +47966,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.4,
-        "humidity": 84.8,
+        "humidity": 84.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -47978,7 +47978,7 @@
         "modelOffsetTemp": -3.63,
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -49029,11 +49029,11 @@
     "elevationM": 241.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -49549,7 +49549,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.2,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -49561,12 +49561,12 @@
         "modelOffsetTemp": -3.81,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.2,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -49578,12 +49578,12 @@
         "modelOffsetTemp": -3.81,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.2,
-        "humidity": 78.9,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -49595,12 +49595,12 @@
         "modelOffsetTemp": -3.81,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.2,
-        "humidity": 78.9,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -49612,7 +49612,7 @@
         "modelOffsetTemp": -3.81,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -50663,11 +50663,11 @@
     "elevationM": 128.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -51200,7 +51200,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.2,
-        "humidity": 78.7,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -51208,7 +51208,7 @@
         "precipUnit": "mm",
         "precipLabel": "강수없음",
         "refTemp": 27.0,
-        "refHumidity": 75.0,
+        "refHumidity": 70.0,
         "modelOffsetTemp": -2.83,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
@@ -51234,7 +51234,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 23.2,
-        "humidity": 83.9,
+        "humidity": 83.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -51246,7 +51246,7 @@
         "modelOffsetTemp": -2.83,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -52297,11 +52297,11 @@
     "elevationM": 220.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -52817,7 +52817,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.7,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -52829,12 +52829,12 @@
         "modelOffsetTemp": -3.33,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.7,
-        "humidity": 74.0,
+        "humidity": 73.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -52846,12 +52846,12 @@
         "modelOffsetTemp": -3.33,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.7,
-        "humidity": 78.9,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -52863,12 +52863,12 @@
         "modelOffsetTemp": -3.33,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.7,
-        "humidity": 78.9,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -52880,7 +52880,7 @@
         "modelOffsetTemp": -3.33,
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -53931,11 +53931,11 @@
     "elevationM": 306.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -54451,7 +54451,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.9,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -54463,12 +54463,12 @@
         "modelOffsetTemp": -4.12,
         "modelOffsetHumidity": 5.48,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.9,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -54480,12 +54480,12 @@
         "modelOffsetTemp": -4.12,
         "modelOffsetHumidity": 5.48,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.9,
-        "humidity": 79.4,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -54497,12 +54497,12 @@
         "modelOffsetTemp": -4.12,
         "modelOffsetHumidity": 5.48,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 79.4,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -54514,7 +54514,7 @@
         "modelOffsetTemp": -4.12,
         "modelOffsetHumidity": 5.48,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -55565,11 +55565,11 @@
     "elevationM": 299.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -56085,7 +56085,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.7,
-        "humidity": 73.8,
+        "humidity": 73.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -56097,12 +56097,12 @@
         "modelOffsetTemp": -4.29,
         "modelOffsetHumidity": 4.81,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.7,
-        "humidity": 73.8,
+        "humidity": 73.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -56114,12 +56114,12 @@
         "modelOffsetTemp": -4.29,
         "modelOffsetHumidity": 4.81,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.7,
-        "humidity": 78.7,
+        "humidity": 78.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -56131,12 +56131,12 @@
         "modelOffsetTemp": -4.29,
         "modelOffsetHumidity": 4.81,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.7,
-        "humidity": 78.7,
+        "humidity": 78.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -56148,7 +56148,7 @@
         "modelOffsetTemp": -4.29,
         "modelOffsetHumidity": 4.81,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -57199,11 +57199,11 @@
     "elevationM": 252.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -57719,7 +57719,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.3,
-        "humidity": 73.8,
+        "humidity": 73.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -57731,12 +57731,12 @@
         "modelOffsetTemp": -3.68,
         "modelOffsetHumidity": 4.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.3,
-        "humidity": 73.8,
+        "humidity": 73.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -57748,12 +57748,12 @@
         "modelOffsetTemp": -3.68,
         "modelOffsetHumidity": 4.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.3,
-        "humidity": 78.6,
+        "humidity": 78.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -57765,12 +57765,12 @@
         "modelOffsetTemp": -3.68,
         "modelOffsetHumidity": 4.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.3,
-        "humidity": 78.6,
+        "humidity": 78.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -57782,7 +57782,7 @@
         "modelOffsetTemp": -3.68,
         "modelOffsetHumidity": 4.75,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -58833,11 +58833,11 @@
     "elevationM": 496.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -59353,7 +59353,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.0,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -59365,12 +59365,12 @@
         "modelOffsetTemp": -6.02,
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 21.0,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -59382,12 +59382,12 @@
         "modelOffsetTemp": -6.02,
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 20.0,
-        "humidity": 79.3,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -59399,12 +59399,12 @@
         "modelOffsetTemp": -6.02,
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 20.0,
-        "humidity": 79.3,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -59416,7 +59416,7 @@
         "modelOffsetTemp": -6.02,
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -60467,11 +60467,11 @@
     "elevationM": 317.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -60987,7 +60987,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.5,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -60999,12 +60999,12 @@
         "modelOffsetTemp": -4.51,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.5,
-        "humidity": 74.5,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -61016,12 +61016,12 @@
         "modelOffsetTemp": -4.51,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.5,
-        "humidity": 79.3,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -61033,12 +61033,12 @@
         "modelOffsetTemp": -4.51,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.5,
-        "humidity": 79.3,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -61050,7 +61050,7 @@
         "modelOffsetTemp": -4.51,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -62101,11 +62101,11 @@
     "elevationM": 537.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -63735,11 +63735,11 @@
     "elevationM": 682.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -65369,11 +65369,11 @@
     "elevationM": 561.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -67003,11 +67003,11 @@
     "elevationM": 459.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -68637,11 +68637,11 @@
     "elevationM": 308.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -70271,11 +70271,11 @@
     "elevationM": 544.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -71905,11 +71905,11 @@
     "elevationM": 316.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -73539,11 +73539,11 @@
     "elevationM": 656.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -75173,11 +75173,11 @@
     "elevationM": 523.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -75693,7 +75693,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.9,
-        "humidity": 74.6,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -75705,12 +75705,12 @@
         "modelOffsetTemp": -6.08,
         "modelOffsetHumidity": 5.55,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 20.9,
-        "humidity": 74.6,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -75722,12 +75722,12 @@
         "modelOffsetTemp": -6.08,
         "modelOffsetHumidity": 5.55,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 19.9,
-        "humidity": 79.4,
+        "humidity": 79.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -75739,12 +75739,12 @@
         "modelOffsetTemp": -6.08,
         "modelOffsetHumidity": 5.55,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 19.9,
-        "humidity": 79.4,
+        "humidity": 79.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -75756,7 +75756,7 @@
         "modelOffsetTemp": -6.08,
         "modelOffsetHumidity": 5.55,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -76807,11 +76807,11 @@
     "elevationM": 363.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -77327,7 +77327,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.2,
-        "humidity": 74.1,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -77339,12 +77339,12 @@
         "modelOffsetTemp": -4.76,
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.2,
-        "humidity": 74.1,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -77356,12 +77356,12 @@
         "modelOffsetTemp": -4.76,
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.2,
-        "humidity": 78.9,
+        "humidity": 78.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -77373,12 +77373,12 @@
         "modelOffsetTemp": -4.76,
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.2,
-        "humidity": 78.9,
+        "humidity": 78.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -77390,7 +77390,7 @@
         "modelOffsetTemp": -4.76,
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -78441,11 +78441,11 @@
     "elevationM": 386.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -78961,7 +78961,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.0,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -78973,12 +78973,12 @@
         "modelOffsetTemp": -5.01,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 22.0,
-        "humidity": 74.2,
+        "humidity": 73.8,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -78990,12 +78990,12 @@
         "modelOffsetTemp": -5.01,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 21.0,
-        "humidity": 79.0,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -79007,12 +79007,12 @@
         "modelOffsetTemp": -5.01,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 21.0,
-        "humidity": 79.0,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -79024,7 +79024,7 @@
         "modelOffsetTemp": -5.01,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -80075,11 +80075,11 @@
     "elevationM": 420.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -81709,11 +81709,11 @@
     "elevationM": 262.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.9,
-      "humidity": 71.0,
+      "temp": 27.2,
+      "humidity": 68.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.8
+      "wind": 0.5
     },
     "forecasts": [
       {
@@ -82229,7 +82229,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.1,
-        "humidity": 74.8,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -82241,12 +82241,12 @@
         "modelOffsetTemp": -3.94,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T16:00",
         "temp": 23.1,
-        "humidity": 74.8,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -82258,12 +82258,12 @@
         "modelOffsetTemp": -3.94,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -0.99
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T17:00",
         "temp": 22.1,
-        "humidity": 79.7,
+        "humidity": 79.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -82275,12 +82275,12 @@
         "modelOffsetTemp": -3.94,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T18:00",
         "temp": 22.1,
-        "humidity": 79.7,
+        "humidity": 79.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -82292,7 +82292,7 @@
         "modelOffsetTemp": -3.94,
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.36
       },
       {
         "time": "2026-08-30T19:00",
@@ -83343,11 +83343,11 @@
     "elevationM": 359.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -84977,11 +84977,11 @@
     "elevationM": 242.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -86611,11 +86611,11 @@
     "elevationM": 287.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -88245,11 +88245,11 @@
     "elevationM": 372.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -89879,11 +89879,11 @@
     "elevationM": 301.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -91513,11 +91513,11 @@
     "elevationM": 560.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -93147,11 +93147,11 @@
     "elevationM": 354.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -94781,11 +94781,11 @@
     "elevationM": 403.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -96415,11 +96415,11 @@
     "elevationM": 605.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -98049,11 +98049,11 @@
     "elevationM": 531.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -99683,11 +99683,11 @@
     "elevationM": 429.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -101317,8 +101317,8 @@
     "elevationM": 522.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -101888,7 +101888,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 18.7,
-        "humidity": 83.9,
+        "humidity": 84.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -101900,7 +101900,7 @@
         "modelOffsetTemp": -6.25,
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -102951,11 +102951,11 @@
     "elevationM": 406.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -104585,11 +104585,11 @@
     "elevationM": 393.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -106219,11 +106219,11 @@
     "elevationM": 467.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -107853,11 +107853,11 @@
     "elevationM": 402.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -109487,8 +109487,8 @@
     "elevationM": 554.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -110058,7 +110058,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 18.7,
-        "humidity": 84.4,
+        "humidity": 84.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -110070,7 +110070,7 @@
         "modelOffsetTemp": -6.3,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -111121,11 +111121,11 @@
     "elevationM": 194.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -112755,11 +112755,11 @@
     "elevationM": 173.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -114389,11 +114389,11 @@
     "elevationM": 380.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -116023,11 +116023,11 @@
     "elevationM": 188.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -117657,11 +117657,11 @@
     "elevationM": 483.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -119291,11 +119291,11 @@
     "elevationM": 268.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -120925,11 +120925,11 @@
     "elevationM": 245.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -122559,11 +122559,11 @@
     "elevationM": 373.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -124193,8 +124193,8 @@
     "elevationM": 440.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -124764,7 +124764,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.5,
-        "humidity": 84.0,
+        "humidity": 84.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -124776,7 +124776,7 @@
         "modelOffsetTemp": -5.49,
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -125827,11 +125827,11 @@
     "elevationM": 196.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -127461,11 +127461,11 @@
     "elevationM": 461.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -129095,11 +129095,11 @@
     "elevationM": 569.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -130729,11 +130729,11 @@
     "elevationM": 268.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -132363,11 +132363,11 @@
     "elevationM": 532.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -133997,11 +133997,11 @@
     "elevationM": 249.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -135631,8 +135631,8 @@
     "elevationM": 403.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -136202,7 +136202,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.8,
-        "humidity": 84.5,
+        "humidity": 84.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -136214,7 +136214,7 @@
         "modelOffsetTemp": -5.24,
         "modelOffsetHumidity": 5.62,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -137265,11 +137265,11 @@
     "elevationM": 183.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -138899,8 +138899,8 @@
     "elevationM": 269.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -139470,7 +139470,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.8,
-        "humidity": 84.6,
+        "humidity": 84.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -139482,7 +139482,7 @@
         "modelOffsetTemp": -4.15,
         "modelOffsetHumidity": 5.77,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -140533,11 +140533,11 @@
     "elevationM": 345.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -142167,11 +142167,11 @@
     "elevationM": 275.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -143801,11 +143801,11 @@
     "elevationM": 209.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -145435,11 +145435,11 @@
     "elevationM": 149.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -147069,8 +147069,8 @@
     "elevationM": 271.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -147640,7 +147640,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.8,
-        "humidity": 84.6,
+        "humidity": 84.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -147652,7 +147652,7 @@
         "modelOffsetTemp": -4.19,
         "modelOffsetHumidity": 5.71,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -148703,11 +148703,11 @@
     "elevationM": 288.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -150337,11 +150337,11 @@
     "elevationM": 187.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -151971,11 +151971,11 @@
     "elevationM": 221.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -153605,11 +153605,11 @@
     "elevationM": 343.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -155239,8 +155239,8 @@
     "elevationM": 262.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -155822,7 +155822,7 @@
         "modelOffsetTemp": -3.9,
         "modelOffsetHumidity": 4.48,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -156873,11 +156873,11 @@
     "elevationM": 252.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -158507,11 +158507,11 @@
     "elevationM": 177.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -160141,11 +160141,11 @@
     "elevationM": 409.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -161775,11 +161775,11 @@
     "elevationM": 290.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -163409,8 +163409,8 @@
     "elevationM": 228.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -163980,7 +163980,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.3,
-        "humidity": 84.0,
+        "humidity": 84.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -163992,7 +163992,7 @@
         "modelOffsetTemp": -3.71,
         "modelOffsetHumidity": 5.11,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -165043,8 +165043,8 @@
     "elevationM": 388.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -165614,7 +165614,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.5,
-        "humidity": 84.7,
+        "humidity": 84.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -165626,7 +165626,7 @@
         "modelOffsetTemp": -4.49,
         "modelOffsetHumidity": 5.81,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -166677,11 +166677,11 @@
     "elevationM": 126.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -168311,8 +168311,8 @@
     "elevationM": 158.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -168882,7 +168882,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 85.0,
+        "humidity": 85.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -168894,7 +168894,7 @@
         "modelOffsetTemp": -3.08,
         "modelOffsetHumidity": 6.14,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -169945,11 +169945,11 @@
     "elevationM": 157.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -171579,8 +171579,8 @@
     "elevationM": 69.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -172150,7 +172150,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.7,
-        "humidity": 85.2,
+        "humidity": 85.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -172162,7 +172162,7 @@
         "modelOffsetTemp": -2.3,
         "modelOffsetHumidity": 6.3,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -173213,8 +173213,8 @@
     "elevationM": 97.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -173784,7 +173784,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.4,
-        "humidity": 84.7,
+        "humidity": 84.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -173796,7 +173796,7 @@
         "modelOffsetTemp": -2.59,
         "modelOffsetHumidity": 5.83,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -174847,11 +174847,11 @@
     "elevationM": 142.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -176481,11 +176481,11 @@
     "elevationM": 83.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -178115,11 +178115,11 @@
     "elevationM": 156.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -179749,8 +179749,8 @@
     "elevationM": 105.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -180320,7 +180320,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.5,
-        "humidity": 84.7,
+        "humidity": 84.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -180332,7 +180332,7 @@
         "modelOffsetTemp": -2.52,
         "modelOffsetHumidity": 5.82,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -181383,11 +181383,11 @@
     "elevationM": 93.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -183017,11 +183017,11 @@
     "elevationM": 168.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -184651,8 +184651,8 @@
     "elevationM": 89.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -185222,7 +185222,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.6,
-        "humidity": 85.3,
+        "humidity": 85.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -185234,7 +185234,7 @@
         "modelOffsetTemp": -2.35,
         "modelOffsetHumidity": 6.43,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -186285,8 +186285,8 @@
     "elevationM": 211.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -186856,7 +186856,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.1,
-        "humidity": 84.2,
+        "humidity": 84.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -186868,7 +186868,7 @@
         "modelOffsetTemp": -3.92,
         "modelOffsetHumidity": 5.36,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -187919,11 +187919,11 @@
     "elevationM": 289.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -189553,11 +189553,11 @@
     "elevationM": 93.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 72.0,
+      "temp": 26.8,
+      "humidity": 71.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 1.2
     },
     "forecasts": [
       {
@@ -191187,8 +191187,8 @@
     "elevationM": 312.0,
     "obs": {
       "baseDateTime": "20260830 1400",
-      "temp": 26.4,
-      "humidity": 75.0,
+      "temp": 26.5,
+      "humidity": 74.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.6
@@ -191758,7 +191758,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.3,
-        "humidity": 85.3,
+        "humidity": 85.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -191770,7 +191770,7 @@
         "modelOffsetTemp": -4.68,
         "modelOffsetHumidity": 6.4,
         "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.12
+        "modelResidualHumidity": -1.03
       },
       {
         "time": "2026-08-30T19:00",
@@ -193155,7 +193155,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.4,
-        "humidity": 74.2,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -193166,7 +193166,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.4,
-        "humidity": 74.2,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -194224,7 +194224,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 19.4,
-        "humidity": 73.8,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -198445,7 +198445,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.5,
-        "humidity": 78.0,
+        "humidity": 77.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -198456,7 +198456,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.5,
-        "humidity": 78.0,
+        "humidity": 77.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -198478,7 +198478,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.7,
-        "humidity": 83.8,
+        "humidity": 83.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -199514,7 +199514,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.6,
-        "humidity": 76.9,
+        "humidity": 76.8,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -200561,7 +200561,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 19.5,
-        "humidity": 76.5,
+        "humidity": 76.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -200572,7 +200572,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 19.5,
-        "humidity": 76.5,
+        "humidity": 76.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -200583,7 +200583,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 18.8,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -201630,7 +201630,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.2,
-        "humidity": 76.4,
+        "humidity": 76.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -203735,7 +203735,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.8,
-        "humidity": 76.1,
+        "humidity": 76.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -203746,7 +203746,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.8,
-        "humidity": 76.1,
+        "humidity": 76.0,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -206942,7 +206942,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 85.0,
+        "humidity": 85.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -208000,7 +208000,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.3,
-        "humidity": 84.5,
+        "humidity": 84.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -209058,7 +209058,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.3,
-        "humidity": 85.3,
+        "humidity": 85.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -210083,7 +210083,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.7,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -210094,7 +210094,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.7,
-        "humidity": 75.9,
+        "humidity": 75.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -210105,7 +210105,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.1,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -210116,7 +210116,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.5,
-        "humidity": 82.8,
+        "humidity": 82.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -211141,7 +211141,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.5,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -211152,7 +211152,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.5,
-        "humidity": 75.9,
+        "humidity": 75.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -211163,7 +211163,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 22.9,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -211174,7 +211174,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.2,
-        "humidity": 82.8,
+        "humidity": 82.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -212199,7 +212199,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.6,
-        "humidity": 76.0,
+        "humidity": 75.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -212210,7 +212210,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.6,
-        "humidity": 76.0,
+        "humidity": 75.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -212221,7 +212221,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 22.0,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -213257,7 +213257,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.0,
-        "humidity": 76.2,
+        "humidity": 76.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -213268,7 +213268,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.0,
-        "humidity": 76.2,
+        "humidity": 75.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -213279,7 +213279,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.4,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -214315,7 +214315,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.0,
-        "humidity": 76.4,
+        "humidity": 76.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -214326,7 +214326,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.0,
-        "humidity": 76.4,
+        "humidity": 76.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -214337,7 +214337,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.4,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -215373,7 +215373,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.6,
-        "humidity": 75.8,
+        "humidity": 75.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -215384,7 +215384,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.6,
-        "humidity": 75.7,
+        "humidity": 75.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -215406,7 +215406,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.4,
-        "humidity": 82.6,
+        "humidity": 82.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -216431,7 +216431,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.1,
-        "humidity": 75.8,
+        "humidity": 75.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -216442,7 +216442,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.1,
-        "humidity": 75.8,
+        "humidity": 75.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -216453,7 +216453,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 22.5,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -216464,7 +216464,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 82.7,
+        "humidity": 82.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -217489,7 +217489,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.9,
-        "humidity": 75.8,
+        "humidity": 75.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -217500,7 +217500,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.9,
-        "humidity": 75.7,
+        "humidity": 75.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -217522,7 +217522,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.7,
-        "humidity": 82.7,
+        "humidity": 82.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -218547,7 +218547,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.0,
-        "humidity": 76.1,
+        "humidity": 76.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -218558,7 +218558,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.0,
-        "humidity": 76.1,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -218569,7 +218569,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.3,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -218580,7 +218580,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.9,
-        "humidity": 82.4,
+        "humidity": 82.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -219605,7 +219605,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.2,
-        "humidity": 75.8,
+        "humidity": 75.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -219616,7 +219616,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.2,
-        "humidity": 75.8,
+        "humidity": 74.8,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -219638,7 +219638,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.0,
-        "humidity": 82.5,
+        "humidity": 82.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -220663,7 +220663,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.3,
-        "humidity": 75.7,
+        "humidity": 75.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -220674,7 +220674,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.3,
-        "humidity": 75.7,
+        "humidity": 74.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -220696,7 +220696,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.2,
-        "humidity": 82.5,
+        "humidity": 82.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -221721,7 +221721,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.0,
-        "humidity": 76.3,
+        "humidity": 76.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -221732,7 +221732,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.0,
-        "humidity": 76.3,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -221754,7 +221754,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.9,
-        "humidity": 82.5,
+        "humidity": 82.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -222779,7 +222779,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.5,
-        "humidity": 75.9,
+        "humidity": 75.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -222790,7 +222790,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.5,
-        "humidity": 75.8,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -222801,7 +222801,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 22.8,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -222812,7 +222812,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.5,
-        "humidity": 82.2,
+        "humidity": 82.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -223837,7 +223837,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.6,
-        "humidity": 75.6,
+        "humidity": 75.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -223848,7 +223848,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.6,
-        "humidity": 75.6,
+        "humidity": 75.0,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -223870,7 +223870,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.4,
-        "humidity": 82.6,
+        "humidity": 82.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -224895,7 +224895,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.2,
-        "humidity": 76.2,
+        "humidity": 76.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -224906,7 +224906,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.2,
-        "humidity": 76.2,
+        "humidity": 75.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -224917,7 +224917,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.6,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -225953,7 +225953,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.3,
-        "humidity": 76.5,
+        "humidity": 76.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -225964,7 +225964,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.3,
-        "humidity": 76.5,
+        "humidity": 76.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -225975,7 +225975,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 19.7,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -227011,7 +227011,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.0,
-        "humidity": 75.3,
+        "humidity": 75.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -227022,7 +227022,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.0,
-        "humidity": 75.3,
+        "humidity": 74.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -227033,7 +227033,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 22.4,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -227044,7 +227044,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.9,
-        "humidity": 82.3,
+        "humidity": 82.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -228069,7 +228069,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.6,
-        "humidity": 75.3,
+        "humidity": 75.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -228080,7 +228080,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.6,
-        "humidity": 75.3,
+        "humidity": 75.0,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -228102,7 +228102,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.4,
-        "humidity": 82.8,
+        "humidity": 82.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -229127,7 +229127,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.0,
-        "humidity": 75.1,
+        "humidity": 75.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -229138,7 +229138,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.0,
-        "humidity": 75.1,
+        "humidity": 74.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -229160,7 +229160,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.9,
-        "humidity": 83.2,
+        "humidity": 83.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -230185,7 +230185,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.7,
-        "humidity": 74.8,
+        "humidity": 74.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -230196,7 +230196,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.7,
-        "humidity": 74.8,
+        "humidity": 74.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -232301,7 +232301,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.7,
-        "humidity": 74.4,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -232312,7 +232312,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.7,
-        "humidity": 74.4,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -232323,7 +232323,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.5,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -233359,7 +233359,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.1,
-        "humidity": 75.2,
+        "humidity": 74.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -233370,7 +233370,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.1,
-        "humidity": 75.1,
+        "humidity": 74.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -233381,7 +233381,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.4,
-        "humidity": 79.2,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -233392,7 +233392,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.0,
-        "humidity": 81.4,
+        "humidity": 81.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -234417,7 +234417,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.5,
-        "humidity": 74.7,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -234428,7 +234428,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.5,
-        "humidity": 74.7,
+        "humidity": 74.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -234439,7 +234439,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.0,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -235475,7 +235475,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.4,
-        "humidity": 74.5,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -235486,7 +235486,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.4,
-        "humidity": 74.5,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -235497,7 +235497,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.7,
-        "humidity": 79.2,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -235508,7 +235508,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.4,
-        "humidity": 80.9,
+        "humidity": 80.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -236533,7 +236533,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.0,
-        "humidity": 76.0,
+        "humidity": 75.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -236544,7 +236544,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.0,
-        "humidity": 76.0,
+        "humidity": 75.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -237591,7 +237591,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.0,
-        "humidity": 74.7,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -237602,7 +237602,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.0,
-        "humidity": 74.7,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -237624,7 +237624,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.0,
-        "humidity": 83.2,
+        "humidity": 83.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -238649,7 +238649,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 19.8,
-        "humidity": 74.3,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -238660,7 +238660,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 19.8,
-        "humidity": 74.3,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -238671,7 +238671,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 19.5,
-        "humidity": 79.0,
+        "humidity": 78.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -238682,7 +238682,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 18.8,
-        "humidity": 82.8,
+        "humidity": 82.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -239707,7 +239707,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.6,
-        "humidity": 75.7,
+        "humidity": 75.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -239718,7 +239718,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.6,
-        "humidity": 75.6,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -239729,7 +239729,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.8,
-        "humidity": 79.3,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -239740,7 +239740,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.6,
-        "humidity": 81.4,
+        "humidity": 81.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -240765,7 +240765,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.7,
-        "humidity": 75.1,
+        "humidity": 74.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -240776,7 +240776,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.7,
-        "humidity": 75.1,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -240787,7 +240787,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.0,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -240798,7 +240798,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.7,
-        "humidity": 81.1,
+        "humidity": 80.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -241823,7 +241823,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.0,
-        "humidity": 74.9,
+        "humidity": 74.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -241834,7 +241834,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.0,
-        "humidity": 74.9,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -241845,7 +241845,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.3,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -241856,7 +241856,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.0,
-        "humidity": 81.1,
+        "humidity": 81.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -242881,7 +242881,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.8,
-        "humidity": 74.7,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -242892,7 +242892,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.8,
-        "humidity": 74.7,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -242903,7 +242903,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.2,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -242914,7 +242914,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.7,
-        "humidity": 81.5,
+        "humidity": 81.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -243939,7 +243939,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.2,
-        "humidity": 74.6,
+        "humidity": 74.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -243950,7 +243950,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.2,
-        "humidity": 74.6,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -243961,7 +243961,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.6,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -243972,7 +243972,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.1,
-        "humidity": 81.8,
+        "humidity": 81.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -244997,7 +244997,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.1,
-        "humidity": 74.3,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -245008,7 +245008,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.1,
-        "humidity": 74.3,
+        "humidity": 74.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -245019,7 +245019,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 19.7,
-        "humidity": 79.0,
+        "humidity": 78.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -245030,7 +245030,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.1,
-        "humidity": 82.4,
+        "humidity": 82.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -246055,7 +246055,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.0,
-        "humidity": 75.0,
+        "humidity": 74.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -246066,7 +246066,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.0,
-        "humidity": 75.0,
+        "humidity": 74.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -246077,7 +246077,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.2,
-        "humidity": 79.2,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -246088,7 +246088,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.0,
-        "humidity": 81.0,
+        "humidity": 80.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -247113,7 +247113,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.5,
-        "humidity": 74.2,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -247124,7 +247124,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.5,
-        "humidity": 74.2,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -247135,7 +247135,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.2,
-        "humidity": 79.0,
+        "humidity": 78.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -247146,7 +247146,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.5,
-        "humidity": 82.5,
+        "humidity": 82.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -248171,7 +248171,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.8,
-        "humidity": 74.2,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -248182,7 +248182,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.8,
-        "humidity": 74.2,
+        "humidity": 74.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -248204,7 +248204,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.8,
-        "humidity": 82.8,
+        "humidity": 82.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -249229,7 +249229,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 22.6,
-        "humidity": 74.0,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -249240,7 +249240,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.6,
-        "humidity": 74.0,
+        "humidity": 73.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -249251,7 +249251,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.6,
-        "humidity": 78.9,
+        "humidity": 78.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -249262,7 +249262,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.6,
-        "humidity": 78.9,
+        "humidity": 78.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -250287,7 +250287,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.6,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -250298,7 +250298,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.6,
-        "humidity": 75.9,
+        "humidity": 75.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -250309,7 +250309,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.0,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -250320,7 +250320,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.4,
-        "humidity": 82.8,
+        "humidity": 82.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -251345,7 +251345,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.0,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -251356,7 +251356,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.0,
-        "humidity": 75.9,
+        "humidity": 75.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -251367,7 +251367,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 22.4,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -252414,7 +252414,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 22.4,
-        "humidity": 76.0,
+        "humidity": 75.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -252425,7 +252425,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 21.8,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -253461,7 +253461,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 21.5,
-        "humidity": 76.2,
+        "humidity": 76.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -253472,7 +253472,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.5,
-        "humidity": 76.2,
+        "humidity": 75.9,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -253483,7 +253483,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.9,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -254519,7 +254519,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 20.8,
-        "humidity": 76.4,
+        "humidity": 76.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -254530,7 +254530,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 20.8,
-        "humidity": 76.4,
+        "humidity": 76.1,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -254541,7 +254541,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 20.2,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -254552,7 +254552,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.5,
-        "humidity": 83.3,
+        "humidity": 83.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -255610,7 +255610,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.1,
-        "humidity": 84.2,
+        "humidity": 84.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -256668,7 +256668,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 20.5,
-        "humidity": 84.7,
+        "humidity": 84.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -257704,7 +257704,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 21.6,
-        "humidity": 78.5,
+        "humidity": 78.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -257726,7 +257726,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 19.8,
-        "humidity": 84.2,
+        "humidity": 84.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -258784,7 +258784,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 18.7,
-        "humidity": 84.4,
+        "humidity": 84.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -260900,7 +260900,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.1,
-        "humidity": 83.4,
+        "humidity": 83.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -261925,7 +261925,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.1,
-        "humidity": 73.6,
+        "humidity": 73.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -261936,7 +261936,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.1,
-        "humidity": 73.6,
+        "humidity": 73.3,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -261947,7 +261947,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.2,
-        "humidity": 78.5,
+        "humidity": 78.3,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -261958,7 +261958,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 23.1,
-        "humidity": 78.9,
+        "humidity": 78.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -262983,7 +262983,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.4,
-        "humidity": 75.1,
+        "humidity": 74.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -262994,7 +262994,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.4,
-        "humidity": 75.1,
+        "humidity": 74.0,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -263005,7 +263005,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.6,
-        "humidity": 79.0,
+        "humidity": 78.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -263016,7 +263016,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 23.4,
-        "humidity": 81.0,
+        "humidity": 80.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -264041,7 +264041,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.3,
-        "humidity": 75.9,
+        "humidity": 75.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -264052,7 +264052,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.3,
-        "humidity": 75.8,
+        "humidity": 74.6,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -264063,7 +264063,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.6,
-        "humidity": 79.1,
+        "humidity": 79.0,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -264074,7 +264074,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 23.2,
-        "humidity": 82.3,
+        "humidity": 82.2,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -265099,7 +265099,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.7,
-        "humidity": 75.7,
+        "humidity": 75.6,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -265110,7 +265110,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.7,
-        "humidity": 75.7,
+        "humidity": 75.2,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -265121,7 +265121,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.1,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -265132,7 +265132,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.5,
-        "humidity": 82.6,
+        "humidity": 82.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -266157,7 +266157,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.8,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -266168,7 +266168,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.8,
-        "humidity": 75.9,
+        "humidity": 75.4,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -266179,7 +266179,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.2,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -266190,7 +266190,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.6,
-        "humidity": 82.8,
+        "humidity": 82.7,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -267215,7 +267215,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.6,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -267226,7 +267226,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.6,
-        "humidity": 75.9,
+        "humidity": 75.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -267237,7 +267237,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.0,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -268273,7 +268273,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 24.0,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -268284,7 +268284,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 24.0,
-        "humidity": 75.9,
+        "humidity": 75.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -268295,7 +268295,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.4,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -269331,7 +269331,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.8,
-        "humidity": 75.9,
+        "humidity": 75.8,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -269342,7 +269342,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.8,
-        "humidity": 75.9,
+        "humidity": 75.5,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -269353,7 +269353,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 23.2,
-        "humidity": 79.2,
+        "humidity": 79.1,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -270389,7 +270389,7 @@
       {
         "time": "2026-08-30T15:00",
         "temp": 23.5,
-        "humidity": 76.0,
+        "humidity": 75.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -270400,7 +270400,7 @@
       {
         "time": "2026-08-30T16:00",
         "temp": 23.5,
-        "humidity": 76.0,
+        "humidity": 75.7,
         "pty": 0,
         "sky": 4,
         "pop": 60.0,
@@ -270422,7 +270422,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 22.2,
-        "humidity": 83.0,
+        "humidity": 82.9,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -271469,7 +271469,7 @@
       {
         "time": "2026-08-30T17:00",
         "temp": 22.3,
-        "humidity": 79.6,
+        "humidity": 79.5,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
@@ -271480,7 +271480,7 @@
       {
         "time": "2026-08-30T18:00",
         "temp": 21.3,
-        "humidity": 84.3,
+        "humidity": 84.4,
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
