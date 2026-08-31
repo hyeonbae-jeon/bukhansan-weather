@@ -5,7 +5,7 @@
     "lon": 127.0089,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260831 2300",
+      "baseDateTime": "20260901 0000",
       "temp": 22.8,
       "humidity": 100.0,
       "rain1h": 0.0,
@@ -19,7 +19,7 @@
     "lon": 127.0165,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260831 2300",
+      "baseDateTime": "20260901 0000",
       "temp": 22.8,
       "humidity": 100.0,
       "rain1h": 0.0,
@@ -33,8 +33,8 @@
     "lon": 127.0122,
     "grid": "60_129",
     "obs": {
-      "baseDateTime": "20260831 2300",
-      "temp": 22.4,
+      "baseDateTime": "20260901 0000",
+      "temp": 22.2,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
@@ -47,7 +47,7 @@
     "lon": 126.9611,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260831 2300",
+      "baseDateTime": "20260901 0000",
       "temp": 22.8,
       "humidity": 100.0,
       "rain1h": 0.0,
@@ -61,7 +61,7 @@
     "lon": 126.9706,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260831 2300",
+      "baseDateTime": "20260901 0000",
       "temp": 22.8,
       "humidity": 100.0,
       "rain1h": 0.0,
@@ -75,12 +75,12 @@
     "lon": 126.9317,
     "grid": "59_128",
     "obs": {
-      "baseDateTime": "20260831 2300",
+      "baseDateTime": "20260901 0000",
       "temp": 22.5,
       "humidity": 92.0,
-      "rain1h": 0.5,
-      "pty": 1,
-      "wind": 0.3
+      "rain1h": 0.0,
+      "pty": 0,
+      "wind": 0.4
     }
   },
   {
@@ -89,12 +89,12 @@
     "lon": 126.9296,
     "grid": "59_128",
     "obs": {
-      "baseDateTime": "20260831 2300",
+      "baseDateTime": "20260901 0000",
       "temp": 22.5,
       "humidity": 92.0,
-      "rain1h": 0.5,
-      "pty": 1,
-      "wind": 0.3
+      "rain1h": 0.0,
+      "pty": 0,
+      "wind": 0.4
     }
   },
   {
@@ -103,8 +103,8 @@
     "lon": 126.9615,
     "grid": "60_129",
     "obs": {
-      "baseDateTime": "20260831 2300",
-      "temp": 22.4,
+      "baseDateTime": "20260901 0000",
+      "temp": 22.2,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
@@ -117,12 +117,12 @@
     "lon": 126.9515,
     "grid": "59_129",
     "obs": {
-      "baseDateTime": "20260831 2300",
+      "baseDateTime": "20260901 0000",
       "temp": 22.5,
       "humidity": 92.0,
-      "rain1h": 0.5,
-      "pty": 1,
-      "wind": 0.3
+      "rain1h": 0.0,
+      "pty": 0,
+      "wind": 0.4
     }
   }
 ]
