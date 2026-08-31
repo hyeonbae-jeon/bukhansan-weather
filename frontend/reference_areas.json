@@ -6,11 +6,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 0000",
-      "temp": 22.8,
+      "temp": 22.7,
       "humidity": 100.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 0.5
+      "rain1h": 0.5,
+      "pty": 1,
+      "wind": 0.3
     }
   },
   {
@@ -20,11 +20,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 0000",
-      "temp": 22.8,
+      "temp": 22.7,
       "humidity": 100.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 0.5
+      "rain1h": 0.5,
+      "pty": 1,
+      "wind": 0.3
     }
   },
   {
@@ -34,11 +34,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260901 0000",
-      "temp": 22.2,
+      "temp": 22.1,
       "humidity": 100.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 2.9
+      "rain1h": 0.5,
+      "pty": 1,
+      "wind": 2.6
     }
   },
   {
@@ -48,11 +48,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 0000",
-      "temp": 22.8,
+      "temp": 22.7,
       "humidity": 100.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 0.5
+      "rain1h": 0.5,
+      "pty": 1,
+      "wind": 0.3
     }
   },
   {
@@ -62,11 +62,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 0000",
-      "temp": 22.8,
+      "temp": 22.7,
       "humidity": 100.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 0.5
+      "rain1h": 0.5,
+      "pty": 1,
+      "wind": 0.3
     }
   },
   {
@@ -80,7 +80,7 @@
       "humidity": 92.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.4
+      "wind": 0.2
     }
   },
   {
@@ -94,7 +94,7 @@
       "humidity": 92.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.4
+      "wind": 0.2
     }
   },
   {
@@ -104,11 +104,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260901 0000",
-      "temp": 22.2,
+      "temp": 22.1,
       "humidity": 100.0,
-      "rain1h": 0.0,
-      "pty": 0,
-      "wind": 2.9
+      "rain1h": 0.5,
+      "pty": 1,
+      "wind": 2.6
     }
   },
   {
@@ -122,7 +122,7 @@
       "humidity": 92.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.4
+      "wind": 0.2
     }
   }
 ]
