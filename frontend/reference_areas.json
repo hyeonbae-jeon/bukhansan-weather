@@ -34,11 +34,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260901 0300",
-      "temp": 22.0,
+      "temp": 21.9,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 2.4
     }
   },
   {
@@ -104,11 +104,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260901 0300",
-      "temp": 22.0,
+      "temp": 21.9,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 2.4
     }
   },
   {
