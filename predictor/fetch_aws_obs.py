@@ -27,10 +27,12 @@ import concurrent.futures
 import json
 import os
 import sys
+from datetime import datetime, timedelta, timezone
 
 from http_retry import get_with_retry
 
 BASE_URL = "https://apihub.kma.go.kr/api/typ01/cgi-bin/url/nph-aws2_min"
+KST = timezone(timedelta(hours=9))
 
 # 북한산 주변 AWS 관측소. 예전엔 "북한산"(420)이 있는 줄 알았는데, 실제로
 # 요청해보니 "해당 AWS ID는 지점목록에 없습니다"라는 응답이 왔고, 이번에
@@ -71,8 +73,18 @@ def parse_aws_response(text: str) -> dict | None:
 
 
 def fetch_station(auth_key: str, stn: str) -> dict | None:
-    params = {"tm2": "", "stn": stn, "disp": 1, "help": 1, "authKey": auth_key}
+    # 기상청 API허브 공식 문서: tm2는 "없으면 현재시간"으로 기본 처리된다고 되어
+    # 있지만, 그건 파라미터 자체가 빠졌을 때 얘기고 빈 문자열("")을 값으로 보내면
+    # 서버가 이를 잘못된 값으로 보고 실제 데이터 대신 도움말(필드 설명)만 돌려준다
+    # (AWS 수집이 계속 실패하던 근본 원인이 이거였음). 그래서 tm2를 실제 KST
+    # 시각으로 명시하고, 매분자료가 아직 안 올라왔을 시점 대비 tm1을 10분 전으로
+    # 잡아 범위로 요청한다 — parse_aws_response가 그중 가장 마지막(최신) 행을 쓴다.
+    now_kst = datetime.now(KST)
+    tm2 = now_kst.strftime("%Y%m%d%H%M")
+    tm1 = (now_kst - timedelta(minutes=10)).strftime("%Y%m%d%H%M")
+    params = {"tm1": tm1, "tm2": tm2, "stn": stn, "disp": 1, "help": 1, "authKey": auth_key}
     resp = get_with_retry(BASE_URL, params, timeout=30)
+    resp.encoding = "euc-kr"  # 이 API는 EUC-KR로 응답 — 지정 안 하면 한글 설명이 깨져 보임
     row = parse_aws_response(resp.text)
     if row is None:
         print(f"  경고: 지점 {stn} 파싱 실패 — 원본 응답 앞부분: {resp.text[:300]!r}", file=sys.stderr)
