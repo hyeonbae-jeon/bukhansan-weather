@@ -6,11 +6,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 1700",
-      "temp": 21.3,
+      "temp": 21.4,
       "humidity": 100.0,
       "rain1h": 0.5,
       "pty": 1,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -20,11 +20,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 1700",
-      "temp": 21.3,
+      "temp": 21.4,
       "humidity": 100.0,
       "rain1h": 0.5,
       "pty": 1,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -38,7 +38,7 @@
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 5.1
+      "wind": 5.3
     }
   },
   {
@@ -48,11 +48,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 1700",
-      "temp": 21.3,
+      "temp": 21.4,
       "humidity": 100.0,
       "rain1h": 0.5,
       "pty": 1,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -62,11 +62,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260901 1700",
-      "temp": 21.3,
+      "temp": 21.4,
       "humidity": 100.0,
       "rain1h": 0.5,
       "pty": 1,
-      "wind": 2.1
+      "wind": 1.9
     }
   },
   {
@@ -76,8 +76,8 @@
     "grid": "59_128",
     "obs": {
       "baseDateTime": "20260901 1700",
-      "temp": 22.5,
-      "humidity": 86.0,
+      "temp": 22.1,
+      "humidity": 85.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.8
@@ -90,8 +90,8 @@
     "grid": "59_128",
     "obs": {
       "baseDateTime": "20260901 1700",
-      "temp": 22.5,
-      "humidity": 86.0,
+      "temp": 22.1,
+      "humidity": 85.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.8
@@ -108,7 +108,7 @@
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 5.1
+      "wind": 5.3
     }
   },
   {
@@ -118,8 +118,8 @@
     "grid": "59_129",
     "obs": {
       "baseDateTime": "20260901 1700",
-      "temp": 22.5,
-      "humidity": 86.0,
+      "temp": 22.1,
+      "humidity": 85.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.8
