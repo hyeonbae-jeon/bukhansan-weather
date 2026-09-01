@@ -17,23 +17,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.9,
-        "humidity": 94.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.1,
-        "modelOffsetHumidity": 5.96,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.9,
         "humidity": 94.3,
@@ -550,9 +533,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.1,
@@ -1855,23 +1838,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.4,
-        "humidity": 94.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.54,
-        "modelOffsetHumidity": 5.92,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.4,
         "humidity": 94.3,
@@ -2388,9 +2354,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.54,
@@ -3693,23 +3659,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.0,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.99,
-        "modelOffsetHumidity": 5.46,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.0,
         "humidity": 93.8,
@@ -4226,9 +4175,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.99,
@@ -5531,23 +5480,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.6,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.38,
-        "modelOffsetHumidity": 5.03,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.6,
         "humidity": 93.4,
@@ -6064,9 +5996,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.38,
@@ -7369,23 +7301,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 22.2,
-        "humidity": 92.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.81,
-        "modelOffsetHumidity": 4.26,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 22.2,
         "humidity": 92.6,
@@ -7902,9 +7817,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.81,
@@ -9207,23 +9122,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 22.8,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.17,
-        "modelOffsetHumidity": 5.45,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 22.8,
         "humidity": 93.8,
@@ -9740,9 +9638,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.17,
@@ -11045,23 +10943,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.6,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.42,
-        "modelOffsetHumidity": 5.21,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.6,
         "humidity": 93.5,
@@ -11578,9 +11459,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.42,
@@ -12883,23 +12764,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 91.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.07,
-        "modelOffsetHumidity": 3.62,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 91.9,
@@ -13416,9 +13280,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.07,
@@ -14721,23 +14585,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.9,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.07,
-        "modelOffsetHumidity": 5.84,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.9,
         "humidity": 94.2,
@@ -15254,9 +15101,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.07,
@@ -16559,23 +16406,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 22.5,
-        "humidity": 93.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.52,
-        "modelOffsetHumidity": 5.0,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 22.5,
         "humidity": 93.3,
@@ -17092,9 +16922,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.52,
@@ -18397,23 +18227,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.0,
-        "humidity": 90.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.96,
-        "modelOffsetHumidity": 2.33,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.0,
         "humidity": 90.7,
@@ -18930,9 +18743,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.96,
@@ -20235,23 +20048,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.5,
-        "humidity": 92.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.53,
-        "modelOffsetHumidity": 4.27,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.5,
         "humidity": 92.6,
@@ -20768,9 +20564,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.53,
@@ -22073,23 +21869,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.6,
-        "humidity": 93.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.35,
-        "modelOffsetHumidity": 4.96,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.6,
         "humidity": 93.3,
@@ -22606,9 +22385,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.35,
@@ -23911,23 +23690,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.4,
-        "humidity": 92.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.6,
-        "modelOffsetHumidity": 4.44,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.4,
         "humidity": 92.8,
@@ -24444,9 +24206,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.6,
@@ -25749,23 +25511,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.9,
-        "humidity": 93.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.12,
-        "modelOffsetHumidity": 4.7,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.9,
         "humidity": 93.0,
@@ -26282,9 +26027,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.12,
@@ -27587,23 +27332,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 23.1,
-        "humidity": 93.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -1.89,
-        "modelOffsetHumidity": 4.92,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 23.1,
         "humidity": 93.2,
@@ -28120,9 +27848,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -1.89,
@@ -29425,23 +29153,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.7,
-        "humidity": 92.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.27,
-        "modelOffsetHumidity": 4.13,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.7,
         "humidity": 92.5,
@@ -29958,9 +29669,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.27,
@@ -31263,23 +30974,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.5,
-        "humidity": 92.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.49,
-        "modelOffsetHumidity": 4.38,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.5,
         "humidity": 92.7,
@@ -31796,9 +31490,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.49,
@@ -33101,23 +32795,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.11,
-        "modelOffsetHumidity": 5.68,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 94.0,
@@ -33634,9 +33311,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.11,
@@ -34939,23 +34616,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.1,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.89,
-        "modelOffsetHumidity": 5.21,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.1,
         "humidity": 93.5,
@@ -35472,9 +35132,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.89,
@@ -36777,23 +36437,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.15,
-        "modelOffsetHumidity": 5.16,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 93.5,
@@ -37310,9 +36953,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.15,
@@ -38615,23 +38258,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 94.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.11,
-        "modelOffsetHumidity": 5.75,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 94.1,
@@ -39148,9 +38774,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.11,
@@ -40453,23 +40079,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.1,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.9,
-        "modelOffsetHumidity": 5.17,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.1,
         "humidity": 93.5,
@@ -40986,9 +40595,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.9,
@@ -42291,23 +41900,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.3,
-        "humidity": 93.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.71,
-        "modelOffsetHumidity": 4.66,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.3,
         "humidity": 93.0,
@@ -42824,9 +42416,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.71,
@@ -44129,23 +43721,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.4,
-        "humidity": 93.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.58,
-        "modelOffsetHumidity": 4.72,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.4,
         "humidity": 93.0,
@@ -44662,9 +44237,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.58,
@@ -45967,23 +45542,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.8,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.21,
-        "modelOffsetHumidity": 5.5,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.8,
         "humidity": 93.8,
@@ -46500,9 +46058,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -6.21,
@@ -47805,23 +47363,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.2,
-        "humidity": 91.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.77,
-        "modelOffsetHumidity": 3.5,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.2,
         "humidity": 91.8,
@@ -48338,9 +47879,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.77,
@@ -49643,23 +49184,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.0,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.99,
-        "modelOffsetHumidity": 5.32,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.0,
         "humidity": 93.6,
@@ -50176,9 +49700,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.99,
@@ -51481,23 +51005,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.23,
-        "modelOffsetHumidity": 5.6,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 93.9,
@@ -52014,9 +51521,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.23,
@@ -53319,23 +52826,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.4,
-        "humidity": 94.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.63,
-        "modelOffsetHumidity": 5.96,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.4,
         "humidity": 94.3,
@@ -53852,9 +53342,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.63,
@@ -55157,23 +54647,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.2,
-        "humidity": 93.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.81,
-        "modelOffsetHumidity": 4.99,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.2,
         "humidity": 93.3,
@@ -55690,9 +55163,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.81,
@@ -56995,23 +56468,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 22.2,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.83,
-        "modelOffsetHumidity": 5.03,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 22.2,
         "humidity": 93.4,
@@ -57528,9 +56984,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.83,
@@ -58833,23 +58289,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.7,
-        "humidity": 93.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.33,
-        "modelOffsetHumidity": 4.99,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.7,
         "humidity": 93.3,
@@ -59366,9 +58805,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.33,
@@ -60671,23 +60110,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.12,
-        "modelOffsetHumidity": 5.48,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 93.8,
@@ -61204,9 +60626,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.12,
@@ -62509,23 +61931,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.7,
-        "humidity": 93.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.29,
-        "modelOffsetHumidity": 4.81,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.7,
         "humidity": 93.1,
@@ -63042,9 +62447,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.29,
@@ -64347,23 +63752,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.3,
-        "humidity": 93.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.68,
-        "modelOffsetHumidity": 4.75,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.3,
         "humidity": 93.1,
@@ -64880,9 +64268,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.68,
@@ -66185,23 +65573,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.0,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.02,
-        "modelOffsetHumidity": 5.45,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.0,
         "humidity": 93.8,
@@ -66718,9 +66089,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -6.02,
@@ -68023,23 +67394,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.5,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.51,
-        "modelOffsetHumidity": 5.46,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.5,
         "humidity": 93.8,
@@ -68556,9 +67910,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.51,
@@ -69861,23 +69215,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.8,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.16,
-        "modelOffsetHumidity": 5.37,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.8,
         "humidity": 93.7,
@@ -70394,9 +69731,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.16,
@@ -71699,23 +71036,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 16.3,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -7.68,
-        "modelOffsetHumidity": 5.26,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 16.3,
         "humidity": 93.6,
@@ -72232,9 +71552,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -7.68,
@@ -73537,23 +72857,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.6,
-        "humidity": 94.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.43,
-        "modelOffsetHumidity": 6.11,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.6,
         "humidity": 94.4,
@@ -74070,9 +73373,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.43,
@@ -75375,23 +74678,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.4,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.58,
-        "modelOffsetHumidity": 5.21,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.4,
         "humidity": 93.5,
@@ -75908,9 +75194,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.58,
@@ -77213,23 +76499,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.17,
-        "modelOffsetHumidity": 5.08,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 93.4,
@@ -77746,9 +77015,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.17,
@@ -79051,23 +78320,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.5,
-        "humidity": 93.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.45,
-        "modelOffsetHumidity": 4.83,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.5,
         "humidity": 93.2,
@@ -79584,9 +78836,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.45,
@@ -80889,23 +80141,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.6,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.43,
-        "modelOffsetHumidity": 5.32,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.6,
         "humidity": 93.7,
@@ -81422,9 +80657,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.43,
@@ -82727,23 +81962,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 16.2,
-        "humidity": 92.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -7.77,
-        "modelOffsetHumidity": 3.74,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 16.2,
         "humidity": 92.1,
@@ -83260,9 +82478,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -7.77,
@@ -84565,23 +83783,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.9,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.08,
-        "modelOffsetHumidity": 5.55,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.9,
         "humidity": 93.9,
@@ -85098,9 +84299,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -6.08,
@@ -86403,23 +85604,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.2,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.76,
-        "modelOffsetHumidity": 5.05,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.2,
         "humidity": 93.4,
@@ -86936,9 +86120,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.76,
@@ -88241,23 +87425,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.0,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.01,
-        "modelOffsetHumidity": 5.16,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.0,
         "humidity": 93.5,
@@ -88774,9 +87941,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.01,
@@ -90079,23 +89246,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.8,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.15,
-        "modelOffsetHumidity": 5.17,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.8,
         "humidity": 93.5,
@@ -90612,9 +89762,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.15,
@@ -91917,23 +91067,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.1,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm",
-        "refTemp": 25.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.94,
-        "modelOffsetHumidity": 5.84,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.1,
         "humidity": 94.2,
@@ -92450,9 +91583,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.94,
@@ -93755,23 +92888,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.2,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.78,
-        "modelOffsetHumidity": 5.25,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.2,
         "humidity": 93.6,
@@ -94288,9 +93404,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.78,
@@ -95593,23 +94709,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.5,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.52,
-        "modelOffsetHumidity": 5.57,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.5,
         "humidity": 93.9,
@@ -96126,9 +95225,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.52,
@@ -97431,23 +96530,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.7,
-        "humidity": 93.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.28,
-        "modelOffsetHumidity": 4.83,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.7,
         "humidity": 93.2,
@@ -97964,9 +97046,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.28,
@@ -99269,23 +98351,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.1,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.84,
-        "modelOffsetHumidity": 5.53,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.1,
         "humidity": 93.9,
@@ -99802,9 +98867,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.84,
@@ -101107,23 +100172,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.7,
-        "humidity": 92.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.25,
-        "modelOffsetHumidity": 4.33,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.7,
         "humidity": 92.7,
@@ -101640,9 +100688,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.25,
@@ -102945,23 +101993,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.4,
-        "humidity": 94.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.55,
-        "modelOffsetHumidity": 6.12,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.4,
         "humidity": 94.5,
@@ -103478,9 +102509,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.55,
@@ -104783,23 +103814,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.3,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.67,
-        "modelOffsetHumidity": 5.63,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.3,
         "humidity": 94.0,
@@ -105316,9 +104330,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.67,
@@ -106621,23 +105635,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.8,
-        "humidity": 92.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.17,
-        "modelOffsetHumidity": 4.16,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.8,
         "humidity": 92.5,
@@ -107154,9 +106151,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.17,
@@ -108459,23 +107456,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.1,
-        "humidity": 94.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.91,
-        "modelOffsetHumidity": 5.78,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.1,
         "humidity": 94.1,
@@ -108992,9 +107972,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.91,
@@ -110297,23 +109277,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.8,
-        "humidity": 93.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.2,
-        "modelOffsetHumidity": 4.66,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.8,
         "humidity": 93.0,
@@ -110830,9 +109793,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.2,
@@ -112135,23 +111098,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.6,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.43,
-        "modelOffsetHumidity": 5.66,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.6,
         "humidity": 94.0,
@@ -112668,9 +111614,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.43,
@@ -113973,23 +112919,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.25,
-        "modelOffsetHumidity": 5.05,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 93.4,
@@ -114503,12 +113432,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.8,
         "humidity": 100.7,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.25,
@@ -115811,23 +114740,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.7,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.31,
-        "modelOffsetHumidity": 5.03,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.7,
         "humidity": 93.4,
@@ -116344,9 +115256,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.31,
@@ -117649,23 +116561,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.0,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.02,
-        "modelOffsetHumidity": 5.86,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.0,
         "humidity": 94.2,
@@ -118182,9 +117077,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.02,
@@ -119487,23 +118382,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.3,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.69,
-        "modelOffsetHumidity": 5.22,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.3,
         "humidity": 93.6,
@@ -120020,9 +118898,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.69,
@@ -121325,23 +120203,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.9,
-        "humidity": 94.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.07,
-        "modelOffsetHumidity": 5.92,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.9,
         "humidity": 94.3,
@@ -121858,9 +120719,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.07,
@@ -123163,23 +122024,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.3,
-        "modelOffsetHumidity": 5.5,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 93.8,
@@ -123693,12 +122537,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.7,
         "humidity": 101.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.3,
@@ -125001,23 +123845,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.7,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.27,
-        "modelOffsetHumidity": 5.42,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.7,
         "humidity": 93.8,
@@ -125534,9 +124361,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.27,
@@ -126839,23 +125666,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.04,
-        "modelOffsetHumidity": 5.17,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 93.5,
@@ -127372,9 +126182,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.04,
@@ -128677,23 +127487,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.0,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.96,
-        "modelOffsetHumidity": 5.05,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.0,
         "humidity": 93.4,
@@ -129210,9 +128003,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.96,
@@ -130515,23 +129308,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.8,
-        "humidity": 93.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.23,
-        "modelOffsetHumidity": 4.89,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.8,
         "humidity": 93.2,
@@ -131048,9 +129824,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.23,
@@ -132353,23 +131129,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.2,
-        "humidity": 93.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.84,
-        "modelOffsetHumidity": 4.64,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.2,
         "humidity": 93.0,
@@ -132886,9 +131645,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.84,
@@ -134191,23 +132950,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.0,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.94,
-        "modelOffsetHumidity": 5.5,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.0,
         "humidity": 93.8,
@@ -134724,9 +133466,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.94,
@@ -136029,23 +134771,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.3,
-        "humidity": 94.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.73,
-        "modelOffsetHumidity": 6.34,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.3,
         "humidity": 94.7,
@@ -136562,9 +135287,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.73,
@@ -137867,23 +136592,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.1,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.88,
-        "modelOffsetHumidity": 5.68,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.1,
         "humidity": 94.0,
@@ -138400,9 +137108,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.88,
@@ -139705,23 +138413,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.5,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.49,
-        "modelOffsetHumidity": 5.16,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.5,
         "humidity": 93.5,
@@ -140235,12 +138926,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.5,
         "humidity": 100.8,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.49,
@@ -141543,23 +140234,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.6,
-        "humidity": 92.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.35,
-        "modelOffsetHumidity": 3.96,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.6,
         "humidity": 92.3,
@@ -142076,9 +140750,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.35,
@@ -143381,23 +142055,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.4,
-        "humidity": 92.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.55,
-        "modelOffsetHumidity": 4.47,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.4,
         "humidity": 92.8,
@@ -143914,9 +142571,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.55,
@@ -145219,23 +143876,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.3,
-        "humidity": 94.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.69,
-        "modelOffsetHumidity": 5.72,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.3,
         "humidity": 94.1,
@@ -145752,9 +144392,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.69,
@@ -147057,23 +145697,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.1,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.92,
-        "modelOffsetHumidity": 5.1,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.1,
         "humidity": 93.4,
@@ -147590,9 +146213,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.92,
@@ -148895,23 +147518,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 92.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -6.24,
-        "modelOffsetHumidity": 4.59,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 92.9,
@@ -149428,9 +148034,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.24,
@@ -150733,23 +149339,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.2,
-        "humidity": 92.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.82,
-        "modelOffsetHumidity": 4.53,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.2,
         "humidity": 92.9,
@@ -151266,9 +149855,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.82,
@@ -152571,23 +151160,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.8,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.24,
-        "modelOffsetHumidity": 5.62,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.8,
         "humidity": 93.9,
@@ -153101,12 +151673,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.8,
         "humidity": 101.3,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.24,
@@ -154409,23 +152981,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.8,
-        "humidity": 94.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.22,
-        "modelOffsetHumidity": 6.04,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.8,
         "humidity": 94.4,
@@ -154942,9 +153497,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.22,
@@ -156247,23 +154802,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 94.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.15,
-        "modelOffsetHumidity": 5.77,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 94.1,
@@ -156777,12 +155315,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.9,
         "humidity": 101.4,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.15,
@@ -158085,23 +156623,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.2,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.75,
-        "modelOffsetHumidity": 5.59,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.2,
         "humidity": 93.9,
@@ -158618,9 +157139,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.75,
@@ -159923,23 +158444,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.16,
-        "modelOffsetHumidity": 5.49,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 93.8,
@@ -160456,9 +158960,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.16,
@@ -161761,23 +160265,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.6,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.42,
-        "modelOffsetHumidity": 5.71,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.6,
         "humidity": 94.0,
@@ -162294,9 +160781,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.42,
@@ -163599,23 +162086,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.1,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.94,
-        "modelOffsetHumidity": 5.29,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.1,
         "humidity": 93.6,
@@ -164132,9 +162602,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.94,
@@ -165437,23 +163907,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.19,
-        "modelOffsetHumidity": 5.71,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 94.0,
@@ -165967,12 +164420,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.8,
         "humidity": 101.4,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.19,
@@ -167275,23 +165728,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.2,
-        "modelOffsetHumidity": 5.56,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 93.9,
@@ -167808,9 +166244,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.2,
@@ -169113,23 +167549,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.7,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.3,
-        "modelOffsetHumidity": 5.62,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.7,
         "humidity": 94.0,
@@ -169646,9 +168065,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.3,
@@ -170951,23 +169370,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.3,
-        "humidity": 93.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.69,
-        "modelOffsetHumidity": 4.94,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.3,
         "humidity": 93.3,
@@ -171484,9 +169886,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.69,
@@ -172789,23 +171191,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.3,
-        "humidity": 92.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.74,
-        "modelOffsetHumidity": 4.5,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.3,
         "humidity": 92.8,
@@ -173322,9 +171707,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.74,
@@ -174627,23 +173012,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.1,
-        "humidity": 92.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.9,
-        "modelOffsetHumidity": 4.48,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.1,
         "humidity": 92.8,
@@ -175157,12 +173525,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.1,
         "humidity": 100.1,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.9,
@@ -176465,23 +174833,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.2,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.8,
-        "modelOffsetHumidity": 5.2,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.2,
         "humidity": 93.5,
@@ -176998,9 +175349,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.8,
@@ -178303,23 +176654,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.12,
-        "modelOffsetHumidity": 5.3,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 93.6,
@@ -178836,9 +177170,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.12,
@@ -180141,23 +178475,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.7,
-        "humidity": 94.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -5.27,
-        "modelOffsetHumidity": 6.23,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.7,
         "humidity": 94.6,
@@ -180674,9 +178991,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.27,
@@ -181979,23 +180296,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.7,
-        "humidity": 92.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.29,
-        "modelOffsetHumidity": 4.38,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.7,
         "humidity": 92.7,
@@ -182512,9 +180812,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.29,
@@ -183817,23 +182117,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.3,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.71,
-        "modelOffsetHumidity": 5.11,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.3,
         "humidity": 93.4,
@@ -184347,12 +182630,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.3,
         "humidity": 100.8,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.71,
@@ -185655,23 +183938,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.5,
-        "humidity": 94.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.49,
-        "modelOffsetHumidity": 5.81,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.5,
         "humidity": 94.1,
@@ -186185,12 +184451,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.5,
         "humidity": 101.5,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.49,
@@ -187493,23 +185759,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.3,
-        "humidity": 94.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.69,
-        "modelOffsetHumidity": 6.38,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.3,
         "humidity": 94.7,
@@ -188026,9 +186275,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.69,
@@ -189331,23 +187580,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 94.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.08,
-        "modelOffsetHumidity": 6.14,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 94.5,
@@ -189861,12 +188093,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.9,
         "humidity": 101.8,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.08,
@@ -191169,23 +189401,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 94.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.13,
-        "modelOffsetHumidity": 6.29,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 94.6,
@@ -191702,9 +189917,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.13,
@@ -193007,23 +191222,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.7,
-        "humidity": 94.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.3,
-        "modelOffsetHumidity": 6.3,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.7,
         "humidity": 94.6,
@@ -193537,12 +191735,12 @@
         "time": "2026-09-01T22:00",
         "temp": 19.7,
         "humidity": 101.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.3,
@@ -194845,23 +193043,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.4,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.59,
-        "modelOffsetHumidity": 5.83,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.4,
         "humidity": 94.2,
@@ -195375,12 +193556,12 @@
         "time": "2026-09-01T22:00",
         "temp": 19.4,
         "humidity": 101.5,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.59,
@@ -196683,23 +194864,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.1,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.86,
-        "modelOffsetHumidity": 5.43,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.1,
         "humidity": 93.8,
@@ -197216,9 +195380,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.86,
@@ -198521,23 +196685,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.6,
-        "humidity": 94.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.37,
-        "modelOffsetHumidity": 6.37,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.6,
         "humidity": 94.7,
@@ -199054,9 +197201,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.37,
@@ -200359,23 +198506,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.0,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.03,
-        "modelOffsetHumidity": 5.47,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.0,
         "humidity": 93.8,
@@ -200892,9 +199022,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.03,
@@ -202197,23 +200327,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.5,
-        "humidity": 94.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.52,
-        "modelOffsetHumidity": 5.82,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.5,
         "humidity": 94.1,
@@ -202727,12 +200840,12 @@
         "time": "2026-09-01T22:00",
         "temp": 19.5,
         "humidity": 101.5,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.52,
@@ -204035,23 +202148,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.5,
-        "humidity": 94.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.47,
-        "modelOffsetHumidity": 5.95,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.5,
         "humidity": 94.3,
@@ -204568,9 +202664,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.47,
@@ -205873,23 +203969,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.12,
-        "modelOffsetHumidity": 5.85,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 94.2,
@@ -206406,9 +204485,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.12,
@@ -207711,23 +205790,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.6,
-        "humidity": 94.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.35,
-        "modelOffsetHumidity": 6.43,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.6,
         "humidity": 94.8,
@@ -208241,12 +206303,12 @@
         "time": "2026-09-01T22:00",
         "temp": 19.7,
         "humidity": 102.1,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.35,
@@ -209549,23 +207611,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.1,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -3.92,
-        "modelOffsetHumidity": 5.36,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.1,
         "humidity": 93.7,
@@ -210079,12 +208124,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.1,
         "humidity": 101.0,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.92,
@@ -211387,23 +209432,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.7,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.28,
-        "modelOffsetHumidity": 5.36,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.7,
         "humidity": 93.7,
@@ -211920,9 +209948,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.28,
@@ -213225,23 +211253,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.5,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -2.47,
-        "modelOffsetHumidity": 5.88,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.5,
         "humidity": 94.2,
@@ -213758,9 +211769,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 22.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.47,
@@ -215063,23 +213074,6 @@
     },
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.3,
-        "humidity": 94.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm",
-        "refTemp": 24.0,
-        "refHumidity": 90.0,
-        "modelOffsetTemp": -4.68,
-        "modelOffsetHumidity": 6.4,
-        "modelResidualTemp": -0.01,
-        "modelResidualHumidity": -1.67
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.3,
         "humidity": 94.7,
@@ -215593,12 +213587,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.3,
         "humidity": 102.0,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": "0.5",
         "refTemp": 22.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.68,
@@ -216895,17 +214889,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 93.4,
@@ -217242,9 +215225,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -218085,17 +216068,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 16.5,
-        "humidity": 93.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 16.5,
         "humidity": 93.1,
@@ -218432,9 +216404,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -219275,17 +217247,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.2,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.2,
         "humidity": 93.4,
@@ -219622,9 +217583,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -220465,17 +218426,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 93.8,
@@ -220812,9 +218762,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -221655,17 +219605,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.2,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.2,
         "humidity": 93.8,
@@ -221999,12 +219938,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.1,
         "humidity": 98.6,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -222845,17 +220784,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.5,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.5,
         "humidity": 93.6,
@@ -223189,12 +221117,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.5,
         "humidity": 99.4,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -224035,17 +221963,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 93.7,
@@ -224379,12 +222296,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.6,
         "humidity": 97.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -225225,17 +223142,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 16.6,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 16.6,
         "humidity": 93.6,
@@ -225569,12 +223475,12 @@
         "time": "2026-09-01T22:00",
         "temp": 14.5,
         "humidity": 97.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -226415,17 +224321,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.4,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.4,
         "humidity": 93.6,
@@ -226759,12 +224654,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.2,
         "humidity": 97.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -227605,17 +225500,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.6,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.6,
         "humidity": 93.5,
@@ -227949,12 +225833,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.6,
         "humidity": 99.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -228795,17 +226679,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.9,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.9,
         "humidity": 93.6,
@@ -229142,9 +227015,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -229985,17 +227858,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 93.5,
@@ -230332,9 +228194,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -231175,17 +229037,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.8,
-        "humidity": 93.3,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.8,
         "humidity": 93.3,
@@ -231522,9 +229373,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -232365,17 +230216,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.9,
-        "humidity": 94.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.9,
         "humidity": 94.5,
@@ -232709,12 +230549,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.9,
         "humidity": 101.8,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -233555,17 +231395,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.1,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.1,
         "humidity": 94.2,
@@ -233899,12 +231728,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.0,
         "humidity": 100.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -234745,17 +232574,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.3,
-        "humidity": 94.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.3,
         "humidity": 94.7,
@@ -235089,12 +232907,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.3,
         "humidity": 102.0,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -235935,17 +233753,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.1,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.1,
         "humidity": 93.6,
@@ -236279,12 +234086,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.7,
         "humidity": 95.7,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -237125,17 +234932,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.8,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.8,
         "humidity": 93.6,
@@ -237469,12 +235265,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.5,
         "humidity": 95.6,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -238315,17 +236111,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.0,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.0,
         "humidity": 93.6,
@@ -238659,12 +236444,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.7,
         "humidity": 95.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -239505,17 +237290,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.2,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.2,
         "humidity": 93.7,
@@ -239849,12 +237623,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.0,
         "humidity": 96.5,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -240695,17 +238469,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.2,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.2,
         "humidity": 93.7,
@@ -241039,12 +238802,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.0,
         "humidity": 96.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -241885,17 +239648,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.0,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.0,
         "humidity": 93.6,
@@ -242232,9 +239984,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -243075,17 +240827,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.5,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.5,
         "humidity": 93.6,
@@ -243419,12 +241160,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.1,
         "humidity": 95.4,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -244265,17 +242006,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.3,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.3,
         "humidity": 93.6,
@@ -244609,12 +242339,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.9,
         "humidity": 95.3,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -245455,17 +243185,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.7,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.7,
         "humidity": 93.6,
@@ -245802,9 +243521,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -246645,17 +244364,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.7,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.7,
         "humidity": 93.6,
@@ -246992,9 +244700,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -247835,17 +245543,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.8,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.8,
         "humidity": 93.6,
@@ -248179,12 +245876,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.3,
         "humidity": 94.8,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -249025,17 +246722,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.6,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.6,
         "humidity": 93.7,
@@ -249372,9 +247058,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -250215,17 +247901,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.2,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.2,
         "humidity": 93.7,
@@ -250562,9 +248237,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -251405,17 +249080,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.0,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.0,
         "humidity": 93.6,
@@ -251749,12 +249413,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.6,
         "humidity": 95.1,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -252595,17 +250259,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.4,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.4,
         "humidity": 93.6,
@@ -252939,12 +250592,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.2,
         "humidity": 96.6,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -253785,17 +251438,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.5,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.5,
         "humidity": 93.6,
@@ -254129,12 +251771,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.4,
         "humidity": 97.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -254975,17 +252617,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.5,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.5,
         "humidity": 93.6,
@@ -255319,12 +252950,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.0,
         "humidity": 94.6,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -256165,17 +253796,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.9,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.9,
         "humidity": 93.6,
@@ -256512,9 +254132,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -257355,17 +254975,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.2,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.2,
         "humidity": 93.6,
@@ -257702,9 +255311,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -258545,17 +256154,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.8,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.8,
         "humidity": 93.6,
@@ -258892,9 +256490,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -259735,17 +257333,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.5,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.5,
         "humidity": 93.7,
@@ -260082,9 +257669,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -260925,17 +258512,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.8,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.8,
         "humidity": 93.5,
@@ -261272,9 +258848,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -262115,17 +259691,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 93.7,
@@ -262462,9 +260027,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -263305,17 +260870,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.0,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.0,
         "humidity": 93.6,
@@ -263652,9 +261206,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -264495,17 +262049,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.1,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.1,
         "humidity": 93.7,
@@ -264842,9 +262385,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -265685,17 +263228,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.1,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.1,
         "humidity": 93.6,
@@ -266032,9 +263564,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -266875,17 +264407,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.2,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.2,
         "humidity": 93.6,
@@ -267222,9 +264743,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -268065,17 +265586,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.1,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.1,
         "humidity": 93.4,
@@ -268412,9 +265922,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -269255,17 +266765,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.4,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.4,
         "humidity": 93.8,
@@ -269602,9 +267101,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -270445,17 +267944,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.5,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.5,
         "humidity": 93.7,
@@ -270792,9 +268280,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -271635,17 +269123,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.7,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.7,
         "humidity": 93.6,
@@ -271982,9 +269459,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -272825,17 +270302,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.4,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.4,
         "humidity": 93.6,
@@ -273172,9 +270638,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -274015,17 +271481,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.7,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.7,
         "humidity": 93.6,
@@ -274362,9 +271817,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -275205,17 +272660,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.5,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.5,
         "humidity": 93.5,
@@ -275552,9 +272996,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -276395,17 +273839,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.8,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.8,
         "humidity": 93.7,
@@ -276742,9 +274175,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -277585,17 +275018,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.8,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.8,
         "humidity": 93.5,
@@ -277932,9 +275354,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -278775,17 +276197,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.0,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.0,
         "humidity": 93.4,
@@ -279122,9 +276533,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -279965,17 +277376,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.6,
-        "humidity": 93.4,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.6,
         "humidity": 93.4,
@@ -280312,9 +277712,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -281155,17 +278555,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.0,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.0,
         "humidity": 93.6,
@@ -281499,12 +278888,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.6,
         "humidity": 95.7,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -282345,17 +279734,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.4,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.4,
         "humidity": 93.6,
@@ -282689,12 +280067,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.0,
         "humidity": 95.8,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -283535,17 +280913,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.7,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.7,
         "humidity": 93.7,
@@ -283879,12 +281246,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.4,
         "humidity": 96.1,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -284725,17 +282092,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.7,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.7,
         "humidity": 93.7,
@@ -285069,12 +282425,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.5,
         "humidity": 96.5,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -285915,17 +283271,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.1,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.1,
         "humidity": 93.7,
@@ -286259,12 +283604,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.9,
         "humidity": 96.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -287105,17 +284450,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.1,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.1,
         "humidity": 93.7,
@@ -287449,12 +284783,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.1,
         "humidity": 101.0,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -288295,17 +285629,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 19.5,
-        "humidity": 94.1,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 19.5,
         "humidity": 94.1,
@@ -288639,12 +285962,12 @@
         "time": "2026-09-01T22:00",
         "temp": 17.5,
         "humidity": 101.5,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -289485,17 +286808,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 18.6,
-        "humidity": 93.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 18.6,
         "humidity": 93.9,
@@ -289829,12 +287141,12 @@
         "time": "2026-09-01T22:00",
         "temp": 16.6,
         "humidity": 100.0,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -290675,17 +287987,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 17.7,
-        "humidity": 93.8,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 17.7,
         "humidity": 93.8,
@@ -291019,12 +288320,12 @@
         "time": "2026-09-01T22:00",
         "temp": 15.7,
         "humidity": 101.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -291865,17 +289166,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.3,
-        "humidity": 94.2,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.3,
         "humidity": 94.2,
@@ -292212,9 +289502,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -293055,17 +290345,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.2,
-        "humidity": 93.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.2,
         "humidity": 93.0,
@@ -293402,9 +290681,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -294245,17 +291524,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 22.1,
-        "humidity": 92.9,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 22.1,
         "humidity": 92.9,
@@ -294592,9 +291860,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -295435,17 +292703,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 22.2,
-        "humidity": 93.5,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 22.2,
         "humidity": 93.5,
@@ -295782,9 +293039,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -296625,17 +293882,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.9,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.9,
         "humidity": 93.6,
@@ -296972,9 +294218,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -297815,17 +295061,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.1,
-        "humidity": 93.6,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 2.0,
-        "precipUnit": "mm",
-        "precipLabel": "2.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.1,
         "humidity": 93.6,
@@ -298162,9 +295397,9 @@
         "pty": 0,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-01T23:00",
@@ -299005,17 +296240,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.2,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.2,
         "humidity": 93.7,
@@ -299349,12 +296573,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.8,
         "humidity": 95.8,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -300195,17 +297419,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.0,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.0,
         "humidity": 93.7,
@@ -300539,12 +297752,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.7,
         "humidity": 95.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -301385,17 +298598,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.3,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.3,
         "humidity": 93.7,
@@ -301729,12 +298931,12 @@
         "time": "2026-09-01T22:00",
         "temp": 19.0,
         "humidity": 95.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -302575,17 +299777,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 21.1,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 21.1,
         "humidity": 93.7,
@@ -302919,12 +300110,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.8,
         "humidity": 95.9,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -303765,17 +300956,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.8,
-        "humidity": 93.7,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.8,
         "humidity": 93.7,
@@ -304109,12 +301289,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.5,
         "humidity": 96.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
@@ -304955,17 +302135,6 @@
     "interpolated": true,
     "forecasts": [
       {
-        "time": "2026-08-31T15:00",
-        "temp": 20.2,
-        "humidity": 94.0,
-        "pty": 1,
-        "sky": 4,
-        "pop": 60.0,
-        "precipMm": 3.0,
-        "precipUnit": "mm",
-        "precipLabel": "3.0mm"
-      },
-      {
         "time": "2026-08-31T16:00",
         "temp": 20.2,
         "humidity": 94.0,
@@ -305299,12 +302468,12 @@
         "time": "2026-09-01T22:00",
         "temp": 18.2,
         "humidity": 100.2,
-        "pty": 0,
+        "pty": 1,
         "sky": 4,
         "pop": 30.0,
-        "precipMm": 0.0,
+        "precipMm": 0.5,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": "0.5"
       },
       {
         "time": "2026-09-01T23:00",
