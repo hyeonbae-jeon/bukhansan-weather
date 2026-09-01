@@ -6,7 +6,7 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260902 0200",
-      "temp": 21.8,
+      "temp": 21.9,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
@@ -20,7 +20,7 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260902 0200",
-      "temp": 21.8,
+      "temp": 21.9,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
@@ -48,7 +48,7 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260902 0200",
-      "temp": 21.8,
+      "temp": 21.9,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
@@ -62,7 +62,7 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260902 0200",
-      "temp": 21.8,
+      "temp": 21.9,
       "humidity": 100.0,
       "rain1h": 0.0,
       "pty": 0,
