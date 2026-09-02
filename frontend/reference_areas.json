@@ -6,8 +6,8 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 22.3,
-      "humidity": 99.0,
+      "temp": 22.8,
+      "humidity": 96.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.8
@@ -20,8 +20,8 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 22.3,
-      "humidity": 99.0,
+      "temp": 22.8,
+      "humidity": 96.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.8
@@ -34,8 +34,8 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 21.3,
-      "humidity": 100.0,
+      "temp": 21.6,
+      "humidity": 97.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 3.6
@@ -48,8 +48,8 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 22.3,
-      "humidity": 99.0,
+      "temp": 22.8,
+      "humidity": 96.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.8
@@ -62,8 +62,8 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 22.3,
-      "humidity": 99.0,
+      "temp": 22.8,
+      "humidity": 96.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.8
@@ -76,8 +76,8 @@
     "grid": "59_128",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 21.0,
-      "humidity": 90.0,
+      "temp": 21.5,
+      "humidity": 89.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.5
@@ -90,8 +90,8 @@
     "grid": "59_128",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 21.0,
-      "humidity": 90.0,
+      "temp": 21.5,
+      "humidity": 89.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.5
@@ -104,8 +104,8 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 21.3,
-      "humidity": 100.0,
+      "temp": 21.6,
+      "humidity": 97.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 3.6
@@ -118,8 +118,8 @@
     "grid": "59_129",
     "obs": {
       "baseDateTime": "20260903 0700",
-      "temp": 21.0,
-      "humidity": 90.0,
+      "temp": 21.5,
+      "humidity": 89.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.5
