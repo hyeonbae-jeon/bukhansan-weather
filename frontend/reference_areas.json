@@ -6,11 +6,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 1000",
-      "temp": 26.4,
-      "humidity": 65.0,
+      "temp": 26.9,
+      "humidity": 61.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 2.0
     }
   },
   {
@@ -20,11 +20,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 1000",
-      "temp": 26.4,
-      "humidity": 65.0,
+      "temp": 26.9,
+      "humidity": 61.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 2.0
     }
   },
   {
@@ -34,11 +34,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260903 1000",
-      "temp": 25.9,
-      "humidity": 66.0,
+      "temp": 26.7,
+      "humidity": 67.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 4.1
+      "wind": 3.4
     }
   },
   {
@@ -48,11 +48,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 1000",
-      "temp": 26.4,
-      "humidity": 65.0,
+      "temp": 26.9,
+      "humidity": 61.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 2.0
     }
   },
   {
@@ -62,11 +62,11 @@
     "grid": "60_128",
     "obs": {
       "baseDateTime": "20260903 1000",
-      "temp": 26.4,
-      "humidity": 65.0,
+      "temp": 26.9,
+      "humidity": 61.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.1
+      "wind": 2.0
     }
   },
   {
@@ -77,10 +77,10 @@
     "obs": {
       "baseDateTime": "20260903 1000",
       "temp": 26.7,
-      "humidity": 66.0,
+      "humidity": 63.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.6
+      "wind": 1.4
     }
   },
   {
@@ -91,10 +91,10 @@
     "obs": {
       "baseDateTime": "20260903 1000",
       "temp": 26.7,
-      "humidity": 66.0,
+      "humidity": 63.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.6
+      "wind": 1.4
     }
   },
   {
@@ -104,11 +104,11 @@
     "grid": "60_129",
     "obs": {
       "baseDateTime": "20260903 1000",
-      "temp": 25.9,
-      "humidity": 66.0,
+      "temp": 26.7,
+      "humidity": 67.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 4.1
+      "wind": 3.4
     }
   },
   {
@@ -119,10 +119,10 @@
     "obs": {
       "baseDateTime": "20260903 1000",
       "temp": 26.7,
-      "humidity": 66.0,
+      "humidity": 63.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 0.6
+      "wind": 1.4
     }
   }
 ]
