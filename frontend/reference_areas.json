@@ -5,12 +5,12 @@
     "lon": 127.0089,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 26.9,
-      "humidity": 46.0,
+      "baseDateTime": "20260906 2000",
+      "temp": 23.5,
+      "humidity": 50.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.3
+      "wind": 2.7
     }
   },
   {
@@ -19,12 +19,12 @@
     "lon": 127.0165,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 26.9,
-      "humidity": 46.0,
+      "baseDateTime": "20260906 2000",
+      "temp": 23.5,
+      "humidity": 50.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.3
+      "wind": 2.7
     }
   },
   {
@@ -47,12 +47,12 @@
     "lon": 126.9611,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 26.9,
-      "humidity": 46.0,
+      "baseDateTime": "20260906 2000",
+      "temp": 23.5,
+      "humidity": 50.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.3
+      "wind": 2.7
     }
   },
   {
@@ -61,12 +61,12 @@
     "lon": 126.9706,
     "grid": "60_128",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 26.9,
-      "humidity": 46.0,
+      "baseDateTime": "20260906 2000",
+      "temp": 23.5,
+      "humidity": 50.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.3
+      "wind": 2.7
     }
   },
   {
@@ -117,12 +117,12 @@
     "lon": 126.9515,
     "grid": "59_129",
     "obs": {
-      "baseDateTime": "20260906 1600",
-      "temp": 26.3,
-      "humidity": 47.0,
+      "baseDateTime": "20260906 2000",
+      "temp": 24.2,
+      "humidity": 45.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.6
+      "wind": 2.1
     }
   }
 ]
