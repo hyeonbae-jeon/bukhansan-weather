@@ -75,12 +75,12 @@
     "lon": 126.9317,
     "grid": "59_128",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 27.7,
-      "humidity": 44.0,
+      "baseDateTime": "20260906 1800",
+      "temp": 25.3,
+      "humidity": 47.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.0
+      "wind": 2.7
     }
   },
   {
@@ -89,12 +89,12 @@
     "lon": 126.9296,
     "grid": "59_128",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 27.7,
-      "humidity": 44.0,
+      "baseDateTime": "20260906 1800",
+      "temp": 25.3,
+      "humidity": 47.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.0
+      "wind": 2.7
     }
   },
   {
