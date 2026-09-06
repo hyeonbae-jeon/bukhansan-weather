@@ -33,12 +33,12 @@
     "lon": 127.0122,
     "grid": "60_129",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 25.7,
+      "baseDateTime": "20260906 2100",
+      "temp": 22.3,
       "humidity": 53.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 6.1
+      "wind": 5.6
     }
   },
   {
@@ -103,12 +103,12 @@
     "lon": 126.9615,
     "grid": "60_129",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 25.7,
+      "baseDateTime": "20260906 2100",
+      "temp": 22.3,
       "humidity": 53.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 6.1
+      "wind": 5.6
     }
   },
   {
