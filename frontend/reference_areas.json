@@ -117,12 +117,12 @@
     "lon": 126.9515,
     "grid": "59_129",
     "obs": {
-      "baseDateTime": "20260906 1500",
-      "temp": 27.7,
-      "humidity": 44.0,
+      "baseDateTime": "20260906 1600",
+      "temp": 26.3,
+      "humidity": 47.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 2.0
+      "wind": 2.6
     }
   }
 ]
