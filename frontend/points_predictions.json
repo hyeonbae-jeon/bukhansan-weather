@@ -8,9 +8,9 @@
     "lon": 126.9492,
     "elevationM": 142.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -516,9 +516,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.1,
@@ -1812,9 +1812,9 @@
     "lon": 126.948,
     "elevationM": 322.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -2320,9 +2320,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.54,
@@ -3616,9 +3616,9 @@
     "lon": 126.9465,
     "elevationM": 382.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -4124,9 +4124,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.99,
@@ -5420,9 +5420,9 @@
     "lon": 126.9464,
     "elevationM": 317.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -5928,9 +5928,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.38,
@@ -7224,9 +7224,9 @@
     "lon": 126.9490999,
     "elevationM": 98.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -7732,9 +7732,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -2.81,
@@ -9028,9 +9028,9 @@
     "lon": 126.9477611,
     "elevationM": 76.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -9536,9 +9536,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 18.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -2.17,
@@ -10832,9 +10832,9 @@
     "lon": 126.9486,
     "elevationM": 192.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -11340,9 +11340,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.42,
@@ -12636,9 +12636,9 @@
     "lon": 126.9446,
     "elevationM": 246.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -13144,9 +13144,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.07,
@@ -14440,9 +14440,9 @@
     "lon": 126.9462,
     "elevationM": 161.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -14948,9 +14948,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.07,
@@ -16244,9 +16244,9 @@
     "lon": 126.9486,
     "elevationM": 143.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -16752,9 +16752,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -2.52,
@@ -18048,9 +18048,9 @@
     "lon": 126.9446,
     "elevationM": 333.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -18556,9 +18556,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.96,
@@ -19852,9 +19852,9 @@
     "lon": 126.9422,
     "elevationM": 219.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -20360,9 +20360,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.53,
@@ -21656,9 +21656,9 @@
     "lon": 126.9386623,
     "elevationM": 116.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -22164,9 +22164,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.35,
@@ -23460,9 +23460,9 @@
     "lon": 126.9393,
     "elevationM": 221.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -23968,9 +23968,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.6,
@@ -25264,9 +25264,9 @@
     "lon": 126.9402,
     "elevationM": 153.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -25772,9 +25772,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.12,
@@ -27068,9 +27068,9 @@
     "lon": 126.9369876,
     "elevationM": 107.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -27576,9 +27576,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -1.89,
@@ -28872,9 +28872,9 @@
     "lon": 126.9444,
     "elevationM": 296.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -29380,9 +29380,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.27,
@@ -30676,9 +30676,9 @@
     "lon": 126.9421,
     "elevationM": 323.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -31184,9 +31184,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.49,
@@ -32480,9 +32480,9 @@
     "lon": 126.9574,
     "elevationM": 274.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -32988,9 +32988,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.11,
@@ -34284,9 +34284,9 @@
     "lon": 126.9589,
     "elevationM": 542.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -34792,9 +34792,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -5.89,
@@ -36088,9 +36088,9 @@
     "lon": 126.9545,
     "elevationM": 399.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -36596,9 +36596,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -5.15,
@@ -37892,9 +37892,9 @@
     "lon": 126.9587,
     "elevationM": 283.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -38400,9 +38400,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.11,
@@ -39696,9 +39696,9 @@
     "lon": 126.9585,
     "elevationM": 484.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -40204,9 +40204,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -5.9,
@@ -41500,9 +41500,9 @@
     "lon": 126.9583,
     "elevationM": 232.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -42008,9 +42008,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.71,
@@ -43304,9 +43304,9 @@
     "lon": 126.9579,
     "elevationM": 459.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -43812,9 +43812,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -5.58,
@@ -45108,9 +45108,9 @@
     "lon": 126.9577,
     "elevationM": 521.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -45616,9 +45616,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -6.21,
@@ -46912,9 +46912,9 @@
     "lon": 126.9546,
     "elevationM": 446.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -47420,9 +47420,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -5.77,
@@ -48716,9 +48716,9 @@
     "lon": 126.959,
     "elevationM": 268.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -49224,9 +49224,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.99,
@@ -50520,9 +50520,9 @@
     "lon": 126.9501,
     "elevationM": 413.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -51028,9 +51028,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -5.23,
@@ -52324,9 +52324,9 @@
     "lon": 126.9541,
     "elevationM": 213.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -52832,9 +52832,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 18.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -3.63,
@@ -54128,9 +54128,9 @@
     "lon": 126.9534,
     "elevationM": 241.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -54636,9 +54636,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.81,
@@ -55932,9 +55932,9 @@
     "lon": 126.9516,
     "elevationM": 128.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -56440,9 +56440,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 18.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -2.83,
@@ -57736,9 +57736,9 @@
     "lon": 126.9517522,
     "elevationM": 220.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -58244,9 +58244,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.33,
@@ -59540,9 +59540,9 @@
     "lon": 126.9516142,
     "elevationM": 306.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -60048,9 +60048,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.12,
@@ -61344,9 +61344,9 @@
     "lon": 126.9511,
     "elevationM": 299.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -61852,9 +61852,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.29,
@@ -63148,9 +63148,9 @@
     "lon": 126.9504095,
     "elevationM": 252.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -63656,9 +63656,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.68,
@@ -64952,9 +64952,9 @@
     "lon": 126.9544,
     "elevationM": 496.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -65460,9 +65460,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -6.02,
@@ -66756,9 +66756,9 @@
     "lon": 126.9539,
     "elevationM": 317.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -67264,9 +67264,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.51,
@@ -68560,9 +68560,9 @@
     "lon": 126.9721,
     "elevationM": 537.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -69068,9 +69068,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.16,
@@ -70364,9 +70364,9 @@
     "lon": 126.9758,
     "elevationM": 682.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -70872,9 +70872,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -7.68,
@@ -72168,9 +72168,9 @@
     "lon": 126.9633,
     "elevationM": 561.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -72676,9 +72676,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.43,
@@ -73972,9 +73972,9 @@
     "lon": 126.9789,
     "elevationM": 459.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -74480,9 +74480,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.58,
@@ -75776,9 +75776,9 @@
     "lon": 126.9661,
     "elevationM": 308.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -76284,9 +76284,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.17,
@@ -77580,9 +77580,9 @@
     "lon": 126.9665,
     "elevationM": 544.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -78088,9 +78088,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.45,
@@ -79384,9 +79384,9 @@
     "lon": 126.9759486,
     "elevationM": 316.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -79892,9 +79892,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.43,
@@ -81188,9 +81188,9 @@
     "lon": 126.9743,
     "elevationM": 656.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -81696,9 +81696,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -7.77,
@@ -82992,9 +82992,9 @@
     "lon": 126.96,
     "elevationM": 523.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -83500,9 +83500,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -6.08,
@@ -84796,9 +84796,9 @@
     "lon": 126.9605,
     "elevationM": 363.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -85304,9 +85304,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -4.76,
@@ -86600,9 +86600,9 @@
     "lon": 126.9599,
     "elevationM": 386.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -87108,9 +87108,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -5.01,
@@ -88404,9 +88404,9 @@
     "lon": 126.9694,
     "elevationM": 420.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -88912,9 +88912,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.15,
@@ -90208,9 +90208,9 @@
     "lon": 126.9604,
     "elevationM": 262.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 18.3,
-      "humidity": 80.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 17.5,
+      "humidity": 79.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 0.3
@@ -90716,9 +90716,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 75.0,
         "modelOffsetTemp": -3.94,
@@ -92012,9 +92012,9 @@
     "lon": 126.9626,
     "elevationM": 359.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -92520,9 +92520,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.78,
@@ -93816,9 +93816,9 @@
     "lon": 126.9641,
     "elevationM": 242.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -94324,9 +94324,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.52,
@@ -95620,9 +95620,9 @@
     "lon": 126.9848,
     "elevationM": 287.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -96128,9 +96128,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.28,
@@ -97424,9 +97424,9 @@
     "lon": 126.9849,
     "elevationM": 372.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -97932,9 +97932,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.84,
@@ -99228,9 +99228,9 @@
     "lon": 126.9847362,
     "elevationM": 301.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -99736,9 +99736,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.25,
@@ -101032,9 +101032,9 @@
     "lon": 126.9853,
     "elevationM": 560.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -101540,9 +101540,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.55,
@@ -102836,9 +102836,9 @@
     "lon": 126.985338,
     "elevationM": 354.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -103344,9 +103344,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.67,
@@ -104640,9 +104640,9 @@
     "lon": 126.981,
     "elevationM": 403.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -105148,9 +105148,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.17,
@@ -106444,9 +106444,9 @@
     "lon": 126.9803051,
     "elevationM": 605.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -106952,9 +106952,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.91,
@@ -108248,9 +108248,9 @@
     "lon": 126.9789999,
     "elevationM": 531.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -108756,9 +108756,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.2,
@@ -110052,9 +110052,9 @@
     "lon": 126.9823,
     "elevationM": 429.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -110560,9 +110560,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.43,
@@ -111856,12 +111856,12 @@
     "lon": 126.9836,
     "elevationM": 522.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -112364,9 +112364,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -6.25,
@@ -113660,9 +113660,9 @@
     "lon": 126.9814,
     "elevationM": 406.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -114168,9 +114168,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.31,
@@ -115464,9 +115464,9 @@
     "lon": 126.9916,
     "elevationM": 393.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -115972,9 +115972,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.02,
@@ -117268,9 +117268,9 @@
     "lon": 126.990989,
     "elevationM": 467.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -117776,9 +117776,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.69,
@@ -119072,9 +119072,9 @@
     "lon": 126.9908,
     "elevationM": 402.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -119580,9 +119580,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.07,
@@ -120876,12 +120876,12 @@
     "lon": 126.9904487,
     "elevationM": 554.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -121384,9 +121384,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -6.3,
@@ -122680,9 +122680,9 @@
     "lon": 126.9904,
     "elevationM": 194.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -123188,9 +123188,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.27,
@@ -124484,9 +124484,9 @@
     "lon": 126.9904493,
     "elevationM": 173.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -124992,9 +124992,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.04,
@@ -126288,9 +126288,9 @@
     "lon": 126.9894,
     "elevationM": 380.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -126796,9 +126796,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.96,
@@ -128092,9 +128092,9 @@
     "lon": 126.9896,
     "elevationM": 188.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -128600,9 +128600,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.23,
@@ -129896,9 +129896,9 @@
     "lon": 126.9886,
     "elevationM": 483.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -130404,9 +130404,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.84,
@@ -131700,9 +131700,9 @@
     "lon": 126.988705,
     "elevationM": 268.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -132208,9 +132208,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.94,
@@ -133504,9 +133504,9 @@
     "lon": 126.9888,
     "elevationM": 245.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -134012,9 +134012,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.73,
@@ -135308,9 +135308,9 @@
     "lon": 126.9883453,
     "elevationM": 373.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -135816,9 +135816,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.88,
@@ -137112,12 +137112,12 @@
     "lon": 126.988,
     "elevationM": 440.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -137620,9 +137620,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -5.49,
@@ -138916,9 +138916,9 @@
     "lon": 126.9881019,
     "elevationM": 196.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -139424,9 +139424,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.35,
@@ -140720,9 +140720,9 @@
     "lon": 126.9878,
     "elevationM": 461.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -141228,9 +141228,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.55,
@@ -142524,9 +142524,9 @@
     "lon": 126.9870124,
     "elevationM": 569.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -143032,9 +143032,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.69,
@@ -144328,9 +144328,9 @@
     "lon": 126.9869,
     "elevationM": 268.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -144836,9 +144836,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.92,
@@ -146132,9 +146132,9 @@
     "lon": 126.9865,
     "elevationM": 532.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -146640,9 +146640,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -6.24,
@@ -147936,9 +147936,9 @@
     "lon": 126.9866713,
     "elevationM": 249.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -148444,9 +148444,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.82,
@@ -149740,12 +149740,12 @@
     "lon": 126.9862,
     "elevationM": 403.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -150248,9 +150248,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -5.24,
@@ -151544,9 +151544,9 @@
     "lon": 126.9973,
     "elevationM": 183.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -152052,9 +152052,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.22,
@@ -153348,12 +153348,12 @@
     "lon": 126.9973,
     "elevationM": 269.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -153856,9 +153856,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -4.15,
@@ -155152,9 +155152,9 @@
     "lon": 126.998,
     "elevationM": 345.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -155660,9 +155660,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.75,
@@ -156956,9 +156956,9 @@
     "lon": 126.9962,
     "elevationM": 275.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -157464,9 +157464,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.16,
@@ -158760,9 +158760,9 @@
     "lon": 126.9993859,
     "elevationM": 209.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -159268,9 +159268,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.42,
@@ -160564,9 +160564,9 @@
     "lon": 126.9995,
     "elevationM": 149.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -161072,9 +161072,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -2.94,
@@ -162368,12 +162368,12 @@
     "lon": 126.9992,
     "elevationM": 271.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -162876,9 +162876,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -4.19,
@@ -164172,9 +164172,9 @@
     "lon": 126.9991232,
     "elevationM": 288.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -164680,9 +164680,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.2,
@@ -165976,9 +165976,9 @@
     "lon": 126.9972,
     "elevationM": 187.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -166484,9 +166484,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.3,
@@ -167780,9 +167780,9 @@
     "lon": 126.9946562,
     "elevationM": 221.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -168288,9 +168288,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.69,
@@ -169584,9 +169584,9 @@
     "lon": 126.9934,
     "elevationM": 343.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -170092,9 +170092,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.74,
@@ -171388,12 +171388,12 @@
     "lon": 126.9942,
     "elevationM": 262.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -171896,9 +171896,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -3.9,
@@ -173192,9 +173192,9 @@
     "lon": 126.9944,
     "elevationM": 252.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -173700,9 +173700,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.8,
@@ -174996,9 +174996,9 @@
     "lon": 126.993622,
     "elevationM": 177.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -175504,9 +175504,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.12,
@@ -176800,9 +176800,9 @@
     "lon": 126.9946164,
     "elevationM": 409.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -177308,9 +177308,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -5.27,
@@ -178604,9 +178604,9 @@
     "lon": 126.9951263,
     "elevationM": 290.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -179112,9 +179112,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.29,
@@ -180408,12 +180408,12 @@
     "lon": 126.9952,
     "elevationM": 228.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -180916,9 +180916,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -3.71,
@@ -182212,12 +182212,12 @@
     "lon": 126.9954133,
     "elevationM": 388.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -182720,9 +182720,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -4.49,
@@ -184016,9 +184016,9 @@
     "lon": 127.0091,
     "elevationM": 126.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -184524,9 +184524,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -2.69,
@@ -185820,12 +185820,12 @@
     "lon": 127.012,
     "elevationM": 158.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -186328,9 +186328,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -3.08,
@@ -187624,9 +187624,9 @@
     "lon": 127.0103999,
     "elevationM": 157.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -188132,9 +188132,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.13,
@@ -189428,12 +189428,12 @@
     "lon": 127.0098,
     "elevationM": 69.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -189936,9 +189936,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -2.3,
@@ -191232,12 +191232,12 @@
     "lon": 127.0086,
     "elevationM": 97.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -191740,9 +191740,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -2.59,
@@ -193036,9 +193036,9 @@
     "lon": 127.0093,
     "elevationM": 142.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -193544,9 +193544,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -2.86,
@@ -194840,9 +194840,9 @@
     "lon": 127.0089,
     "elevationM": 83.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -195348,9 +195348,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -2.37,
@@ -196644,9 +196644,9 @@
     "lon": 127.0035072,
     "elevationM": 156.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -197152,9 +197152,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.03,
@@ -198448,12 +198448,12 @@
     "lon": 127.0072,
     "elevationM": 105.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -198956,9 +198956,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -2.52,
@@ -200252,9 +200252,9 @@
     "lon": 127.0061,
     "elevationM": 93.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -200760,9 +200760,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -2.47,
@@ -202056,9 +202056,9 @@
     "lon": 127.003544,
     "elevationM": 168.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -202564,9 +202564,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -3.12,
@@ -203860,12 +203860,12 @@
     "lon": 127.0092,
     "elevationM": 89.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -204368,9 +204368,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -2.35,
@@ -205664,12 +205664,12 @@
     "lon": 127.0006834,
     "elevationM": 211.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -206172,9 +206172,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -3.92,
@@ -207468,9 +207468,9 @@
     "lon": 126.9997009,
     "elevationM": 289.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -207976,9 +207976,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -4.28,
@@ -209272,9 +209272,9 @@
     "lon": 127.0062,
     "elevationM": 93.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 22.4,
-      "humidity": 53.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 22.0,
+      "humidity": 58.0,
       "rain1h": 0.0,
       "pty": 0,
       "wind": 1.5
@@ -209780,9 +209780,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 21.0,
         "refHumidity": 70.0,
         "modelOffsetTemp": -2.47,
@@ -211076,12 +211076,12 @@
     "lon": 127.0121,
     "elevationM": 312.0,
     "obs": {
-      "baseDateTime": "20260907 2200",
-      "temp": 24.0,
-      "humidity": 55.0,
+      "baseDateTime": "20260907 2300",
+      "temp": 23.1,
+      "humidity": 62.0,
       "rain1h": 0.0,
       "pty": 0,
-      "wind": 3.4
+      "wind": 3.7
     },
     "forecasts": [
       {
@@ -211584,9 +211584,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음",
+        "precipLabel": null,
         "refTemp": 19.0,
         "refHumidity": 80.0,
         "modelOffsetTemp": -4.68,
@@ -213208,9 +213208,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -214376,9 +214376,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -215544,9 +215544,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -216712,9 +216712,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -217880,9 +217880,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -219048,9 +219048,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -220216,9 +220216,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -221384,9 +221384,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -222552,9 +222552,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -223720,9 +223720,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -224888,9 +224888,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -226056,9 +226056,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -227224,9 +227224,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -228392,9 +228392,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -229560,9 +229560,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -230728,9 +230728,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -231896,9 +231896,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -233064,9 +233064,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -234232,9 +234232,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -235400,9 +235400,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -236568,9 +236568,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -237736,9 +237736,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -238904,9 +238904,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -240072,9 +240072,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -241240,9 +241240,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -242408,9 +242408,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -243576,9 +243576,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -244744,9 +244744,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -245912,9 +245912,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -247080,9 +247080,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -248248,9 +248248,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -249416,9 +249416,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -250584,9 +250584,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -251752,9 +251752,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -252920,9 +252920,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -254088,9 +254088,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -255256,9 +255256,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -256424,9 +256424,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -257592,9 +257592,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -258760,9 +258760,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -259928,9 +259928,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -261096,9 +261096,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -262264,9 +262264,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -263432,9 +263432,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -264600,9 +264600,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -265768,9 +265768,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -266936,9 +266936,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -268104,9 +268104,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -269272,9 +269272,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -270440,9 +270440,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -271608,9 +271608,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -272776,9 +272776,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -273944,9 +273944,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -275112,9 +275112,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -276280,9 +276280,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -277448,9 +277448,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -278616,9 +278616,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -279784,9 +279784,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -280952,9 +280952,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -282120,9 +282120,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -283288,9 +283288,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -284456,9 +284456,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -285624,9 +285624,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -286792,9 +286792,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -287960,9 +287960,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -289128,9 +289128,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -290296,9 +290296,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -291464,9 +291464,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -292632,9 +292632,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -293800,9 +293800,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -294968,9 +294968,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -296136,9 +296136,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -297304,9 +297304,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -298472,9 +298472,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
@@ -299640,9 +299640,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-08T00:00",
