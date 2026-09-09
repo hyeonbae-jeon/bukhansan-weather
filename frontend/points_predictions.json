@@ -207190,9 +207190,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -207201,9 +207201,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -208325,9 +208325,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -208336,9 +208336,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -209460,9 +209460,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -209471,9 +209471,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -210595,9 +210595,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -210606,9 +210606,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -211730,9 +211730,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -211741,9 +211741,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -212865,9 +212865,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -212876,9 +212876,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -214000,9 +214000,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -214011,9 +214011,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -215135,9 +215135,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -215146,9 +215146,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -216270,9 +216270,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -216281,9 +216281,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -217405,9 +217405,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -217416,9 +217416,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -218540,9 +218540,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -218551,9 +218551,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -219675,9 +219675,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -219686,9 +219686,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -220810,9 +220810,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -220821,9 +220821,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -221945,9 +221945,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -221956,9 +221956,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -223080,9 +223080,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -223091,9 +223091,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -224215,9 +224215,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -224226,9 +224226,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -225350,9 +225350,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -225361,9 +225361,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -226485,9 +226485,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -226496,9 +226496,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -227620,9 +227620,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -227631,9 +227631,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -228755,9 +228755,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -228766,9 +228766,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -229890,9 +229890,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -229901,9 +229901,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -231025,9 +231025,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -231036,9 +231036,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -232160,9 +232160,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -232171,9 +232171,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -233295,9 +233295,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -233306,9 +233306,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -234430,9 +234430,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -234441,9 +234441,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -235565,9 +235565,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -235576,9 +235576,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -236700,9 +236700,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -236711,9 +236711,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -237835,9 +237835,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -237846,9 +237846,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -238970,9 +238970,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -238981,9 +238981,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -240105,9 +240105,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -240116,9 +240116,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -241240,9 +241240,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -241251,9 +241251,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -242375,9 +242375,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -242386,9 +242386,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -243510,9 +243510,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -243521,9 +243521,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -244645,9 +244645,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -244656,9 +244656,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -245780,9 +245780,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -245791,9 +245791,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -246915,9 +246915,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -246926,9 +246926,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -248050,9 +248050,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -248061,9 +248061,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -249185,9 +249185,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -249196,9 +249196,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -250320,9 +250320,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -250331,9 +250331,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -251455,9 +251455,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -251466,9 +251466,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -252590,9 +252590,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -252601,9 +252601,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -253725,9 +253725,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -253736,9 +253736,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -254860,9 +254860,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -254871,9 +254871,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -255995,9 +255995,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -256006,9 +256006,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -257130,9 +257130,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -257141,9 +257141,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -258265,9 +258265,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -258276,9 +258276,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -259400,9 +259400,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -259411,9 +259411,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -260535,9 +260535,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -260546,9 +260546,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -261670,9 +261670,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -261681,9 +261681,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -262805,9 +262805,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -262816,9 +262816,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -263940,9 +263940,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -263951,9 +263951,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -265075,9 +265075,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -265086,9 +265086,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -266210,9 +266210,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -266221,9 +266221,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -267345,9 +267345,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -267356,9 +267356,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -268480,9 +268480,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -268491,9 +268491,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -269615,9 +269615,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -269626,9 +269626,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -270750,9 +270750,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -270761,9 +270761,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -271885,9 +271885,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -271896,9 +271896,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -273020,9 +273020,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -273031,9 +273031,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -274155,9 +274155,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -274166,9 +274166,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -275290,9 +275290,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -275301,9 +275301,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -276425,9 +276425,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -276436,9 +276436,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -277560,9 +277560,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -277571,9 +277571,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -278695,9 +278695,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -278706,9 +278706,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -279830,9 +279830,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -279841,9 +279841,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -280965,9 +280965,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -280976,9 +280976,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -282100,9 +282100,9 @@
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -282111,9 +282111,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -283235,9 +283235,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -283246,9 +283246,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -284370,9 +284370,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -284381,9 +284381,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -285505,9 +285505,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -285516,9 +285516,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -286640,9 +286640,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -286651,9 +286651,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -287775,9 +287775,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -287786,9 +287786,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -288910,9 +288910,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -288921,9 +288921,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -290045,9 +290045,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -290056,9 +290056,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
@@ -291180,9 +291180,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": null,
+        "precipMm": 0.0,
         "precipUnit": "mm",
-        "precipLabel": null
+        "precipLabel": "강수없음"
       },
       {
         "time": "2026-09-10T05:00",
@@ -291191,9 +291191,9 @@
         "pty": 0,
         "sky": 3,
         "pop": 0.0,
-        "precipMm": 0.0,
+        "precipMm": null,
         "precipUnit": "mm",
-        "precipLabel": "강수없음"
+        "precipLabel": null
       },
       {
         "time": "2026-09-10T06:00",
