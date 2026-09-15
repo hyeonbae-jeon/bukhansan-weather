@@ -1698,6 +1698,23 @@
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 50.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.1,
+        "modelOffsetHumidity": 5.96,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -3396,6 +3413,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.54,
+        "modelOffsetHumidity": 5.92,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.4,
+        "humidity": 50.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.54,
         "modelOffsetHumidity": 5.92,
         "modelResidualTemp": -0.01,
@@ -5102,6 +5136,23 @@
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.99,
+        "modelOffsetHumidity": 5.46,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -6800,6 +6851,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.38,
+        "modelOffsetHumidity": 5.03,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.6,
+        "humidity": 49.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.38,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
@@ -8506,6 +8574,23 @@
         "modelOffsetHumidity": 4.26,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.2,
+        "humidity": 48.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -2.81,
+        "modelOffsetHumidity": 4.26,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -10204,6 +10289,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -2.17,
+        "modelOffsetHumidity": 5.45,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.8,
+        "humidity": 54.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -2.17,
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
@@ -11910,6 +12012,23 @@
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.6,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.42,
+        "modelOffsetHumidity": 5.21,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -13608,6 +13727,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.07,
+        "modelOffsetHumidity": 3.62,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 48.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.07,
         "modelOffsetHumidity": 3.62,
         "modelResidualTemp": -0.01,
@@ -15314,6 +15450,23 @@
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 50.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.07,
+        "modelOffsetHumidity": 5.84,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -17012,6 +17165,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -2.52,
+        "modelOffsetHumidity": 5.0,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.5,
+        "humidity": 49.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -2.52,
         "modelOffsetHumidity": 5.0,
         "modelResidualTemp": -0.01,
@@ -18718,6 +18888,23 @@
         "modelOffsetHumidity": 2.33,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 46.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.96,
+        "modelOffsetHumidity": 2.33,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -20416,6 +20603,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -3.53,
+        "modelOffsetHumidity": 4.27,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.5,
+        "humidity": 48.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.53,
         "modelOffsetHumidity": 4.27,
         "modelResidualTemp": -0.01,
@@ -22122,6 +22326,23 @@
         "modelOffsetHumidity": 4.96,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.6,
+        "humidity": 49.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.35,
+        "modelOffsetHumidity": 4.96,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -23820,6 +24041,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -3.6,
+        "modelOffsetHumidity": 4.44,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.4,
+        "humidity": 48.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.6,
         "modelOffsetHumidity": 4.44,
         "modelResidualTemp": -0.01,
@@ -25526,6 +25764,23 @@
         "modelOffsetHumidity": 4.7,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 49.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.12,
+        "modelOffsetHumidity": 4.7,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -27224,6 +27479,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -1.89,
+        "modelOffsetHumidity": 4.92,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 26.1,
+        "humidity": 49.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -1.89,
         "modelOffsetHumidity": 4.92,
         "modelResidualTemp": -0.01,
@@ -28930,6 +29202,23 @@
         "modelOffsetHumidity": 4.13,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.7,
+        "humidity": 48.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.27,
+        "modelOffsetHumidity": 4.13,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -30628,6 +30917,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.49,
+        "modelOffsetHumidity": 4.38,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.5,
+        "humidity": 48.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.49,
         "modelOffsetHumidity": 4.38,
         "modelResidualTemp": -0.01,
@@ -32334,6 +32640,23 @@
         "modelOffsetHumidity": 5.68,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.11,
+        "modelOffsetHumidity": 5.68,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -34032,6 +34355,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -5.89,
+        "modelOffsetHumidity": 5.21,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.1,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -5.89,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
@@ -35738,6 +36078,23 @@
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.8,
+        "humidity": 49.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.15,
+        "modelOffsetHumidity": 5.16,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -37436,6 +37793,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.11,
+        "modelOffsetHumidity": 5.75,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 50.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.11,
         "modelOffsetHumidity": 5.75,
         "modelResidualTemp": -0.01,
@@ -39142,6 +39516,23 @@
         "modelOffsetHumidity": 5.17,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.1,
+        "humidity": 49.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.9,
+        "modelOffsetHumidity": 5.17,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -40840,6 +41231,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -3.71,
+        "modelOffsetHumidity": 4.66,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.3,
+        "humidity": 49.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.71,
         "modelOffsetHumidity": 4.66,
         "modelResidualTemp": -0.01,
@@ -42546,6 +42954,23 @@
         "modelOffsetHumidity": 4.72,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.4,
+        "humidity": 49.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.58,
+        "modelOffsetHumidity": 4.72,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -44244,6 +44669,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -6.21,
+        "modelOffsetHumidity": 5.5,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.8,
+        "humidity": 49.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -6.21,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
@@ -45950,6 +46392,23 @@
         "modelOffsetHumidity": 3.5,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.2,
+        "humidity": 47.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.77,
+        "modelOffsetHumidity": 3.5,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -47648,6 +48107,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -3.99,
+        "modelOffsetHumidity": 5.32,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.0,
+        "humidity": 49.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.99,
         "modelOffsetHumidity": 5.32,
         "modelResidualTemp": -0.01,
@@ -49354,6 +49830,23 @@
         "modelOffsetHumidity": 5.6,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.8,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.23,
+        "modelOffsetHumidity": 5.6,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -51052,6 +51545,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.63,
+        "modelOffsetHumidity": 5.96,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.4,
+        "humidity": 55.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -3.63,
         "modelOffsetHumidity": 5.96,
         "modelResidualTemp": -0.01,
@@ -52758,6 +53268,23 @@
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.2,
+        "humidity": 49.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.81,
+        "modelOffsetHumidity": 4.99,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -54456,6 +54983,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -2.83,
+        "modelOffsetHumidity": 5.03,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.2,
+        "humidity": 54.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -2.83,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
@@ -56162,6 +56706,23 @@
         "modelOffsetHumidity": 4.99,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.7,
+        "humidity": 49.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.33,
+        "modelOffsetHumidity": 4.99,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -57860,6 +58421,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.12,
+        "modelOffsetHumidity": 5.48,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.12,
         "modelOffsetHumidity": 5.48,
         "modelResidualTemp": -0.01,
@@ -59566,6 +60144,23 @@
         "modelOffsetHumidity": 4.81,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.7,
+        "humidity": 49.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.29,
+        "modelOffsetHumidity": 4.81,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -61264,6 +61859,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -3.68,
+        "modelOffsetHumidity": 4.75,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.3,
+        "humidity": 49.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.68,
         "modelOffsetHumidity": 4.75,
         "modelResidualTemp": -0.01,
@@ -62970,6 +63582,23 @@
         "modelOffsetHumidity": 5.45,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.0,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -6.02,
+        "modelOffsetHumidity": 5.45,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -64668,6 +65297,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.51,
+        "modelOffsetHumidity": 5.46,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.5,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.51,
         "modelOffsetHumidity": 5.46,
         "modelResidualTemp": -0.01,
@@ -66374,6 +67020,23 @@
         "modelOffsetHumidity": 5.37,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.8,
+        "humidity": 49.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -6.16,
+        "modelOffsetHumidity": 5.37,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -68072,6 +68735,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -7.68,
+        "modelOffsetHumidity": 5.26,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.3,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -7.68,
         "modelOffsetHumidity": 5.26,
         "modelResidualTemp": -0.01,
@@ -69778,6 +70458,23 @@
         "modelOffsetHumidity": 6.11,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.6,
+        "humidity": 50.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -6.43,
+        "modelOffsetHumidity": 6.11,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -71476,6 +72173,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -5.58,
+        "modelOffsetHumidity": 5.21,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.4,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -5.58,
         "modelOffsetHumidity": 5.21,
         "modelResidualTemp": -0.01,
@@ -73182,6 +73896,23 @@
         "modelOffsetHumidity": 5.08,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.8,
+        "humidity": 49.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.17,
+        "modelOffsetHumidity": 5.08,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -74880,6 +75611,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -6.45,
+        "modelOffsetHumidity": 4.83,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.5,
+        "humidity": 49.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -6.45,
         "modelOffsetHumidity": 4.83,
         "modelResidualTemp": -0.01,
@@ -76586,6 +77334,23 @@
         "modelOffsetHumidity": 5.32,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.6,
+        "humidity": 49.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.43,
+        "modelOffsetHumidity": 5.32,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -78284,6 +79049,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -7.77,
+        "modelOffsetHumidity": 3.74,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.2,
+        "humidity": 48.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -7.77,
         "modelOffsetHumidity": 3.74,
         "modelResidualTemp": -0.01,
@@ -79990,6 +80772,23 @@
         "modelOffsetHumidity": 5.55,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.9,
+        "humidity": 49.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -6.08,
+        "modelOffsetHumidity": 5.55,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -81688,6 +82487,23 @@
         "precipLabel": "0",
         "refTemp": 25.0,
         "refHumidity": 50.0,
+        "modelOffsetTemp": -4.76,
+        "modelOffsetHumidity": 5.05,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.2,
+        "humidity": 49.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.76,
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
@@ -83394,6 +84210,23 @@
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 49.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.01,
+        "modelOffsetHumidity": 5.16,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -85092,6 +85925,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -5.15,
+        "modelOffsetHumidity": 5.17,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.8,
+        "humidity": 49.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -5.15,
         "modelOffsetHumidity": 5.17,
         "modelResidualTemp": -0.01,
@@ -86798,6 +87648,23 @@
         "modelOffsetHumidity": 5.84,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.1,
+        "humidity": 50.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.94,
+        "modelOffsetHumidity": 5.84,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -88496,6 +89363,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.78,
+        "modelOffsetHumidity": 5.25,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.2,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.78,
         "modelOffsetHumidity": 5.25,
         "modelResidualTemp": -0.01,
@@ -90202,6 +91086,23 @@
         "modelOffsetHumidity": 5.57,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.5,
+        "humidity": 49.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.52,
+        "modelOffsetHumidity": 5.57,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -91900,6 +92801,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.28,
+        "modelOffsetHumidity": 4.83,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.7,
+        "humidity": 49.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.28,
         "modelOffsetHumidity": 4.83,
         "modelResidualTemp": -0.01,
@@ -93606,6 +94524,23 @@
         "modelOffsetHumidity": 5.53,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.1,
+        "humidity": 49.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.84,
+        "modelOffsetHumidity": 5.53,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -95304,6 +96239,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.25,
+        "modelOffsetHumidity": 4.33,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.7,
+        "humidity": 48.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.25,
         "modelOffsetHumidity": 4.33,
         "modelResidualTemp": -0.01,
@@ -97010,6 +97962,23 @@
         "modelOffsetHumidity": 6.12,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.4,
+        "humidity": 50.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -6.55,
+        "modelOffsetHumidity": 6.12,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -98708,6 +99677,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.67,
+        "modelOffsetHumidity": 5.63,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.3,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.67,
         "modelOffsetHumidity": 5.63,
         "modelResidualTemp": -0.01,
@@ -100414,6 +101400,23 @@
         "modelOffsetHumidity": 4.16,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.8,
+        "humidity": 48.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.17,
+        "modelOffsetHumidity": 4.16,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -102112,6 +103115,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -6.91,
+        "modelOffsetHumidity": 5.78,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.1,
+        "humidity": 50.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -6.91,
         "modelOffsetHumidity": 5.78,
         "modelResidualTemp": -0.01,
@@ -103818,6 +104838,23 @@
         "modelOffsetHumidity": 4.66,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.8,
+        "humidity": 49.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -6.2,
+        "modelOffsetHumidity": 4.66,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -105516,6 +106553,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -5.43,
+        "modelOffsetHumidity": 5.66,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.6,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -5.43,
         "modelOffsetHumidity": 5.66,
         "modelResidualTemp": -0.01,
@@ -107222,6 +108276,23 @@
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.7,
+        "humidity": 54.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -6.25,
+        "modelOffsetHumidity": 5.05,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -108920,6 +109991,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -5.31,
+        "modelOffsetHumidity": 5.03,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.7,
+        "humidity": 49.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -5.31,
         "modelOffsetHumidity": 5.03,
         "modelResidualTemp": -0.01,
@@ -110626,6 +111714,23 @@
         "modelOffsetHumidity": 5.86,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 50.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.02,
+        "modelOffsetHumidity": 5.86,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -112324,6 +113429,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -5.69,
+        "modelOffsetHumidity": 5.22,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.3,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -5.69,
         "modelOffsetHumidity": 5.22,
         "modelResidualTemp": -0.01,
@@ -114030,6 +115152,23 @@
         "modelOffsetHumidity": 5.92,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.9,
+        "humidity": 50.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.07,
+        "modelOffsetHumidity": 5.92,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -115728,6 +116867,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -6.3,
+        "modelOffsetHumidity": 5.5,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.7,
+        "humidity": 54.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -6.3,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
@@ -117434,6 +118590,23 @@
         "modelOffsetHumidity": 5.42,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.7,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.27,
+        "modelOffsetHumidity": 5.42,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -119132,6 +120305,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.04,
+        "modelOffsetHumidity": 5.17,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 49.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.04,
         "modelOffsetHumidity": 5.17,
         "modelResidualTemp": -0.01,
@@ -120838,6 +122028,23 @@
         "modelOffsetHumidity": 5.05,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 49.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.96,
+        "modelOffsetHumidity": 5.05,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -122536,6 +123743,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.23,
+        "modelOffsetHumidity": 4.89,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.8,
+        "humidity": 49.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.23,
         "modelOffsetHumidity": 4.89,
         "modelResidualTemp": -0.01,
@@ -124242,6 +125466,23 @@
         "modelOffsetHumidity": 4.64,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.2,
+        "humidity": 49.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.84,
+        "modelOffsetHumidity": 4.64,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -125940,6 +127181,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.94,
+        "modelOffsetHumidity": 5.5,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.0,
+        "humidity": 49.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.94,
         "modelOffsetHumidity": 5.5,
         "modelResidualTemp": -0.01,
@@ -127646,6 +128904,23 @@
         "modelOffsetHumidity": 6.34,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.3,
+        "humidity": 50.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.73,
+        "modelOffsetHumidity": 6.34,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -129344,6 +130619,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.88,
+        "modelOffsetHumidity": 5.68,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.1,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.88,
         "modelOffsetHumidity": 5.68,
         "modelResidualTemp": -0.01,
@@ -131050,6 +132342,23 @@
         "modelOffsetHumidity": 5.16,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.5,
+        "humidity": 54.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -5.49,
+        "modelOffsetHumidity": 5.16,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -132748,6 +134057,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.35,
+        "modelOffsetHumidity": 3.96,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.6,
+        "humidity": 48.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.35,
         "modelOffsetHumidity": 3.96,
         "modelResidualTemp": -0.01,
@@ -134454,6 +135780,23 @@
         "modelOffsetHumidity": 4.47,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.4,
+        "humidity": 48.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.55,
+        "modelOffsetHumidity": 4.47,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -136152,6 +137495,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -6.69,
+        "modelOffsetHumidity": 5.72,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.3,
+        "humidity": 50.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -6.69,
         "modelOffsetHumidity": 5.72,
         "modelResidualTemp": -0.01,
@@ -137858,6 +139218,23 @@
         "modelOffsetHumidity": 5.1,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.1,
+        "humidity": 49.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.92,
+        "modelOffsetHumidity": 5.1,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -139556,6 +140933,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -6.24,
+        "modelOffsetHumidity": 4.59,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.7,
+        "humidity": 48.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -6.24,
         "modelOffsetHumidity": 4.59,
         "modelResidualTemp": -0.01,
@@ -141262,6 +142656,23 @@
         "modelOffsetHumidity": 4.53,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.2,
+        "humidity": 48.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.82,
+        "modelOffsetHumidity": 4.53,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -142960,6 +144371,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -5.24,
+        "modelOffsetHumidity": 5.62,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.8,
+        "humidity": 55.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -5.24,
         "modelOffsetHumidity": 5.62,
         "modelResidualTemp": -0.01,
@@ -144666,6 +146094,23 @@
         "modelOffsetHumidity": 6.04,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.8,
+        "humidity": 50.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.22,
+        "modelOffsetHumidity": 6.04,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -146364,6 +147809,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.15,
+        "modelOffsetHumidity": 5.77,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.8,
+        "humidity": 55.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -4.15,
         "modelOffsetHumidity": 5.77,
         "modelResidualTemp": -0.01,
@@ -148070,6 +149532,23 @@
         "modelOffsetHumidity": 5.59,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.2,
+        "humidity": 49.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.75,
+        "modelOffsetHumidity": 5.59,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -149768,6 +151247,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.16,
+        "modelOffsetHumidity": 5.49,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.8,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.16,
         "modelOffsetHumidity": 5.49,
         "modelResidualTemp": -0.01,
@@ -151474,6 +152970,23 @@
         "modelOffsetHumidity": 5.71,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.6,
+        "humidity": 50.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.42,
+        "modelOffsetHumidity": 5.71,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -153172,6 +154685,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -2.94,
+        "modelOffsetHumidity": 5.29,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.1,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -2.94,
         "modelOffsetHumidity": 5.29,
         "modelResidualTemp": -0.01,
@@ -154878,6 +156408,23 @@
         "modelOffsetHumidity": 5.71,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.8,
+        "humidity": 55.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -4.19,
+        "modelOffsetHumidity": 5.71,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -156576,6 +158123,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.2,
+        "modelOffsetHumidity": 5.56,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.8,
+        "humidity": 49.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.2,
         "modelOffsetHumidity": 5.56,
         "modelResidualTemp": -0.01,
@@ -158282,6 +159846,23 @@
         "modelOffsetHumidity": 5.62,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.7,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.3,
+        "modelOffsetHumidity": 5.62,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -159980,6 +161561,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.69,
+        "modelOffsetHumidity": 4.94,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.3,
+        "humidity": 49.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.69,
         "modelOffsetHumidity": 4.94,
         "modelResidualTemp": -0.01,
@@ -161686,6 +163284,23 @@
         "modelOffsetHumidity": 4.5,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.3,
+        "humidity": 48.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -4.74,
+        "modelOffsetHumidity": 4.5,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -163384,6 +164999,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.9,
+        "modelOffsetHumidity": 4.48,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.1,
+        "humidity": 53.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -3.9,
         "modelOffsetHumidity": 4.48,
         "modelResidualTemp": -0.01,
@@ -165090,6 +166722,23 @@
         "modelOffsetHumidity": 5.2,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.2,
+        "humidity": 49.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.8,
+        "modelOffsetHumidity": 5.2,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -166788,6 +168437,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.12,
+        "modelOffsetHumidity": 5.3,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.12,
         "modelOffsetHumidity": 5.3,
         "modelResidualTemp": -0.01,
@@ -168494,6 +170160,23 @@
         "modelOffsetHumidity": 6.23,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.7,
+        "humidity": 50.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -5.27,
+        "modelOffsetHumidity": 6.23,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -170192,6 +171875,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.29,
+        "modelOffsetHumidity": 4.38,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.7,
+        "humidity": 48.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.29,
         "modelOffsetHumidity": 4.38,
         "modelResidualTemp": -0.01,
@@ -171898,6 +173598,23 @@
         "modelOffsetHumidity": 5.11,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.3,
+        "humidity": 54.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -3.71,
+        "modelOffsetHumidity": 5.11,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -173596,6 +175313,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.49,
+        "modelOffsetHumidity": 5.81,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.5,
+        "humidity": 55.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -4.49,
         "modelOffsetHumidity": 5.81,
         "modelResidualTemp": -0.01,
@@ -175302,6 +177036,23 @@
         "modelOffsetHumidity": 6.38,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.3,
+        "humidity": 50.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -2.69,
+        "modelOffsetHumidity": 6.38,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -177000,6 +178751,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.08,
+        "modelOffsetHumidity": 6.14,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 55.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -3.08,
         "modelOffsetHumidity": 6.14,
         "modelResidualTemp": -0.01,
@@ -178706,6 +180474,23 @@
         "modelOffsetHumidity": 6.29,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 50.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.13,
+        "modelOffsetHumidity": 6.29,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -180404,6 +182189,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -2.3,
+        "modelOffsetHumidity": 6.3,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.7,
+        "humidity": 55.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -2.3,
         "modelOffsetHumidity": 6.3,
         "modelResidualTemp": -0.01,
@@ -182110,6 +183912,23 @@
         "modelOffsetHumidity": 5.83,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.4,
+        "humidity": 55.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -2.59,
+        "modelOffsetHumidity": 5.83,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -183808,6 +185627,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -2.86,
+        "modelOffsetHumidity": 5.43,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.1,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -2.86,
         "modelOffsetHumidity": 5.43,
         "modelResidualTemp": -0.01,
@@ -185514,6 +187350,23 @@
         "modelOffsetHumidity": 6.37,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.6,
+        "humidity": 50.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -2.37,
+        "modelOffsetHumidity": 6.37,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -187212,6 +189065,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -3.03,
+        "modelOffsetHumidity": 5.47,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.0,
+        "humidity": 49.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -3.03,
         "modelOffsetHumidity": 5.47,
         "modelResidualTemp": -0.01,
@@ -188918,6 +190788,23 @@
         "modelOffsetHumidity": 5.82,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.5,
+        "humidity": 55.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -2.52,
+        "modelOffsetHumidity": 5.82,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -190616,6 +192503,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -2.47,
+        "modelOffsetHumidity": 5.95,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.5,
+        "humidity": 50.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -2.47,
         "modelOffsetHumidity": 5.95,
         "modelResidualTemp": -0.01,
@@ -192322,6 +194226,23 @@
         "modelOffsetHumidity": 5.85,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 50.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -3.12,
+        "modelOffsetHumidity": 5.85,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -194020,6 +195941,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -2.35,
+        "modelOffsetHumidity": 6.43,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.6,
+        "humidity": 55.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
         "modelOffsetTemp": -2.35,
         "modelOffsetHumidity": 6.43,
         "modelResidualTemp": -0.01,
@@ -195726,6 +197664,23 @@
         "modelOffsetHumidity": 5.36,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.1,
+        "humidity": 54.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -3.92,
+        "modelOffsetHumidity": 5.36,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -197424,6 +199379,23 @@
         "precipLabel": "0",
         "refTemp": 24.0,
         "refHumidity": 55.0,
+        "modelOffsetTemp": -4.28,
+        "modelOffsetHumidity": 5.36,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.7,
+        "humidity": 49.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
         "modelOffsetTemp": -4.28,
         "modelOffsetHumidity": 5.36,
         "modelResidualTemp": -0.01,
@@ -199130,6 +201102,23 @@
         "modelOffsetHumidity": 5.88,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.5,
+        "humidity": 50.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 28.0,
+        "refHumidity": 45.0,
+        "modelOffsetTemp": -2.47,
+        "modelOffsetHumidity": 5.88,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -200832,6 +202821,23 @@
         "modelOffsetHumidity": 6.4,
         "modelResidualTemp": -0.01,
         "modelResidualHumidity": -0.65
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.3,
+        "humidity": 55.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0",
+        "refTemp": 27.0,
+        "refHumidity": 50.0,
+        "modelOffsetTemp": -4.68,
+        "modelOffsetHumidity": 6.4,
+        "modelResidualTemp": -0.01,
+        "modelResidualHumidity": -0.65
       }
     ]
   },
@@ -201928,6 +203934,17 @@
         "time": "2026-09-19T12:00",
         "temp": 17.7,
         "humidity": 58.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.4,
+        "humidity": 49.5,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -203036,6 +205053,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.4,
+        "humidity": 49.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -204132,6 +206160,17 @@
         "time": "2026-09-19T12:00",
         "temp": 17.2,
         "humidity": 59.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.1,
+        "humidity": 49.6,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -205240,6 +207279,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.6,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -206336,6 +208386,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.2,
         "humidity": 59.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.6,
+        "humidity": 52.6,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -207444,6 +209505,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.7,
+        "humidity": 53.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -208540,6 +210612,17 @@
         "time": "2026-09-19T12:00",
         "temp": 17.7,
         "humidity": 59.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.0,
+        "humidity": 52.4,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -209648,6 +211731,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.0,
+        "humidity": 51.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -210744,6 +212838,17 @@
         "time": "2026-09-19T12:00",
         "temp": 17.4,
         "humidity": 58.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.8,
+        "humidity": 51.8,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -211852,6 +213957,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.8,
+        "humidity": 53.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -212948,6 +215064,17 @@
         "time": "2026-09-19T12:00",
         "temp": 17.9,
         "humidity": 59.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.4,
+        "humidity": 51.5,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -214056,6 +216183,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.5,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -215152,6 +217290,17 @@
         "time": "2026-09-19T12:00",
         "temp": 17.8,
         "humidity": 59.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.7,
+        "humidity": 49.4,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -216260,6 +218409,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 55.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -217356,6 +219516,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.1,
         "humidity": 60.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.3,
+        "humidity": 54.2,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -218464,6 +220635,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.3,
+        "humidity": 55.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -219560,6 +221742,17 @@
         "time": "2026-09-19T12:00",
         "temp": 21.1,
         "humidity": 58.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.5,
+        "humidity": 51.3,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -220668,6 +222861,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.2,
+        "humidity": 51.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -221764,6 +223968,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.0,
         "humidity": 58.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.4,
+        "humidity": 51.4,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -222872,6 +225087,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.6,
+        "humidity": 51.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -223968,6 +226194,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.2,
         "humidity": 58.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.6,
+        "humidity": 51.8,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -225076,6 +227313,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.4,
+        "humidity": 51.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -226172,6 +228420,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.5,
         "humidity": 58.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 51.2,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -227280,6 +229539,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.7,
+        "humidity": 51.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -228376,6 +230646,17 @@
         "time": "2026-09-19T12:00",
         "temp": 21.7,
         "humidity": 57.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 51.5,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -229484,6 +231765,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 51.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -230580,6 +232872,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.8,
         "humidity": 58.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.2,
+        "humidity": 51.1,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -231688,6 +233991,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.9,
+        "humidity": 51.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -232784,6 +235098,17 @@
         "time": "2026-09-19T12:00",
         "temp": 21.2,
         "humidity": 57.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.5,
+        "humidity": 51.3,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -233892,6 +236217,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.4,
+        "humidity": 51.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -234988,6 +237324,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.4,
         "humidity": 58.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.8,
+        "humidity": 51.6,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -236096,6 +238443,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.9,
+        "humidity": 51.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -237192,6 +239550,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.5,
         "humidity": 57.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.9,
+        "humidity": 50.7,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -238300,6 +240669,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.4,
+        "humidity": 50.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -239396,6 +241776,17 @@
         "time": "2026-09-19T12:00",
         "temp": 19.2,
         "humidity": 58.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.9,
+        "humidity": 50.5,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -240504,6 +242895,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.6,
+        "humidity": 50.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -241600,6 +244002,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.5,
         "humidity": 59.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.3,
+        "humidity": 50.0,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -242708,6 +245121,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.7,
+        "humidity": 49.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -243804,6 +246228,17 @@
         "time": "2026-09-19T12:00",
         "temp": 19.8,
         "humidity": 56.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 50.5,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -244912,6 +247347,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.5,
+        "humidity": 50.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -246008,6 +248454,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.1,
         "humidity": 56.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.4,
+        "humidity": 49.9,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -247116,6 +249573,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.7,
+        "humidity": 51.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -248212,6 +250680,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.2,
         "humidity": 58.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.0,
+        "humidity": 50.0,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -249320,6 +251799,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.8,
+        "humidity": 49.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -250416,6 +252906,17 @@
         "time": "2026-09-19T12:00",
         "temp": 19.4,
         "humidity": 56.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.6,
+        "humidity": 51.1,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -251524,6 +254025,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.7,
+        "humidity": 50.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -252620,6 +255132,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.7,
         "humidity": 56.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.0,
+        "humidity": 50.2,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -253728,6 +256251,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.7,
+        "humidity": 50.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -254824,6 +257358,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.7,
         "humidity": 57.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.1,
+        "humidity": 50.0,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -255932,6 +258477,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.1,
+        "humidity": 49.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -257028,6 +259584,17 @@
         "time": "2026-09-19T12:00",
         "temp": 19.8,
         "humidity": 56.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.0,
+        "humidity": 50.4,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -258136,6 +260703,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.5,
+        "humidity": 49.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -259232,6 +261810,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.0,
         "humidity": 58.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.8,
+        "humidity": 49.5,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -260340,6 +262929,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.6,
+        "humidity": 49.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -261436,6 +264036,17 @@
         "time": "2026-09-19T12:00",
         "temp": 21.0,
         "humidity": 58.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.4,
+        "humidity": 51.3,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -262544,6 +265155,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.8,
+        "humidity": 51.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -263640,6 +266262,17 @@
         "time": "2026-09-19T12:00",
         "temp": 19.7,
         "humidity": 58.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.1,
+        "humidity": 51.4,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -264748,6 +267381,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.1,
+        "humidity": 51.6,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -265844,6 +268488,17 @@
         "time": "2026-09-19T12:00",
         "temp": 18.1,
         "humidity": 58.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.5,
+        "humidity": 51.8,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -266952,6 +269607,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.1,
+        "humidity": 54.7,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -268048,6 +270714,17 @@
         "time": "2026-09-19T12:00",
         "temp": 19.5,
         "humidity": 60.2,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 22.5,
+        "humidity": 55.2,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -269156,6 +271833,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 21.8,
+        "humidity": 54.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -270252,6 +272940,17 @@
         "time": "2026-09-19T12:00",
         "temp": 17.7,
         "humidity": 59.9,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 20.7,
+        "humidity": 54.9,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -271360,6 +274059,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.2,
+        "humidity": 50.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -272456,6 +275166,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.2,
         "humidity": 58.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.1,
+        "humidity": 49.1,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -273564,6 +276285,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.1,
+        "humidity": 49.0,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -274660,6 +277392,17 @@
         "time": "2026-09-19T12:00",
         "temp": 22.2,
         "humidity": 56.5,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.4,
+        "humidity": 50.5,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -275768,6 +278511,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 25.2,
+        "humidity": 51.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -276864,6 +279618,17 @@
         "time": "2026-09-19T12:00",
         "temp": 21.1,
         "humidity": 58.1,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.5,
+        "humidity": 51.1,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -277972,6 +280737,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.6,
+        "humidity": 51.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -279068,6 +281844,17 @@
         "time": "2026-09-19T12:00",
         "temp": 21.0,
         "humidity": 58.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.4,
+        "humidity": 51.3,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -280176,6 +282963,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.7,
+        "humidity": 51.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -281272,6 +284070,17 @@
         "time": "2026-09-19T12:00",
         "temp": 21.1,
         "humidity": 58.3,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.5,
+        "humidity": 51.3,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
@@ -282380,6 +285189,17 @@
         "precipMm": 0.0,
         "precipUnit": "mm",
         "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 24.2,
+        "humidity": 51.4,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
       }
     ]
   },
@@ -283476,6 +286296,17 @@
         "time": "2026-09-19T12:00",
         "temp": 20.2,
         "humidity": 59.8,
+        "pty": 0,
+        "sky": 1,
+        "pop": 0.0,
+        "precipMm": 0.0,
+        "precipUnit": "mm",
+        "precipLabel": "0"
+      },
+      {
+        "time": "2026-09-19T15:00",
+        "temp": 23.3,
+        "humidity": 54.2,
         "pty": 0,
         "sky": 1,
         "pop": 0.0,
