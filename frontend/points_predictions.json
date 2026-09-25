@@ -516,9 +516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.1,
@@ -535,7 +535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.1,
@@ -2116,9 +2116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.54,
@@ -2135,7 +2135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.54,
@@ -3716,9 +3716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.99,
@@ -3735,7 +3735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.99,
@@ -5316,9 +5316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.38,
@@ -5335,7 +5335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.38,
@@ -6916,9 +6916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.81,
@@ -6935,7 +6935,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.81,
@@ -8516,9 +8516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.17,
@@ -8535,7 +8535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.17,
@@ -10116,9 +10116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.42,
@@ -10135,7 +10135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.42,
@@ -11716,9 +11716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.07,
@@ -11735,7 +11735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.07,
@@ -13316,9 +13316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.07,
@@ -13335,7 +13335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.07,
@@ -14916,9 +14916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.52,
@@ -14935,7 +14935,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.52,
@@ -16516,9 +16516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.96,
@@ -16535,7 +16535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.96,
@@ -18116,9 +18116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.53,
@@ -18135,7 +18135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.53,
@@ -19716,9 +19716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.35,
@@ -19735,7 +19735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.35,
@@ -21316,9 +21316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.6,
@@ -21335,7 +21335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.6,
@@ -22916,9 +22916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.12,
@@ -22935,7 +22935,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.12,
@@ -24516,9 +24516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -1.89,
@@ -24535,7 +24535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -1.89,
@@ -26116,9 +26116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.27,
@@ -26135,7 +26135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.27,
@@ -27716,9 +27716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.49,
@@ -27735,7 +27735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.49,
@@ -29316,9 +29316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.11,
@@ -29335,7 +29335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.11,
@@ -30916,9 +30916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.89,
@@ -30935,7 +30935,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.89,
@@ -32516,9 +32516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.15,
@@ -32535,7 +32535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.15,
@@ -34116,9 +34116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.11,
@@ -34135,7 +34135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.11,
@@ -35716,9 +35716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.9,
@@ -35735,7 +35735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.9,
@@ -37316,9 +37316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.71,
@@ -37335,7 +37335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.71,
@@ -38916,9 +38916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.58,
@@ -38935,7 +38935,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.58,
@@ -40516,9 +40516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.21,
@@ -40535,7 +40535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.21,
@@ -42116,9 +42116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.77,
@@ -42135,7 +42135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.77,
@@ -43716,9 +43716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.99,
@@ -43735,7 +43735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.99,
@@ -45316,9 +45316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.23,
@@ -45335,7 +45335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.23,
@@ -46916,9 +46916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.63,
@@ -46935,7 +46935,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.63,
@@ -48516,9 +48516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.81,
@@ -48535,7 +48535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.81,
@@ -50116,9 +50116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.83,
@@ -50135,7 +50135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.83,
@@ -51716,9 +51716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.33,
@@ -51735,7 +51735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.33,
@@ -53316,9 +53316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.12,
@@ -53335,7 +53335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.12,
@@ -54916,9 +54916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.29,
@@ -54935,7 +54935,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.29,
@@ -56516,9 +56516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.68,
@@ -56535,7 +56535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.68,
@@ -58116,9 +58116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.02,
@@ -58135,7 +58135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.02,
@@ -59716,9 +59716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.51,
@@ -59735,7 +59735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.51,
@@ -61318,7 +61318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.16,
@@ -61335,7 +61335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.16,
@@ -62918,7 +62918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -7.68,
@@ -62935,7 +62935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -7.68,
@@ -64518,7 +64518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.43,
@@ -64535,7 +64535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.43,
@@ -66118,7 +66118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.58,
@@ -66135,7 +66135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.58,
@@ -67718,7 +67718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.17,
@@ -67735,7 +67735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.17,
@@ -69318,7 +69318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.45,
@@ -69335,7 +69335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.45,
@@ -70918,7 +70918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.43,
@@ -70935,7 +70935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.43,
@@ -72518,7 +72518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -7.77,
@@ -72535,7 +72535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -7.77,
@@ -74116,9 +74116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.08,
@@ -74135,7 +74135,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.08,
@@ -75716,9 +75716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.76,
@@ -75735,7 +75735,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.76,
@@ -77316,9 +77316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.01,
@@ -77335,7 +77335,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.01,
@@ -78918,7 +78918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.15,
@@ -78935,7 +78935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.15,
@@ -80516,9 +80516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0",
+        "precipLabel": "4.0mm",
         "refTemp": 18.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.94,
@@ -80535,7 +80535,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm",
+        "precipLabel": "3.0",
         "refTemp": 17.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.94,
@@ -82118,7 +82118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.78,
@@ -82135,7 +82135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.78,
@@ -83718,7 +83718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.52,
@@ -83735,7 +83735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.52,
@@ -85318,7 +85318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.28,
@@ -85335,7 +85335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.28,
@@ -86918,7 +86918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.84,
@@ -86935,7 +86935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.84,
@@ -88518,7 +88518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.25,
@@ -88535,7 +88535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.25,
@@ -90118,7 +90118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.55,
@@ -90135,7 +90135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.55,
@@ -91718,7 +91718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.67,
@@ -91735,7 +91735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.67,
@@ -93318,7 +93318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.17,
@@ -93335,7 +93335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.17,
@@ -94918,7 +94918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.91,
@@ -94935,7 +94935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.91,
@@ -96518,7 +96518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.2,
@@ -96535,7 +96535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.2,
@@ -98118,7 +98118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.43,
@@ -98135,7 +98135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.43,
@@ -99716,9 +99716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -6.25,
@@ -99733,9 +99733,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.25,
@@ -101318,7 +101318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.31,
@@ -101335,7 +101335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.31,
@@ -102918,7 +102918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.02,
@@ -102935,7 +102935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.02,
@@ -104518,7 +104518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.69,
@@ -104535,7 +104535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.69,
@@ -106118,7 +106118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.07,
@@ -106135,7 +106135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.07,
@@ -107716,9 +107716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -6.3,
@@ -107733,9 +107733,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.3,
@@ -109318,7 +109318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.27,
@@ -109335,7 +109335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.27,
@@ -110918,7 +110918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.04,
@@ -110935,7 +110935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.04,
@@ -112518,7 +112518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.96,
@@ -112535,7 +112535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.96,
@@ -114118,7 +114118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.23,
@@ -114135,7 +114135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.23,
@@ -115718,7 +115718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.84,
@@ -115735,7 +115735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.84,
@@ -117318,7 +117318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.94,
@@ -117335,7 +117335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.94,
@@ -118918,7 +118918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.73,
@@ -118935,7 +118935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.73,
@@ -120518,7 +120518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.88,
@@ -120535,7 +120535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.88,
@@ -122116,9 +122116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.49,
@@ -122133,9 +122133,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.49,
@@ -123718,7 +123718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.35,
@@ -123735,7 +123735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.35,
@@ -125318,7 +125318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.55,
@@ -125335,7 +125335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.55,
@@ -126918,7 +126918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.69,
@@ -126935,7 +126935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.69,
@@ -128518,7 +128518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.92,
@@ -128535,7 +128535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.92,
@@ -130118,7 +130118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -6.24,
@@ -130135,7 +130135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -6.24,
@@ -131718,7 +131718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.82,
@@ -131735,7 +131735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.82,
@@ -133316,9 +133316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -5.24,
@@ -133333,9 +133333,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.24,
@@ -134918,7 +134918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.22,
@@ -134935,7 +134935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.22,
@@ -136516,9 +136516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.15,
@@ -136533,9 +136533,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.15,
@@ -138118,7 +138118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.75,
@@ -138135,7 +138135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.75,
@@ -139718,7 +139718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.16,
@@ -139735,7 +139735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.16,
@@ -141318,7 +141318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.42,
@@ -141335,7 +141335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.42,
@@ -142918,7 +142918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.94,
@@ -142935,7 +142935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.94,
@@ -144516,9 +144516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.19,
@@ -144533,9 +144533,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.19,
@@ -146118,7 +146118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.2,
@@ -146135,7 +146135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.2,
@@ -147718,7 +147718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.3,
@@ -147735,7 +147735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.3,
@@ -149318,7 +149318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.69,
@@ -149335,7 +149335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.69,
@@ -150918,7 +150918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.74,
@@ -150935,7 +150935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.74,
@@ -152516,9 +152516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.9,
@@ -152533,9 +152533,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.9,
@@ -154118,7 +154118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.8,
@@ -154135,7 +154135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.8,
@@ -155718,7 +155718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.12,
@@ -155735,7 +155735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.12,
@@ -157318,7 +157318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -5.27,
@@ -157335,7 +157335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -5.27,
@@ -158918,7 +158918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.29,
@@ -158935,7 +158935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.29,
@@ -160516,9 +160516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.71,
@@ -160533,9 +160533,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.71,
@@ -162116,9 +162116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.49,
@@ -162133,9 +162133,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.49,
@@ -163718,7 +163718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.69,
@@ -163735,7 +163735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.69,
@@ -165316,9 +165316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.08,
@@ -165333,9 +165333,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.08,
@@ -166918,7 +166918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.13,
@@ -166935,7 +166935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.13,
@@ -168516,9 +168516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.3,
@@ -168533,9 +168533,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.3,
@@ -170116,9 +170116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.59,
@@ -170133,9 +170133,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.59,
@@ -171718,7 +171718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.86,
@@ -171735,7 +171735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.86,
@@ -173318,7 +173318,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.37,
@@ -173335,7 +173335,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.37,
@@ -174918,7 +174918,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.03,
@@ -174935,7 +174935,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.03,
@@ -176516,9 +176516,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.52,
@@ -176533,9 +176533,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.52,
@@ -178118,7 +178118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.47,
@@ -178135,7 +178135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.47,
@@ -179718,7 +179718,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.12,
@@ -179735,7 +179735,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -3.12,
@@ -181316,9 +181316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -2.35,
@@ -181333,9 +181333,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.35,
@@ -182916,9 +182916,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -3.92,
@@ -182933,9 +182933,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -3.92,
@@ -184518,7 +184518,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.28,
@@ -184535,7 +184535,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -4.28,
@@ -186118,7 +186118,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0",
+        "precipLabel": "2.0mm",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -2.47,
@@ -186135,7 +186135,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "2.0",
         "refTemp": 18.0,
         "refHumidity": 100.0,
         "modelOffsetTemp": -2.47,
@@ -187716,9 +187716,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5",
+        "precipLabel": "2.0mm",
         "refTemp": 20.0,
         "refHumidity": 90.0,
         "modelOffsetTemp": -4.68,
@@ -187733,9 +187733,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm",
+        "precipLabel": "3.5",
         "refTemp": 19.0,
         "refHumidity": 95.0,
         "modelOffsetTemp": -4.68,
@@ -189138,7 +189138,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -189149,7 +189149,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -190174,7 +190174,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -190185,7 +190185,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -191210,7 +191210,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -191221,7 +191221,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -192246,7 +192246,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -192257,7 +192257,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -193280,9 +193280,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -193291,9 +193291,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -194316,9 +194316,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -194327,9 +194327,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -195352,9 +195352,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -195363,9 +195363,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -196388,9 +196388,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -196399,9 +196399,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -197424,9 +197424,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -197435,9 +197435,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -198460,9 +198460,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -198471,9 +198471,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -199498,7 +199498,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -199509,7 +199509,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -200534,7 +200534,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -200545,7 +200545,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -201570,7 +201570,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -201581,7 +201581,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -202604,9 +202604,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -202615,9 +202615,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -203640,9 +203640,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -203651,9 +203651,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -204676,9 +204676,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -204687,9 +204687,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -205712,9 +205712,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -205723,9 +205723,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -206748,9 +206748,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -206759,9 +206759,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -207784,9 +207784,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -207795,9 +207795,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -208820,9 +208820,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -208831,9 +208831,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -209856,9 +209856,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -209867,9 +209867,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -210892,9 +210892,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -210905,7 +210905,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -211928,9 +211928,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -211939,9 +211939,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -212964,9 +212964,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -212975,9 +212975,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -214000,9 +214000,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -214013,7 +214013,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -215036,9 +215036,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -215049,7 +215049,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -216072,9 +216072,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -216083,9 +216083,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -217108,9 +217108,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -217121,7 +217121,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -218144,9 +218144,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -218157,7 +218157,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -219180,9 +219180,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -219191,9 +219191,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -220216,9 +220216,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -220227,9 +220227,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -221252,9 +221252,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -221263,9 +221263,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -222288,9 +222288,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -222299,9 +222299,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -223326,7 +223326,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -223337,7 +223337,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -224362,7 +224362,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -224373,7 +224373,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -225398,7 +225398,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -225409,7 +225409,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -226434,7 +226434,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -226445,7 +226445,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -227470,7 +227470,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -227481,7 +227481,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -228506,7 +228506,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -228517,7 +228517,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -229542,7 +229542,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -229553,7 +229553,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -230578,7 +230578,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -230589,7 +230589,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -231614,7 +231614,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -231625,7 +231625,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -232650,7 +232650,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -232661,7 +232661,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -233686,7 +233686,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -233697,7 +233697,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -234720,9 +234720,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -234733,7 +234733,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -235756,9 +235756,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -235769,7 +235769,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -236794,7 +236794,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -236805,7 +236805,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -237830,7 +237830,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -237841,7 +237841,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -238866,7 +238866,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -238877,7 +238877,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -239902,7 +239902,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -239913,7 +239913,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -240936,9 +240936,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -240949,7 +240949,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -241974,7 +241974,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -241985,7 +241985,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -243010,7 +243010,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -243021,7 +243021,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -244044,9 +244044,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -244057,7 +244057,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -245080,9 +245080,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -245091,9 +245091,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -246116,9 +246116,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -246127,9 +246127,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -247152,9 +247152,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -247163,9 +247163,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -248188,9 +248188,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -248199,9 +248199,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -249224,9 +249224,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -249235,9 +249235,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -250260,9 +250260,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -250271,9 +250271,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -251296,9 +251296,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -251307,9 +251307,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -252332,9 +252332,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -252343,9 +252343,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -253368,9 +253368,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -253379,9 +253379,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -254406,7 +254406,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -254417,7 +254417,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -255442,7 +255442,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -255453,7 +255453,7 @@
         "pop": 60.0,
         "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "2.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -256476,9 +256476,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -256489,7 +256489,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -257512,9 +257512,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 70.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -257525,7 +257525,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -258548,9 +258548,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -258561,7 +258561,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -259584,9 +259584,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.0,
+        "precipMm": 4.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0"
+        "precipLabel": "4.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -259597,7 +259597,7 @@
         "pop": 60.0,
         "precipMm": 3.0,
         "precipUnit": "mm",
-        "precipLabel": "3.0mm"
+        "precipLabel": "3.0"
       },
       {
         "time": "2026-09-25T19:00",
@@ -260620,9 +260620,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -260631,9 +260631,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -261656,9 +261656,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -261667,9 +261667,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -262692,9 +262692,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -262703,9 +262703,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -263728,9 +263728,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -263739,9 +263739,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -264764,9 +264764,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -264775,9 +264775,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
@@ -265800,9 +265800,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 3.5,
+        "precipMm": 2.0,
         "precipUnit": "mm",
-        "precipLabel": "3.5"
+        "precipLabel": "2.0mm"
       },
       {
         "time": "2026-09-25T18:00",
@@ -265811,9 +265811,9 @@
         "pty": 1,
         "sky": 4,
         "pop": 60.0,
-        "precipMm": 2.0,
+        "precipMm": 3.5,
         "precipUnit": "mm",
-        "precipLabel": "2.0mm"
+        "precipLabel": "3.5"
       },
       {
         "time": "2026-09-25T19:00",
