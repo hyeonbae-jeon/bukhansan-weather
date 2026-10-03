@@ -1,15 +1,4 @@
 {
-  "updatedAt": "2026-10-03T22:53:29.157324+09:00",
-  "tmFc": 202610031000,
-  "tmEf": null,
-  "warnings": [
-    {
-      "type": "건조주의보",
-      "matchedDistricts": [
-        "서북권",
-        "동북권"
-      ],
-      "rawAreaText": "서울(서울동남권 제외)"
-    }
-  ]
+  "updatedAt": "2026-10-04T02:45:45.124793+09:00",
+  "warnings": []
 }
